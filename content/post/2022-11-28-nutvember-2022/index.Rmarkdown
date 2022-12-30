@@ -1,0 +1,71 @@
+---
+title: Nutvember 2022
+author: Ntobeko Sosibo [Afrikaniz3D]
+image: "img/post/P5/p5000.gif"
+showonlyimage: true
+date: '2022-11-28'
+slug: [nutvember-2022]
+draft: false
+categories:
+  - blog
+  - update
+tags:
+  - b3d
+  - 3d printing
+  - blog
+  - blender
+  - free
+  - free download
+  - nutvember
+  - nutvember 2022
+  - kitbash
+  - no nut november
+  - movember
+  - nnn
+  - stl
+  - cookie cutter
+  - christmas
+  - xmas
+  - christmas decoration
+  - ornaments
+---
+![from me][1]
+
+A year ago I created the Nutvember kitbashing set of nuts and bolts to... celebrate(?) No Nut November (NNN). Also known as [Movember](https://movember.com) it was something I'd been casually familiar with and I wanted to change that. 
+
+Read some papers, some very old and others recent. Masturbation is what I read the most on because I wanted to find conversations on the act that weren't focused on the psycho-sexual parts explored by the Freuds or the Kinseys. It ultimately came down to education, conventional and/or specifically sex.
+
+Thank you to everyone who's purchased it and I hope to add more value to it every year - starting with:
+
+![image of the final collection with the product cover][4]
+
+2022 six (6) new designs to play with. You can purchase the updated set ($5.50) using any of the links below:  
+	  [Blender Market](https://blendermarket.com/products/nutvember-2021) | [Gumroad](https://afrikaniz3dza.gumroad.com/l/ACqHM)  
+	  
+Aside from work the month was meh. Also tired.
+
+![for you][6]
+
+![assorted cookie cutters][7] 
+
+Saw some postings on Upwork (or is it Talent now..?) for cookie cutter designs and thought of making some demos for the portfolio. Tried a different method compared to the [soap dish](https://www.printables.com/model/322076-free-assorted-cookie-cutters) - remeshed & decimated (both modifiers in blender) vs building the cutters using quads from the start. topology doesn't seem to affect the final print if it's fine enough. 
+
+Download them on [Gumroad](https://afrikaniz3dza-gumroad.com/l/xpnetc), [Cults3D](https://cults3d.com/en/3d-model/home/assorted-cookie-cutters), or even on [Printables](https://www.printables.com/model/322076-free-assorted-cookie-cutters)
+
+![xmas ornaments][8]
+
+With the next post scheduled for after the main event I also started making some ornaments and and intend to add more. The topology here is a lot better than previous submissions - the file sizes speak to this. 
+
+STL files have been uploaded to [Gumroad](https://afrikaniz3dza.gumroad.com/l/pcfbar), [Printables](https://www.printables.com/model/325482-free-download-christmas-ornaments-stls), [Cults3D](https://cults3d.com/en/3d-model/home/free-download-christmas-ornaments-stls), or [Thingiverse](https://www.thingiverse.com/thing:5658400).
+
+Getting into this more and more and taking feedback into account. Working on some new ornaments to add to theses for variety. A question I have from time to time revolves around the idea of Christmas in South Africa - it doesn't snow round that time, so what would climate-appropriate ornaments look like then..?
+
+
+[1]: /img/post/P5/p5001.jpg
+[2]: /img/post/P5/p5102.jpg
+[3]: /img/post/P5/p5103.jpg
+[4]: /img/post/P5/p5104.jpg
+
+[6]: /img/post/P5/p5106.jpg
+[7]: /img/post/P5/p5107.jpg
+[8]: /img/post/P5/p5108.jpg

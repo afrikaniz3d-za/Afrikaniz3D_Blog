@@ -1,0 +1,35 @@
+---
+title: New Site Loading
+draft: false
+image: "img/post/P1/p1001.gif"
+showonlyimage: true
+author: Ntobeko Sosibo [AFRIKANIZ3D]
+date: '2022-07-17'
+slug: [new-site-loading]
+categories:
+  - blog
+  - announcement
+  - update
+tags:
+  - website
+  - web development
+  - rstudio
+  - google
+  - google analytics
+  - analytics
+  - cradletograver
+  - blender
+  - b3d
+---
+
+#### Getting the Ball Rolling
+
+One of the things I got out of completing the Data Analytics certification was being introduced to R and RStudio. I've since learned how to build a site using RStudio. This is the result so far and I'm currently filling it out daily till I get it to a level of completeness that covers what I can display.
+
+#### The Learning Process
+
+Early on I was fortunate enough to find [CradleToGraveR's](https://www.youtube.com/channel/UCA-hX4v0FEIKOzY8yikt8ow) channel on YouTube where he does an amazing job at walking you through the steps and also showing you other routes in case you run into some trouble - which I did on many occasions.
+
+I'm still getting used to it and hope to improve to the point of making this a bankable new skill.
+
+Developing this site whilst learning the steps has been the bulk of my work for the past few months and I'm looking forward to getting back to Blender and design (not that I haven't been in-between...).

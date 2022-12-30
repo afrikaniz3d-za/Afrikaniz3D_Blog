@@ -1,0 +1,50 @@
+---
+title: Vibes
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+image: "img/post/P3/p3000.gif"
+showonlyimage: true
+date: '2022-09-24'
+draft: false
+slug: vibes
+categories:
+  - blog
+  - update
+tags:
+  - pumpkin project 
+  - reading
+  - r studio
+  - data exploration
+  - data science
+  - meh
+  - best season ever
+  - brauberry
+---
+
+There was a theme and set of topics set for this month that had to be scrapped, 
+
+![pumpkin 1][1]
+
+![pumpkin 2][2]
+
+so this post will touch on some other stuff to keep the monthly train going - and hopefully let off some real steam on the outside.
+
+Got back into reading for the habit more than the learning. I try to do it first thing everyday while it's still dark. It sets such a good tone for the day.The tone doesn't last long, but it's a break. So many things just suck, but the culture says no complaining - good/thankful vibes only.
+
+It's said to keep your personal shit to yourself, but this past year has shown me how silence allows for serious/important stuff to go unchecked. There are lot of things I know I can't speak on due to my circumstance (and trying to keep my head down), but I often worry about the stories/things I'm attached to without my knowledge or consent. Actively avoiding some situations and staying quiet probably has more disadvantages than advantages – an advantage being able to avoid making an emotional spectacle online for laughs. There's a lot else going on to then have to worry about image at this stage in my life, so I happily take the advice to stay in my own lane. I tapped out of  the game of contrived conflict for attention a while ago.
+
+Almost lost this monitor (yesterday, hence I'm posting this now rather than on Monday - cos who knows...) after a weird shady look into my room  followed by a strange visit, a jimmied window and everything fallen over. I understand I'm part of a bigger joke, but I have my limits at being a toy while also trying to sort my shit out.
+
+It takes a long time for masks to fall off (if ever), and many of those who try to pull them off fall long before then.
+
+…
+
+All that said, it feels good to be making some kind of progress in most areas. It's just taking time.
+
+Next month I'm hoping to complete my first data exploration for to the blogfolio. Started with R Studio. Nothing special, but it's good practice and some of it is live already. Been dedicating an hour-or-so everyday to work on it and spending the rest working to finish the bigger urgent project. I honestly think Blender is cursed sometimes with some of the weird things that happen.
+
+
+
+
+
+[1]: /img/post/P3/p3001.jpg
+[2]: /img/post/P3/p3002.jpg

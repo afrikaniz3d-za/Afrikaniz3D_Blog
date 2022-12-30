@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Afrikaniz3D Blogfolio</title>
+    <link>https://afrikaniz3d.netlify.app/portfolio/</link>
+    <description>Recent content in Portfolios on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Nov 2022 10:43:17 +0200</lastBuildDate><atom:link href="https://afrikaniz3d.netlify.app/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BRAUBERRY [Brand Mash-Up Project]</title>
+      <link>https://afrikaniz3d.netlify.app/portfolio/brauberry-brand-mash-up-project/</link>
+      <pubDate>Sun, 17 Jul 2022 20:44:01 +0200</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/portfolio/brauberry-brand-mash-up-project/</guid>
+      <description>The Brand Mash-Up series was one of the first bigger projects on my YouTube channel that I started as a means of both expanding on what I had been doing as well as learning new tools such as Blender. The idea for BRAUBERRY was a response to the need for being careful when handling intellectual properties I didn&amp;rsquo;t own in the case they might endanger my YouTube channel. It was also a fun opportunity to see what could come about from merging two seemingly non-related brands.</description>
+    </item>
+    
+    <item>
+      <title>HEXES Mini Pack Series</title>
+      <link>https://afrikaniz3d.netlify.app/portfolio/hexes-mini-pack-series/</link>
+      <pubDate>Sat, 16 Jul 2022 13:51:22 +0200</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/portfolio/hexes-mini-pack-series/</guid>
+      <description>Forming a clear picture of the path to take towards a goal, something I am relearning, is affected by a variety of things, chief of which being that I find it difficult to push through a contrived/inauthentic path. Testing authenticity, I&amp;rsquo;m sure, has universally championed rubrics I&amp;rsquo;ll undoubtedly discover ahead now that the idea has been “committed to the bits.” How this ties to this project are the motivations that punctuated its creation.</description>
+    </item>
+    
+    <item>
+      <title>3D Printing</title>
+      <link>https://afrikaniz3d.netlify.app/portfolio/3d-printing/</link>
+      <pubDate>Fri, 04 Nov 2022 10:43:17 +0200</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/portfolio/3d-printing/</guid>
+      <description>#3
+![december print designs][4]
+Stuck to regular modeling for this set moving forward mostly for the cleaner wireframes, but also to make it easier for anyone to edit the file before printing.
+#2
+Second entry in the 3d printing exploration looked at workflows for creating the models. Normally would have gone with regular boolean and subdivision, but wanted to try find a quicker option. This ended up being going from blocking-out with booleans and then using the remesh modifier.</description>
+    </item>
+    
+    <item>
+      <title>Data Explorations using R Studio</title>
+      <link>https://afrikaniz3d.netlify.app/portfolio/data-explorations-using-r-studio/</link>
+      <pubDate>Sat, 04 Jun 2022 13:14:42 +0200</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/portfolio/data-explorations-using-r-studio/</guid>
+      <description>The purpose of this data exploration is to apply and the practice the skills gained from the Google Data Analytics Professional Certification. The data being explored relates to South African energy, primarily electricity. This exercise will be replicated on other tools later on such as Power BI and SQL.
+The datasets are mostly in .csv format and were collected from the following sources:
+Eskom
+World Bank
+Energy Data
+Regulatory Indicator for Sustainable Energy (RISE)</description>
+    </item>
+    
+    <item>
+      <title>Drone Cinematography</title>
+      <link>https://afrikaniz3d.netlify.app/portfolio/drone-cinematography/</link>
+      <pubDate>Sat, 04 Jun 2022 12:57:47 +0200</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/portfolio/drone-cinematography/</guid>
+      <description>2019 marked the first full year of AFRIKANIZ3D. I was still mostly working on architectural projects. I bought a drone, the first generation DJI Mini. The timing of the COVID-19 pandemic delayed things &amp;ldquo;a bit&amp;rdquo; through various restrictions, but I&amp;rsquo;m happy that this gets to be part of the mix and look forward to seriously playing with it again.</description>
+    </item>
+    
+    <item>
+      <title>Power BI Dashboards</title>
+      <link>https://afrikaniz3d.netlify.app/portfolio/work10-power-bi-dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/portfolio/work10-power-bi-dashboards/</guid>
+      <description>This entry is related to South African energy exploration that on RStudio that you can look at here. My intentions for this segment of the exploration is to take the same data and generate some dashboards that you would find for up-to-date looks on some statistics - snapshots.</description>
+    </item>
+    
+  </channel>
+</rss>

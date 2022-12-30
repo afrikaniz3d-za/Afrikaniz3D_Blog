@@ -1,0 +1,34 @@
+baseurl: https://afrikaniz3d.netlify.app/
+title: Afrikaniz3D Blogfolio
+theme: hugo-creative-portfolio-theme
+languageCode: en-us
+disqusShortname: 'afrikaniz3d'
+googleAnalytics: 'G-068HZ9Y7CD'
+params:
+  copyright: '&copy; 2023 Afrikaniz3D / Ntobeko Sosibo'
+  description: Combination of a blog and portfolio I use to try host as much of my works in one place.
+  email: afrikaniz3d@gmail.com
+  navlinks:
+    - home: yes
+      name: Blogs
+      url: post/
+    - name: Portfolio
+      url: portfolio/
+    - name: About Afrikaniz3D
+      url: about/
+    - name: Get in touch
+      url: contact/
+  sidebarAbout:
+    - I am a CG hobbyist working mostly with Blender3D.  Also exploring work in Data Science and Analytics.
+    - From and currently based in South Africa.
+    - "#b3d #hexesminipack #webdevelopment #dataanalytics #datascience #r #powerbi #sql #youtubeseo"
+  social:
+    email: afrikaniz3d@gmail.com
+    facebook: https://www.facebook.com/Afrikaniz3D-103985428323283
+    github: https://github.com/afrikaniz3d-za
+    instagram: https://www.instagram.com/afrikaniz3d/
+    linkedin: https://www.linkedin.com/in/ntobeko-s-040309203
+    twitter: https://twitter.com/afrikaniz3d
+    whatsapp: https://wa.me/message/USN7BDK3XJC4K1
+    youtube: https://youtube.com/c/AFRIKANIZ3D/
+  style: graylime

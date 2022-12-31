@@ -12,7 +12,7 @@ weight = 2
 
 ![december print designs][4]
 
-Stuck to regular modeling for this set moving forward mostly for the cleaner wireframes, but also to make it easier for anyone to edit the file before printing.
+Stuck to regular modeling for this set moving forward mostly for the cleaner wireframes. Any of the original models can be uploaded/set on request.
 
 ***#2***
 

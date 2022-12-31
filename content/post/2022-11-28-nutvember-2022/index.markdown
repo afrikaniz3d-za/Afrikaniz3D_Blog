@@ -65,7 +65,6 @@ Getting into this more and more and taking feedback into account. Working on som
 [2]: /img/post/P5/p5102.jpg
 [3]: /img/post/P5/p5103.jpg
 [4]: /img/post/P5/p5104.jpg
-
 [6]: /img/post/P5/p5106.jpg
 [7]: /img/post/P5/p5107.jpg
 [8]: /img/post/P5/p5108.jpg

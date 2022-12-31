@@ -36,3 +36,4 @@ The picture above s an early test. I had gotten some feedback about the use of s
 [1]: /img/portfolio/W6/w6003.gif
 [2]: /img/portfolio/W6/w6004.jpg
 [3]: /img/portfolio/W6/w6006.jpg
+[4]: /img/portfolio/W6/w6007.jpg

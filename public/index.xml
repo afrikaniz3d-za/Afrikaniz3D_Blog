@@ -32,7 +32,6 @@
       
       <guid>https://afrikaniz3d.netlify.app/portfolio/3d-printing/</guid>
       <description>#3
-![december print designs][4]
 Stuck to regular modeling for this set moving forward mostly for the cleaner wireframes, but also to make it easier for anyone to edit the file before printing.
 #2
 Second entry in the 3d printing exploration looked at workflows for creating the models. Normally would have gone with regular boolean and subdivision, but wanted to try find a quicker option. This ended up being going from blocking-out with booleans and then using the remesh modifier.</description>

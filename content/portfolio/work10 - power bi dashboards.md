@@ -19,7 +19,7 @@ The first dataset I wanted to look at was the one containing the hourly measurem
 
 ![initial report][4]
 
-As with the plots generated in Rstudio, my long-held assumptions that solar was "king" are squashed. Before continuing any further I had a look at the locations of [South Africa's wind farms](https://en.wikipedia.org/wiki/List_of_wind_farms_in_South_Africa) which are concentrated in the Northern, Western, and Eastern Capes. What makes this more interesting for me is the potential further maximize generation using recent technologies in wind energy harvesting such as [this](https://www.youtube.com/watch?v=VnSZ0MHIcvs) example. 
+As with the plots generated in Rstudio, my long-held assumptions that solar was "king" are squashed. Before continuing any further I had a look at the locations of [South Africa's wind farms](https://en.wikipedia.org/wiki/List_of_wind_farms_in_South_Africa) which are concentrated in the Northern, Western, and Eastern Capes. What makes this more interesting for me is the potential to further maximize generation using recent technologies in wind energy harvesting such as [this](https://www.youtube.com/watch?v=VnSZ0MHIcvs) example. 
 
 
 

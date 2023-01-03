@@ -1,0 +1,40 @@
+---
+title: Unfinished Business
+image: "img/post/P7/p7000.jpg"
+showonlyimage: true
+draft: TRUE
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2023-01-30'
+slug: unfinished-business
+categories:
+  - blog
+  - update
+tags:
+  - 3d printing
+  - b3d
+  - blender
+  - blog
+  - cookie
+  - cookie cutter
+  - cults3d
+  - free
+  - free download
+  - printables
+  - prusa
+  - prusa printer challenge
+---
+
+![from me][1]  
+- closure  
+- repeating fewer mistakes (learning different things from the same mistakes)  
+- 
+
+![for you][2]  
+Challenge aside I wanted to kick things up a bit with the models this year. "Quality over Quantity" led to fewer models, with one being the main design with more effort put into it. So, the formula for the time being is: two basic designs, and one that's a little more complex.
+
+
+
+[1]: /img/post/P7/p7001.jpg
+[2]: /img/post/P7/p7002.jpg
+[3]: /img/post/P7/p7003.jpg
+[4]: /img/post/P7/p7004.jpg

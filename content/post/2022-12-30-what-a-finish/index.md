@@ -61,7 +61,7 @@ Since it's the festive season a lot of the pieces are Christmas-themed. All subd
 
 [Gumroad](https://afrikaniz3dza.gumroad.com/l/xbtiej) | [Printables](https://www.printables.com/model/340468-pinky-elf-brain-clause-cookie-cutters) | [Cults3D](https://cults3d.com/en/3d-model/home/pinky-elf-brain-clause-cookie-cutters)
 
-![][9]
+![substitute shinigami badge][9]
 
 [Gumroad](https://afrikaniz3dza.gumroad.com/l/qiehvh) | [Printables](https://www.printables.com/model/353865-substitute-shinigami-badge-cookie-cutter) | [Cults3D](https://cults3d.com/en/3d-model/home/substitute-shinigami-badge-cookie-cutter)
 

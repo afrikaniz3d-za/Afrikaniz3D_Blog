@@ -9,10 +9,10 @@ params:
   description: Combination of a blog and portfolio I use to try host as much of my works in one place.
   email: afrikaniz3d@gmail.com
   navlinks:
-    - home: yes
-      name: Blogs
+    - name: Blogs
       url: post/
-    - name: Portfolio
+    - home: yes
+      name: Portfolio
       url: portfolio/
     - name: About Afrikaniz3D
       url: about/

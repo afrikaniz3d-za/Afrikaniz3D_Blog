@@ -8,6 +8,12 @@ slug = "3d-printing"
 weight = 2
 +++
 
+***#4***
+
+![january print designs][5]
+
+Been wanting to experiment with something a little more complex by exploring the flatpack kit design by using the popular Pochita character from Chainsaw Man. The design process was mostly intuitive using some reference images, taking a few tries to get a result that looks best rather than working directly off of a sketch as it was difficult to draw the ideal view to work off of (lazy :D). Look forward to more of these moving forward.
+
 ***#3***
 
 ![december print designs][4]
@@ -37,3 +43,4 @@ The picture above s an early test. I had gotten some feedback about the use of s
 [2]: /img/portfolio/W6/w6004.jpg
 [3]: /img/portfolio/W6/w6006.jpg
 [4]: /img/portfolio/W6/w6007.jpg
+[5]: /img/portfolio/W6/w6008.jpg

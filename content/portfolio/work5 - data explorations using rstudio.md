@@ -352,7 +352,7 @@ More of a rating system than measurements, this spreadsheet will be useful at th
  NA's   :66       NA's   :65           NA's   :66  
  ```
  
- Going back all the way to 1900, the information found in this dataset is enough to start telling South Africa's energy story. It covers all the major types from energy - from before they were implemented, and it overlaps with period explored in other datasets. It's measurements are not as general as the ones found in other sets, so this allows for a more specific direction to be taken for the final report.
+Going back all the way to 1900, the information found in this dataset is enough to start telling South Africa's energy story. It covers all the major types from energy - from before they were implemented, and it overlaps with period explored in other datasets. It's measurements are not as general as the ones found in other sets, so this allows for a more specific direction to be taken for the final report.
 
 ***[2022-10-11]***
 

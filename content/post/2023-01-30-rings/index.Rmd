@@ -2,7 +2,7 @@
 title: Rings
 image: "img/post/P7/p7000.gif"
 showonlyimage: true
-draft: TRUE
+draft: FALSE
 author: Ntobeko Sosibo [ Afrikaniz3D ]
 date: '2023-01-30'
 slug: rings

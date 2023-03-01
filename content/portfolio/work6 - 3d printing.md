@@ -8,6 +8,16 @@ slug = "3d-printing"
 weight = 2
 +++
 
+***#5***
+
+![february print designs][6]
+
+More cookie cutters - those will be a staple. Looking to get better at making flatpack designs. The Pochita design is picking up in terms of downloads and I'd like to get improve in the overall quality - down to the supports. This ended up with a cat design that didn't work out, but did give an idea for something simpler.  
+
+![failcat][7]  
+
+What this project told me is that I need t o learn to sculpt soon to get the most out of any kind of services I could offer in the space.
+
 ***#4***
 
 ![january print designs][5]
@@ -44,3 +54,5 @@ The picture above s an early test. I had gotten some feedback about the use of s
 [3]: /img/portfolio/W6/w6006.jpg
 [4]: /img/portfolio/W6/w6007.jpg
 [5]: /img/portfolio/W6/w6008.jpg
+[6]: /img/portfolio/W6/w6009.jpg
+[7]: /img/portfolio/W6/w6010.jpg

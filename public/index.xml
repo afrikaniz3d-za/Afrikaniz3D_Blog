@@ -6,7 +6,7 @@
     <description>Recent content on Afrikaniz3D Blogfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afrikaniz3d.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://afrikaniz3d.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BRAUBERRY [Brand Mash-Up Project]</title>
       <link>https://afrikaniz3d.netlify.app/portfolio/brauberry-brand-mash-up-project/</link>
@@ -31,10 +31,9 @@
       <pubDate>Fri, 04 Nov 2022 10:43:17 +0200</pubDate>
       
       <guid>https://afrikaniz3d.netlify.app/portfolio/3d-printing/</guid>
-      <description>#3
-Stuck to regular modeling for this set moving forward mostly for the cleaner wireframes, but also to make it easier for anyone to edit the file before printing.
-#2
-Second entry in the 3d printing exploration looked at workflows for creating the models. Normally would have gone with regular boolean and subdivision, but wanted to try find a quicker option. This ended up being going from blocking-out with booleans and then using the remesh modifier.</description>
+      <description>#5
+More cookie cutters - those will be a staple. Looking to get better at making flatpack designs. The Pochita design is picking up in terms of downloads and I&amp;rsquo;d like to get improve in the overall quality - down to the supports. This ended up with a cat design that didn&amp;rsquo;t work out, but did give an idea for something simpler.
+What this project told me is that I need t o learn to sculpt soon to get the most out of any kind of services I could offer in the space.</description>
     </item>
     
     <item>
@@ -66,7 +65,27 @@ Regulatory Indicator for Sustainable Energy (RISE)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://afrikaniz3d.netlify.app/portfolio/work10-power-bi-dashboards/</guid>
-      <description>This entry is related to South African energy exploration that on RStudio that you can look at here. My intentions for this segment of the exploration is to take the same data and generate some dashboards that you would find for up-to-date looks on some statistics - snapshots.</description>
+      <description>This entry is related to South African energy exploration that on RStudio that you can look at here. My intentions for this segment of the exploration is to take the same data and generate some dashboards that you would find for up-to-date looks on some statistics - snapshots.
+The dataset I wanted to look at was the one containing the hourly measurements of the different sources of renewable energy from ESKOM (&amp;ldquo;zaregenlong&amp;rdquo;) that was generated and exported from RStudio.</description>
+    </item>
+    
+    <item>
+      <title>Still</title>
+      <link>https://afrikaniz3d.netlify.app/post/still/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/post/still/</guid>
+      <description>Might just be the combination of things I’ve been focusing on lately, but finding a good fit is shifting more and more. So much changes in a month that the draft 2 weeks is so different to the draft of the night before. Found a way to make the data explorations more interesting while also getting to make new stuff as well as following through with older ideas. Nothing goes to waste.</description>
+    </item>
+    
+    <item>
+      <title>Rings</title>
+      <link>https://afrikaniz3d.netlify.app/post/rings/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afrikaniz3d.netlify.app/post/rings/</guid>
+      <description>Things are relatively quiet. Regular exercise and mindful eating. The Printer Challenge is still going along with the data exploration exercises. Happy with how the portfolio is shaping up.
+This website is an example of something I look forward to looking back on in months (and years) to come and be able so see how it slowly solidified - like examining the rings of a tree trunk with the passage of time (after you chop it down…?</description>
     </item>
     
     <item>
@@ -75,8 +94,7 @@ Regulatory Indicator for Sustainable Energy (RISE)</description>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://afrikaniz3d.netlify.app/post/2022-12-30-what-a-finish/</guid>
-      <description>from me
-The past few days really drove home how much of a break I need. That coupled with the growing pains of using Linux was what really shifted the last two months by a few gears. It did, though, have surprising benefits.
+      <description>The past few days really drove home how much of a break I need. That coupled with the growing pains of using Linux was what really shifted the last two months by a few gears. It did, though, have surprising benefits.
 Started a “Prusa Printer Challenge” for myself in 2023&amp;gt;&amp;gt; as a way of turning free content into a new tool for the business. The contests on Printables are fun incentives to create - and be creative.</description>
     </item>
     

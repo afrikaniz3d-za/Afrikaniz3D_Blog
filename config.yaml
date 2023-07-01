@@ -19,7 +19,7 @@ params:
     - name: Get in touch
       url: contact/
   sidebarAbout:
-    - I am a CG hobbyist working mostly with Blender3D.  Also exploring work in Data Science and Analytics.
+    - I am a CG hobbyist working mostly with Blender3D.  Also exploring work in Data Science and Analytics. Yes, A.I. is taking over these fields, but learning and working in them is helping me think goode- better..
     - From and currently based in South Africa.
     - "#b3d #hexesminipack #webdevelopment #dataanalytics #datascience #r #powerbi #sql #youtubeseo"
   social:
@@ -32,3 +32,8 @@ params:
     whatsapp: https://wa.me/message/USN7BDK3XJC4K1
     youtube: https://youtube.com/c/AFRIKANIZ3D/
   style: graylime
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

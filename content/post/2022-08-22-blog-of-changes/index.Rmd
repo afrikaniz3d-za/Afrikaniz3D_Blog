@@ -1,6 +1,6 @@
 ---
 title: Blog of Changes
-image: "img/post/P2/p1000.gif"
+image: "img/post/P2/p1000.webp"
 showonlyimage: true
 author: Ntobeko Sosibo [Afrikaniz3D]
 date: '2022-08-22'

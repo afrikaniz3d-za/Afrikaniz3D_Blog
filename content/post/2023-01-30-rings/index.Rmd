@@ -1,6 +1,6 @@
 ---
 title: Rings
-image: "img/post/P7/p7000.gif"
+image: "img/post/P7/p7000.webp"
 showonlyimage: true
 draft: FALSE
 author: Ntobeko Sosibo [ Afrikaniz3D ]

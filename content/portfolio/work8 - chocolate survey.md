@@ -399,9 +399,76 @@ I did this part of the exercise manually on sheets of paper - I understand that 
 
 ![Checking for duplicates or alternates][4]  
 
-The next update to this post will look at performing the above using the mentioned functions, and then identifying who the big players are.
+![Step 3: Top 10][5]  
+
+Before transforming the data I first wanted to see what the Top 10 ranking was as-is. This was done by creating a new data frame that was ordered (descending) by the rating value using the chunk below:  
+
+```{r}
+chocolate_ranked <- chocolate[order(chocolate$rating, decreasing = TRUE),]
+```  
+To make it a "Top 10" data frame I use the line below:  
+
+```{r}
+chocolate_top10 <- head(chocolate_ranked, 10)
+```
+The results show that A. Morin occupied the top spots.
+
+```{r}
+> chocolate_top10
+     ref company_manufacturer company_location review_date country_of_bean_origin
+19  1015             A. Morin           France        2013              Venezuela
+20  1019             A. Morin           France        2013                   Peru
+25  1319             A. Morin           France        2014                   Peru
+33  2648             A. Morin           France        2021                 Mexico
+80   470                Amano           U.S.A.        2010                Ecuador
+81   725                Amano           U.S.A.        2011       Papua New Guinea
+112  572                 AMMA           Brazil        2010                 Brazil
+130 1598                Arete           U.S.A.        2015              Nicaragua
+142 1908                Arete           U.S.A.        2016             Costa Rica
+143 1924                Arete           U.S.A.        2016                   Peru
+     specific_bean_origin_or_bar_name cocoa_percent ingredients most_memorable_characteristics rating
+19                              Chuao           70%  4- B,S,C,L  oily, nut, caramel, raspberry      4
+20               Chanchamayo Province           63%    3- B,S,C        sweet, cocoa, tangerine      4
+25                            Pablino           70%  4- B,S,C,L    delicate, hazelnut, brownie      4
+33                            La Joya           70%  4- B,S,C,L     light color, fruit, yogurt      4
+80                             Guayas           70%  4- B,S,C,V   strong spice, intense pepper      4
+81                             Morobe           70%  4- B,S,C,V             tart, lemon, smoke      4
+112 Monte Alegre, 3 diff. plantations           60%  4- B,S,C,L     creamy, sweet,cocoa,banana      4
+130                             Chuno           70%      2- B,S   creamy,sticky, peanut butter      4
+142             Coto Brus, Terciopelo           70%      2- B,S        balanced, cherry, choco      4
+143                           Phantom           70%      2- B,S      creamy, complex, balanced      4
+```  
+
+During a short break I realised that finding the "Top" 10 results is not as simple a task when you consider that the surveys are not of the same control group. The results specific to South Africa were also not helpful due to low volume (only four entries). My suggestion is then to look past establishing what the "African Chocolate Palette" is and focus on securing an African supplier of cacao instead. The argument can be this can be used to strengthen ties with a fellow African Union (AU) member.  
+
+Now that I know what qualities are highly favoured in the overall Top 10 of the ratings, I can can compare this against the AU countries and choose five (5) choices that can be approached.  
+
+Will the top African characteristics also be listed in the "sweet" and "fruity" region?  
+
+
+
+
+![Step 4: Transform Names][6]  
+
+(Still needed?)  
+(Might need to change the title card to "African Beans")
+
+![Actual Top 10][7]  
+
+(Still needed?)  
+(Might need to change to "Top 10 African Beans")
+
+![Word Cloud of the all the (parent) companies][8]   
+
+(If necessary)  
+
+TBC :D  
 
 [1]: /img/portfolio/W8/w8001.webp
 [2]: /img/portfolio/W8/w8002.webp
 [3]: /img/portfolio/W8/w8003.webp
 [4]: /img/portfolio/W8/w8004.webp
+[5]: /img/portfolio/W8/w8005.webp
+[6]: /img/portfolio/W8/w8006.webp
+[7]: /img/portfolio/W8/w8007.webp
+[8]: /img/portfolio/W8/w8008.webp

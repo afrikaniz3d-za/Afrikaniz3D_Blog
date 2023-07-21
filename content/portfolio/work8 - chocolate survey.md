@@ -448,21 +448,63 @@ Will the top African characteristics also be listed in the "sweet" and "fruity" 
 
 
 
-![Step 4: Transform Names][6]  
+![Step 4: African Grown][6]  
 
-(Still needed?)  
-(Might need to change the title card to "African Beans")
+I used the chunk below to extract results where the beans were grown in Africa (or AU states), ranking them according to their survey rating:
 
-![Actual Top 10][7]  
+```{r}
+chocolate_africa_ranked <- chocolate_africa[order(chocolate_africa$rating, decreasing = TRUE),]
+```  
 
-(Still needed?)  
-(Might need to change to "Top 10 African Beans")
+```{r}
+> head(chocolate_africa_ranked, 10)
+     ref company_manufacturer company_location review_date country_of_bean_origin specific_bean_origin_or_bar_name cocoa_percent
+39   629               Bonnat           France        2011             Madagascar         Madagascar, 100% criollo           75%
+59  2514              Chokola           U.S.A.        2020             Madagascar        Bejofo, 2019 H., Batch 20           67%
+88  2040               Domori            Italy        2018               Tanzania                         Tanzania           70%
+110  915               Fresco           U.S.A.        2012             Madagascar   Sambirano Valley, #216, MR, LC           74%
+121 1642        Georgia Ramon          Germany        2015                  Ghana                      ABOCFA Coop           70%
+166  284  Madecasse (Cinagra)       Madagascar        2008             Madagascar                       Madagascar           63%
+177 1177               Matale        Australia        2013             Madagascar                      Somia, 2013           68%
+218  196               Patric           U.S.A.        2007             Madagascar                       Madagascar           70%
+220  331               Patric           U.S.A.        2009             Madagascar                       Madagascar           75%
+223  141     Pierre Marcolini          Belgium        2007             Madagascar   Sambirano, Ambanja, Madagascar           72%
+     ingredients   most_memorable_characteristics rating
+39      3- B,S,C       fatty, spicy, gentle roast      4
+59        2- B,S cherry, perfectly balanced roast      4
+88        2- B,S            creamy, sticky, fruit      4
+110     3- B,S,C       caramel, nuts, dried fruit      4
+121   4- B,S,C,L                cocoa and coconut      4
+166 5- B,S,C,V,L            intense, nutty, cocoa      4
+177     3- B,S,C                sticky, red fruit      4
+218     3- B,S,C mild tart, wine, red fruit, long      4
+220     3- B,S,C     simple red berry, rich, long      4
+223 5- B,S,C,V,L      tangy, floral, spicy, cocoa      4  
+```  
 
-![Word Cloud of the all the (parent) companies][8]   
+What I found is that ***Madagascar*** featured heavily throughout, especially in the top positions. The memorable characteristics are relatively similar to the French results.  
 
-(If necessary)  
+Madagascar also has the added benefit of being a close neighbour of Mzansi. Keeping it local to Madagascar with regards to the company to contact, the best (and only) option is [***Beyond Good***](https://beyondgood.com/) - formerly Madecasse(Cinagra).  
 
-TBC :D  
+![Gif of Beyond Good Website][7]  
+
+This concludes the data exploration.  
+
+![Step 5: Designing the Survey Terminal][8]  
+
+The 3D segment of this looks at creating a survey terminal. The idea is that these would be placed at popular chain stores and they would issue small samples for visitors to taste and comment on.  
+
+![Refsheet for Survey Terminal][9]
+
+Some design considerations I've come up with are:  
+  - no buttons or touch screen - to minimise the need for cleaning
+  - motion sensors to allow gesturing
+  - video and audio recording for detailed comment/feedback  
+  
+I see it being a bougie vending machine.. 
+
+TBC
+
 
 [1]: /img/portfolio/W8/w8001.webp
 [2]: /img/portfolio/W8/w8002.webp
@@ -472,3 +514,4 @@ TBC :D
 [6]: /img/portfolio/W8/w8006.webp
 [7]: /img/portfolio/W8/w8007.webp
 [8]: /img/portfolio/W8/w8008.webp
+[9]: /img/portfolio/W8/w8009.webp

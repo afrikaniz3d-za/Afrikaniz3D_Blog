@@ -4,10 +4,12 @@ draft = false
 image = "img/portfolio/W8/w8000.webp"
 date = "2023-07-12T15:34:22+02:00"
 title = "Chocolate Survey Terminal"
-weight = 5
+weight = 2
 +++
 
 ![Introduction][1]  
+![Chocolate Survey Terminal Header][9]  
+
 This EDA was inspired by a ***Tidy Tuesday*** dataset that looked at the ratings of different cacao been suppliers in different countries. Rather than following the original data challenge, I decided to instead focus on the elements that dealt with South Africa (SA) because my first real look at the data showed that SA had received the lowest ratings.
 
 The hypothetical challenge I set for myself was to use the data to identify what led to the poor ratings as well as what changes would need to be made to improve future results.
@@ -494,16 +496,33 @@ This concludes the data exploration.
 
 The 3D segment of this looks at creating a survey terminal. The idea is that these would be placed at popular chain stores and they would issue small samples for visitors to taste and comment on.  
 
-![Refsheet for Survey Terminal][9]
+![Refsheet for Survey Terminal][10]
 
 Some design considerations I've come up with are:  
   - no buttons or touch screen - to minimise the need for cleaning
   - motion sensors to allow gesturing
   - video and audio recording for detailed comment/feedback  
   
-I see it being a bougie vending machine.. 
+Something about working from a refsheet that I'm learning to enjoy more is that so many designs can come from the same set of images. This is what I realised toward the end of this project, and I see some elements I would do differently that I could only see having experienced the whole process - refinement after the finish.  
 
-TBC
+![Process animation][11]  
+  
+Rather than working from sketches I followed an explore-and-discover methodology, using the basic requirements to stay on track - a screen with a sensor, a container for the chocolate samples, and a conveyor belt mechanism to deliver the sample.  
+
+There many, many instances where the question would be, "what if I do this, or this?", and the decision would be what visually enjoyed the most.  
+
+Because I worked in chunks via [daily livestreams](https://youtube.com/playlist?list=PLryiPmQj99uCwOxIK9wWCmDnqU1qVR-iL) on my [YouTube channel](https://www.youtube.com/channel/UC8SVBGhWZFlNtYJTAm_AdcA) there were spaces in-between for what I had done on one day to continue being worked sub-consciously, so there would be times I would jump in and worked "knowing" more than improvising. I work with this process more often. It has its downsides - like being slower, and resulting in disjointed elements - but I think it's something I could benefit from in the long-run based on the little finds during different projects.  
+
+![SnickerChomps animation][12]  
+  
+  Overall I'm happy with the final result - it's an improvement on (from?) the [first project](https://afrikaniz3d.netlify.app/portfolio/work7-daq_2018/) of this type in the portfolio.  
+  
+  The next EDA will intentionally be smaller and I'm looking to weight it 70/30 (data exploration-analysis/3D modeled product) and aim for a two week turnaround time. I know I can a lot when the time component is open-ended, but I'd like to get more efficient with the whole process so I can work into [***HMP04***](https://blendermarket.com/products/hexes-mini-pack-04) additions.  
+    
+Thanks for visiting the blog, and I hope you found something useful or mildly entertaining.
+  
+  
+
 
 
 [1]: /img/portfolio/W8/w8001.webp
@@ -514,4 +533,7 @@ TBC
 [6]: /img/portfolio/W8/w8006.webp
 [7]: /img/portfolio/W8/w8007.webp
 [8]: /img/portfolio/W8/w8008.webp
-[9]: /img/portfolio/W8/w8009.jpg
+[9]: /img/portfolio/W8/w8009.webp
+[10]: /img/portfolio/W8/w8010.webp
+[11]: /img/portfolio/W8/w8011.webp
+[12]: /img/portfolio/W8/w8012.webp

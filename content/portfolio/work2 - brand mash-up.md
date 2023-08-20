@@ -5,7 +5,7 @@ slug = "brauberry-brand-mash-up-project"
 draft = false
 image = "img/portfolio/W2/w2000.jpg"
 showonlyimage = true
-weight = 1
+weight = 5
 +++
 
 

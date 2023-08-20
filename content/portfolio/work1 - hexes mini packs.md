@@ -5,7 +5,7 @@ image = "img/portfolio/W1/w1001.jpg"
 date = "2022-07-16T13:51:22+02:00"
 title = "HEXES Mini Pack Series"
 slug = "hexes-mini-pack-series"
-weight = 1
+weight = 2
 +++
 
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/categories/project/</link>
+    <description>Recent content in Project on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lobbyists 4 America</title>
+      <link>http://localhost:4321/portfolio/lobbyists-4-america/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/lobbyists-4-america/</guid>
+      <description>1. Project Overview The following presentation is geared at anyone interested at taking a short look into how a political-twitter dataset is used to inform a general strategy for the client, Lobbyists4America, to incrementally improve the presence and shareability of their message on Twitter.&#xA;2. The Audience for this project As part of a capstone project, this presentation is directed at an external audience interested in seeing what steps were taken to extract the necessary insights from the supplied dataset to formulate data-driven frameworks that inform messaging strategies using machine learning (ML) and other forms of analysis.</description>
+    </item>
+    <item>
+      <title>Chocolate Survey Terminal</title>
+      <link>http://localhost:4321/portfolio/chocolate-survey-terminal/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/chocolate-survey-terminal/</guid>
+      <description>This EDA was inspired by a Tidy Tuesday dataset that looked at the ratings of different cacao been suppliers in different countries. Rather than following the original data challenge, I decided to instead focus on the elements that dealt with South Africa (SA) because my first real look at the data showed that SA had received the lowest ratings.&#xA;The hypothetical challenge I set for myself was to use the data to identify what led to the poor ratings as well as what changes would need to be made to improve future results.</description>
+    </item>
+    <item>
+      <title>M4</title>
+      <link>http://localhost:4321/portfolio/retopologizing-m4/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/retopologizing-m4/</guid>
+      <description>This was a client project I got some time back. The relationship with the client was a strange once, and it wouldn’t make sense to comment further as I think the whole experience itself was something else. I was no angel myself, but what I took away from it was a lot more than a new monitor.&#xA;The first piece - the receiver - was easily the hardest. The bug mistakes were:</description>
+    </item>
+    <item>
+      <title>Renewable Energy in South Africa</title>
+      <link>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</guid>
+      <description>The purpose of this data exploration is to apply and the practice the skills gained from the Google Data Analytics Professional Certification. The data being explored relates to South African energy, primarily electricity. This exercise will be replicated on other tools later on such as Power BI and SQL.&#xA;The datasets are mostly in .csv format and were collected from the following sources:&#xA;Eskom&#xA;World Bank&#xA;Energy Data&#xA;Regulatory Indicator for Sustainable Energy (RISE)</description>
+    </item>
+  </channel>
+</rss>

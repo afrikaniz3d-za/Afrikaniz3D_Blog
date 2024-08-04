@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renewable Energy on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/renewable-energy/</link>
+    <description>Recent content in Renewable Energy on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/renewable-energy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Renewable Energy in South Africa</title>
+      <link>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</guid>
+      <description>The purpose of this data exploration is to apply and the practice the skills gained from the Google Data Analytics Professional Certification. The data being explored relates to South African energy, primarily electricity. This exercise will be replicated on other tools later on such as Power BI and SQL.&#xA;The datasets are mostly in .csv format and were collected from the following sources:&#xA;Eskom&#xA;World Bank&#xA;Energy Data&#xA;Regulatory Indicator for Sustainable Energy (RISE)</description>
+    </item>
+  </channel>
+</rss>

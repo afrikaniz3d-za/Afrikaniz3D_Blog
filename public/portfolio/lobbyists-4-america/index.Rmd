@@ -1,0 +1,216 @@
+---
+title: Lobbyists 4 America
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2024-08-04'
+slug: lobbyists-4-america
+categories:
+  - project
+tags:
+  - analytics
+  - sql
+  - data science
+  - sentiment analysis
+  - a/b testing
+  - etl
+  - cte
+  - coursera
+  - uc davis
+  - mode analytics
+  - databricks
+  - python
+  
+draft: no
+image: 'img/portfolio/W12/w12000.webp'
+showonlyimage: yes
+---
+  
+## 1. Project Overview
+
+The following presentation is geared at anyone interested at taking a short look into how a political-twitter dataset is used to inform a general strategy for the client, **Lobbyists4America**, to incrementally improve the presence and shareability of their message on [Twitter](https://twitter.com).  
+  
+## 2.  The Audience for this project
+As part of a [capstone project](https://www.coursera.org/learn/sql-data-science-capstone/home/info), this presentation is directed at an **external audience** interested in seeing what steps were taken to extract the necessary insights from the supplied dataset to formulate data-driven frameworks that inform messaging strategies using machine learning (ML) and other forms of analysis.  
+  
+## 3. Thoughts going in  
+####  3.1 Assumptions  
+The framing of the brief initially led me to believe I'd be looking at "typically-political" entries, lots of name-calling, championing for the rights of the people, name-calling etc.  
+  
+I was also expecting a relatively balanced representation of Republicans vs Democrats - speaking directly to one another, pointing out faults and shortcomings.  
+  
+All-in-all, theatre.  
+  
+####  3.2 Hypotheses  
+Given that the platform of the chosen discourse is Twitter, engagement (mostly in the form of likes and retweets) would be a really good indicator to discern how well the message is being delivered. The following are my main hypotheses:  
+
+##### 3.2.1 The more engagement, the more effective the tweet/user is at getting the message across  
+For the purposes of this project, engagement is used to refer to mainly likes and retweets   
+
+##### 3.2.2 Negativity drives conversation   
+Here I want to look at the tone/slant of the users that get the most engagement is usually negative.  
+  
+## 4.  Bringing the data into Databricks  
+
+There are two tables, name 'tweets' and 'users'. They are both in JSON format and are downloaded off-site. Because I decided to use Databricks rather than the Jupyter notebook on Coursera's Sandbox platform, I had to take slightly different routes to perform the same actions shown in the course literature.  
+  
+After uploading the two files to the platform's DBFS I executed the following cells to create the tables, making them usable for the exploration:  
+  
+#### 4.1 Importing the tweets JSON file from the DBFS  
+  
+```[r]
+file_location = "/FileStore/tables/tweets-30.json"
+file_type = "json"
+
+infer_schema = "false"
+first_row_is_header = "false"
+delimiter = ","
+
+df = spark.read.format(file_type) \
+  .option("inferSchema", infer_schema) \
+  .option("header", first_row_is_header) \
+  .option("sep", delimiter) \
+  .load(file_location)
+
+df_limit = df.limit(5)
+display(df_limit)  
+```  
+  
+#### 4.2 Making tweets a permanent table  
+  
+```[r]
+permanent_table_name = "tweets"
+
+path = "dbfs:/user/hive/warehouse/tweets_20240502"
+df.write.format("parquet").mode("overwrite").option("path", path).saveAsTable(permanent_table_name)  
+```  
+
+#### 4.3 Importing the users JSON file from the DBFS  
+  
+```[r]  
+file_location = "/FileStore/tables/users-30.json"
+file_type = "json"
+
+infer_schema = "false"
+first_row_is_header = "false"
+delimiter = ","
+
+df = spark.read.format(file_type) \
+  .option("inferSchema", infer_schema) \
+  .option("header", first_row_is_header) \
+  .option("sep", delimiter) \
+  .load(file_location)
+
+df_limit = df.limit(5)
+display(df_limit)  
+```  
+  
+####  4.4 Making users a permanent table  
+  
+```[r]  
+permanent_table_name = "users"
+path = "dbfs:/user/hive/warehouse/users_20240502"
+df.write.format("parquet").mode("overwrite").option("path", path).saveAsTable(permanent_table_name)  
+```  
+  
+With the above four (4) cells executed, the tables are now usable in any notebook on a newly-created cluster in Community edition of Databricks without having to re-upload them every time I log in. The next thing to do is to take a look at the data.  
+  
+## 5. First Look  
+  
+#### 5.1 Looking at the tweets table  
+  
+![20. Looking at tweets table variables gif][1]  
+  
+#### 5.2  Looking at the users table  
+  
+![22. Looking at users table variables][2]  
+  
+#### 5.3 Descriptive Stats
+
+To make sure I was able to keep the size of the notebook below 10.4MB, I have omitted the queries and simply listed the resultant figures. I've you'd like to take a look at the calculations feel free to contact me.  
+  
+#####  5.3.1 The tweets table  
+**Tweet Counts**:  
+    • Mean: 				2 281 tweets  
+    • Mode: 				3 258 tweets (RepDonBeyer)  
+    • Range: 				min 4 (GregHarper), max 3 258 (RepDonBeyer) tweets  
+  
+  
+**Tweet Length**:  
+    • Mean: 				120 characters  
+    • Median: 			    132 characters  
+    • Mode: 				140 characters  
+    • Range: 				min 0, max 415 characters  
+  
+  
+**Retweets**:  
+    • Mean: 				190 retweets  
+    • Median: 			4 retweets  
+    • Mode: 				1 retweet  
+    • Range: 				min 0, max 3 637 896 retweets  
+  
+  
+**Favourites**:  
+    • Mean: 				200 favourites  
+    • Median: 			2 favourites  
+    • Mode: 				0 favourites  
+    • Range: 				min 0, max 984 832 favourites  
+  
+**Conclusion**  
+The tweets table contains a total of 1 243 370 tweets of an average length of 120 characters. Tweets received an average of 190 retweets - the lowest being 0 and the most retweeted tweet receiving 3 637 896 retweets. Tweets were favourited an average of 200 times, with the highest receiving 984 832 favourites.  
+  
+##### 5.3.2 The users table  
+**Description Length**:  
+    • Mean: 				99 characters  
+    • Median: 				102 characters  
+    • Mode: 				160 characters    
+    • Range: 				min 0, max 160 characters    
+  
+  
+**Favourites**: (referring to how many tweets the user has favourited/liked)   
+    • Mean: 				413 favourites  
+    • Median: 			    120 favourites  
+    • Mode: 				0 favourites  
+    • Range: 				min , max 12 507 favourites  
+  
+  
+**Followers**:  
+    • Mean: 				163 433 followers  
+    • Median: 			    16 690 followers  
+    • Mode: 				5 100 followers  
+    • Range: 				min 4, max 31 712 585 followers  
+  
+  
+**Friends**:  
+    • Mean: 				2033 friends  
+    • Median: 			    748 friends  
+    • Mode: 				4 friends  
+    • Range: 				min 0, max 92 934 friends  
+      
+      
+**Listed**:  
+    • Mean: 				1340 lists  
+    • Median: 			    749 lists  
+    • Mode: 				498 lists  
+    • Range: 				min 0, max 70 660 lists  
+  
+  
+**Statuses**:  
+    • Mean: 				3658 statuses  
+    • Median: 			    2682 statuses  
+    • Mode: 				0 statuses  
+    • Range: 				min 0, max 59 535 statuses  
+  
+**Conclusion**  
+The users table contains the information pertaining to the 545 (or 548*) users that generated the posts from the tweets table. Although there a number of variables that can not be aggregated due to being things like default-formatted links or colour hexcodes, the table still contained information like each user having an average description length of 99 characters, had between 0 and 12 507 favourites – averaging 413 per user, between 4 and 31 712 585 followers, 0 and 92 934 friends, listed between 0 and 70 660 times, and had between 0 and 59 535 statuses, averaging 3658 per user.  
+  
+####  5.4 What stood out  
+Apart from the columns that the dataset could have done without (discussed in the next section) I found some other details that I think anyone working with this dataset needs to be mindful of.  
+  
+
+
+
+[1]: /img/portfolio/W12/w12001.webp
+[2]: /img/portfolio/W12/w12002.webp
+[3]: /img/portfolio/W12/w12003.webp
+[4]: /img/portfolio/W12/w12004.webp
+[5]: /img/portfolio/W12/w12005.webp
+[6]: /img/portfolio/W12/w12006.webp

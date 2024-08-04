@@ -1,0 +1,24 @@
+---
+title: Maven Hospital Challenge
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2024-08-04'
+slug: maven-hospital-challenge
+categories:
+  - project
+tags:
+  - analytics
+  - cte
+  - databricks
+  - dataset
+  - data science
+  - data analysis
+  - data exploration
+  - eda
+  - big query
+  - sql
+  - maven analytics
+  - maven challenge
+draft: no
+image: 'img/portfolio/W14/w14000.webp'
+showonlyimage: yes
+---

@@ -1,7 +1,7 @@
 ---
 title: Nutvember 2022
 author: Ntobeko Sosibo [Afrikaniz3D]
-image: "img/post/P5/p5000.gif"
+image: "img/post/P5/p5000.webp"
 showonlyimage: true
 date: '2022-11-28'
 slug: [nutvember-2022]

@@ -1,0 +1,15 @@
+---
+title: Lobbyists 4 America
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2024-08-04'
+slug: lobbyists-4-america
+categories:
+  - project
+tags:
+  - analytics
+  - sql
+  - data science
+draft: yes
+image: ''
+showonlyimage: no
+---

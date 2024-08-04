@@ -1,0 +1,25 @@
+---
+title: Chocolate Survey Terminal
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2023-07-12'
+slug: chocolate-survey-terminal
+categories:
+  - project
+tags:
+  - tidy tuesday
+  - south africa
+  - r studio
+  - practice
+  - kitbash
+  - dataset
+  - data exploration
+  - client
+  - b3d
+  - blender
+  - chocolate
+  - survey
+  - eda
+draft: yes
+image: ''
+showonlyimage: no
+---

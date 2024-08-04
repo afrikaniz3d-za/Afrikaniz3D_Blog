@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>printables on Afrikaniz3D Blogfolio</title>
-    <link>https://afrikaniz3d.netlify.app/tags/printables/</link>
-    <description>Recent content in printables on Afrikaniz3D Blogfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Printables on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/printables/</link>
+    <description>Recent content in Printables on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://afrikaniz3d.netlify.app/tags/printables/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/printables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Been Busy</title>
+      <link>http://localhost:4321/post/been-busy/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/been-busy/</guid>
+      <description>I got to learn my modest way around geometry nodes while developing HEXES Mini Pack 04: Electronic Devices. I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was Sensor 21, based on an air quality dataset I explored for a portfolio project.&#xA;Made a walkthrough video to show my process for the antenna.</description>
+    </item>
     <item>
       <title>Still</title>
-      <link>https://afrikaniz3d.netlify.app/post/still/</link>
+      <link>http://localhost:4321/post/still/</link>
       <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/post/still/</guid>
+      <guid>http://localhost:4321/post/still/</guid>
       <description>Might just be the combination of things I’ve been focusing on lately, but finding a good fit is shifting more and more. So much changes in a month that the draft 2 weeks is so different to the draft of the night before. Found a way to make the data explorations more interesting while also getting to make new stuff as well as following through with older ideas. Nothing goes to waste.</description>
     </item>
-    
     <item>
       <title>Rings</title>
-      <link>https://afrikaniz3d.netlify.app/post/rings/</link>
+      <link>http://localhost:4321/post/rings/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/post/rings/</guid>
-      <description>Things are relatively quiet. Regular exercise and mindful eating. The Printer Challenge is still going along with the data exploration exercises. Happy with how the portfolio is shaping up.
-This website is an example of something I look forward to looking back on in months (and years) to come and be able so see how it slowly solidified - like examining the rings of a tree trunk with the passage of time (after you chop it down…?</description>
+      <guid>http://localhost:4321/post/rings/</guid>
+      <description>Things are relatively quiet. Regular exercise and mindful eating. The Printer Challenge is still going along with the data exploration exercises. Happy with how the portfolio is shaping up.&#xA;This website is an example of something I look forward to looking back on in months (and years) to come and be able so see how it slowly solidified - like examining the rings of a tree trunk with the passage of time (after you chop it down…?</description>
     </item>
-    
     <item>
       <title>What a Finish</title>
-      <link>https://afrikaniz3d.netlify.app/post/2022-12-30-what-a-finish/</link>
+      <link>http://localhost:4321/post/2022-12-30-what-a-finish/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/post/2022-12-30-what-a-finish/</guid>
-      <description>The past few days really drove home how much of a break I need. That coupled with the growing pains of using Linux was what really shifted the last two months by a few gears. It did, though, have surprising benefits.
-Started a “Prusa Printer Challenge” for myself in 2023&amp;gt;&amp;gt; as a way of turning free content into a new tool for the business. The contests on Printables are fun incentives to create - and be creative.</description>
+      <guid>http://localhost:4321/post/2022-12-30-what-a-finish/</guid>
+      <description>The past few days really drove home how much of a break I need. That coupled with the growing pains of using Linux was what really shifted the last two months by a few gears. It did, though, have surprising benefits.&#xA;Started a &amp;ldquo;Prusa Printer Challenge&amp;rdquo; for myself in 2023&amp;raquo; as a way of turning free content into a new tool for the business. The contests on Printables are fun incentives to create - and be creative.</description>
     </item>
-    
   </channel>
 </rss>

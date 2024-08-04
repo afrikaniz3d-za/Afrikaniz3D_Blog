@@ -1,0 +1,34 @@
+---
+title: M4
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+draft: true
+date: '2023-05-29'
+slug: retopologizing-m4
+categories:
+  - project
+tags:
+  - b3d
+  - blender
+  - client
+  - topology
+  - retopology
+image: 'img/portfolio/W13/w13000.webp'
+showonlyimage: yes
+---
+This was a client project I got some time back. The relationship with the client was a strange once, and it wouldn't make sense to comment further as I think the whole experience itself was something else. I was no angel myself, but what I took away from it was a lot more than a new monitor.
+
+![][1]
+
+The first piece - the receiver - was easily the hardest. The bug mistakes were:  
+    > support loops in general  
+    > not outlining the entire object first (planning ahead)  
+    >
+
+
+
+[1]: /img/portfolio/W13/w13001.webp
+[2]: /img/portfolio/W13/w13002.webp
+[3]: /img/portfolio/W13/w13003.webp
+[4]: /img/portfolio/W13/w13004.webp
+[5]: /img/portfolio/W13/w13005.webp
+[6]: /img/portfolio/W13/w13006.webp

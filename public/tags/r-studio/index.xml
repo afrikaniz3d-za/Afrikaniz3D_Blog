@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>r studio on Afrikaniz3D Blogfolio</title>
-    <link>https://afrikaniz3d.netlify.app/tags/r-studio/</link>
-    <description>Recent content in r studio on Afrikaniz3D Blogfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>R Studio on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/r-studio/</link>
+    <description>Recent content in R Studio on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afrikaniz3d.netlify.app/tags/r-studio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/r-studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chocolate Survey Terminal</title>
+      <link>http://localhost:4321/portfolio/chocolate-survey-terminal/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/chocolate-survey-terminal/</guid>
+      <description>This EDA was inspired by a Tidy Tuesday dataset that looked at the ratings of different cacao been suppliers in different countries. Rather than following the original data challenge, I decided to instead focus on the elements that dealt with South Africa (SA) because my first real look at the data showed that SA had received the lowest ratings.&#xA;The hypothetical challenge I set for myself was to use the data to identify what led to the poor ratings as well as what changes would need to be made to improve future results.</description>
+    </item>
+    <item>
+      <title>Been Busy</title>
+      <link>http://localhost:4321/post/been-busy/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/been-busy/</guid>
+      <description>I got to learn my modest way around geometry nodes while developing HEXES Mini Pack 04: Electronic Devices. I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was Sensor 21, based on an air quality dataset I explored for a portfolio project.&#xA;Made a walkthrough video to show my process for the antenna.</description>
+    </item>
     <item>
       <title>Vibes</title>
-      <link>https://afrikaniz3d.netlify.app/post/vibes/</link>
+      <link>http://localhost:4321/post/vibes/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/post/vibes/</guid>
-      <description>There was a theme and set of topics set for this month that had to be scrapped,
-so this post will touch on some other stuff to keep the monthly train going - and hopefully let off some real steam on the outside.
-Got back into reading for the habit more than the learning. I try to do it first thing everyday while it&amp;rsquo;s still dark. It sets such a good tone for the day.</description>
+      <guid>http://localhost:4321/post/vibes/</guid>
+      <description>There was a theme and set of topics set for this month that had to be scrapped,&#xA;so this post will touch on some other stuff to keep the monthly train going - and hopefully let off some real steam on the outside.&#xA;Got back into reading for the habit more than the learning. I try to do it first thing everyday while it&amp;rsquo;s still dark. It sets such a good tone for the day.</description>
     </item>
-    
+    <item>
+      <title>Renewable Energy in South Africa</title>
+      <link>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</guid>
+      <description>The purpose of this data exploration is to apply and the practice the skills gained from the Google Data Analytics Professional Certification. The data being explored relates to South African energy, primarily electricity. This exercise will be replicated on other tools later on such as Power BI and SQL.&#xA;The datasets are mostly in .csv format and were collected from the following sources:&#xA;Eskom&#xA;World Bank&#xA;Energy Data&#xA;Regulatory Indicator for Sustainable Energy (RISE)</description>
+    </item>
   </channel>
 </rss>

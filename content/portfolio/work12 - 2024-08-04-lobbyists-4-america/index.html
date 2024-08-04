@@ -1,0 +1,196 @@
+---
+title: Lobbyists 4 America
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2024-08-04'
+slug: lobbyists-4-america
+categories:
+  - project
+tags:
+  - analytics
+  - sql
+  - data science
+  - sentiment analysis
+  - a/b testing
+  - etl
+  - cte
+  - coursera
+  - uc davis
+  - mode analytics
+  - databricks
+  - python
+  
+draft: no
+image: 'img/portfolio/W12/w12000.webp'
+showonlyimage: yes
+---
+
+
+
+<div id="project-overview" class="section level2">
+<h2>1. Project Overview</h2>
+<p>The following presentation is geared at anyone interested at taking a short look into how a political-twitter dataset is used to inform a general strategy for the client, <strong>Lobbyists4America</strong>, to incrementally improve the presence and shareability of their message on <a href="https://twitter.com">Twitter</a>.</p>
+</div>
+<div id="the-audience-for-this-project" class="section level2">
+<h2>2. The Audience for this project</h2>
+<p>As part of a <a href="https://www.coursera.org/learn/sql-data-science-capstone/home/info">capstone project</a>, this presentation is directed at an <strong>external audience</strong> interested in seeing what steps were taken to extract the necessary insights from the supplied dataset to formulate data-driven frameworks that inform messaging strategies using machine learning (ML) and other forms of analysis.</p>
+</div>
+<div id="thoughts-going-in" class="section level2">
+<h2>3. Thoughts going in</h2>
+<div id="assumptions" class="section level4">
+<h4>3.1 Assumptions</h4>
+<p>The framing of the brief initially led me to believe I’d be looking at “typically-political” entries, lots of name-calling, championing for the rights of the people, name-calling etc.</p>
+<p>I was also expecting a relatively balanced representation of Republicans vs Democrats - speaking directly to one another, pointing out faults and shortcomings.</p>
+<p>All-in-all, theatre.</p>
+</div>
+<div id="hypotheses" class="section level4">
+<h4>3.2 Hypotheses</h4>
+<p>Given that the platform of the chosen discourse is Twitter, engagement (mostly in the form of likes and retweets) would be a really good indicator to discern how well the message is being delivered. The following are my main hypotheses:</p>
+<div id="the-more-engagement-the-more-effective-the-tweetuser-is-at-getting-the-message-across" class="section level5">
+<h5>3.2.1 The more engagement, the more effective the tweet/user is at getting the message across</h5>
+<p>For the purposes of this project, engagement is used to refer to mainly likes and retweets</p>
+</div>
+<div id="negativity-drives-conversation" class="section level5">
+<h5>3.2.2 Negativity drives conversation</h5>
+<p>Here I want to look at the tone/slant of the users that get the most engagement is usually negative.</p>
+</div>
+</div>
+</div>
+<div id="bringing-the-data-into-databricks" class="section level2">
+<h2>4. Bringing the data into Databricks</h2>
+<p>There are two tables, name ‘tweets’ and ‘users’. They are both in JSON format and are downloaded off-site. Because I decided to use Databricks rather than the Jupyter notebook on Coursera’s Sandbox platform, I had to take slightly different routes to perform the same actions shown in the course literature.</p>
+<p>After uploading the two files to the platform’s DBFS I executed the following cells to create the tables, making them usable for the exploration:</p>
+<div id="importing-the-tweets-json-file-from-the-dbfs" class="section level4">
+<h4>4.1 Importing the tweets JSON file from the DBFS</h4>
+<pre class="[r]"><code>file_location = &quot;/FileStore/tables/tweets-30.json&quot;
+file_type = &quot;json&quot;
+
+infer_schema = &quot;false&quot;
+first_row_is_header = &quot;false&quot;
+delimiter = &quot;,&quot;
+
+df = spark.read.format(file_type) \
+  .option(&quot;inferSchema&quot;, infer_schema) \
+  .option(&quot;header&quot;, first_row_is_header) \
+  .option(&quot;sep&quot;, delimiter) \
+  .load(file_location)
+
+df_limit = df.limit(5)
+display(df_limit)  </code></pre>
+</div>
+<div id="making-tweets-a-permanent-table" class="section level4">
+<h4>4.2 Making tweets a permanent table</h4>
+<pre class="[r]"><code>permanent_table_name = &quot;tweets&quot;
+
+path = &quot;dbfs:/user/hive/warehouse/tweets_20240502&quot;
+df.write.format(&quot;parquet&quot;).mode(&quot;overwrite&quot;).option(&quot;path&quot;, path).saveAsTable(permanent_table_name)  </code></pre>
+</div>
+<div id="importing-the-users-json-file-from-the-dbfs" class="section level4">
+<h4>4.3 Importing the users JSON file from the DBFS</h4>
+<pre class="[r]"><code>file_location = &quot;/FileStore/tables/users-30.json&quot;
+file_type = &quot;json&quot;
+
+infer_schema = &quot;false&quot;
+first_row_is_header = &quot;false&quot;
+delimiter = &quot;,&quot;
+
+df = spark.read.format(file_type) \
+  .option(&quot;inferSchema&quot;, infer_schema) \
+  .option(&quot;header&quot;, first_row_is_header) \
+  .option(&quot;sep&quot;, delimiter) \
+  .load(file_location)
+
+df_limit = df.limit(5)
+display(df_limit)  </code></pre>
+</div>
+<div id="making-users-a-permanent-table" class="section level4">
+<h4>4.4 Making users a permanent table</h4>
+<pre class="[r]"><code>permanent_table_name = &quot;users&quot;
+path = &quot;dbfs:/user/hive/warehouse/users_20240502&quot;
+df.write.format(&quot;parquet&quot;).mode(&quot;overwrite&quot;).option(&quot;path&quot;, path).saveAsTable(permanent_table_name)  </code></pre>
+<p>With the above four (4) cells executed, the tables are now usable in any notebook on a newly-created cluster in Community edition of Databricks without having to re-upload them every time I log in. The next thing to do is to take a look at the data.</p>
+</div>
+</div>
+<div id="first-look" class="section level2">
+<h2>5. First Look</h2>
+<div id="looking-at-the-tweets-table" class="section level4">
+<h4>5.1 Looking at the tweets table</h4>
+<div class="float">
+<img src="/img/portfolio/W12/w12001.webp" alt="20. Looking at tweets table variables gif" />
+<div class="figcaption">20. Looking at tweets table variables gif</div>
+</div>
+</div>
+<div id="looking-at-the-users-table" class="section level4">
+<h4>5.2 Looking at the users table</h4>
+<div class="float">
+<img src="/img/portfolio/W12/w12002.webp" alt="22. Looking at users table variables" />
+<div class="figcaption">22. Looking at users table variables</div>
+</div>
+</div>
+<div id="descriptive-stats" class="section level4">
+<h4>5.3 Descriptive Stats</h4>
+<p>To make sure I was able to keep the size of the notebook below 10.4MB, I have omitted the queries and simply listed the resultant figures. I’ve you’d like to take a look at the calculations feel free to contact me.</p>
+<div id="the-tweets-table" class="section level5">
+<h5>5.3.1 The tweets table</h5>
+<p><strong>Tweet Counts</strong>:<br />
+• Mean: 2 281 tweets<br />
+• Mode: 3 258 tweets (RepDonBeyer)<br />
+• Range: min 4 (GregHarper), max 3 258 (RepDonBeyer) tweets</p>
+<p><strong>Tweet Length</strong>:<br />
+• Mean: 120 characters<br />
+• Median: 132 characters<br />
+• Mode: 140 characters<br />
+• Range: min 0, max 415 characters</p>
+<p><strong>Retweets</strong>:<br />
+• Mean: 190 retweets<br />
+• Median: 4 retweets<br />
+• Mode: 1 retweet<br />
+• Range: min 0, max 3 637 896 retweets</p>
+<p><strong>Favourites</strong>:<br />
+• Mean: 200 favourites<br />
+• Median: 2 favourites<br />
+• Mode: 0 favourites<br />
+• Range: min 0, max 984 832 favourites</p>
+<p><strong>Conclusion</strong><br />
+The tweets table contains a total of 1 243 370 tweets of an average length of 120 characters. Tweets received an average of 190 retweets - the lowest being 0 and the most retweeted tweet receiving 3 637 896 retweets. Tweets were favourited an average of 200 times, with the highest receiving 984 832 favourites.</p>
+</div>
+<div id="the-users-table" class="section level5">
+<h5>5.3.2 The users table</h5>
+<p><strong>Description Length</strong>:<br />
+• Mean: 99 characters<br />
+• Median: 102 characters<br />
+• Mode: 160 characters<br />
+• Range: min 0, max 160 characters</p>
+<p><strong>Favourites</strong>: (referring to how many tweets the user has favourited/liked)<br />
+• Mean: 413 favourites<br />
+• Median: 120 favourites<br />
+• Mode: 0 favourites<br />
+• Range: min , max 12 507 favourites</p>
+<p><strong>Followers</strong>:<br />
+• Mean: 163 433 followers<br />
+• Median: 16 690 followers<br />
+• Mode: 5 100 followers<br />
+• Range: min 4, max 31 712 585 followers</p>
+<p><strong>Friends</strong>:<br />
+• Mean: 2033 friends<br />
+• Median: 748 friends<br />
+• Mode: 4 friends<br />
+• Range: min 0, max 92 934 friends</p>
+<p><strong>Listed</strong>:<br />
+• Mean: 1340 lists<br />
+• Median: 749 lists<br />
+• Mode: 498 lists<br />
+• Range: min 0, max 70 660 lists</p>
+<p><strong>Statuses</strong>:<br />
+• Mean: 3658 statuses<br />
+• Median: 2682 statuses<br />
+• Mode: 0 statuses<br />
+• Range: min 0, max 59 535 statuses</p>
+<p><strong>Conclusion</strong><br />
+The users table contains the information pertaining to the 545 (or 548*) users that generated the posts from the tweets table. Although there a number of variables that can not be aggregated due to being things like default-formatted links or colour hexcodes, the table still contained information like each user having an average description length of 99 characters, had between 0 and 12 507 favourites – averaging 413 per user, between 4 and 31 712 585 followers, 0 and 92 934 friends, listed between 0 and 70 660 times, and had between 0 and 59 535 statuses, averaging 3658 per user.</p>
+</div>
+</div>
+<div id="what-stood-out" class="section level4">
+<h4>5.4 What stood out</h4>
+<p>Apart from the columns that the dataset could have done without (discussed in the next section) I found some other details that I think anyone working with this dataset needs to be mindful of.</p>
+</div>
+</div>

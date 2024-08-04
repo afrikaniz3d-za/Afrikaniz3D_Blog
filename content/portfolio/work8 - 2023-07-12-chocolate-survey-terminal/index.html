@@ -1,0 +1,469 @@
+---
+title: Chocolate Survey Terminal
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2023-07-12'
+slug: chocolate-survey-terminal
+categories:
+  - project
+tags:
+  - tidy tuesday
+  - south africa
+  - r studio
+  - practice
+  - kitbash
+  - dataset
+  - data exploration
+  - client
+  - b3d
+  - blender
+  - chocolate
+  - survey
+  - eda
+draft: yes
+image: 'img/portfolio/W8/w8000.webp'
+showonlyimage: yes
+---
+
+
+
+<p><img src="/img/portfolio/W8/w8001.webp" /><br />
+<img src="/img/portfolio/W8/w8009.webp" /></p>
+<p>This EDA was inspired by a <strong><em>Tidy Tuesday</em></strong> dataset that looked at the ratings of different cacao been suppliers in different countries. Rather than following the original data challenge, I decided to instead focus on the elements that dealt with South Africa (SA) because my first real look at the data showed that SA had received the lowest ratings.</p>
+<p>The hypothetical challenge I set for myself was to use the data to identify what led to the poor ratings as well as what changes would need to be made to improve future results.</p>
+<p>The project is divided into two parts:<br />
+- <strong>Part 1</strong> is an exploratory data analysis of the data<br />
+- <strong>Part 2</strong> is the creation of an electronic device that could be used to test the results</p>
+<p>The the exploratory segment I went into this exercise with a specific set of questions that were going to impact what I looked for and what I wouldn’t look too deep into. The questions are:<br />
+- Where did South Africa rank overall?
+- What company produces the most popular bean?
+- What is the most popular ingredient combination?</p>
+<p>The answers from the questions above will help make an informed recommendation for some changes that a potential client might be looking to make to improve the performance of their chocolate product.</p>
+<p>I also didn’t rule out new questions being introduced where they could make certain points clearer.</p>
+<p><img src="/img/portfolio/W8/w8002.webp" /></p>
+<p>The methodology used is outlined in <a href="https://youtube.com/@RProgramming101/">R Programming 101’s</a> series of tutorials. There were a number of other creators such as <a href="https://youtube.com/@StatisticsGlobe">Statistics Globe</a> and <a href="https://youtube.com/@dataslice">Data Slice</a> that I refer back to often when working on EDA’s.</p>
+<p>The first step is loading all the packages to be used:</p>
+<pre class="[r]"><code>library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(gganimate)
+library(ggthemes)
+library(gifski)</code></pre>
+<p>I brought the dataset into the <strong><em>Environment</em></strong> using the chunk above, then used <strong><em>glimpse()</em></strong> for a quick inspection.</p>
+<pre class="[r]"><code>chocolate &lt;- read.csv(&quot;/home/afrikaniz3d/choglud/0_tidy_data/chocolate.txt&quot;)</code></pre>
+<pre class="[r]"><code>&gt; glimpse(chocolate)
+Rows: 2,530
+Columns: 10
+$ ref                              &lt;int&gt; 2454, 2458, 2454, 2542, 2546, 2546, 2542, 797, 797, 1011, 1015…
+$ company_manufacturer             &lt;chr&gt; &quot;5150&quot;, &quot;5150&quot;, &quot;5150&quot;, &quot;5150&quot;, &quot;5150&quot;, &quot;5150&quot;, &quot;5150&quot;, &quot;A. Mo…
+$ company_location                 &lt;chr&gt; &quot;U.S.A.&quot;, &quot;U.S.A.&quot;, &quot;U.S.A.&quot;, &quot;U.S.A.&quot;, &quot;U.S.A.&quot;, &quot;U.S.A.&quot;, &quot;U…
+$ review_date                      &lt;int&gt; 2019, 2019, 2019, 2021, 2021, 2021, 2021, 2012, 2012, 2013, 20…
+$ country_of_bean_origin           &lt;chr&gt; &quot;Tanzania&quot;, &quot;Dominican Republic&quot;, &quot;Madagascar&quot;, &quot;Fiji&quot;, &quot;Venez…
+$ specific_bean_origin_or_bar_name &lt;chr&gt; &quot;Kokoa Kamili, batch 1&quot;, &quot;Zorzal, batch 1&quot;, &quot;Bejofo Estate, ba…
+$ cocoa_percent                    &lt;chr&gt; &quot;76%&quot;, &quot;76%&quot;, &quot;76%&quot;, &quot;68%&quot;, &quot;72%&quot;, &quot;80%&quot;, &quot;68%&quot;, &quot;70%&quot;, &quot;63%&quot;,…
+$ ingredients                      &lt;chr&gt; &quot;3- B,S,C&quot;, &quot;3- B,S,C&quot;, &quot;3- B,S,C&quot;, &quot;3- B,S,C&quot;, &quot;3- B,S,C&quot;, &quot;3…
+$ most_memorable_characteristics   &lt;chr&gt; &quot;rich cocoa, fatty, bready&quot;, &quot;cocoa, vegetal, savory&quot;, &quot;cocoa,…
+$ rating                           &lt;dbl&gt; 3.25, 3.50, 3.75, 3.00, 3.00, 3.25, 3.50, 3.50, 3.75, 2.75, 2.…  </code></pre>
+<p><img src="/img/portfolio/W8/w8003.webp" /></p>
+<p>The next step was checking for duplicates or misspellings. I did this by using the <strong><em>unique()</em></strong> function in each column/variable.</p>
+<pre class="[r]"><code>&gt; unique(chocolate$ref)
+  [1] 2454 2458 2542 2546  797 1011 1015 1019 1315 1319 1676 1680 1704 1876 2206 2648 1462 1470 2462 2470  705 2438 2442  370
+ [25]  316  502  508  636 1061 1173 1215 1992 1944 1125 1133 1129 1732 1728 2044  147  129  175  304  363  544  470  725  327
+ [49]  464  322 1964 1145 1494 1498   75  123  170  979 2088 2092 2434  572 1065 1259 1852 2586 1379 1375 1602 1534 1598 1904
+ [73] 1928 1724 1900 1908 1924 2020 2028 2024 2068 2254 2450 2330 2166 2162  300  355  486  600  531  745  729  947 1193 1181
+ [97] 2562 2566  141  331  647  661 1780 2056 2672  999  995 1474 2146 1454 2290 2294  983 1295 1554 1980  955 1880 1840 1868
+[121] 2374 1948 1784 1788  586 1804 1800 1864 2190 1768 2246  773  757 1141 1482 1486 2084  233  256  414  423  431  558  565
+[145]  478  963 2108 2114 2422 2574 1331 2590 1046  911 1752 1756 1740 1996   81   24   32   48  199  336  395  761  629  672
+[169] 1042 1038 1418 1339 1912 2250 2554  341 1267 1271 2194 2096 1255 1355 1984 1518 1514 1149 1235 1231 1638 2052 1323 1299
+[193] 1303 2314 2274 2266 1606 1716 2226 2230 1391 1395 1668 1692 1688 2238 2278 2076 1434 1430 1662 1816 1860  641  991  346
+[217]  537  523 2510 1684 2610 2614  259  245  237  296  749  765  809 1185 1442 1808 2558  266  269 1263 2626 2630  845  841
+[241] 1586 1582 1884 1888 2154 2394 2402 1105 1153 1101 1109 1407 1347 1371 1570 1574 1956 2354 2688 1247 1251  404 1426 2676
+[265]  252 2202 2668 1696 2298 1772 1760 1764 1530  919 1121 2700 2134 1219 2080  682 1832 2594 2598  117  209  439 1522  377
+[289] 2534 2514 2638 2310 2306  666  445  227 2474 2606  292  579 1630 1916 2684  196  220  451  817  813  959  821 1169  971
+[313]  975 1283 1335 1736 2466 2502 2656 2526 2522 2622  785 1654 1666 1610 2064  805  915 1026 1085 1387 1446 2178 2386 2602
+[337] 2550  654  987 1223 1920 2342 1550 1708  907 1093  180  263 2222  166  241  769  895 1034 1634 1952 1972 2016 2258 2270
+[361] 2406  311   63   87  135  192  111  272  693  863 1672 2040 2696 2390  516  697  623  923 2100 2366 1506 1626 1343 1812
+[385] 2358  709  206 2382 1137 1450 2118 2198 2350 1209 1205  903 2570 1275 2142 2664  105   56  494 1287 2482 2478 2486 2398
+[409] 2150 1776 2072 2430 2712 2318 2322 2326 2122 1351 1542 1538  781  887  883 1940  688  642  931  899  927 1030 1081 1117
+[433] 1383 2174 2708 2642 2644 2704 2000 2126 2130  753 1359 1367 1642 1646 2012 2282 1848 2032 2446  741 2692   15 1896 2060
+[457]   99   93  276  387  552 1053 1197 1201 1327  701 1700 2378 2302 1748 1243 1239 1744 1458 1546 1712 2426 1466 1872 1113
+[481] 1097 1307 1311  737  733 2008  943 1279    5 1976 2104 2218 2214 1069 1073 2498 2338 2334  837  248 1968 2286 1422 1363
+[505]  597  576  891 1892 2138  230 1189  721  713 2186 2182 1438 1590 1594  833  853 2048 2262 1566 1562 1856  855  157 2538
+[529] 1049 1502 2518 2506  284  288  607 1089  308  184 1007 1003  871  875 1844 1478 2158  849 1650 1836  777 1177 1291 2362
+[553] 2170 2210 1490 2112  825 2346 1960 2370 2652 1618 1614 2680 1658 2490  867 1399 2418 1403 1526 1022  935 1558 1411 2494
+[577] 2582  457 2036 1161 1165  859  224 1415 2234 1720 1510 2530  829  789 1820   40  162  280  202  717 2410 2414 1227 1988
+[601] 1057 1796 2618  967  213  793 2004 2660  615  188 1622 1792 1157  676  951 1077 1828 2242 1932 1936  939 2634  801  153
+[625] 1211 2578  593 1578 1824  879</code></pre>
+<p>There are 630 recorded reference numbers. This is the number I’ll be looking for when going through the next variable - “company_manufacturer”</p>
+<pre class="[r]"><code>&gt; unique(chocolate$company_manufacturer)
+  [1] &quot;5150&quot;                                    &quot;A. Morin&quot;                               
+  [3] &quot;Acalli&quot;                                  &quot;Adi aka Fijiana (Easy In Ltd)&quot;          
+  [5] &quot;Aelan&quot;                                   &quot;Aequare (Gianduja)&quot;                     
+  [7] &quot;Ah Cacao&quot;                                &quot;Akesson&#39;s (Pralus)&quot;                     
+  [9] &quot;Alain Ducasse&quot;                           &quot;Alexandre&quot;                              
+ [11] &quot;Altus aka Cao Artisan&quot;                   &quot;Amano&quot;                                  
+ [13] &quot;Amatller (Simon Coll)&quot;                   &quot;Amazing Cacao&quot;                          
+ [15] &quot;Amazona&quot;                                 &quot;Ambrosia&quot;                               
+ [17] &quot;Amedei&quot;                                  &quot;AMMA&quot;                                   
+ [19] &quot;Anahata&quot;                                 &quot;Animas&quot;                                 
+ [21] &quot;Ara&quot;                                     &quot;Arete&quot;                                  
+ [23] &quot;Argencove&quot;                               &quot;Artisan du Chocolat&quot;                    
+ [25] &quot;Artisan du Chocolat (Casa Luker)&quot;        &quot;Aruntam&quot;                                
+ [27] &quot;Askinosie&quot;                               &quot;Atypic&quot;                                 
+ [29] &quot;Auro&quot;                                    &quot;Avanaa&quot;                                 
+ [31] &quot;Bahen &amp; Co.&quot;                             &quot;Baiani&quot;                                 
+ [33] &quot;Bakau&quot;                                   &quot;Bankston&quot;                               
+ [35] &quot;Bar Au Chocolat&quot;                         &quot;Baravelli&#39;s&quot;                            
+ [37] &quot;Batch&quot;                                   &quot;Bean&quot;                                   
+ [39] &quot;Beau Cacao&quot;                              &quot;Beehive&quot;                                
+ [41] &quot;Belcolade&quot;                               &quot;Bellflower&quot;                             
+ [43] &quot;Belvie&quot;                                  &quot;Belyzium&quot;                               
+ [45] &quot;Benns&quot;                                   &quot;Benoit Nihant&quot;                          
+ [47] &quot;Bernachon&quot;                               &quot;Beschle (Felchlin)&quot;                     
+ [49] &quot;Bisou&quot;                                   &quot;Bitacora&quot;                               
+ [51] &quot;Bittersweet Origins&quot;                     &quot;Bixby&quot;                                  
+ [53] &quot;Black Mountain&quot;                          &quot;Black River (A. Morin)&quot;                 
+ [55] &quot;Black Sheep&quot;                             &quot;Blanxart&quot;                               
+ [57] &quot;Blue Bandana&quot;                            &quot;Boho&quot;                                   
+ [59] &quot;Bonaterra&quot;                               &quot;Bonnat&quot;                                 
+ [61] &quot;Bouga Cacao (Tulicorp)&quot;                  &quot;Bowler Man&quot;                             
+ [63] &quot;Brasstown&quot;                               &quot;Brasstown aka It&#39;s Chocolate&quot;           
+ [65] &quot;Brazen&quot;                                  &quot;Breeze Mill&quot;                            
+ [67] &quot;Bright&quot;                                  &quot;Britarev&quot;                               
+ [69] &quot;Bronx Grrl Chocolate&quot;                    &quot;Bullion&quot;                                
+ [71] &quot;Burnt Fork Bend&quot;                         &quot;By Cacao&quot;                               
+ [73] &quot;Cacai Cacao&quot;                             &quot;Cacao 70&quot;                               
+ [75] &quot;Cacao Arabuco&quot;                           &quot;Cacao Atlanta&quot;                          
+ [77] &quot;Cacao Barry&quot;                             &quot;Cacao Betulia&quot;                          
+ [79] &quot;Cacao de Origen&quot;                         &quot;Cacao Gonzales&quot;                         
+ [81] &quot;Cacao Hunters&quot;                           &quot;Cacao Market&quot;                           
+ [83] &quot;Cacao Prieto&quot;                            &quot;Cacao Sampaka&quot;                          
+ [85] &quot;Cacao Santa Fe (Art of Chocolate)&quot;       &quot;Cacao Store&quot;                            
+ [87] &quot;Cacaodada&quot;                               &quot;Cacaosuyo&quot;                              
+ [89] &quot;Cacaoyere (Ecuatoriana)&quot;                 &quot;Callebaut&quot;                              
+ [91] &quot;C-Amaro&quot;                                 &quot;Cao&quot;                                    
+ [93] &quot;Caofiori&quot;                                &quot;Caoni (Tulicorp)&quot;                       
+ [95] &quot;Captain Pembleton&quot;                       &quot;CAR Artisan&quot;                            
+ [97] &quot;Caribeans&quot;                               &quot;Carlotta Chocolat&quot;                      
+ [99] &quot;Casa&quot;                                    &quot;Casa Lasevicius&quot;                        
+[101] &quot;Castronovo&quot;                              &quot;Cello&quot;                                  
+[103] &quot;Cemoi&quot;                                   &quot;Chaleur B&quot;                              
+[105] &quot;Chapon&quot;                                  &quot;Charm School&quot;                           
+[107] &quot;Chchukululu (Tulicorp)&quot;                  &quot;Chequessett&quot;                            
+[109] &quot;Chloe Chocolat&quot;                          &quot;Chocablog&quot;                              
+[111] &quot;Choco Del Sol&quot;                           &quot;Choco Dong&quot;                             
+[113] &quot;Chococard (Lapos)&quot;                       &quot;Chocolarder&quot;                            
+[115] &quot;Chocola&#39;te&quot;                              &quot;Chocolate Alchemist-Philly&quot;             
+[117] &quot;Chocolate Con Amor&quot;                      &quot;Chocolate Conspiracy&quot;                   
+[119] &quot;Chocolate Makers&quot;                        &quot;Chocolate Tree&quot;                         
+[121] &quot;Chocolates by Josh (Box Chocolate)&quot;      &quot;Chocolatoa&quot;                             
+[123] &quot;Chocolats Privilege&quot;                     &quot;Chocolibrium&quot;                           
+[125] &quot;ChocoReko&quot;                               &quot;Chocosol&quot;                               
+[127] &quot;Chocotenango&quot;                            &quot;Chocovic&quot;                               
+[129] &quot;Chocovivo&quot;                               &quot;Choklat&quot;                                
+[131] &quot;Chokola&quot;                                 &quot;Chokolat Elot (Girard)&quot;                 
+[133] &quot;Christophe Toury&quot;                        &quot;Christopher Elbow&quot;                      
+[135] &quot;Christopher Morel (Felchlin)&quot;            &quot;Chuao Chocolatier&quot;                      
+[137] &quot;Chuao Chocolatier (Pralus)&quot;              &quot;Claudio Corallo&quot;                        
+[139] &quot;Cleveland Chocolate Company&quot;             &quot;Cloudforest&quot;                            
+[141] &quot;Coco&quot;                                    &quot;Cocoa Carib&quot;                            
+[143] &quot;Cocoa Forge&quot;                             &quot;Compania de Chocolate (Salgado)&quot;        
+[145] &quot;Condor&quot;                                  &quot;Confluence&quot;                             
+[147] &quot;Conjure&quot;                                 &quot;Coppeneur&quot;                              
+[149] &quot;Cote d&#39; Or (Kraft)&quot;                      &quot;Cravve&quot;                                 
+[151] &quot;Creo&quot;                                    &quot;Crow and Moss&quot;                          
+[153] &quot;Cultura&quot;                                 &quot;Cuna de Piedra&quot;                         
+[155] &quot;Daintree&quot;                                &quot;Dalloway&quot;                               
+[157] &quot;Damson&quot;                                  &quot;Dancing Lion&quot;                           
+[159] &quot;Dandelion&quot;                               &quot;Dandelion (aka Brower Ave)&quot;             
+[161] &quot;Dandelion (Japan)&quot;                       &quot;Danta&quot;                                  
+[163] &quot;DAR&quot;                                     &quot;Darcis&quot;                                 
+[165] &quot;Dark Forest&quot;                             &quot;Davis&quot;                                  
+[167] &quot;De Mendes&quot;                               &quot;De Villiers&quot;                            
+[169] &quot;Dean and Deluca (Belcolade)&quot;             &quot;Debauve &amp; Gallais (Michel Cluizel)&quot;     
+[171] &quot;Definite&quot;                                &quot;Desbarres&quot;                              
+[173] &quot;DeVries&quot;                                 &quot;Dick Taylor&quot;                            
+[175] &quot;Diogo Vaz&quot;                               &quot;Doble &amp; Bignall&quot;                        
+[177] &quot;Dole (Guittard)&quot;                         &quot;Dolfin (Belcolade)&quot;                     
+[179] &quot;Domori&quot;                                  &quot;Dormouse&quot;                               
+[181] &quot;Double Spiral&quot;                           &quot;Duffy&#39;s&quot;                                
+[183] &quot;Dulcinea&quot;                                &quot;Durand&quot;                                 
+[185] &quot;Durci&quot;                                   &quot;East Van Roasters&quot;                      
+[187] &quot;Eau de Rose&quot;                             &quot;Eclat (Felchlin)&quot;                       
+[189] &quot;Eclat (Fruition)&quot;                        &quot;Edelmond&quot;                               
+[191] &quot;El Buen&quot;                                 &quot;El Ceibo&quot;                               
+[193] &quot;El Rey&quot;                                  &quot;Eldora&quot;                                 
+[195] &quot;Emerald Estate&quot;                          &quot;Emily&#39;s&quot;                                
+[197] &quot;Encuentro&quot;                               &quot;ENNA&quot;                                   
+[199] &quot;Enric Rovira (Claudio Corallo)&quot;          &quot;Erithaj (A. Morin)&quot;                     
+[201] &quot;Escazu&quot;                                  &quot;Ethel&#39;s Artisan (Mars)&quot;                 
+[203] &quot;Ethereal&quot;                                &quot;Exquisito&quot;                              
+[205] &quot;Fearless (AMMA)&quot;                         &quot;Feitoria Cacao&quot;                         
+[207] &quot;Felchlin&quot;                                &quot;Finca&quot;                                  
+[209] &quot;Finnia&quot;                                  &quot;Firetree&quot;                               
+[211] &quot;Five (5)Mile&quot;                            &quot;FJAK&quot;                                   
+[213] &quot;Forever Cacao&quot;                           &quot;Forteza (Cortes)&quot;                       
+[215] &quot;Fossa&quot;                                   &quot;Foundry&quot;                                
+[217] &quot;Franceschi&quot;                              &quot;Frederic Blondeel&quot;                      
+[219] &quot;French Broad&quot;                            &quot;Fresco&quot;                                 
+[221] &quot;Fresh Coast&quot;                             &quot;Fresh Coast aka Just Good Choc.&quot;        
+[223] &quot;Friis Holm&quot;                              &quot;Friis Holm (Bonnat)&quot;                    
+[225] &quot;Fruition&quot;                                &quot;Fu Wan&quot;                                 
+[227] &quot;Garden Island&quot;                           &quot;Georgia Ramon&quot;                          
+[229] &quot;Glennmade&quot;                               &quot;Goodnow Farms&quot;                          
+[231] &quot;Gotham&quot;                                  &quot;Grand Place&quot;                            
+[233] &quot;Great Lakes&quot;                             &quot;Green &amp; Black&#39;s (ICAM)&quot;                 
+[235] &quot;Green Bean to Bar&quot;                       &quot;Green Door&quot;                             
+[237] &quot;Grenada Chocolate Co.&quot;                   &quot;Guido Castagna&quot;                         
+[239] &quot;Guittard&quot;                                &quot;Habitual&quot;                               
+[241] &quot;Hachez&quot;                                  &quot;Hacienda El Castillo&quot;                   
+[243] &quot;Haigh&quot;                                   &quot;Harper Macaw&quot;                           
+[245] &quot;Harris &amp; James&quot;                          &quot;Hazel Hill&quot;                             
+[247] &quot;Hecho&quot;                                   &quot;Heilemann&quot;                              
+[249] &quot;Heinde &amp; Verre&quot;                          &quot;Heirloom Cacao Preservation (Brasstown)&quot;
+[251] &quot;Heirloom Cacao Preservation (Fruition)&quot;  &quot;Heirloom Cacao Preservation (Guittard)&quot; 
+[253] &quot;Heirloom Cacao Preservation (Manoa)&quot;     &quot;Heirloom Cacao Preservation (Millcreek)&quot;
+[255] &quot;Heirloom Cacao Preservation (Mindo)&quot;     &quot;Heirloom Cacao Preservation (Zokoko)&quot;   
+[257] &quot;hello cocoa (now Markham &amp; Fitz)&quot;        &quot;Hemisphere&quot;                             
+[259] &quot;hexx&quot;                                    &quot;Hogarth&quot;                                
+[261] &quot;Hoja Verde (Tulicorp)&quot;                   &quot;Holy Cacao&quot;                             
+[263] &quot;Honest&quot;                                  &quot;Hotel Chocolat&quot;                         
+[265] &quot;Hotel Chocolat (Coppeneur)&quot;              &quot;Hummingbird&quot;                            
+[267] &quot;Idilio (Felchlin)&quot;                       &quot;Indah&quot;                                  
+[269] &quot;Indi&quot;                                    &quot;iQ Chocolate&quot;                           
+[271] &quot;Isidro&quot;                                  &quot;Islands Chocolate&quot;                      
+[273] &quot;Izard&quot;                                   &quot;Jacque Torres&quot;                          
+[275] &quot;Jean Marie Auboine&quot;                      &quot;Johnny Iuzzini&quot;                         
+[277] &quot;Jordis&quot;                                  &quot;Kad Kokoa&quot;                              
+[279] &quot;Kah Kow&quot;                                 &quot;Kah Kow - USA&quot;                          
+[281] &quot;Kaitxo&quot;                                  &quot;Kakao&quot;                                  
+[283] &quot;Kallari (Ecuatoriana)&quot;                   &quot;Kaoka (Cemoi)&quot;                          
+[285] &quot;Kasama&quot;                                  &quot;Kerchner&quot;                               
+[287] &quot;Ki&#39; Xocolatl&quot;                            &quot;Kin + Pod&quot;                              
+[289] &quot;Kiskadee&quot;                                &quot;Krak&quot;                                   
+[291] &quot;Kto&quot;                                     &quot;K&#39;ul&quot;                                   
+[293] &quot;Kyya&quot;                                    &quot;L.A. Burdick (Felchlin)&quot;                
+[295] &quot;La Cascade du Chocolat&quot;                  &quot;La Chocolaterie Nanairo&quot;                
+[297] &quot;La Chorena&quot;                              &quot;La Feverie (Hasnaa)&quot;                    
+[299] &quot;La Maison du Chocolat (Valrhona)&quot;        &quot;La Oroquidea&quot;                           
+[301] &quot;La Pepa de Oro&quot;                          &quot;La Rifa&quot;                                
+[303] &quot;Laia aka Chat-Noir&quot;                      &quot;Lajedo do Ouro&quot;                         
+[305] &quot;Lake Champlain (Callebaut)&quot;              &quot;L&#39;Amourette&quot;                            
+[307] &quot;Land&quot;                                    &quot;Landmark (Amano)&quot;                       
+[309] &quot;Legast&quot;                                  &quot;Letterpress&quot;                            
+[311] &quot;Levy&quot;                                    &quot;Lilla&quot;                                  
+[313] &quot;Lillie Belle&quot;                            &quot;Lindt &amp; Sprungli&quot;                       
+[315] &quot;Lirio&quot;                                   &quot;Loiza&quot;                                  
+[317] &quot;Lonohana&quot;                                &quot;Loon&quot;                                   
+[319] &quot;Love Bar&quot;                                &quot;Love Brown&quot;                             
+[321] &quot;Luisa Abram&quot;                             &quot;Luisa&#39;s Vegan&quot;                          
+[323] &quot;Luker&quot;                                   &quot;Lumineux&quot;                               
+[325] &quot;Machu Picchu Trading Co.&quot;                &quot;MaDe Atlantic City Chocolate Bar&quot;       
+[327] &quot;Madecasse (Cinagra)&quot;                     &quot;Madhu&quot;                                  
+[329] &quot;Madre&quot;                                   &quot;Maglio&quot;                                 
+[331] &quot;Majani&quot;                                  &quot;Malagasy (Chocolaterie Robert)&quot;         
+[333] &quot;Malagos&quot;                                 &quot;Malai&quot;                                  
+[335] &quot;Malie Kai (Guittard)&quot;                    &quot;Malmo&quot;                                  
+[337] &quot;Mana&quot;                                    &quot;Manifesto Cacao&quot;                        
+[339] &quot;Manoa&quot;                                   &quot;Manufaktura Czekolady&quot;                  
+[341] &quot;Map Chocolate&quot;                           &quot;Marana&quot;                                 
+[343] &quot;Maribea&quot;                                 &quot;Marigold&#39;s Finest&quot;                      
+[345] &quot;Markham &amp; Fitz&quot;                          &quot;Marou&quot;                                  
+[347] &quot;Mars&quot;                                    &quot;Marsatta&quot;                               
+[349] &quot;Martin Mayer&quot;                            &quot;Mast Brothers&quot;                          
+[351] &quot;Matale&quot;                                  &quot;Maui Kuia&quot;                              
+[353] &quot;Maverick&quot;                                &quot;Mayacama&quot;                               
+[355] &quot;McGuire&quot;                                 &quot;Meadowlands&quot;                            
+[357] &quot;Mellow&quot;                                  &quot;Menakao (aka Cinagra)&quot;                  
+[359] &quot;Mesocacao&quot;                               &quot;Mestico&quot;                                
+[361] &quot;Metiisto&quot;                                &quot;Metropolitan&quot;                           
+[363] &quot;Meybol&quot;                                  &quot;Michel Cluizel&quot;                         
+[365] &quot;Middlebury&quot;                              &quot;Mike &amp; Becky&quot;                           
+[367] &quot;Millcreek Cacao Roasters&quot;                &quot;Millesime&quot;                              
+[369] &quot;Milton&quot;                                  &quot;Mindo&quot;                                  
+[371] &quot;Minimal&quot;                                 &quot;Mirzam&quot;                                 
+[373] &quot;Misina&quot;                                  &quot;Mission&quot;                                
+[375] &quot;Mita&quot;                                    &quot;Moho&quot;                                   
+[377] &quot;Moka Origins&quot;                            &quot;Moku&quot;                                   
+[379] &quot;Molucca&quot;                                 &quot;Momotombo&quot;                              
+[381] &quot;Monarque&quot;                                &quot;Monsieur Truffe&quot;                        
+[383] &quot;Monsoon&quot;                                 &quot;Montecristi&quot;                            
+[385] &quot;MUCHO&quot;                                   &quot;Muchomas (Mesocacao)&quot;                   
+[387] &quot;Musee du Chocolat Theobroma&quot;             &quot;Mutari&quot;                                 
+[389] &quot;Nahua&quot;                                   &quot;Naive&quot;                                  
+[391] &quot;Nanea&quot;                                   &quot;Nathan Miller&quot;                          
+[393] &quot;Nearynogs&quot;                               &quot;Neuhaus (Callebaut)&quot;                    
+[395] &quot;Nibble&quot;                                  &quot;Night Owl&quot;                              
+[397] &quot;Nikoa&quot;                                   &quot;Nina&quot;                                   
+[399] &quot;Ninth (9th) &amp; Larkin&quot;                    &quot;Noble Bean aka Jerjobo&quot;                 
+[401] &quot;Noir d&#39; Ebine&quot;                           &quot;Nova Monda&quot;                             
+[403] &quot;Nuance&quot;                                  &quot;Nugali&quot;                                 
+[405] &quot;Oakland Chocolate Co.&quot;                   &quot;Obolo&quot;                                  
+[407] &quot;Ocelot&quot;                                  &quot;Ocho&quot;                                   
+[409] &quot;Odyssey&quot;                                 &quot;Ohiyo&quot;                                  
+[411] &quot;Oialla by Bojessen (Malmo)&quot;              &quot;Olive and Sinclair&quot;                     
+[413] &quot;Olivia&quot;                                  &quot;Omanhene&quot;                               
+[415] &quot;Omnom&quot;                                   &quot;Or Dubh&quot;                                
+[417] &quot;Orfeve&quot;                                  &quot;organicfair&quot;                            
+[419] &quot;Original Beans (Felchlin)&quot;               &quot;Original Hawaiin Chocolate Factory&quot;     
+[421] &quot;Orquidea&quot;                                &quot;Pacari&quot;                                 
+[423] &quot;Palet D&#39;Or&quot;                              &quot;Palette de Bine&quot;                        
+[425] &quot;Pangea&quot;                                  &quot;Park 75&quot;                                
+[427] &quot;Parliament&quot;                              &quot;Parre Chocolat&quot;                         
+[429] &quot;Pascha&quot;                                  &quot;Patric&quot;                                 
+[431] &quot;Paul Young&quot;                              &quot;Peppalo&quot;                                
+[433] &quot;Perrenial&quot;                               &quot;Petite Patrie&quot;                          
+[435] &quot;Pierre Marcolini&quot;                        &quot;Piety and Desire&quot;                       
+[437] &quot;Pinellas&quot;                                &quot;Pitch Dark&quot;                             
+[439] &quot;Pollinator&quot;                              &quot;Pomm (aka Dead Dog)&quot;                    
+[441] &quot;Poppy and Peep&quot;                          &quot;Potomac&quot;                                
+[443] &quot;Pralus&quot;                                  &quot;Primo Botanica&quot;                         
+[445] &quot;Public Chocolatory&quot;                      &quot;Pump Street Bakery&quot;                     
+[447] &quot;Pura Delizia&quot;                            &quot;Q Chocolate&quot;                            
+[449] &quot;Qantu&quot;                                   &quot;Quetzalli (Wolter)&quot;                     
+[451] &quot;Raaka&quot;                                   &quot;Rain Republic&quot;                          
+[453] &quot;Rancho San Jacinto&quot;                      &quot;Ranger&quot;                                 
+[455] &quot;Raoul Boulanger&quot;                         &quot;Raphio&quot;                                 
+[457] &quot;Raw Cocoa&quot;                               &quot;Republica del Cacao (aka Confecta)&quot;     
+[459] &quot;Ritual&quot;                                  &quot;River-Sea&quot;                              
+[461] &quot;Roasting Masters&quot;                        &quot;Robert (aka Chocolaterie Robert)&quot;       
+[463] &quot;Rococo (Grenada Chocolate Co.)&quot;          &quot;Rogue&quot;                                  
+[465] &quot;Rozsavolgyi&quot;                             &quot;Ruket&quot;                                  
+[467] &quot;S.A.I.D.&quot;                                &quot;Sacred&quot;                                 
+[469] &quot;Salgado&quot;                                 &quot;San Jose&quot;                               
+[471] &quot;Santander (Compania Nacional)&quot;           &quot;Santome&quot;                                
+[473] &quot;Scharffen Berger&quot;                        &quot;Seaforth&quot;                               
+[475] &quot;Seahorse&quot;                                &quot;Shane Chocolate Works&quot;                  
+[477] &quot;Shark Mountain&quot;                          &quot;Shark&#39;s&quot;                                
+[479] &quot;Shattell&quot;                                &quot;Sibu&quot;                                   
+[481] &quot;Sibu Sura&quot;                               &quot;Silvio Bessone&quot;                         
+[483] &quot;Sirene&quot;                                  &quot;Sjolinds&quot;                               
+[485] &quot;Smooth Chocolator, The&quot;                  &quot;Snake &amp; Butterfly&quot;                      
+[487] &quot;Soeka&quot;                                   &quot;Soklet&quot;                                 
+[489] &quot;Sol Cacao&quot;                               &quot;Solkiki&quot;                                
+[491] &quot;Solomons Gold&quot;                           &quot;Solstice&quot;                               
+[493] &quot;Soma&quot;                                    &quot;Somerville&quot;                             
+[495] &quot;Soul&quot;                                    &quot;Spagnvola&quot;                              
+[497] &quot;Spencer&quot;                                 &quot;Spinnaker&quot;                              
+[499] &quot;Sprungli (Felchlin)&quot;                     &quot;SRSLY&quot;                                  
+[501] &quot;Starchild&quot;                               &quot;Stella (aka Bernrain)&quot;                  
+[503] &quot;Stone Grindz&quot;                            &quot;StRita Supreme&quot;                         
+[505] &quot;Sublime Origins&quot;                         &quot;Summerbird&quot;                             
+[507] &quot;Suruca Chocolate&quot;                        &quot;Svenska Kakaobolaget&quot;                   
+[509] &quot;sweet beans&quot;                             &quot;Sweet Escalier&quot;                         
+[511] &quot;Sweetness&quot;                               &quot;Szanto Tibor&quot;                           
+[513] &quot;Tabal&quot;                                   &quot;Tablette (aka Vanillabeans)&quot;            
+[515] &quot;Tala&quot;                                    &quot;Tan Ban Skrati&quot;                         
+[517] &quot;Taste Artisan&quot;                           &quot;Taste Artisan aka Coleman and Davis&quot;    
+[519] &quot;Taucherli&quot;                               &quot;Taylor Made&quot;                            
+[521] &quot;Taza&quot;                                    &quot;TCHO&quot;                                   
+[523] &quot;Tejas&quot;                                   &quot;Terroir&quot;                                
+[525] &quot;The Barn&quot;                                &quot;Theo&quot;                                   
+[527] &quot;Theobroma&quot;                               &quot;Thistle &amp; Rose aka Aggie USU&quot;           
+[529] &quot;Tibito&quot;                                  &quot;Timo A. Meyer&quot;                          
+[531] &quot;Tiny House&quot;                              &quot;To&#39;ak&quot;                                  
+[533] &quot;To&#39;ak (Ecuatoriana)&quot;                     &quot;Tobago Estate (Pralus)&quot;                 
+[535] &quot;Tocoti&quot;                                  &quot;Tosier&quot;                                 
+[537] &quot;Tree to Bar&quot;                             &quot;Treehouse&quot;                              
+[539] &quot;Treehouse aka Indaphoria&quot;                &quot;Triangle Roasters&quot;                      
+[541] &quot;Tribar&quot;                                  &quot;Tribe&quot;                                  
+[543] &quot;Tsara (Cinagra)&quot;                         &quot;twenty-four blackbirds&quot;                 
+[545] &quot;Two Ravens&quot;                              &quot;Un Dimanche A Paris&quot;                    
+[547] &quot;Uncouth&quot;                                 &quot;Undone&quot;                                 
+[549] &quot;Upchurch&quot;                                &quot;Urzi&quot;                                   
+[551] &quot;Utopick&quot;                                 &quot;Vaka&quot;                                   
+[553] &quot;Valrhona&quot;                                &quot;Vanleer (Barry Callebaut)&quot;              
+[555] &quot;Vao Vao (Chocolaterie Robert)&quot;           &quot;Vicuna&quot;                                 
+[557] &quot;Videri&quot;                                  &quot;Vietcacao (A. Morin)&quot;                   
+[559] &quot;Vintage Plantations&quot;                     &quot;Vintage Plantations (Tulicorp)&quot;         
+[561] &quot;Violet Sky&quot;                              &quot;Vivra&quot;                                  
+[563] &quot;Wellington Chocolate Factory&quot;            &quot;White Label aka Mutari&quot;                 
+[565] &quot;Whittakers&quot;                              &quot;Wilkie&#39;s Organic&quot;                       
+[567] &quot;Willie&#39;s Cacao&quot;                          &quot;Wm&quot;                                     
+[569] &quot;Woodblock&quot;                               &quot;Xocolat&quot;                                
+[571] &quot;Xocolatisimo&quot;                            ***&quot;Xocolatl&quot;***                               
+[573] &quot;Xocolla&quot;                                 &quot;Zac Squared&quot;                            
+[575] &quot;Zacharias&quot;                               &quot;Zak&#39;s&quot;                                  
+[577] &quot;Zart Pralinen&quot;                           &quot;Zokoko&quot;                                 
+[579] &quot;Zoto (Chocolatoa)&quot;                       &quot;Zotter&quot;                                 
+&gt; </code></pre>
+<p>I took a look through the list, looking for cases where there were differences in spelling. I found that although this wasn’t the case there were many instances where there were a handful of companies/manufacturers that operated under different names. I also had to check to see if there wasn’t any further overlap using a third, or fourth name (there were).</p>
+<p>I did this part of the exercise manually on sheets of paper - I understand that there are functions to perform this, but it would have made this portion of the report (showing each step) so much longer. Here are snaps of the sheets I checked against:</p>
+<p><img src="/img/portfolio/W8/w8004.webp" /></p>
+<p><img src="/img/portfolio/W8/w8005.webp" /></p>
+<p>Before transforming the data I first wanted to see what the Top 10 ranking was as-is. This was done by creating a new data frame that was ordered (descending) by the rating value using the chunk below:</p>
+<pre class="[r]"><code>chocolate_ranked &lt;- chocolate[order(chocolate$rating, decreasing = TRUE),]</code></pre>
+<p>To make it a “Top 10” data frame I use the line below:</p>
+<pre class="[r]"><code>chocolate_top10 &lt;- head(chocolate_ranked, 10)</code></pre>
+<p>The results show that A. Morin occupied the top spots.</p>
+<pre class="[r]"><code>&gt; chocolate_top10
+     ref company_manufacturer company_location review_date country_of_bean_origin
+19  1015             A. Morin           France        2013              Venezuela
+20  1019             A. Morin           France        2013                   Peru
+25  1319             A. Morin           France        2014                   Peru
+33  2648             A. Morin           France        2021                 Mexico
+80   470                Amano           U.S.A.        2010                Ecuador
+81   725                Amano           U.S.A.        2011       Papua New Guinea
+112  572                 AMMA           Brazil        2010                 Brazil
+130 1598                Arete           U.S.A.        2015              Nicaragua
+142 1908                Arete           U.S.A.        2016             Costa Rica
+143 1924                Arete           U.S.A.        2016                   Peru
+     specific_bean_origin_or_bar_name cocoa_percent ingredients most_memorable_characteristics rating
+19                              Chuao           70%  4- B,S,C,L  oily, nut, caramel, raspberry      4
+20               Chanchamayo Province           63%    3- B,S,C        sweet, cocoa, tangerine      4
+25                            Pablino           70%  4- B,S,C,L    delicate, hazelnut, brownie      4
+33                            La Joya           70%  4- B,S,C,L     light color, fruit, yogurt      4
+80                             Guayas           70%  4- B,S,C,V   strong spice, intense pepper      4
+81                             Morobe           70%  4- B,S,C,V             tart, lemon, smoke      4
+112 Monte Alegre, 3 diff. plantations           60%  4- B,S,C,L     creamy, sweet,cocoa,banana      4
+130                             Chuno           70%      2- B,S   creamy,sticky, peanut butter      4
+142             Coto Brus, Terciopelo           70%      2- B,S        balanced, cherry, choco      4
+143                           Phantom           70%      2- B,S      creamy, complex, balanced      4</code></pre>
+<p>During a short break I realised that finding the “Top” 10 results is not as simple a task when you consider that the surveys are not of the same control group. The results specific to South Africa were also not helpful due to low volume (only four entries). My suggestion is then to look past establishing what the “African Chocolate Palette” is and focus on securing an African supplier of cacao instead. The argument can be this can be used to strengthen ties with a fellow African Union (AU) member.</p>
+<p>Now that I know what qualities are highly favoured in the overall Top 10 of the ratings, I can can compare this against the AU countries and choose five (5) choices that can be approached.</p>
+<p>Will the top African characteristics also be listed in the “sweet” and “fruity” region?</p>
+<p><img src="/img/portfolio/W8/w8006.webp" /></p>
+<p>I used the chunk below to extract results where the beans were grown in Africa (or AU states), ranking them according to their survey rating:</p>
+<pre class="[r]"><code>chocolate_africa_ranked &lt;- chocolate_africa[order(chocolate_africa$rating, decreasing = TRUE),]</code></pre>
+<pre class="[r]"><code>&gt; head(chocolate_africa_ranked, 10)
+     ref company_manufacturer company_location review_date country_of_bean_origin specific_bean_origin_or_bar_name cocoa_percent
+39   629               Bonnat           France        2011             Madagascar         Madagascar, 100% criollo           75%
+59  2514              Chokola           U.S.A.        2020             Madagascar        Bejofo, 2019 H., Batch 20           67%
+88  2040               Domori            Italy        2018               Tanzania                         Tanzania           70%
+110  915               Fresco           U.S.A.        2012             Madagascar   Sambirano Valley, #216, MR, LC           74%
+121 1642        Georgia Ramon          Germany        2015                  Ghana                      ABOCFA Coop           70%
+166  284  Madecasse (Cinagra)       Madagascar        2008             Madagascar                       Madagascar           63%
+177 1177               Matale        Australia        2013             Madagascar                      Somia, 2013           68%
+218  196               Patric           U.S.A.        2007             Madagascar                       Madagascar           70%
+220  331               Patric           U.S.A.        2009             Madagascar                       Madagascar           75%
+223  141     Pierre Marcolini          Belgium        2007             Madagascar   Sambirano, Ambanja, Madagascar           72%
+     ingredients   most_memorable_characteristics rating
+39      3- B,S,C       fatty, spicy, gentle roast      4
+59        2- B,S cherry, perfectly balanced roast      4
+88        2- B,S            creamy, sticky, fruit      4
+110     3- B,S,C       caramel, nuts, dried fruit      4
+121   4- B,S,C,L                cocoa and coconut      4
+166 5- B,S,C,V,L            intense, nutty, cocoa      4
+177     3- B,S,C                sticky, red fruit      4
+218     3- B,S,C mild tart, wine, red fruit, long      4
+220     3- B,S,C     simple red berry, rich, long      4
+223 5- B,S,C,V,L      tangy, floral, spicy, cocoa      4  </code></pre>
+<p>What I found is that <strong><em>Madagascar</em></strong> featured heavily throughout, especially in the top positions. The memorable characteristics are relatively similar to the French results.</p>
+<p>Madagascar also has the added benefit of being a close neighbour of Mzansi. Keeping it local to Madagascar with regards to the company to contact, the best (and only) option is <a href="https://beyondgood.com/"><strong><em>Beyond Good</em></strong></a> - formerly Madecasse(Cinagra).</p>
+<p><img src="/img/portfolio/W8/w8007.webp" /></p>
+<p>This concludes the data exploration.</p>
+<p><img src="/img/portfolio/W8/w8008.webp" /></p>
+<p>The 3D segment of this looks at creating a survey terminal. The idea is that these would be placed at popular chain stores and they would issue small samples for visitors to taste and comment on.</p>
+<p><img src="/img/portfolio/W8/w8010.webp" /></p>
+<p>Some design considerations I’ve come up with are:<br />
+- no buttons or touch screen - to minimise the need for cleaning
+- motion sensors to allow gesturing
+- video and audio recording for detailed comment/feedback</p>
+<p>Something about working from a refsheet that I’m learning to enjoy more is that so many designs can come from the same set of images. This is what I realised toward the end of this project, and I see some elements I would do differently that I could only see having experienced the whole process - refinement after the finish.</p>
+<p><img src="/img/portfolio/W8/w8011.webp" /></p>
+<p>Rather than working from sketches I followed an explore-and-discover methodology, using the basic requirements to stay on track - a screen with a sensor, a container for the chocolate samples, and a conveyor belt mechanism to deliver the sample.</p>
+<p>There many, many instances where the question would be, “what if I do this, or this?”, and the decision would be what visually enjoyed the most.</p>
+<p>Because I worked in chunks via <a href="https://youtube.com/playlist?list=PLryiPmQj99uCwOxIK9wWCmDnqU1qVR-iL">daily livestreams</a> on my <a href="https://www.youtube.com/channel/UC8SVBGhWZFlNtYJTAm_AdcA">YouTube channel</a> there were spaces in-between for what I had done on one day to continue being worked sub-consciously, so there would be times I would jump in and worked “knowing” more than improvising. I work with this process more often. It has its downsides - like being slower, and resulting in disjointed elements - but I think it’s something I could benefit from in the long-run based on the little finds during different projects.</p>
+<p><img src="/img/portfolio/W8/w8012.webp" /></p>
+<p>Overall I’m happy with the final result - it’s an improvement on (from?) the <a href="https://afrikaniz3d.netlify.app/portfolio/work7-daq_2018/">first project</a> of this type in the portfolio.</p>
+<p>The next EDA will intentionally be smaller and I’m looking to weight it 70/30 (data exploration-analysis/3D modeled product) and aim for a two week turnaround time. I know I can a lot when the time component is open-ended, but I’d like to get more efficient with the whole process so I can work into <a href="https://blendermarket.com/products/hexes-mini-pack-04"><strong><em>HMP04</em></strong></a> additions.</p>
+<p>Thanks for visiting the blog, and I hope you found something useful or mildly entertaining.</p>

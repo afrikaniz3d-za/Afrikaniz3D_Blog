@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cte on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/cte/</link>
+    <description>Recent content in Cte on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/cte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lobbyists 4 America</title>
+      <link>http://localhost:4321/portfolio/lobbyists-4-america/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/lobbyists-4-america/</guid>
+      <description>1. Project Overview The following presentation is geared at anyone interested at taking a short look into how a political-twitter dataset is used to inform a general strategy for the client, Lobbyists4America, to incrementally improve the presence and shareability of their message on Twitter.&#xA;2. The Audience for this project As part of a capstone project, this presentation is directed at an external audience interested in seeing what steps were taken to extract the necessary insights from the supplied dataset to formulate data-driven frameworks that inform messaging strategies using machine learning (ML) and other forms of analysis.</description>
+    </item>
+  </channel>
+</rss>

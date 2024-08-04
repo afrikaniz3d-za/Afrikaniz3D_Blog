@@ -1,0 +1,64 @@
+---
+title: "Been Busy"
+author: "Ntobeko Sosibo [ Afrikaniz3D ]"
+date: "2023-07-01"
+draft: no
+image: img/post/P9/p9000.webp
+showonlyimage: yes
+slug: "been-busy"
+categories:
+- blog
+- update
+tags:
+- b3d
+- r studio
+- blender
+- geometry nodes
+- cookie cutter
+- cookie
+- articulated
+- flexi
+- cults3d
+- data exploration
+- dataset
+- free
+- free download
+- gumroad
+- printables
+- sensor 21
+- hmp04
+- hexes
+---
+
+![from me][1]  
+![sensor21 banner][3]  
+
+I got to learn my modest way around geometry nodes while developing [***HEXES Mini Pack 04: Electronic Devices***](https://blendermarket.com/products/hexes-mini-pack-04). I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was [***Sensor 21***](https://afrikaniz3d.netlify.app/portfolio/sensor-21/), based on an air quality dataset I explored for a portfolio project.  
+
+![antenna tutorial][4]  
+Made a [***walkthrough***](https://youtu.be/6n1L3U4HRUg/) video to show my process for the antenna. Used Kdent Live for the first time and there are things about it I made the switch from Da Vinci Resolve easier - the interface is simpler, and some features are easier to access.
+
+Juggled a lot of things trying to pull this together. Did I achieve what I had set out to do? Yes. Could I do it better if I started over now? Absolutely. Things were spread out over four (4) months to allow for learning some of the tools I needed to use.  
+
+Started work on the next EDA and I can already tell it will be a better put-together project based on what I've learned from the first one. Looking forward to the device design component too.
+
+
+![for you][2]  
+Taking a break from the weekly pieces was needed, especially when work on [***HMP04***](https://blendermarket.com/products/hexes-mini-pack-04) had a clearer direction. Keto Patrick and the Easter set were done some time ago. Also included some articulated links. Thinking about what I could do with this section in future posts as well.
+
+![patrick starfish cc][5]   
+[Gumroad](https://afrikaniz3dza.gumroad.com/l/drvdl) | [Printables](https://www.printables.com/model/517545-keto-patrick-starfish-cookie-cutter) | [Cults3D](https://cults3d.com/en/3d-model/home/keto-patrick-starfish-cookie-cutter)  
+
+![easter cc set][6]  
+[Gumroad](https://afrikaniz3dza.gumroad.com/l/aktfu) | [Printables](https://www.printables.com/model/420445-assorted-easter-cookie-cutters) | [Cults3D](https://cults3d.com/:1108554)  
+
+![articulated toy links][7]
+[Gumroad](https://afrikaniz3dza.gumroad.com/l/ujgcp) | [Printables](https://www.printables.com/model/516764-articulatedflexi-toy-links) | [Cults3D](https://cults3d.com/en/3d-model/game/articulated-flexi-toy-links)  
+
+[1]: /img/post/P9/p9001.jpg
+[2]: /img/post/P9/p9002.jpg
+[3]: /img/post/P9/p9003.jpg
+[4]: /img/post/P9/p9004.jpg
+[5]: /img/post/P9/p9005.jpg
+[6]: /img/post/P9/p9006.jpg
+[7]: /img/post/P9/p9007.jpg

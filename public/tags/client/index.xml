@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Client on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/client/</link>
+    <description>Recent content in Client on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/client/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chocolate Survey Terminal</title>
+      <link>http://localhost:4321/portfolio/chocolate-survey-terminal/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/chocolate-survey-terminal/</guid>
+      <description>This EDA was inspired by a Tidy Tuesday dataset that looked at the ratings of different cacao been suppliers in different countries. Rather than following the original data challenge, I decided to instead focus on the elements that dealt with South Africa (SA) because my first real look at the data showed that SA had received the lowest ratings.&#xA;The hypothetical challenge I set for myself was to use the data to identify what led to the poor ratings as well as what changes would need to be made to improve future results.</description>
+    </item>
+    <item>
+      <title>M4</title>
+      <link>http://localhost:4321/portfolio/retopologizing-m4/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/retopologizing-m4/</guid>
+      <description>This was a client project I got some time back. The relationship with the client was a strange once, and it wouldn’t make sense to comment further as I think the whole experience itself was something else. I was no angel myself, but what I took away from it was a lot more than a new monitor.&#xA;The first piece - the receiver - was easily the hardest. The bug mistakes were:</description>
+    </item>
+  </channel>
+</rss>

@@ -2,523 +2,585 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Afrikaniz3D Blogfolio</title>
-    <link>https://afrikaniz3d.netlify.app/tags/</link>
+    <link>http://localhost:4321/tags/</link>
     <description>Recent content in Tags on Afrikaniz3D Blogfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://afrikaniz3d.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3d printing</title>
-      <link>https://afrikaniz3d.netlify.app/tags/3d-printing/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/3d-printing/</guid>
+      <title>A/B Testing</title>
+      <link>http://localhost:4321/tags/a/b-testing/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/a/b-testing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>b3d</title>
-      <link>https://afrikaniz3d.netlify.app/tags/b3d/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/b3d/</guid>
+      <title>Analytics</title>
+      <link>http://localhost:4321/tags/analytics/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/analytics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blender</title>
-      <link>https://afrikaniz3d.netlify.app/tags/blender/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/blender/</guid>
+      <title>Coursera</title>
+      <link>http://localhost:4321/tags/coursera/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/coursera/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blog</title>
-      <link>https://afrikaniz3d.netlify.app/tags/blog/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/blog/</guid>
+      <title>Cte</title>
+      <link>http://localhost:4321/tags/cte/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/cte/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cookie</title>
-      <link>https://afrikaniz3d.netlify.app/tags/cookie/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/cookie/</guid>
+      <title>Data Science</title>
+      <link>http://localhost:4321/tags/data-science/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-science/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cookie cutter</title>
-      <link>https://afrikaniz3d.netlify.app/tags/cookie-cutter/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/cookie-cutter/</guid>
+      <title>Databricks</title>
+      <link>http://localhost:4321/tags/databricks/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/databricks/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cults3d</title>
-      <link>https://afrikaniz3d.netlify.app/tags/cults3d/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/cults3d/</guid>
+      <title>Etl</title>
+      <link>http://localhost:4321/tags/etl/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/etl/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dataset</title>
-      <link>https://afrikaniz3d.netlify.app/tags/dataset/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/dataset/</guid>
+      <title>Mode Analytics</title>
+      <link>http://localhost:4321/tags/mode-analytics/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/mode-analytics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>free</title>
-      <link>https://afrikaniz3d.netlify.app/tags/free/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/free/</guid>
+      <title>Python</title>
+      <link>http://localhost:4321/tags/python/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>free download</title>
-      <link>https://afrikaniz3d.netlify.app/tags/free-download/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/free-download/</guid>
+      <title>Sentiment Analysis</title>
+      <link>http://localhost:4321/tags/sentiment-analysis/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sentiment-analysis/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gumroad</title>
-      <link>https://afrikaniz3d.netlify.app/tags/gumroad/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/gumroad/</guid>
+      <title>Sql</title>
+      <link>http://localhost:4321/tags/sql/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>printables</title>
-      <link>https://afrikaniz3d.netlify.app/tags/printables/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/printables/</guid>
+      <title>Uc Davis</title>
+      <link>http://localhost:4321/tags/uc-davis/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/uc-davis/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>prusa</title>
-      <link>https://afrikaniz3d.netlify.app/tags/prusa/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/prusa/</guid>
+      <title>B3d</title>
+      <link>http://localhost:4321/tags/b3d/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/b3d/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>prusa printer challenge</title>
-      <link>https://afrikaniz3d.netlify.app/tags/prusa-printer-challenge/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/prusa-printer-challenge/</guid>
+      <title>Blender</title>
+      <link>http://localhost:4321/tags/blender/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/blender/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sensor 21</title>
-      <link>https://afrikaniz3d.netlify.app/tags/sensor-21/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/sensor-21/</guid>
+      <title>Chocolate</title>
+      <link>http://localhost:4321/tags/chocolate/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/chocolate/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tidy tuesday</title>
-      <link>https://afrikaniz3d.netlify.app/tags/tidy-tuesday/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/tidy-tuesday/</guid>
+      <title>Client</title>
+      <link>http://localhost:4321/tags/client/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/client/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wip</title>
-      <link>https://afrikaniz3d.netlify.app/tags/wip/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/wip/</guid>
+      <title>Data Exploration</title>
+      <link>http://localhost:4321/tags/data-exploration/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-exploration/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>christmas</title>
-      <link>https://afrikaniz3d.netlify.app/tags/christmas/</link>
+      <title>Dataset</title>
+      <link>http://localhost:4321/tags/dataset/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/dataset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eda</title>
+      <link>http://localhost:4321/tags/eda/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kitbash</title>
+      <link>http://localhost:4321/tags/kitbash/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/kitbash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Practice</title>
+      <link>http://localhost:4321/tags/practice/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/practice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R Studio</title>
+      <link>http://localhost:4321/tags/r-studio/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/r-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>South Africa</title>
+      <link>http://localhost:4321/tags/south-africa/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/south-africa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Survey</title>
+      <link>http://localhost:4321/tags/survey/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/survey/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidy Tuesday</title>
+      <link>http://localhost:4321/tags/tidy-tuesday/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/tidy-tuesday/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Articulated</title>
+      <link>http://localhost:4321/tags/articulated/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/articulated/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cookie</title>
+      <link>http://localhost:4321/tags/cookie/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/cookie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cookie Cutter</title>
+      <link>http://localhost:4321/tags/cookie-cutter/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/cookie-cutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cults3d</title>
+      <link>http://localhost:4321/tags/cults3d/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/cults3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flexi</title>
+      <link>http://localhost:4321/tags/flexi/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/flexi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free</title>
+      <link>http://localhost:4321/tags/free/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/free/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free Download</title>
+      <link>http://localhost:4321/tags/free-download/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/free-download/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometry Nodes</title>
+      <link>http://localhost:4321/tags/geometry-nodes/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/geometry-nodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gumroad</title>
+      <link>http://localhost:4321/tags/gumroad/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/gumroad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hexes</title>
+      <link>http://localhost:4321/tags/hexes/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/hexes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hmp04</title>
+      <link>http://localhost:4321/tags/hmp04/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/hmp04/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Printables</title>
+      <link>http://localhost:4321/tags/printables/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/printables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sensor 21</title>
+      <link>http://localhost:4321/tags/sensor-21/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sensor-21/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retopology</title>
+      <link>http://localhost:4321/tags/retopology/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/retopology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Topology</title>
+      <link>http://localhost:4321/tags/topology/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/topology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3d Printing</title>
+      <link>http://localhost:4321/tags/3d-printing/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/3d-printing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:4321/tags/blog/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prusa</title>
+      <link>http://localhost:4321/tags/prusa/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/prusa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prusa Printer Challenge</title>
+      <link>http://localhost:4321/tags/prusa-printer-challenge/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/prusa-printer-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wip</title>
+      <link>http://localhost:4321/tags/wip/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/wip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Christmas</title>
+      <link>http://localhost:4321/tags/christmas/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/christmas/</guid>
+      <guid>http://localhost:4321/tags/christmas/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>contests</title>
-      <link>https://afrikaniz3d.netlify.app/tags/contests/</link>
+      <title>Contests</title>
+      <link>http://localhost:4321/tags/contests/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/contests/</guid>
+      <guid>http://localhost:4321/tags/contests/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>grinch</title>
-      <link>https://afrikaniz3d.netlify.app/tags/grinch/</link>
+      <title>Grinch</title>
+      <link>http://localhost:4321/tags/grinch/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/grinch/</guid>
+      <guid>http://localhost:4321/tags/grinch/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>minion</title>
-      <link>https://afrikaniz3d.netlify.app/tags/minion/</link>
+      <title>Minion</title>
+      <link>http://localhost:4321/tags/minion/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/minion/</guid>
+      <guid>http://localhost:4321/tags/minion/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reflecting</title>
-      <link>https://afrikaniz3d.netlify.app/tags/reflecting/</link>
+      <title>Reflecting</title>
+      <link>http://localhost:4321/tags/reflecting/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/reflecting/</guid>
+      <guid>http://localhost:4321/tags/reflecting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>squidward</title>
-      <link>https://afrikaniz3d.netlify.app/tags/squidward/</link>
+      <title>Squidward</title>
+      <link>http://localhost:4321/tags/squidward/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/squidward/</guid>
+      <guid>http://localhost:4321/tags/squidward/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>update</title>
-      <link>https://afrikaniz3d.netlify.app/tags/update/</link>
+      <title>Update</title>
+      <link>http://localhost:4321/tags/update/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/update/</guid>
+      <guid>http://localhost:4321/tags/update/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>xmas</title>
-      <link>https://afrikaniz3d.netlify.app/tags/xmas/</link>
+      <title>Xmas</title>
+      <link>http://localhost:4321/tags/xmas/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/xmas/</guid>
+      <guid>http://localhost:4321/tags/xmas/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>christmas decoration</title>
-      <link>https://afrikaniz3d.netlify.app/tags/christmas-decoration/</link>
+      <title>Christmas Decoration</title>
+      <link>http://localhost:4321/tags/christmas-decoration/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/christmas-decoration/</guid>
+      <guid>http://localhost:4321/tags/christmas-decoration/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kitbash</title>
-      <link>https://afrikaniz3d.netlify.app/tags/kitbash/</link>
+      <title>Movember</title>
+      <link>http://localhost:4321/tags/movember/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/kitbash/</guid>
+      <guid>http://localhost:4321/tags/movember/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>movember</title>
-      <link>https://afrikaniz3d.netlify.app/tags/movember/</link>
+      <title>Nnn</title>
+      <link>http://localhost:4321/tags/nnn/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/movember/</guid>
+      <guid>http://localhost:4321/tags/nnn/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nnn</title>
-      <link>https://afrikaniz3d.netlify.app/tags/nnn/</link>
+      <title>No Nut November</title>
+      <link>http://localhost:4321/tags/no-nut-november/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/nnn/</guid>
+      <guid>http://localhost:4321/tags/no-nut-november/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>no nut november</title>
-      <link>https://afrikaniz3d.netlify.app/tags/no-nut-november/</link>
+      <title>Nutvember</title>
+      <link>http://localhost:4321/tags/nutvember/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/no-nut-november/</guid>
+      <guid>http://localhost:4321/tags/nutvember/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nutvember</title>
-      <link>https://afrikaniz3d.netlify.app/tags/nutvember/</link>
+      <title>Nutvember 2022</title>
+      <link>http://localhost:4321/tags/nutvember-2022/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/nutvember/</guid>
+      <guid>http://localhost:4321/tags/nutvember-2022/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nutvember 2022</title>
-      <link>https://afrikaniz3d.netlify.app/tags/nutvember-2022/</link>
+      <title>Ornaments</title>
+      <link>http://localhost:4321/tags/ornaments/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/nutvember-2022/</guid>
+      <guid>http://localhost:4321/tags/ornaments/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ornaments</title>
-      <link>https://afrikaniz3d.netlify.app/tags/ornaments/</link>
+      <title>Stl</title>
+      <link>http://localhost:4321/tags/stl/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/ornaments/</guid>
+      <guid>http://localhost:4321/tags/stl/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>stl</title>
-      <link>https://afrikaniz3d.netlify.app/tags/stl/</link>
-      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/stl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>brooklyn nine-nine</title>
-      <link>https://afrikaniz3d.netlify.app/tags/brooklyn-nine-nine/</link>
+      <title>Brooklyn Nine-Nine</title>
+      <link>http://localhost:4321/tags/brooklyn-nine-nine/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/brooklyn-nine-nine/</guid>
+      <guid>http://localhost:4321/tags/brooklyn-nine-nine/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>personal development</title>
-      <link>https://afrikaniz3d.netlify.app/tags/personal-development/</link>
+      <title>Personal Development</title>
+      <link>http://localhost:4321/tags/personal-development/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/personal-development/</guid>
+      <guid>http://localhost:4321/tags/personal-development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>soap dish</title>
-      <link>https://afrikaniz3d.netlify.app/tags/soap-dish/</link>
+      <title>Soap Dish</title>
+      <link>http://localhost:4321/tags/soap-dish/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/soap-dish/</guid>
+      <guid>http://localhost:4321/tags/soap-dish/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>best season ever</title>
-      <link>https://afrikaniz3d.netlify.app/tags/best-season-ever/</link>
+      <title>Best Season Ever</title>
+      <link>http://localhost:4321/tags/best-season-ever/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/best-season-ever/</guid>
+      <guid>http://localhost:4321/tags/best-season-ever/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>brauberry</title>
-      <link>https://afrikaniz3d.netlify.app/tags/brauberry/</link>
+      <title>Brauberry</title>
+      <link>http://localhost:4321/tags/brauberry/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/brauberry/</guid>
+      <guid>http://localhost:4321/tags/brauberry/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data exploration</title>
-      <link>https://afrikaniz3d.netlify.app/tags/data-exploration/</link>
+      <title>Meh</title>
+      <link>http://localhost:4321/tags/meh/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/data-exploration/</guid>
+      <guid>http://localhost:4321/tags/meh/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data science</title>
-      <link>https://afrikaniz3d.netlify.app/tags/data-science/</link>
+      <title>Pumpkin Project</title>
+      <link>http://localhost:4321/tags/pumpkin-project/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/data-science/</guid>
+      <guid>http://localhost:4321/tags/pumpkin-project/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>meh</title>
-      <link>https://afrikaniz3d.netlify.app/tags/meh/</link>
+      <title>Reading</title>
+      <link>http://localhost:4321/tags/reading/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/meh/</guid>
+      <guid>http://localhost:4321/tags/reading/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pumpkin project</title>
-      <link>https://afrikaniz3d.netlify.app/tags/pumpkin-project/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/pumpkin-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r studio</title>
-      <link>https://afrikaniz3d.netlify.app/tags/r-studio/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/r-studio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reading</title>
-      <link>https://afrikaniz3d.netlify.app/tags/reading/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>burnout</title>
-      <link>https://afrikaniz3d.netlify.app/tags/burnout/</link>
+      <title>Burnout</title>
+      <link>http://localhost:4321/tags/burnout/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/burnout/</guid>
+      <guid>http://localhost:4321/tags/burnout/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mental health</title>
-      <link>https://afrikaniz3d.netlify.app/tags/mental-health/</link>
+      <title>Mental Health</title>
+      <link>http://localhost:4321/tags/mental-health/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/mental-health/</guid>
+      <guid>http://localhost:4321/tags/mental-health/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>practice</title>
-      <link>https://afrikaniz3d.netlify.app/tags/practice/</link>
+      <title>Social Media</title>
+      <link>http://localhost:4321/tags/social-media/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/practice/</guid>
+      <guid>http://localhost:4321/tags/social-media/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>social media</title>
-      <link>https://afrikaniz3d.netlify.app/tags/social-media/</link>
+      <title>Time</title>
+      <link>http://localhost:4321/tags/time/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/social-media/</guid>
+      <guid>http://localhost:4321/tags/time/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>time</title>
-      <link>https://afrikaniz3d.netlify.app/tags/time/</link>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/time/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>analytics</title>
-      <link>https://afrikaniz3d.netlify.app/tags/analytics/</link>
+      <title>Cradletograver</title>
+      <link>http://localhost:4321/tags/cradletograver/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/analytics/</guid>
+      <guid>http://localhost:4321/tags/cradletograver/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cradletograver</title>
-      <link>https://afrikaniz3d.netlify.app/tags/cradletograver/</link>
+      <title>Google</title>
+      <link>http://localhost:4321/tags/google/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/cradletograver/</guid>
+      <guid>http://localhost:4321/tags/google/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>google</title>
-      <link>https://afrikaniz3d.netlify.app/tags/google/</link>
+      <title>Google Analytics</title>
+      <link>http://localhost:4321/tags/google-analytics/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/google/</guid>
+      <guid>http://localhost:4321/tags/google-analytics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>google analytics</title>
-      <link>https://afrikaniz3d.netlify.app/tags/google-analytics/</link>
+      <title>Rstudio</title>
+      <link>http://localhost:4321/tags/rstudio/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/google-analytics/</guid>
+      <guid>http://localhost:4321/tags/rstudio/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rstudio</title>
-      <link>https://afrikaniz3d.netlify.app/tags/rstudio/</link>
+      <title>Web Development</title>
+      <link>http://localhost:4321/tags/web-development/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/rstudio/</guid>
+      <guid>http://localhost:4321/tags/web-development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>web development</title>
-      <link>https://afrikaniz3d.netlify.app/tags/web-development/</link>
+      <title>Website</title>
+      <link>http://localhost:4321/tags/website/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/web-development/</guid>
+      <guid>http://localhost:4321/tags/website/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>website</title>
-      <link>https://afrikaniz3d.netlify.app/tags/website/</link>
-      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://afrikaniz3d.netlify.app/tags/website/</guid>
+      <title>Green Energy</title>
+      <link>http://localhost:4321/tags/green-energy/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/green-energy/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Renewable Energy</title>
+      <link>http://localhost:4321/tags/renewable-energy/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/renewable-energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sustainable Energy</title>
+      <link>http://localhost:4321/tags/sustainable-energy/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sustainable-energy/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

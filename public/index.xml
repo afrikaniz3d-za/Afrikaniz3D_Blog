@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Afrikaniz3D Blogfolio</title>
-    <link>http://localhost:7966/</link>
+    <link>http://localhost:4321/</link>
     <description>Recent content on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:7966/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sensor 21</title>
-      <link>http://localhost:7966/portfolio/sensor-21/</link>
+      <link>http://localhost:4321/portfolio/sensor-21/</link>
       <pubDate>Sat, 01 Jul 2023 19:30:00 +0200</pubDate>
-      <guid>http://localhost:7966/portfolio/sensor-21/</guid>
+      <guid>http://localhost:4321/portfolio/sensor-21/</guid>
       <description>This was a quick study using a dataset of an air quality survey in Dawncliffe, Durban. It was conducted in 2018. The final product was an hypothetical electronic sensor device that could have been used in capturing/generating the data used in the exercise.&#xA;R Programming 101&amp;rsquo;s framework for exploratory data analysis covered in their series of videos was used to methodically interrogate the data .&#xA;The EDA started by downloading and bringing the dataset in to the project with the name &amp;ldquo;daq2018&amp;rdquo;.</description>
     </item>
     <item>
       <title>3D Printing</title>
-      <link>http://localhost:7966/portfolio/3d-printing/</link>
+      <link>http://localhost:4321/portfolio/3d-printing/</link>
       <pubDate>Fri, 04 Nov 2022 10:43:17 +0200</pubDate>
-      <guid>http://localhost:7966/portfolio/3d-printing/</guid>
+      <guid>http://localhost:4321/portfolio/3d-printing/</guid>
       <description>#5&#xA;More cookie cutters - those will be a staple. Looking to get better at making flatpack designs. The Pochita design is picking up in terms of downloads and I&amp;rsquo;d like to get improve in the overall quality - down to the supports. This ended up with a cat design that didn&amp;rsquo;t work out, but did give an idea for something simpler.&#xA;What this project told me is that I need t o learn to sculpt soon to get the most out of any kind of services I could offer in the space.</description>
     </item>
     <item>
       <title>HEXES Mini Pack Series</title>
-      <link>http://localhost:7966/portfolio/hexes-mini-pack-series/</link>
+      <link>http://localhost:4321/portfolio/hexes-mini-pack-series/</link>
       <pubDate>Sat, 16 Jul 2022 13:51:22 +0200</pubDate>
-      <guid>http://localhost:7966/portfolio/hexes-mini-pack-series/</guid>
+      <guid>http://localhost:4321/portfolio/hexes-mini-pack-series/</guid>
       <description>Forming a clear picture of the path to take towards a goal, something I am relearning, is affected by a variety of things, chief of which being that I find it difficult to push through a contrived/inauthentic path. Testing authenticity, I&amp;rsquo;m sure, has universally championed rubrics I&amp;rsquo;ll undoubtedly discover ahead now that the idea has been “committed to the bits.” How this ties to this project are the motivations that punctuated its creation.</description>
     </item>
     <item>
       <title>Drone Cinematography</title>
-      <link>http://localhost:7966/portfolio/drone-cinematography/</link>
+      <link>http://localhost:4321/portfolio/drone-cinematography/</link>
       <pubDate>Sat, 04 Jun 2022 12:57:47 +0200</pubDate>
-      <guid>http://localhost:7966/portfolio/drone-cinematography/</guid>
+      <guid>http://localhost:4321/portfolio/drone-cinematography/</guid>
       <description>2019 marked the first full year of AFRIKANIZ3D. I was still mostly working on architectural projects. I bought a drone, the first generation DJI Mini. The timing of the COVID-19 pandemic delayed things &amp;ldquo;a bit&amp;rdquo; through various restrictions, but I&amp;rsquo;m happy that this gets to be part of the mix and look forward to seriously playing with it again.</description>
     </item>
     <item>
       <title>Power BI Dashboards</title>
-      <link>http://localhost:7966/portfolio/work10---power-bi-dashboards/</link>
+      <link>http://localhost:4321/portfolio/work10---power-bi-dashboards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/portfolio/work10---power-bi-dashboards/</guid>
+      <guid>http://localhost:4321/portfolio/work10---power-bi-dashboards/</guid>
       <description>This entry is related to South African energy exploration that on RStudio that you can look at here. My intentions for this segment of the exploration is to take the same data and generate some dashboards that you would find for up-to-date looks on some statistics - snapshots.&#xA;The dataset I wanted to look at was the one containing the hourly measurements of the different sources of renewable energy from ESKOM (&amp;ldquo;zaregenlong&amp;rdquo;) that was generated and exported from RStudio.</description>
     </item>
     <item>
       <title>BRAUBERRY [Brand Mash-Up Project]</title>
-      <link>http://localhost:7966/portfolio/brauberry-brand-mash-up-project/</link>
+      <link>http://localhost:4321/portfolio/brauberry-brand-mash-up-project/</link>
       <pubDate>Sun, 17 Jul 2022 20:44:01 +0200</pubDate>
-      <guid>http://localhost:7966/portfolio/brauberry-brand-mash-up-project/</guid>
+      <guid>http://localhost:4321/portfolio/brauberry-brand-mash-up-project/</guid>
       <description>The Brand Mash-Up series was one of the first bigger projects on my YouTube channel that I started as a means of both expanding on what I had been doing as well as learning new tools such as Blender. The idea for BRAUBERRY was a response to the need for being careful when handling intellectual properties I didn&amp;rsquo;t own in the case they might endanger my YouTube channel. It was also a fun opportunity to see what could come about from merging two seemingly non-related brands.</description>
     </item>
     <item>
       <title>SQL Data Exploration</title>
-      <link>http://localhost:7966/portfolio/work9---sql-data-exploration/</link>
+      <link>http://localhost:4321/portfolio/work9---sql-data-exploration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/portfolio/work9---sql-data-exploration/</guid>
+      <guid>http://localhost:4321/portfolio/work9---sql-data-exploration/</guid>
       <description></description>
     </item>
     <item>
       <title>Lobbyists 4 America</title>
-      <link>http://localhost:7966/portfolio/lobbyists-4-america/</link>
+      <link>http://localhost:4321/portfolio/lobbyists-4-america/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/portfolio/lobbyists-4-america/</guid>
+      <guid>http://localhost:4321/portfolio/lobbyists-4-america/</guid>
       <description>1. Project Overview The following presentation is geared at anyone interested at taking a short look into how a political-twitter dataset is used to inform a general strategy for the client, Lobbyists4America, to incrementally improve the presence and shareability of their message on Twitter.&#xA;2. The Audience for this project As part of a capstone project, this presentation is directed at an external audience interested in seeing what steps were taken to extract the necessary insights from the supplied dataset to formulate data-driven frameworks that inform messaging strategies using machine learning (ML) and other forms of analysis.</description>
     </item>
     <item>
       <title>Maven Hospital Challenge</title>
-      <link>http://localhost:7966/portfolio/maven-hospital-challenge/</link>
+      <link>http://localhost:4321/portfolio/maven-hospital-challenge/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/portfolio/maven-hospital-challenge/</guid>
+      <guid>http://localhost:4321/portfolio/maven-hospital-challenge/</guid>
       <description></description>
     </item>
     <item>
       <title>Chocolate Survey Terminal</title>
-      <link>http://localhost:7966/portfolio/chocolate-survey-terminal/</link>
+      <link>http://localhost:4321/portfolio/chocolate-survey-terminal/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/portfolio/chocolate-survey-terminal/</guid>
+      <guid>http://localhost:4321/portfolio/chocolate-survey-terminal/</guid>
       <description>This EDA was inspired by a Tidy Tuesday dataset that looked at the ratings of different cacao been suppliers in different countries. Rather than following the original data challenge, I decided to instead focus on the elements that dealt with South Africa (SA) because my first real look at the data showed that SA had received the lowest ratings.&#xA;The hypothetical challenge I set for myself was to use the data to identify what led to the poor ratings as well as what changes would need to be made to improve future results.</description>
     </item>
     <item>
       <title>Been Busy</title>
-      <link>http://localhost:7966/post/been-busy/</link>
+      <link>http://localhost:4321/post/been-busy/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/been-busy/</guid>
+      <guid>http://localhost:4321/post/been-busy/</guid>
       <description>I got to learn my modest way around geometry nodes while developing HEXES Mini Pack 04: Electronic Devices. I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was Sensor 21, based on an air quality dataset I explored for a portfolio project.&#xA;Made a walkthrough video to show my process for the antenna.</description>
     </item>
     <item>
       <title>M4</title>
-      <link>http://localhost:7966/portfolio/retopologizing-m4/</link>
+      <link>http://localhost:4321/portfolio/retopologizing-m4/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/portfolio/retopologizing-m4/</guid>
+      <guid>http://localhost:4321/portfolio/retopologizing-m4/</guid>
       <description>This was a client project I got some time back. The relationship with the client was a strange once, and it wouldn’t make sense to comment further as I think the whole experience itself was something else. I was no angel myself, but what I took away from it was a lot more than a new monitor.&#xA;The first piece - the receiver - was easily the hardest. The bug mistakes were:</description>
     </item>
     <item>
       <title>Still</title>
-      <link>http://localhost:7966/post/still/</link>
+      <link>http://localhost:4321/post/still/</link>
       <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/still/</guid>
+      <guid>http://localhost:4321/post/still/</guid>
       <description>Might just be the combination of things I’ve been focusing on lately, but finding a good fit is shifting more and more. So much changes in a month that the draft 2 weeks is so different to the draft of the night before. Found a way to make the data explorations more interesting while also getting to make new stuff as well as following through with older ideas. Nothing goes to waste.</description>
     </item>
     <item>
       <title>Rings</title>
-      <link>http://localhost:7966/post/rings/</link>
+      <link>http://localhost:4321/post/rings/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/rings/</guid>
+      <guid>http://localhost:4321/post/rings/</guid>
       <description>Things are relatively quiet. Regular exercise and mindful eating. The Printer Challenge is still going along with the data exploration exercises. Happy with how the portfolio is shaping up.&#xA;This website is an example of something I look forward to looking back on in months (and years) to come and be able so see how it slowly solidified - like examining the rings of a tree trunk with the passage of time (after you chop it down…?</description>
     </item>
     <item>
       <title>What a Finish</title>
-      <link>http://localhost:7966/post/2022-12-30-what-a-finish/</link>
+      <link>http://localhost:4321/post/2022-12-30-what-a-finish/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/2022-12-30-what-a-finish/</guid>
+      <guid>http://localhost:4321/post/2022-12-30-what-a-finish/</guid>
       <description>The past few days really drove home how much of a break I need. That coupled with the growing pains of using Linux was what really shifted the last two months by a few gears. It did, though, have surprising benefits.&#xA;Started a &amp;ldquo;Prusa Printer Challenge&amp;rdquo; for myself in 2023&amp;raquo; as a way of turning free content into a new tool for the business. The contests on Printables are fun incentives to create - and be creative.</description>
     </item>
     <item>
       <title>Nutvember 2022</title>
-      <link>http://localhost:7966/post/2022-11-28-nutvember-2022/</link>
+      <link>http://localhost:4321/post/2022-11-28-nutvember-2022/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/2022-11-28-nutvember-2022/</guid>
+      <guid>http://localhost:4321/post/2022-11-28-nutvember-2022/</guid>
       <description>A year ago I created the Nutvember kitbashing set of nuts and bolts to&amp;hellip; celebrate(?) No Nut November (NNN). Also known as Movember it was something I&amp;rsquo;d been casually familiar with and I wanted to change that.&#xA;Read some papers, some very old and others recent. Masturbation is what I read the most on because I wanted to find conversations on the act that weren&amp;rsquo;t focused on the psycho-sexual parts explored by the Freuds or the Kinseys.</description>
     </item>
     <item>
       <title>Letting Go?</title>
-      <link>http://localhost:7966/post/2022-10-31-letting-go/</link>
+      <link>http://localhost:4321/post/2022-10-31-letting-go/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/2022-10-31-letting-go/</guid>
+      <guid>http://localhost:4321/post/2022-10-31-letting-go/</guid>
       <description>These blog posts started out with the purpose of covering what I thought were things worth sharing and, in a sense, backing-up some experiences to revisit. The episode where Terry (Brooklyn Nine-Nine) resolves to leave the force, but is persuaded otherwise by Holt. Later episodes made a theme of it and it re-framed the relationship dynamics for me. When I look back I see a lot of it in my own life on both sides and it&amp;rsquo;s given me a lot of pause recently, making some obvious decisions/commitments difficult.</description>
     </item>
     <item>
       <title>Vibes</title>
-      <link>http://localhost:7966/post/vibes/</link>
+      <link>http://localhost:4321/post/vibes/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/vibes/</guid>
+      <guid>http://localhost:4321/post/vibes/</guid>
       <description>There was a theme and set of topics set for this month that had to be scrapped,&#xA;so this post will touch on some other stuff to keep the monthly train going - and hopefully let off some real steam on the outside.&#xA;Got back into reading for the habit more than the learning. I try to do it first thing everyday while it&amp;rsquo;s still dark. It sets such a good tone for the day.</description>
     </item>
     <item>
       <title>Blog of Changes</title>
-      <link>http://localhost:7966/post/2022-08-22-blog-of-changes/</link>
+      <link>http://localhost:4321/post/2022-08-22-blog-of-changes/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/2022-08-22-blog-of-changes/</guid>
+      <guid>http://localhost:4321/post/2022-08-22-blog-of-changes/</guid>
       <description>Burnout isn&amp;rsquo;t the only reason I stopped making artwork for a while. I also realised I&amp;rsquo;d been, for the longest time, guilty of only doing works that would be seen. Practice was meaningless if it would only be seen by me, if it wouldn&amp;rsquo;t eventually be sent out to get hearts and likes. Sad, but mostly true. It&amp;rsquo;s a weird thing to tackle, but the thing that helped me the most was to commit to daily routines of producing/exploring with the intent of doing the same thing better over time.</description>
     </item>
     <item>
       <title>New Site Loading</title>
-      <link>http://localhost:7966/post/2022-07-17-new-site-loading/</link>
+      <link>http://localhost:4321/post/2022-07-17-new-site-loading/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/post/2022-07-17-new-site-loading/</guid>
+      <guid>http://localhost:4321/post/2022-07-17-new-site-loading/</guid>
       <description>Getting the Ball Rolling One of the things I got out of completing the Data Analytics certification was being introduced to R and RStudio. I&amp;rsquo;ve since learned how to build a site using RStudio. This is the result so far and I&amp;rsquo;m currently filling it out daily till I get it to a level of completeness that covers what I can display.&#xA;The Learning Process Early on I was fortunate enough to find CradleToGraveR&amp;rsquo;s channel on YouTube where he does an amazing job at walking you through the steps and also showing you other routes in case you run into some trouble - which I did on many occasions.</description>
     </item>
     <item>
       <title>Renewable Energy in South Africa</title>
-      <link>http://localhost:7966/portfolio/renewable-energy-in-south-africa/</link>
+      <link>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7966/portfolio/renewable-energy-in-south-africa/</guid>
+      <guid>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</guid>
       <description>The purpose of this data exploration is to apply and the practice the skills gained from the Google Data Analytics Professional Certification. The data being explored relates to South African energy, primarily electricity. This exercise will be replicated on other tools later on such as Power BI and SQL.&#xA;The datasets are mostly in .csv format and were collected from the following sources:&#xA;Eskom&#xA;World Bank&#xA;Energy Data&#xA;Regulatory Indicator for Sustainable Energy (RISE)</description>
     </item>
     <item>
       <title>Roundhouse [ArchViz]</title>
-      <link>http://localhost:7966/portfolio/roundhouse/</link>
+      <link>http://localhost:4321/portfolio/roundhouse/</link>
       <pubDate>Fri, 03 Jun 2022 23:13:32 +0200</pubDate>
-      <guid>http://localhost:7966/portfolio/roundhouse/</guid>
+      <guid>http://localhost:4321/portfolio/roundhouse/</guid>
       <description>![Running Project Header Image][1]&#xA;I stumbled upon a video discussing &amp;ldquo;Earth-Integrated&amp;rdquo; homes. Built using reinforced ferrous-concrete, and then covered with a layer of earth. A striking feature was the visual quality of the interior spaces which were domical in shape and capped with a skylight. The quality of the space is something I wanted to carry through in this project along with some personal touches.&#xA;![Moodboard][2]&#xA;The moodboard above covers most of the aspects that can be found in the minimal-rustic-camping umbrella.</description>
     </item>
   </channel>

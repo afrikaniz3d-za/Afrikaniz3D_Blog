@@ -30,6 +30,9 @@
     <loc>http://localhost:4321/tags/analytics/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/tags/big-query/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/categories/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,16 +42,37 @@
     <loc>http://localhost:4321/tags/cte/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/tags/data-analysis/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-exploration/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/tags/data-science/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/databricks/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/tags/dataset/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/eda/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/tags/etl/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/portfolio/lobbyists-4-america/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-analytics/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-challenge/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/maven-hospital-challenge/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/mode-analytics/</loc>
@@ -88,15 +112,6 @@
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/client/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-exploration/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/dataset/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/eda/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/kitbash/</loc>

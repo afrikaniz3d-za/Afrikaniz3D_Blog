@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7966&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Afrikaniz3D Blogfolio</title>
 <meta name="description" content="Combination of a blog and portfolio I use to try host as much of my works in one place.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://localhost:7966/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://localhost:4321/css/bootstrap.min.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
-<link rel="stylesheet" href="http://localhost:7966/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://localhost:7966/css/owl.carousel.css">
-<link rel="stylesheet" href="http://localhost:7966/css/owl.theme.css">
+<link rel="stylesheet" href="http://localhost:4321/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:4321/css/owl.carousel.css">
+<link rel="stylesheet" href="http://localhost:4321/css/owl.theme.css">
 
 
-  <link href="http://localhost:7966/css/style.graylime.css" rel="stylesheet" id="theme-stylesheet">
+  <link href="http://localhost:4321/css/style.graylime.css" rel="stylesheet" id="theme-stylesheet">
 
  
 
@@ -24,8 +24,8 @@
   
 
 
-<link href="http://localhost:7966/css/custom.css" rel="stylesheet">
-<link rel="shortcut icon" href="http://localhost:7966/img/favicon.png">
+<link href="http://localhost:4321/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="http://localhost:4321/img/favicon.png">
 
 
   
@@ -56,7 +56,7 @@
           <div class="row row-offcanvas row-offcanvas-left">
               <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
-    <h1 class="sidebar-heading"><a href="http://localhost:7966/">Afrikaniz3D Blogfolio</a></h1>
+    <h1 class="sidebar-heading"><a href="http://localhost:4321/">Afrikaniz3D Blogfolio</a></h1>
     
       <p class="sidebar-p">I am a CG hobbyist working mostly with Blender3D.  Also exploring work in Data Science and Analytics. Yes, A.I. is taking over these fields, but learning and working in them is helping me think goode- better..</p>
     
@@ -66,13 +66,13 @@
     
     <ul class="sidebar-menu">
       
-        <li><a href="http://localhost:7966/post/">Blogs</a></li>
+        <li><a href="http://localhost:4321/post/">Blogs</a></li>
       
-        <li><a href="http://localhost:7966/portfolio/">Portfolio</a></li>
+        <li><a href="http://localhost:4321/portfolio/">Portfolio</a></li>
       
-        <li><a href="http://localhost:7966/about/">About Afrikaniz3D</a></li>
+        <li><a href="http://localhost:4321/about/">About Afrikaniz3D</a></li>
       
-        <li><a href="http://localhost:7966/contact/">Get in touch</a></li>
+        <li><a href="http://localhost:4321/contact/">Get in touch</a></li>
       
     </ul>
     <p class="social">
@@ -140,7 +140,7 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
-  <h1 class="small-navbar-heading"><a href="http://localhost:7966/">Afrikaniz3D Blogfolio</a></h1>
+  <h1 class="small-navbar-heading"><a href="http://localhost:4321/">Afrikaniz3D Blogfolio</a></h1>
 </div>
 
   <div class="row">
@@ -238,17 +238,11 @@ df.write.format(&quot;parquet&quot;).mode(&quot;overwrite&quot;).option(&quot;pa
 <h2>5. First Look</h2>
 <div id="looking-at-the-tweets-table" class="section level4">
 <h4>5.1 Looking at the tweets table</h4>
-<div class="float">
-<img src="/img/portfolio/W12/w12001.webp" alt="20. Looking at tweets table variables gif" />
-<div class="figcaption">20. Looking at tweets table variables gif</div>
-</div>
+<p><img src="/img/portfolio/W12/w12001.png" /></p>
 </div>
 <div id="looking-at-the-users-table" class="section level4">
 <h4>5.2 Looking at the users table</h4>
-<div class="float">
-<img src="/img/portfolio/W12/w12002.webp" alt="22. Looking at users table variables" />
-<div class="figcaption">22. Looking at users table variables</div>
-</div>
+<p><img src="/img/portfolio/W12/w12002.png" /></p>
 </div>
 <div id="descriptive-stats" class="section level4">
 <h4>5.3 Descriptive Stats</h4>
@@ -316,7 +310,225 @@ The users table contains the information pertaining to the 545 (or 548*) users t
 <div id="what-stood-out" class="section level4">
 <h4>5.4 What stood out</h4>
 <p>Apart from the columns that the dataset could have done without (discussed in the next section) I found some other details that I think anyone working with this dataset needs to be mindful of.</p>
+<div id="possible-collector-bias" class="section level5">
+<h5>5.4.1 Possible Collector Bias</h5>
+<p>The tweets are collected through an account that has engaged with some of the posts and follows some of its users. The only concern here is in the event bias is seriously explored.</p>
+<p><img src="/img/portfolio/W12/w12003.png" /></p>
 </div>
+<div id="three-mystery-users" class="section level5">
+<h5>5.4.2 Three Mystery Users</h5>
+<p>Prior to looking at the descriptive stats I wanted to make sure that some of the figures in the tweets table correlated with the data in the users table.</p>
+<p><img src="/img/portfolio/W12/w12004.png" /></p>
+<p><img src="/img/portfolio/W12/w12005.png" /></p>
+<p>Yvette Clarke, Rob Bishop and Tiberius Press were the 3 missing users which I discovered by performing a <strong>JOIN</strong> on the <strong>screen_name</strong>, looking for where the join was unsuccessful (NULL).</p>
+<p><img src="/img/portfolio/W12/w12006.png" /></p>
+<p><img src="/img/portfolio/W12/w12007.png" /></p>
+<p><img src="/img/portfolio/W12/w12008.png" /></p>
+<p><img src="/img/portfolio/W12/w12009.png" /></p>
+<p>I eventually found that Rep. Bob Bishop wasn’t an active user on Twitter, but had a <a href="https://twitter.com/RepRobBishop">profile</a> probably for the purposes of co-signing other users. I also think something similar was done for Yvette Clarke and Tiberius (<span class="citation">@lordtiberius</span>), although looking at some of the tweets they are mentioned in I could also assume that their accounts/tweets were removed for one reason or another.</p>
+</div>
+<div id="potential-censorship" class="section level5">
+<h5>5.4.3 (potential) Censorship</h5>
+<p>Something I took subconscious note of at the start of the exploration was the <strong>possibly_sensitive</strong> column. It became clear that these tweets would often discuss things like violence or death, so I imagine this marker was used to affect the ranking/visibility of the tweet to protect sensitive viewers.</p>
+<p>Below, I’ve pulled some tweets where they were marked as possibly sensitive and the results should raise concerns.</p>
+<p><img src="/img/portfolio/W12/w12010.png" /></p>
+<p>Some of these tweets are not only harmless, but are similar to other tweets that have not been flagged.</p>
+<p><img src="/img/portfolio/W12/w12011.png" /></p>
+<p>It’s clear Rep. Norma J Torres has had her account blanket flagged for possibly sensitive content, which could affect her reach.</p>
+<p>The lesson here is to keep in-mind that whether it’s done by algorithm or manually by an engineer, you may run into periods where a tweet or two could jeopardise your reach without notifying you, so stay aware of things like dips in engagement and keep a friendly relationship with the Twitter support team.</p>
+</div>
+<div id="poliglot" class="section level5">
+<h5>5.4.4 Poliglot*</h5>
+<p>While looking at the descriptive stats I started paying attention to columns I initially thought wouldn’t be useful - “<strong><em>If they were 99% NULL, what can be said about the rows that aren’t empty</em></strong>?”</p>
+<p>Something I hadn’t considered going into the project was the importance of making the tweet accessible in other languages.</p>
+<p>I think this is an important datapoint to keep in mind as simply relying on built-in translator tools runs the risk of a loss of impact or unintended inflammation. Becoming a regular translator shows an additional layer of consideration for a multi-cultural audience.</p>
+<p><img src="/img/portfolio/W12/w12012.png" /></p>
+</div>
+<div id="politicing-the-algorithm-isnt-the-only-way-to-get-your-message-pushed" class="section level5">
+<h5>5.4.5 Politicing the algorithm isn’t the only way to get your message pushed</h5>
+<p>The chicken nugget meme that involved reposting a user’s campaign to reach a target number of likes was non-political, but generated a lot of activity – which could be used to boost primary messaging without falling into the trap of relying on drama/scandal to get attention because it generally has wider appeal.</p>
+<p><img src="/img/portfolio/W12/w12013.png" /></p>
+<p>What’s most interesting about this result is that the most viral tweet (by shareability) does not receive any likes, meaning, by more recent discussion regarding how the algorithm works, that the tweet relies solely on user-driven push to get eyes on it.</p>
+<p><a href="https://buffer.com/resources/successful-tweets/">Buffer</a> conducted a study of their best tweets to better understand why those tweets did so well. Key elements I would cite as being the reasons for why the nugget tweet was so successful were:</p>
+<p>• <em>It is entertaining</em><br />
+• <em>Relatable content</em><br />
+• <em>Call to action</em><br />
+• <em>Asking for engagement</em></p>
+<p>Other element elements identified in the study will inform the final recommendations at the end of this exercise.</p>
+</div>
+</div>
+</div>
+<div id="etl" class="section level2">
+<h2>6. ETL</h2>
+<p>Before I could use the data, I first needed to go through it and make sure that it was formatted accordingly.</p>
+<div id="transforming-the-data" class="section level4">
+<h4>6.1 Transforming the data</h4>
+<div id="datetime-variable" class="section level5">
+<h5>6.1.1 DATETIME variable</h5>
+<p>The timestamp column (created_at) is in the Unix format. To transform it into a readable format I used the query below to split it into a <strong><em>date</em></strong> and <strong><em>time</em></strong> column:</p>
+<p><img src="/img/portfolio/W12/w12014.png" /></p>
+</div>
+<div id="tweet-length" class="section level5">
+<h5>6.1.2 Tweet Length</h5>
+<p>The <strong>display_text_range</strong> variable is in the array format. To make it easier to read, and be able to calculate figures for the descriptive statistics, I transformed it to a regular integer using the following:</p>
+<p><img src="/img/portfolio/W12/w12015.png" /></p>
+<p>Most of the other transformations were renaming to use terms we are more familiar with today - “likes” instead of “favorites”, “screen_name” to “user”, “text” to “tweet” etc.</p>
+<p>Something else that I found was that the ordering of the columns often found me scrolling past many columns to headings I used often. In situations where I knew this table wouldn’t be updated (such as this project) I would do all necessary ETL and export it as a new easier-to-use table for the project’s duration, but I decided to leave it as-is to better practice working in scenarios where I’m not the only user of the table, as well as minimising instances where something undesirable could happen.</p>
+</div>
+</div>
+<div id="are-all-the-columns-necessary-for-the-exercise" class="section level4">
+<h4>6.2 Are all the columns necessary for the exercise?</h4>
+<p>There was no metadata/ background data that came with the dataset, I slowly started piecing a few things together during my initial look-through.<br />
+The first thing that stood out was the high number of variables/columns, especially how many of their rows had NULL values.</p>
+<p>I also put forward that some columns indicate that the dataset relates to the account used to mine the tweets. By this I am referring to the columns <strong>favorited</strong> - has the user also liked the tweet?, and <strong>following</strong> - is the owner of the account following the listed user?, to name a few.</p>
+<p><strong>tweets table</strong><br />
+• created_at<br />
+• id<br />
+• in_reply_to_screen_name<br />
+• in_reply_to_status_id_string<br />
+• in_reply_to_user_id_str<br />
+• is_quoted_status<br />
+• quoted_status_id_str<br />
+• retweeted<br />
+• retweet_count<br />
+• screen_name<br />
+• text<br />
+• user_id</p>
+<p><strong>users table</strong><br />
+• created_at<br />
+• description<br />
+• entities<br />
+• favourites_count<br />
+• followers_count<br />
+• friends_count<br />
+• id_str<br />
+• listed_count<br />
+• name<br />
+• screen_name<br />
+• statuses_count</p>
+</div>
+<div id="transformed-dataframe" class="section level4">
+<h4>6.3 Transformed dataframe</h4>
+<p>Below is a typical example of the tweets table transformed to reflect a readable and format of the records that also uses more-familiar terms.</p>
+<p><img src="/img/portfolio/W12/w12016.png" /></p>
+</div>
+</div>
+<div id="text-data-analysis" class="section level2">
+<h2>7. Text Data Analysis</h2>
+<p>I employed the text blob, or word cloud, to parse out the most commonly-used words and terms to get a sense for what topics defined the overall discourse.</p>
+<p>An element of this tool that needed the most attention was the refinement of the lexicon that was used to filter-out <strong><em>stop-words</em></strong>.</p>
+<p>Something else I need to point out was that I didn’t change the case of all the tweets to lower-case as I think it would make it easier to identify acronyms and other kinds of shorthand.</p>
+<div id="top-issues-discussed-keyword-frequency" class="section level4">
+<h4>7.1 Top Issues Discussed (keyword frequency)</h4>
+<p>• Congress<br />
+• Healthcare<br />
+• President<br />
+• Obama<br />
+• Americans<br />
+• Families<br />
+• Women<br />
+• Jobs<br />
+• Tax<br />
+• GOP<br />
+• Trump</p>
+<div id="word-cloud-of-top-issues-overall" class="section level5">
+<h5>7.1.1 Word Cloud of Top Issues Overall</h5>
+<p><img src="/img/portfolio/W12/w12017.png" /></p>
+<p><img src="/img/portfolio/W12/w12018.png" /></p>
+</div>
+</div>
+<div id="top-topicstags-by-year" class="section level4">
+<h4>7.2 Top Topics/Tags by Year</h4>
+<p><strong>2008</strong> – #pork<br />
+<strong>2009</strong> – #tcot, #sctweets, #masen, #TCOT, #healthcare<br />
+<strong>2010</strong> – #tcot, #gop, #hcr, #sctweets, #ncsen, #ncgop<br />
+<strong>2011</strong> – #tcot, #GOP, #jobs, #tn03, #sctweets, #va01, #p2<br />
+<strong>2012</strong> – #tcot, #jobs, #mDayton, #NEPA, #GOP<br />
+<strong>2013</strong> – #Obamacare, #IRS, #immigration, #mepolitics, #Syria, #Benghazi, #SmallBiz, #ACA<br />
+<strong>2014</strong> – #tcot, #SOTU, #IRS, #mepolitics, #IASEN, #immigration, #RenewUI<br />
+<strong>2015</strong> – #SOTU, #mepolitics, #IranDeal, #Obamacare<br />
+<strong>2016</strong> – #SCOTUS, #NoBillNoBreak, #Zika</p>
+<div id="top-topicstags-per-year" class="section level5">
+<h5>7.2.1 Top Topics/Tags per Year</h5>
+<p><img src="/img/portfolio/W12/w12019.png" /></p>
+<p><img src="/img/portfolio/W12/w12020.png" /></p>
+<p><img src="/img/portfolio/W12/w12021.png" /></p>
+<p><img src="/img/portfolio/W12/w12022.png" /></p>
+<p><img src="/img/portfolio/W12/w12023.png" /></p>
+<p><img src="/img/portfolio/W12/w12024.png" /></p>
+<p><img src="/img/portfolio/W12/w12025.png" /></p>
+<p><img src="/img/portfolio/W12/w12026.png" /></p>
+<p><img src="/img/portfolio/W12/w12027.png" /></p>
+<p><img src="/img/portfolio/W12/w12028.png" /></p>
+<p><strong>#tcot</strong> is a hashtag that started appearing often towards the end of 2008 as an acronym for “<em>Top Conservatives of Twitter</em>”. I’d <a href="https://www.ibtimes.com/what-does-tcot-mean-about-tcot-hashtag-top-conservatives-use-twitter-1109812">read</a> that it was used as a call sign of-sorts for conservative users to easily find tweets from like-minded users on the platform. Given that the party is also referred to with <strong>#GOP</strong>, the is a large imbalance when compared to the volume of democrat-identifying tags. The democrats do, though, have their own tag in the form of <strong>#p2</strong> (for the progressives) which begins featuring in 2011, 2014, but never in a magnitude comparable to #tcot.</p>
+</div>
+</div>
+<div id="top-voices-and-conversations-in-healthcare" class="section level4">
+<h4>7.3 Top voices and conversations in #Healthcare</h4>
+<div id="ranked-healthcare-tweets" class="section level5">
+<h5>7.3.1 Ranked #Healthcare Tweets</h5>
+<p><img src="/img/portfolio/W12/w12029.png" /></p>
+<p><img src="/img/portfolio/W12/w12030.png" /></p>
+<p><img src="/img/portfolio/W12/w12031.png" /></p>
+<p><img src="/img/portfolio/W12/w12032.png" /></p>
+</div>
+</div>
+<div id="top-voices-and-conversations-in-jobs" class="section level4">
+<h4>7.4 Top voices and conversations in #Jobs</h4>
+<div id="ranked-jobs-tweets" class="section level5">
+<h5>7.4.1 Ranked #Jobs Tweets</h5>
+<p><img src="/img/portfolio/W12/w12033.png" /></p>
+<p><img src="/img/portfolio/W12/w12034.png" /></p>
+<p><img src="/img/portfolio/W12/w12035.png" /></p>
+</div>
+</div>
+</div>
+<div id="sentiment-analysis" class="section level2">
+<h2>8. Sentiment Analysis</h2>
+<p>After identifying <strong><em>healthcare</em></strong> and <strong><em>jobs</em></strong> as being the most frequently discussed topics using textual analysis (word cloud), to identify users (overall) that represent a more optimistic outlook when engaging on the platform.</p>
+<div id="preparing-the-dataframe-for-the-analysis" class="section level4">
+<h4>8.1 Preparing the Dataframe for the Analysis</h4>
+<div id="creating-the-tweets-dataframe" class="section level5">
+<h5>8.1.1 Creating the Tweets Dataframe</h5>
+<p><img src="/img/portfolio/W12/w12036.png" /></p>
+</div>
+<div id="performing-the-sentiment-analysis-on-the-tweets-table" class="section level5">
+<h5>8.1.2 Performing the Sentiment Analysis on the Tweets Table</h5>
+<p><img src="/img/portfolio/W12/w12037.png" /></p>
+<p><img src="/img/portfolio/W12/w12038.png" /></p>
+<p><img src="/img/portfolio/W12/w12039.png" /></p>
+<p><img src="/img/portfolio/W12/w12040.png" /></p>
+</div>
+</div>
+</div>
+<div id="shareability-metrics" class="section level2">
+<h2>9. Shareability Metrics</h2>
+<p>Given that this exercise takes place on a platform that encourages you to create content that is effective at being highly shareable, I wanted to look more into the likes and retweet and their measured impact past the universally-accepted “more is better”. This led me to pose the question: “<strong>Which is better for ensuring that more people get to see your message, more likes or more retweets?</strong>”</p>
+<p>An [article](<a href="https://genflow.com/blogs/how-the-twitter-algorithm-works-in-2023#" class="uri">https://genflow.com/blogs/how-the-twitter-algorithm-works-in-2023#</a>:~:text=Likes%20are%20more%20important%20than,or%20Replies%20(1x%20boost) by Molly Rees on <a href="https://genflow.com/">Genflow</a> shared some surprising nuggets of information when it came to changes in the algorithm (in 2023) that are worth looking into in general.</p>
+<p>When it came to likes and retweets it Rees says <strong>likes are the most important</strong>. If your post has more likes than retweets or replies the algorithm will boost the ranking of the tweet by <strong>30x</strong>, compared to the <strong>20x</strong> boost it would have gotten if it had more retweets.</p>
+<div id="what-i-was-looking-for" class="section level4">
+<h4>9.1 What I was looking for</h4>
+<p>Given what I had learned above, I now have an idea of what to look at to measure what I consider a good example of a tweet worth emulating. Thesequalities are:<br />
+- <strong>The tweet has more likes than retweets and replies/quotes, regardless of the volume</strong>. This is so that it at least will be seen as a good postto be pushed by the algorithm.
+- <strong>Sentiment analysis value between 0 and 1 - 0 being neutral, and 1 being positive</strong>. This ensures that you’re also only looking at techniques of injecting more positivity into the discourse, regardless of the nature of the subject matter.</p>
+<div id="generating-an-etld-base-table" class="section level5">
+<h5>9.1.1 Generating an ETL’d base table</h5>
+<p>I repeated the steps of generating a table with the most useful columns, including the sentiment column, then saving it as it’s own table to use in the next step.</p>
+<p><img src="/img/portfolio/W12/w12041.png" /></p>
+</div>
+</div>
+</div>
+<div id="recommendations-using-this-table" class="section level2">
+<h2>10. Recommendations using this table</h2>
+<p>The resultant table does something I had not anticipated at the start - and that’s provide a further opportunity introduce a change in tone by adjusting the range values for sentiment whilst keeping the tweet algo-push-friendly.</p>
+<p>It may seem tedious at the start, but running tweet drafts through this set-up will go a long way towards guiding the user in using the right language and, over time, you might not need to refer to it once it has set in.</p>
+</div>
+<div id="final-thoughts" class="section level2">
+<h2>11. Final Thoughts</h2>
+<p>This has been an informative exercise in many ways. Aside from learning to work with a large dataset, I explored qualitative data with machine learning. It was also interesting to look at this older data through an algorithm-centric lens in 2024 in the sense that it has changed so much (and continues to do so), knowing how much more important it has become to aware of changes in the algorithm, <a href="https://en.wikipedia.org/wiki/Shadow_banning#:~:text=Shadow%20banning%2C%20also%20called%20stealth,whether%20the%20action%20is%20taken">shadow banning</a>, and other forms of censorship’s impact on the participant’s experience (and reach) in the social media space.</p>
+<p>Something else I feel is important to always keep in mind when having any kind of discussion about social media figures is the phenomenon of <a href="https://www.cloudflare.com/learning/bots/what-is-a-social-media-bot#:~:text=Broadly%20speaking%2C%20social%20media%20bots,designed%20to%20mimic%20human%20users.">botting</a>, particularly on Twitter, and even more particularly in the political niche. It’s a <a href="https://blog.x.com/common-thread/en/topics/stories2021/four-truths-about-bots">nuanced conversation</a> that I think should be kept in-mind when looking to use user-generated content to make data-driven decisions in a space where authenticity cannot be guaranteed 100%.</p>
+<p>Lastly, I didn’t even look at using the users table for this, but another good exercise would be to then isolate the top voices and match the contents/formatting of their user profiles in terms of fullness, types of links provided, as well as the quality of all graphics used. This makes me think back to the first episode of the sixth season of <a href="https://www.imdb.com/title/tt7538918/">House of Cards</a> where imaging software is used to morph Claire’s facial features to look a little more like Frank’s to garner more support against her rivals.</p>
+<p>((<strong>(double table thump)</strong>))</p>
 </div>
 
          <div id="disqus_thread"></div>
@@ -347,15 +559,15 @@ The users table contains the information pertaining to the 545 (or 548*) users t
           </div>
       </div>
   </div>
-  <script src="http://localhost:7966/js/jquery.min.js"></script>
-<script src="http://localhost:7966/js/bootstrap.min.js"></script>
-<script src="http://localhost:7966/js/jquery.cookie.js"> </script>
-<script src="http://localhost:7966/js/ekko-lightbox.js"></script>
-<script src="http://localhost:7966/js/jquery.scrollTo.min.js"></script>
-<script src="http://localhost:7966/js/masonry.pkgd.min.js"></script>
-<script src="http://localhost:7966/js/imagesloaded.pkgd.min.js"></script>
-<script src="http://localhost:7966/js/owl.carousel.min.js"></script>
-<script src="http://localhost:7966/js/front.js"></script>
+  <script src="http://localhost:4321/js/jquery.min.js"></script>
+<script src="http://localhost:4321/js/bootstrap.min.js"></script>
+<script src="http://localhost:4321/js/jquery.cookie.js"> </script>
+<script src="http://localhost:4321/js/ekko-lightbox.js"></script>
+<script src="http://localhost:4321/js/jquery.scrollTo.min.js"></script>
+<script src="http://localhost:4321/js/masonry.pkgd.min.js"></script>
+<script src="http://localhost:4321/js/imagesloaded.pkgd.min.js"></script>
+<script src="http://localhost:4321/js/owl.carousel.min.js"></script>
+<script src="http://localhost:4321/js/front.js"></script>
 
 
 

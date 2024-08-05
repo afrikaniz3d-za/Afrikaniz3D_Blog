@@ -23,6 +23,13 @@
       <description></description>
     </item>
     <item>
+      <title>Big Query</title>
+      <link>http://localhost:4321/tags/big-query/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/big-query/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Coursera</title>
       <link>http://localhost:4321/tags/coursera/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
@@ -34,6 +41,20 @@
       <link>http://localhost:4321/tags/cte/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/cte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:4321/tags/data-analysis/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Exploration</title>
+      <link>http://localhost:4321/tags/data-exploration/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-exploration/</guid>
       <description></description>
     </item>
     <item>
@@ -51,10 +72,38 @@
       <description></description>
     </item>
     <item>
+      <title>Dataset</title>
+      <link>http://localhost:4321/tags/dataset/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/dataset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eda</title>
+      <link>http://localhost:4321/tags/eda/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Etl</title>
       <link>http://localhost:4321/tags/etl/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/etl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Analytics</title>
+      <link>http://localhost:4321/tags/maven-analytics/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Challenge</title>
+      <link>http://localhost:4321/tags/maven-challenge/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-challenge/</guid>
       <description></description>
     </item>
     <item>
@@ -118,27 +167,6 @@
       <link>http://localhost:4321/tags/client/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/client/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Exploration</title>
-      <link>http://localhost:4321/tags/data-exploration/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-exploration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataset</title>
-      <link>http://localhost:4321/tags/dataset/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/dataset/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eda</title>
-      <link>http://localhost:4321/tags/eda/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/eda/</guid>
       <description></description>
     </item>
     <item>

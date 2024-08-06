@@ -264,10 +264,10 @@ What's most interesting about this result is that the most viral tweet (by share
 
 [Buffer](https://buffer.com/resources/successful-tweets/) conducted a study of their best tweets to better understand why those tweets did so well. Key elements I would cite as being the reasons for why the nugget tweet was so successful were:  
   
-•  *It is entertaining*  
-•  *Relatable content*  
-•  *Call to action*  
-•  *Asking for engagement*  
+  - *It is entertaining*  
+  - *Relatable content*  
+  - *Call to action*  
+  - *Asking for engagement*  
   
 Other element elements identified in the study will inform the final recommendations at the end of this exercise.  
   
@@ -436,7 +436,7 @@ After identifying ***healthcare*** and ***jobs*** as being the most frequently d
 ##  9. Shareability Metrics  
 Given that this exercise takes place on a platform that encourages you to create content that is effective at being highly shareable, I wanted to look more into the likes and retweet and their measured impact past the universally-accepted "more is better". This led me to pose the question: "**Which is better for ensuring that more people get to see your message, more likes or more retweets?**"  
   
-An [article](https://genflow.com/blogs/how-the-twitter-algorithm-works-in-2023#:~:text=Likes%20are%20more%20important%20than,or%20Replies%20(1x%20boost) by Molly Rees on [Genflow](https://genflow.com/) shared some surprising nuggets of information when it came to changes in the algorithm (in 2023) that are worth looking into in general.  
+An [article](https://genflow.com/blogs/how-the-twitter-algorithm-works-in-2023/) by Molly Rees on [Genflow](https://genflow.com/) shared some surprising nuggets of information when it came to changes in the algorithm (in 2023) that are worth looking into in general.  
   
 When it came to likes and retweets it Rees says **likes are the most important**. If your post has more likes than retweets or replies the algorithm will boost the ranking of the tweet by **30x**, compared to the **20x** boost it would have gotten if it had more retweets.  
   

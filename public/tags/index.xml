@@ -93,6 +93,27 @@
       <description></description>
     </item>
     <item>
+      <title>Healthcare</title>
+      <link>http://localhost:4321/tags/healthcare/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Healthcare Analytics</title>
+      <link>http://localhost:4321/tags/healthcare-analytics/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/healthcare-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Massachusetts General Hospital</title>
+      <link>http://localhost:4321/tags/massachusetts-general-hospital/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/massachusetts-general-hospital/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Maven Analytics</title>
       <link>http://localhost:4321/tags/maven-analytics/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
@@ -104,6 +125,13 @@
       <link>http://localhost:4321/tags/maven-challenge/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/maven-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mgh</title>
+      <link>http://localhost:4321/tags/mgh/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/mgh/</guid>
       <description></description>
     </item>
     <item>

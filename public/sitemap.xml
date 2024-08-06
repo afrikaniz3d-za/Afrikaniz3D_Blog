@@ -63,7 +63,16 @@
     <loc>http://localhost:4321/tags/etl/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/tags/healthcare/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/healthcare-analytics/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/portfolio/lobbyists-4-america/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/massachusetts-general-hospital/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/maven-analytics/</loc>
@@ -73,6 +82,9 @@
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/portfolio/maven-hospital-challenge/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mgh/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/mode-analytics/</loc>

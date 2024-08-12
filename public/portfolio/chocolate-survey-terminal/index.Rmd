@@ -19,7 +19,7 @@ tags:
   - chocolate
   - survey
   - eda
-draft: yes
+draft: false
 image: 'img/portfolio/W8/w8000.webp'
 showonlyimage: yes
 ---

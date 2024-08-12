@@ -12,14 +12,13 @@ Worked in the built environment for a number of years after receiving a degree i
 * Durban High School (DHS) | 2006
 * Bachelor of Architectural Studies | University of kwaZulu-Natal (UKZN) | 2010
 * [Google Data Analytics Professional Certificate](https://coursera.org/share/32cd7061f7a9c501e822d9c5d7c85da9) | Google x Coursera | 2022  
-* Google Project Management Certification | Google x Coursera | In-Progress
+* [Google Project Management Certification](https://coursera.org/verify/professional-cert/D6ABYS69U8RW) | Google x Coursera | 2023  
+* [Learn SQL Basics for Data Science](https://www.coursera.org/account/accomplishments/specialization/MPL45SBSNG8R) | UC Davis x Coursera | 2024
 
 #### Work Experience
 
 * Senior Architectural Technologist + Illustrator | 2010 - 2017
-* ArchViz + CG Generalist | 2018 - present
+* Data Analyst + CG Generalist | 2018 - present
 
-
-Data analytics and coding are a recent addition. With time they will become part of the AFRIKANIZ3D offering - starting with web development on websites such as this one.
 
 [1]: /img/about.png

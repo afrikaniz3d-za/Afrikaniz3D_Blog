@@ -1,35 +1,44 @@
 ---
 title: Figuring it out again
 author: Ntobeko Sosibo
-date: '2024-08-12'
-draft: true
+date: '2024-08-18'
+draft: false
 slug: [figuring-it-out-again]
-image: img/post/P10/p10000.jpg
+image: img/post/P10/p10000.webp
 showonlyimage: true
 categories:
   - blog
 tags:
   - blog
   - update
-  - job applications
-  - interview
-  - resume
+  - patreon
+  - fotj
+  - mdp
+  - gumroad
+  - blender market
+  - art station
   
 ---
-![from me][1]  
+![][1]  
   
-Been a while since I made a blog post having pulled back for a variety of reasons. Even as I was creating this entry it occurred to me again how draining and contrived it felt to concept these things and practice restraint, make sure I'm projecting as "acceptable" image, create and upload free models to link and keep the analytics active.  
+Been a while since I made a blog post having pulled back for a variety of reasons. Even as I was creating this entry it occurred to me again how draining and contrived it felt to concept these things and practice restraint, make sure I'm projecting an "acceptable" image, create and upload free models to link and keep the analytics active etc.  
   
-But it also wasn't the case of taking a social media break to reset. In fact, I think I've been more active online in the past 8 months. Taking stock of all my routines - planned, daily, the things in-between - and experimenting with taking breaks (even from activities/tasks that were necessary to advance in some areas) posed new and old questions, over and over and all over again.  
+But it also wasn't the case of taking a social media break to reset. In fact, I think I've been more active online in the past 8 months. Taking stock of all my routines - planned, daily, the things in-between - and experimenting with taking breaks (even when I needed to soldier through it) posed new and old questions, over and over, and all over again.  
   
-The most annoying part about this all is that I started quietly (even to my waking self) figuring it out slowly and incrementally. I don't want to make the old mistake on proclaiming I finally have it - because it isn't something to have. It's also a strange comfort to know that I won't reach the point where I definitively do figure it out, but I'm certain working on it everyday offers the opportunity to discover a a way to do things better.  
+The most annoying part about this all is that I started quietly (even to my waking self) figuring it out slowly and incrementally. I don't want to make the old mistake on proclaiming I finally have it - because it isn't something to have. It's also a strange comfort to know that I won't reach the point where I definitively do figure it out, but I'm certain working on it everyday is the better of many alternatives.  
 
+![][2]  
   
-![for you][2]
-
+Nothing on this from yet. I've been working on updating my existing asset packs currently on sale on Blender Market, Art Station and Gumroad. A new avenue I've been working on is my $1 [Patreon](https://www.patreon.com/afrikaniz3d) where I'm hosting a lot of the models currently available for free on my [Gumroad](https://afrikaniz3dza.gumroad.com). The added benefit with the Patreon is that this is where I'll be sharing future [MDP](https://www.youtube.com/playlist?list=PLryiPmQj99uABWE4-p4GGluo2kxhR5KWT) project models as well as all the models made in the [FOTJ](https://www.youtube.com/playlist?list=PLryiPmQj99uAzws5dLiyAOk3oMtAU70BK) series.  
+  
+![][3]  
+  
+I'm still planning to make and release free models to get eyes on my channels, just need to do more market research and find the best method to avoid overextending past what's already going on.  
+  
+![][4]
+  
 
 [1]: /img/post/P10/p10001.jpg
 [2]: /img/post/P10/p10002.jpg
-[3]: /img/post/P10/p10003.jpg
-[4]: /img/post/P10/p10004.jpg
-[5]: /img/post/P10/p10005.jpg
+[3]: /img/post/P10/p10003.webp
+[4]: /img/post/P10/p10004.webp

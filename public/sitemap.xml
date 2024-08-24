@@ -22,37 +22,46 @@
     <loc>http://localhost:4321/portfolio/work9---sql-data-exploration/</loc>
   </url><url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/art-station/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/blender-market/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/blog/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/blog/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/2024-08-12-figuring-it-out-again/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/interview/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/fotj/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/job-applications/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/gumroad/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mdp/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/patreon/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/resume/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/update/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/a/b-testing/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
@@ -193,9 +202,6 @@
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/geometry-nodes/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/gumroad/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/hexes/</loc>

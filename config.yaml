@@ -5,24 +5,31 @@ languageCode: en-us
 disqusShortname: 'afrikaniz3d'
 googleAnalytics: 'G-068HZ9Y7CD'
 params:
-  copyright: '&copy; 2023 Afrikaniz3D / Ntobeko Sosibo'
+  copyright: '&copy; 2024 Afrikaniz3D / Ntobeko Sosibo'
   description: Combination of a blog and portfolio I use to try host as much of my works in one place.
   email: afrikaniz3d@gmail.com
   navlinks:
-    - name: Blogs
-      url: post/
-    - home: yes
-      name: Portfolio
-      url: portfolio/
     - name: About Afrikaniz3D
       url: about/
+    - name: Portfolio
+      url: portfolio/
+      home: yes
+    - name: Blender Market
+      url: https://blendermarket.com/creators/afrikaniz3d/
+    - name: Gumroad
+      url: https://afrikaniz3dza.gumroad.com/
+    - name: Art Station
+      url: https://www.artstation.com/afrikaniz3d/store/
+    - name: Patreon
+      url: https://patreon.com/afrikaniz3d
+    - name: Blogs
+      url: post/
     - name: Get in touch
       url: contact/
   sidebarAbout:
-    - I am a CG hobbyist working mostly with Blender3D.  Also exploring work in Data Science and Analytics. Yes, A.I. is taking over these fields, but learning and working in them is helping me think goode- better..
+    - Data Analyst with expertise in data analytics, visualization, and project management. Proficient in Big Query SQL, RStudio, and Databricks. I am also a CG hobbyist working mostly with Blender3D.
     - From and currently based in South Africa.
-    - [Blender Market](blendermarket.com/creators/afrikaniz3d) | [Gumroad](afrikaniz3dza.gumroad.com) | [Art Station](https://www.artstation.com/afrikaniz3d/store?tab=digital_product)  
-    - "#b3d #hexesminipack #webdevelopment #dataanalytics #datascience #r #powerbi #databricks #python #sql #youtubeseo"
+    - "#b3d #blender #3dmodeling #3dart #hardsurface #hexesminipack #dataanalytics #datascience #r #powerbi #databricks #python #sql #youtubeseo"
   social:
     email: afrikaniz3d@gmail.com
     facebook: https://www.facebook.com/Afrikaniz3D-103985428323283

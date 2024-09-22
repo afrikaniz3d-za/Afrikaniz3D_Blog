@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on Afrikaniz3D Blogfolio</title>
-    <link>http://localhost:4321/tags/data-science/</link>
+    <link>https://afrikaniz3d.netlify.app/tags/data-science/</link>
     <description>Recent content in Data Science on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://afrikaniz3d.netlify.app/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lobbyists 4 America</title>
-      <link>http://localhost:4321/portfolio/lobbyists-4-america/</link>
+      <link>https://afrikaniz3d.netlify.app/portfolio/lobbyists-4-america/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/portfolio/lobbyists-4-america/</guid>
+      <guid>https://afrikaniz3d.netlify.app/portfolio/lobbyists-4-america/</guid>
       <description>&lt;div id=&#34;project-overview&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;1. Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;The following presentation is geared at anyone interested at taking a short look into how a political-twitter dataset is used to inform a general strategy for the client, &lt;strong&gt;Lobbyists4America&lt;/strong&gt;, to incrementally improve the presence and shareability of their message on &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;the-audience-for-this-project&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;2. The Audience for this project&lt;/h2&gt;&#xA;&lt;p&gt;As part of a &lt;a href=&#34;https://www.coursera.org/learn/sql-data-science-capstone/home/info&#34;&gt;capstone project&lt;/a&gt;, this presentation is directed at an &lt;strong&gt;external audience&lt;/strong&gt; interested in seeing what steps were taken to extract the necessary insights from the supplied dataset to formulate data-driven frameworks that inform messaging strategies using machine learning (ML) and other forms of analysis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Maven Hospital Challenge</title>
-      <link>http://localhost:4321/portfolio/maven-hospital-challenge/</link>
+      <link>https://afrikaniz3d.netlify.app/portfolio/maven-hospital-challenge/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/portfolio/maven-hospital-challenge/</guid>
+      <guid>https://afrikaniz3d.netlify.app/portfolio/maven-hospital-challenge/</guid>
       <description>&lt;div id=&#34;maven-hospital-challenge-introduction&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;1. Maven Hospital Challenge Introduction&lt;/h2&gt;&#xA;&lt;div id=&#34;challenge-objective&#34; class=&#34;section level4&#34;&gt;&#xA;&lt;h4&gt;1.1 Challenge Objective&lt;/h4&gt;&#xA;&lt;p&gt;For the &lt;a href=&#34;https://mavenanalytics.io/challenges/maven-hospital-challenge/facee4d2-8369-4c87-a55e-e6c7ed2a42d8?utm_source=linkedin&amp;amp;utm_campaign=mavenhospitalchallenge_li_maven&#34;&gt;Maven Hospital Challenge&lt;/a&gt;, you’ll play the role of an Analytics Consultant for &lt;strong&gt;Massachusetts General Hospital (MGH)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You’ve been asked to &lt;strong&gt;build a high-level KPI&lt;/strong&gt; report for the executive team, based on a subset of patient records. The purpose of the report is to &lt;strong&gt;give stakeholders visibility into the hospital’s recent performance&lt;/strong&gt;, and answer the following questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How many patients have been admitted or readmitted over time?&lt;/li&gt;&#xA;&lt;li&gt;How long are patients staying in the hospital, on average?&lt;/li&gt;&#xA;&lt;li&gt;How much is the average cost per visit?&lt;/li&gt;&#xA;&lt;li&gt;How many procedures are covered by insurance?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The dashboard should scale to accommodate new data over time, but the CEO has asked you to summarize any insights you can derive from the sample provided.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vibes</title>
-      <link>http://localhost:4321/post/vibes/</link>
+      <link>https://afrikaniz3d.netlify.app/post/vibes/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/post/vibes/</guid>
-      <description>&lt;p&gt;There was a theme and set of topics set for this month that had to be scrapped,&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/post/P3/p3001.jpg&#34; alt=&#34;pumpkin 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/post/P3/p3002.jpg&#34; alt=&#34;pumpkin 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;so this post will touch on some other stuff to keep the monthly train going - and hopefully let off some real steam on the outside.&lt;/p&gt;&#xA;&lt;p&gt;Got back into reading for the habit more than the learning. I try to do it first thing everyday while it&amp;rsquo;s still dark. It sets such a good tone for the day.The tone doesn&amp;rsquo;t last long, but it&amp;rsquo;s a break. So many things just suck, but the culture says no complaining - good/thankful vibes only.&lt;/p&gt;</description>
+      <guid>https://afrikaniz3d.netlify.app/post/vibes/</guid>
+      <description>&lt;p&gt;There was a theme and set of topics set for this month that had to be scrapped,&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://afrikaniz3d.netlify.app/img/post/P3/p3001.jpg&#34; alt=&#34;pumpkin 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://afrikaniz3d.netlify.app/img/post/P3/p3002.jpg&#34; alt=&#34;pumpkin 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;so this post will touch on some other stuff to keep the monthly train going - and hopefully let off some real steam on the outside.&lt;/p&gt;&#xA;&lt;p&gt;Got back into reading for the habit more than the learning. I try to do it first thing everyday while it&amp;rsquo;s still dark. It sets such a good tone for the day.The tone doesn&amp;rsquo;t last long, but it&amp;rsquo;s a break. So many things just suck, but the culture says no complaining - good/thankful vibes only.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

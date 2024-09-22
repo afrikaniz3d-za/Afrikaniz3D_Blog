@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articulated on Afrikaniz3D Blogfolio</title>
-    <link>https://afrikaniz3d.netlify.app/tags/articulated/</link>
+    <link>http://localhost:4321/tags/articulated/</link>
     <description>Recent content in Articulated on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://afrikaniz3d.netlify.app/tags/articulated/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/articulated/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Been Busy</title>
-      <link>https://afrikaniz3d.netlify.app/post/been-busy/</link>
+      <link>http://localhost:4321/post/been-busy/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://afrikaniz3d.netlify.app/post/been-busy/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://afrikaniz3d.netlify.app/img/post/P9/p9001.jpg&#34; alt=&#34;from me&#34; /&gt;&lt;br /&gt;&#xA;&lt;img src=&#34;https://afrikaniz3d.netlify.app/img/post/P9/p9003.jpg&#34; alt=&#34;sensor21 banner&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;I got to learn my modest way around geometry nodes while developing &lt;a href=&#34;https://blendermarket.com/products/hexes-mini-pack-04&#34;&gt;&lt;strong&gt;&lt;em&gt;HEXES Mini Pack 04: Electronic Devices&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;. I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was &lt;a href=&#34;https://afrikaniz3d.netlify.app/portfolio/sensor-21/&#34;&gt;&lt;strong&gt;&lt;em&gt;Sensor 21&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;, based on an air quality dataset I explored for a portfolio project.&lt;/p&gt;</description>
+      <guid>http://localhost:4321/post/been-busy/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/post/P9/p9001.jpg&#34; alt=&#34;from me&#34; /&gt;&lt;br /&gt;&#xA;&lt;img src=&#34;http://localhost:4321/img/post/P9/p9003.jpg&#34; alt=&#34;sensor21 banner&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;I got to learn my modest way around geometry nodes while developing &lt;a href=&#34;https://blendermarket.com/products/hexes-mini-pack-04&#34;&gt;&lt;strong&gt;&lt;em&gt;HEXES Mini Pack 04: Electronic Devices&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;. I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was &lt;a href=&#34;https://afrikaniz3d.netlify.app/portfolio/sensor-21/&#34;&gt;&lt;strong&gt;&lt;em&gt;Sensor 21&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;, based on an air quality dataset I explored for a portfolio project.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

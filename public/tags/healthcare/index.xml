@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Healthcare on Afrikaniz3D Blogfolio</title>
-    <link>https://afrikaniz3d.netlify.app/tags/healthcare/</link>
+    <link>http://localhost:4321/tags/healthcare/</link>
     <description>Recent content in Healthcare on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://afrikaniz3d.netlify.app/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maven Hospital Challenge</title>
-      <link>https://afrikaniz3d.netlify.app/portfolio/maven-hospital-challenge/</link>
+      <link>http://localhost:4321/portfolio/maven-hospital-challenge/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://afrikaniz3d.netlify.app/portfolio/maven-hospital-challenge/</guid>
+      <guid>http://localhost:4321/portfolio/maven-hospital-challenge/</guid>
       <description>&lt;div id=&#34;maven-hospital-challenge-introduction&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;1. Maven Hospital Challenge Introduction&lt;/h2&gt;&#xA;&lt;div id=&#34;challenge-objective&#34; class=&#34;section level4&#34;&gt;&#xA;&lt;h4&gt;1.1 Challenge Objective&lt;/h4&gt;&#xA;&lt;p&gt;For the &lt;a href=&#34;https://mavenanalytics.io/challenges/maven-hospital-challenge/facee4d2-8369-4c87-a55e-e6c7ed2a42d8?utm_source=linkedin&amp;amp;utm_campaign=mavenhospitalchallenge_li_maven&#34;&gt;Maven Hospital Challenge&lt;/a&gt;, you’ll play the role of an Analytics Consultant for &lt;strong&gt;Massachusetts General Hospital (MGH)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You’ve been asked to &lt;strong&gt;build a high-level KPI&lt;/strong&gt; report for the executive team, based on a subset of patient records. The purpose of the report is to &lt;strong&gt;give stakeholders visibility into the hospital’s recent performance&lt;/strong&gt;, and answer the following questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How many patients have been admitted or readmitted over time?&lt;/li&gt;&#xA;&lt;li&gt;How long are patients staying in the hospital, on average?&lt;/li&gt;&#xA;&lt;li&gt;How much is the average cost per visit?&lt;/li&gt;&#xA;&lt;li&gt;How many procedures are covered by insurance?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The dashboard should scale to accommodate new data over time, but the CEO has asked you to summarize any insights you can derive from the sample provided.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contests on Afrikaniz3D Blogfolio</title>
-    <link>https://afrikaniz3d.netlify.app/tags/contests/</link>
+    <link>http://localhost:4321/tags/contests/</link>
     <description>Recent content in Contests on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://afrikaniz3d.netlify.app/tags/contests/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/contests/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What a Finish</title>
-      <link>https://afrikaniz3d.netlify.app/post/2022-12-30-what-a-finish/</link>
+      <link>http://localhost:4321/post/2022-12-30-what-a-finish/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://afrikaniz3d.netlify.app/post/2022-12-30-what-a-finish/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://afrikaniz3d.netlify.app/img/post/P6/p6001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The past few days really drove home how much of a break I need. That coupled with the growing pains of using Linux was what really shifted the last two months by a few gears. It did, though, have surprising benefits.&lt;/p&gt;&#xA;&lt;p&gt;Started a &amp;ldquo;&lt;em&gt;&lt;strong&gt;Prusa Printer Challenge&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; for myself in 2023&amp;raquo; as a way of turning free content into a new tool for the business. The &lt;a href=&#34;https://www.printables.com/contest&#34;&gt;contests&lt;/a&gt; on &lt;a href=&#34;https://www.printables.com/&#34;&gt;Printables&lt;/a&gt; are fun incentives to create - and be creative.&lt;/p&gt;</description>
+      <guid>http://localhost:4321/post/2022-12-30-what-a-finish/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/post/P6/p6001.jpg&#34; alt=&#34;from me&#34; /&gt;&#xA;The past few days really drove home how much of a break I need. That coupled with the growing pains of using Linux was what really shifted the last two months by a few gears. It did, though, have surprising benefits.&lt;/p&gt;&#xA;&lt;p&gt;Started a “&lt;strong&gt;&lt;em&gt;Prusa Printer Challenge&lt;/em&gt;&lt;/strong&gt;” for myself in 2023&amp;gt;&amp;gt; as a way of turning free content into a new tool for the business. The &lt;a href=&#34;https://www.printables.com/contest&#34;&gt;contests&lt;/a&gt; on &lt;a href=&#34;https://www.printables.com/&#34;&gt;Printables&lt;/a&gt; are fun incentives to create - and be creative.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

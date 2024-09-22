@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Afrikaniz3D Blogfolio</title>
-    <link>https://afrikaniz3d.netlify.app/contact/</link>
+    <link>http://localhost:4321/contact/</link>
     <description>Recent content in Contact on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://afrikaniz3d.netlify.app/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

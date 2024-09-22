@@ -2,384 +2,392 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/sensor-21/</loc>
+    <loc>http://localhost:4321/portfolio/sensor-21/</loc>
     <lastmod>2023-07-01T19:30:00+02:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/3d-printing/</loc>
+    <loc>http://localhost:4321/portfolio/3d-printing/</loc>
     <lastmod>2022-11-04T10:43:17+02:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/hexes-mini-pack-series/</loc>
+    <loc>http://localhost:4321/portfolio/hexes-mini-pack-series/</loc>
     <lastmod>2022-07-16T13:51:22+02:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/drone-cinematography/</loc>
+    <loc>http://localhost:4321/portfolio/drone-cinematography/</loc>
     <lastmod>2022-06-04T12:57:47+02:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/work10---power-bi-dashboards/</loc>
+    <loc>http://localhost:4321/portfolio/work10---power-bi-dashboards/</loc>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/brauberry-brand-mash-up-project/</loc>
+    <loc>http://localhost:4321/portfolio/brauberry-brand-mash-up-project/</loc>
     <lastmod>2022-07-17T20:44:01+02:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/</loc>
+    <loc>http://localhost:4321/portfolio/work9---sql-data-exploration/</loc>
+  </url><url>
+    <loc>http://localhost:4321/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/</loc>
+    <loc>http://localhost:4321/tags/b3d/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/art-station/</loc>
+    <loc>http://localhost:4321/categories/blog/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/post/out-of-time/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/post/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/update/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/art-station/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/blender-market/</loc>
+    <loc>http://localhost:4321/tags/blender-market/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/blog/</loc>
+    <loc>http://localhost:4321/tags/blog/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/categories/blog/</loc>
+    <loc>http://localhost:4321/post/2024-08-12-figuring-it-out-again/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/categories/</loc>
+    <loc>http://localhost:4321/tags/fotj/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/2024-08-12-figuring-it-out-again/</loc>
+    <loc>http://localhost:4321/tags/gumroad/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/fotj/</loc>
+    <loc>http://localhost:4321/tags/mdp/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/gumroad/</loc>
+    <loc>http://localhost:4321/tags/patreon/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/mdp/</loc>
+    <loc>http://localhost:4321/tags/update/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/patreon/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/update/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/a/b-testing/</loc>
+    <loc>http://localhost:4321/tags/a/b-testing/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/analytics/</loc>
+    <loc>http://localhost:4321/tags/analytics/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/big-query/</loc>
+    <loc>http://localhost:4321/tags/big-query/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/coursera/</loc>
+    <loc>http://localhost:4321/tags/coursera/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/cte/</loc>
+    <loc>http://localhost:4321/tags/cte/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/data-analysis/</loc>
+    <loc>http://localhost:4321/tags/data-analysis/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/data-exploration/</loc>
+    <loc>http://localhost:4321/tags/data-exploration/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/data-science/</loc>
+    <loc>http://localhost:4321/tags/data-science/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/databricks/</loc>
+    <loc>http://localhost:4321/tags/databricks/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/dataset/</loc>
+    <loc>http://localhost:4321/tags/dataset/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/eda/</loc>
+    <loc>http://localhost:4321/tags/eda/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/etl/</loc>
+    <loc>http://localhost:4321/tags/etl/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/healthcare/</loc>
+    <loc>http://localhost:4321/tags/healthcare/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/healthcare-analytics/</loc>
+    <loc>http://localhost:4321/tags/healthcare-analytics/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/lobbyists-4-america/</loc>
+    <loc>http://localhost:4321/portfolio/lobbyists-4-america/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/massachusetts-general-hospital/</loc>
+    <loc>http://localhost:4321/tags/massachusetts-general-hospital/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/maven-analytics/</loc>
+    <loc>http://localhost:4321/tags/maven-analytics/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/maven-challenge/</loc>
+    <loc>http://localhost:4321/tags/maven-challenge/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/maven-hospital-challenge/</loc>
+    <loc>http://localhost:4321/portfolio/maven-hospital-challenge/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/mgh/</loc>
+    <loc>http://localhost:4321/tags/mgh/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/mode-analytics/</loc>
+    <loc>http://localhost:4321/tags/mode-analytics/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/</loc>
+    <loc>http://localhost:4321/portfolio/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/categories/project/</loc>
+    <loc>http://localhost:4321/categories/project/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/python/</loc>
+    <loc>http://localhost:4321/tags/python/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/sentiment-analysis/</loc>
+    <loc>http://localhost:4321/tags/sentiment-analysis/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/sql/</loc>
+    <loc>http://localhost:4321/tags/sql/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/uc-davis/</loc>
+    <loc>http://localhost:4321/tags/uc-davis/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/b3d/</loc>
+    <loc>http://localhost:4321/tags/blender/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/blender/</loc>
+    <loc>http://localhost:4321/tags/chocolate/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/chocolate/</loc>
+    <loc>http://localhost:4321/portfolio/chocolate-survey-terminal/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/chocolate-survey-terminal/</loc>
+    <loc>http://localhost:4321/tags/client/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/client/</loc>
+    <loc>http://localhost:4321/tags/kitbash/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/kitbash/</loc>
+    <loc>http://localhost:4321/tags/practice/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/practice/</loc>
+    <loc>http://localhost:4321/tags/r-studio/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/r-studio/</loc>
+    <loc>http://localhost:4321/tags/south-africa/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/south-africa/</loc>
+    <loc>http://localhost:4321/tags/survey/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/survey/</loc>
+    <loc>http://localhost:4321/tags/tidy-tuesday/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/tidy-tuesday/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/articulated/</loc>
+    <loc>http://localhost:4321/tags/articulated/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/been-busy/</loc>
+    <loc>http://localhost:4321/post/been-busy/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/cookie/</loc>
+    <loc>http://localhost:4321/tags/cookie/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/cookie-cutter/</loc>
+    <loc>http://localhost:4321/tags/cookie-cutter/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/cults3d/</loc>
+    <loc>http://localhost:4321/tags/cults3d/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/flexi/</loc>
+    <loc>http://localhost:4321/tags/flexi/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/free/</loc>
+    <loc>http://localhost:4321/tags/free/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/free-download/</loc>
+    <loc>http://localhost:4321/tags/free-download/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/geometry-nodes/</loc>
+    <loc>http://localhost:4321/tags/geometry-nodes/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/hexes/</loc>
+    <loc>http://localhost:4321/tags/hexes/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/hmp04/</loc>
+    <loc>http://localhost:4321/tags/hmp04/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/printables/</loc>
+    <loc>http://localhost:4321/tags/printables/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/sensor-21/</loc>
+    <loc>http://localhost:4321/tags/sensor-21/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/categories/update/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/retopologizing-m4/</loc>
+    <loc>http://localhost:4321/portfolio/retopologizing-m4/</loc>
     <lastmod>2023-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/retopology/</loc>
+    <loc>http://localhost:4321/tags/retopology/</loc>
     <lastmod>2023-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/topology/</loc>
+    <loc>http://localhost:4321/tags/topology/</loc>
     <lastmod>2023-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/3d-printing/</loc>
+    <loc>http://localhost:4321/tags/3d-printing/</loc>
     <lastmod>2023-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/prusa/</loc>
+    <loc>http://localhost:4321/tags/prusa/</loc>
     <lastmod>2023-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/prusa-printer-challenge/</loc>
+    <loc>http://localhost:4321/tags/prusa-printer-challenge/</loc>
     <lastmod>2023-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/still/</loc>
+    <loc>http://localhost:4321/post/still/</loc>
     <lastmod>2023-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/wip/</loc>
+    <loc>http://localhost:4321/tags/wip/</loc>
     <lastmod>2023-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/rings/</loc>
+    <loc>http://localhost:4321/post/rings/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/christmas/</loc>
+    <loc>http://localhost:4321/tags/christmas/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/contests/</loc>
+    <loc>http://localhost:4321/tags/contests/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/grinch/</loc>
+    <loc>http://localhost:4321/tags/grinch/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/minion/</loc>
+    <loc>http://localhost:4321/tags/minion/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/reflecting/</loc>
+    <loc>http://localhost:4321/tags/reflecting/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/squidward/</loc>
+    <loc>http://localhost:4321/tags/squidward/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/2022-12-30-what-a-finish/</loc>
+    <loc>http://localhost:4321/post/2022-12-30-what-a-finish/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/xmas/</loc>
+    <loc>http://localhost:4321/tags/xmas/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/christmas-decoration/</loc>
+    <loc>http://localhost:4321/tags/christmas-decoration/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/movember/</loc>
+    <loc>http://localhost:4321/tags/movember/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/nnn/</loc>
+    <loc>http://localhost:4321/tags/nnn/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/no-nut-november/</loc>
+    <loc>http://localhost:4321/tags/no-nut-november/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/nutvember/</loc>
+    <loc>http://localhost:4321/tags/nutvember/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/nutvember-2022/</loc>
+    <loc>http://localhost:4321/tags/nutvember-2022/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/2022-11-28-nutvember-2022/</loc>
+    <loc>http://localhost:4321/post/2022-11-28-nutvember-2022/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/ornaments/</loc>
+    <loc>http://localhost:4321/tags/ornaments/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/stl/</loc>
+    <loc>http://localhost:4321/tags/stl/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/brooklyn-nine-nine/</loc>
+    <loc>http://localhost:4321/tags/brooklyn-nine-nine/</loc>
     <lastmod>2022-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/2022-10-31-letting-go/</loc>
+    <loc>http://localhost:4321/post/2022-10-31-letting-go/</loc>
     <lastmod>2022-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/personal-development/</loc>
+    <loc>http://localhost:4321/tags/personal-development/</loc>
     <lastmod>2022-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/soap-dish/</loc>
+    <loc>http://localhost:4321/tags/soap-dish/</loc>
     <lastmod>2022-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/best-season-ever/</loc>
+    <loc>http://localhost:4321/tags/best-season-ever/</loc>
     <lastmod>2022-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/brauberry/</loc>
+    <loc>http://localhost:4321/tags/brauberry/</loc>
     <lastmod>2022-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/meh/</loc>
+    <loc>http://localhost:4321/tags/meh/</loc>
     <lastmod>2022-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/pumpkin-project/</loc>
+    <loc>http://localhost:4321/tags/pumpkin-project/</loc>
     <lastmod>2022-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/reading/</loc>
+    <loc>http://localhost:4321/tags/reading/</loc>
     <lastmod>2022-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/vibes/</loc>
+    <loc>http://localhost:4321/post/vibes/</loc>
     <lastmod>2022-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/2022-08-22-blog-of-changes/</loc>
+    <loc>http://localhost:4321/post/2022-08-22-blog-of-changes/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/burnout/</loc>
+    <loc>http://localhost:4321/tags/burnout/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/mental-health/</loc>
+    <loc>http://localhost:4321/tags/mental-health/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/social-media/</loc>
+    <loc>http://localhost:4321/tags/social-media/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/time/</loc>
+    <loc>http://localhost:4321/tags/time/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/about/</loc>
+    <loc>http://localhost:4321/about/</loc>
     <lastmod>2022-07-17T21:12:33+02:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/categories/announcement/</loc>
+    <loc>http://localhost:4321/categories/announcement/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/cradletograver/</loc>
+    <loc>http://localhost:4321/tags/cradletograver/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/google/</loc>
+    <loc>http://localhost:4321/tags/google/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/google-analytics/</loc>
+    <loc>http://localhost:4321/tags/google-analytics/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/post/2022-07-17-new-site-loading/</loc>
+    <loc>http://localhost:4321/post/2022-07-17-new-site-loading/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/rstudio/</loc>
+    <loc>http://localhost:4321/tags/rstudio/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/web-development/</loc>
+    <loc>http://localhost:4321/tags/web-development/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/website/</loc>
+    <loc>http://localhost:4321/tags/website/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/contact/</loc>
+    <loc>http://localhost:4321/contact/</loc>
     <lastmod>2022-07-16T13:49:25+02:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/green-energy/</loc>
+    <loc>http://localhost:4321/tags/green-energy/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/renewable-energy/</loc>
+    <loc>http://localhost:4321/tags/renewable-energy/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/portfolio/renewable-energy-in-south-africa/</loc>
+    <loc>http://localhost:4321/portfolio/renewable-energy-in-south-africa/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afrikaniz3d.netlify.app/tags/sustainable-energy/</loc>
+    <loc>http://localhost:4321/tags/sustainable-energy/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/roundhouse/</loc>
+    <lastmod>2022-06-03T23:13:32+02:00</lastmod>
   </url>
 </urlset>

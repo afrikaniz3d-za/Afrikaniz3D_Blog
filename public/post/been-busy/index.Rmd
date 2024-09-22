@@ -35,8 +35,13 @@ tags:
 
 I got to learn my modest way around geometry nodes while developing [***HEXES Mini Pack 04: Electronic Devices***](https://blendermarket.com/products/hexes-mini-pack-04). I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was [***Sensor 21***](https://afrikaniz3d.netlify.app/portfolio/sensor-21/), based on an air quality dataset I explored for a portfolio project.  
 
-![antenna tutorial][4]  
-Made a [***walkthrough***](https://youtu.be/6n1L3U4HRUg/) video to show my process for the antenna. Used Kdent Live for the first time and there are things about it I made the switch from Da Vinci Resolve easier - the interface is simpler, and some features are easier to access.
+<iframe width="100%" height="500" 
+        src="https://www.youtube.com/watch?v=6n1L3U4HRUg" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+  
+Made a [***walkthrough***](https://youtu.be/6n1L3U4HRUg/) video to show my process for the antenna. Used Kdentlive for the first time and there are things about it I made the switch from Da Vinci Resolve easier - the interface is simpler, and some features are easier to access.
 
 Juggled a lot of things trying to pull this together. Did I achieve what I had set out to do? Yes. Could I do it better if I started over now? Absolutely. Things were spread out over four (4) months to allow for learning some of the tools I needed to use.  
 
@@ -58,7 +63,6 @@ Taking a break from the weekly pieces was needed, especially when work on [***HM
 [1]: /img/post/P9/p9001.jpg
 [2]: /img/post/P9/p9002.jpg
 [3]: /img/post/P9/p9003.jpg
-[4]: /img/post/P9/p9004.jpg
 [5]: /img/post/P9/p9005.jpg
 [6]: /img/post/P9/p9006.jpg
 [7]: /img/post/P9/p9007.jpg

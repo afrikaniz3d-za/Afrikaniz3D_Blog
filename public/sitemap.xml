@@ -22,7 +22,28 @@
     <loc>http://localhost:4321/portfolio/work9---sql-data-exploration/</loc>
   </url><url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/b3d/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/blog/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/post/out-of-time/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/post/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/update/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/art-station/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
@@ -31,12 +52,6 @@
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/blog/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/blog/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/2024-08-12-figuring-it-out-again/</loc>
@@ -52,12 +67,6 @@
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/patreon/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/post/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/update/</loc>
@@ -144,9 +153,6 @@
     <loc>http://localhost:4321/tags/uc-davis/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/b3d/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/tags/blender/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -214,9 +220,6 @@
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/sensor-21/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/update/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/portfolio/retopologizing-m4/</loc>

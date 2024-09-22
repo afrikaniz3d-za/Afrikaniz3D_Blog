@@ -2,9 +2,9 @@
 title: "Been Busy"
 author: "Ntobeko Sosibo [ Afrikaniz3D ]"
 date: "2023-07-01"
-draft: no
+draft: false
 image: img/post/P9/p9000.webp
-showonlyimage: yes
+showonlyimage: true
 slug: "been-busy"
 categories:
 - blog
@@ -33,10 +33,11 @@ tags:
 ![from me][1]  
 ![sensor21 banner][3]  
 
-I got to learn my modest way around geometry nodes while developing [***HEXES Mini Pack 04: Electronic Devices***](https://blendermarket.com/products/hexes-mini-pack-04). I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was [***Sensor 21***](https://afrikaniz3d.netlify.app/portfolio/sensor-21/), based on an air quality dataset I explored for a portfolio project.  
+I got to learn my modest way around geometry nodes while developing [***HEXES Mini Pack 04: Electronic Devices***](https://blendermarket.com/products/hexes-mini-pack-04). I started work on it in January and was having trouble deciding how many to produce and the style to make them in. Using geonodes made it feel more flexible and user-friendly. The first project was [***Sensor 21***](https://afrikaniz3d.netlify.app/portfolio/sensor-21/), based on an air quality dataset I explored for a portfolio project.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6n1L3U4HRUg?si=f1-FdQtEHBbhQl5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
-  
+<iframe width="850" height="478" src="https://www.youtube.com/embed/6n1L3U4HRUg?si=f1-FdQtEHBbhQl5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+&nbsp;
+
 I made the  above walkthrough video to show my process for the antenna. Used Kdentlive for the first time and there are things about it I made the switch from Da Vinci Resolve easier - the interface is simpler, and some features are easier to access.
 
 Juggled a lot of things trying to pull this together. Did I achieve what I had set out to do? Yes. Could I do it better if I started over now? Absolutely. Things were spread out over four (4) months to allow for learning some of the tools I needed to use.  

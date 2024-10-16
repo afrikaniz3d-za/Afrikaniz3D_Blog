@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nutrition on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/nutrition/</link>
+    <description>Recent content in Nutrition on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/nutrition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Healthier Candy Choices for the Maven Halloween Challenge</title>
+      <link>http://localhost:4321/portfolio/maven-halloween-challenge/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/maven-halloween-challenge/</guid>
+      <description>&lt;p&gt; &#xA;&lt;img src=&#34;http://localhost:4321/img/portfolio/W11/w11001.webp&#34; alt=&#34;&#34;&gt;&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;p&gt;I already had an angle for where I wanted to take this project prior to looking at the data. The goal was to prioritize choosing the the healthier options coupled with them being the most popular according to respondent feedback - really simple, to the point where there were times I felt I was doing a disservice to the project and the data. I always find something an any EDA I do that has little to do with the outlined question but is still significant in some way. In this particular project I found that there were a number of name/ownership changes and some treats were even discontinued. This was possible because a lot of the work for this project happened outside the table due to the need for additional information.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

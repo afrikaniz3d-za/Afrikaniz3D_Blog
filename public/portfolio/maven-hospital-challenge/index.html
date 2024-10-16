@@ -153,117 +153,45 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>Maven Hospital Challenge</h1>
-         <h2 id="1-maven-hospital-challenge-introduction">1. Maven Hospital Challenge Introduction</h2>
-<h4 id="11-challenge-objective">1.1 Challenge Objective</h4>
-<p>For the <a href="https://mavenanalytics.io/challenges/maven-hospital-challenge/facee4d2-8369-4c87-a55e-e6c7ed2a42d8?utm_source=linkedin&amp;utm_campaign=mavenhospitalchallenge_li_maven">Maven Hospital Challenge</a>, you’ll play the role of an Analytics Consultant for <strong>Massachusetts General Hospital (MGH)</strong>.</p>
-<p>You’ve been asked to <strong>build a high-level KPI</strong> report for the executive team, based on a subset of patient records. The purpose of the report is to <strong>give stakeholders visibility into the hospital’s recent performance</strong>, and answer the following questions:</p>
-<ul>
-<li>How many patients have been admitted or readmitted over time?</li>
-<li>How long are patients staying in the hospital, on average?</li>
-<li>How much is the average cost per visit?</li>
-<li>How many procedures are covered by insurance?</li>
-</ul>
-<p>The dashboard should scale to accommodate new data over time, but the CEO has asked you to summarize any insights you can derive from the sample provided.</p>
-<h4 id="12-tools-used">1.2 Tools Used</h4>
-<p>The data exploration is conducted using <a href="https://www.databricks.com/">Databricks SQL</a>. The data processing, exploration, and results/visualizations are generated and presented in-house. Any stylised images were made using <a href="https://www.gimp.org/">GIMP</a></p>
-<p>_</p>
-<h2 id="2--mounting-tables-into-notebook">2.  Mounting Tables Into Notebook</h2>
-<p><img src="/img/portfolio/W14/w14001.png" alt=""></p>
-<p><img src="/img/portfolio/W14/w14002.png" alt=""></p>
-<p><img src="/img/portfolio/W14/w14003.png" alt=""></p>
-<p><img src="/img/portfolio/W14/w14004.png" alt=""></p>
-<p><img src="/img/portfolio/W14/w14005.png" alt=""></p>
-<p><img src="/img/portfolio/W14/w14006.png" alt=""></p>
-<p>_</p>
-<h2 id="3--data-profiling-and-cleaning">3.  Data Profiling and Cleaning</h2>
-<h4 id="31-profiling-the-patients-table">3.1 Profiling the patients table</h4>
-<h5 id="311-composition">3.1.1 Composition</h5>
-<p>The <em>patients</em> table is comprised of 20 columns/variables. One (1) variable, <em>ZIP</em> is an <strong>INTERGER</strong>. Two (2) variables (<em>LAT</em> and <em>LON</em>) are <strong>DOUBLE PRECISION</strong> for location data. Another two (2), <em>BIRTHDATE</em> and <em>DEATHDATE</em>, are <strong>DATETIME</strong>, and the remaining fifteen (15) (<em>Id</em>, <em>PREFIX</em>, <em>FIRST</em>, <em>LAST</em>, <em>SUFFIX</em>, <em>MAIDEN</em>, <em>MARITAL</em>, <em>RACE</em>, <em>ETHNICITY</em>, <em>GENDER</em>, <em>BIRTHPLACE</em>, <em>ADDRESS</em>, <em>CITY</em>, <em>STATE</em>, and <em>COUNTY</em>) are <strong>STRING</strong>.</p>
-<h5 id="312-categories-within-the-string-data">3.1.2 Categories within the STRING data</h5>
-<ul>
-<li><strong>PREFIX</strong>: Mr., Ms., Mrs</li>
-<li><strong>FIRST</strong>: various first names with an additional random three (3) numbers attached to accommodate instances of people having the same first name (Example: Timothy786)</li>
-<li><strong>LAST</strong>: various last names with an additional random three (3) numbers attached to accommodate instances of people having the same last name (Example: Jones034)</li>
-<li><strong>SUFFIX</strong>: JD, PhD, MD</li>
-<li><strong>MAIDEN</strong>: Only used cases where the female patient is married (&lsquo;Mrs.&rsquo;)</li>
-<li><strong>MARITAL</strong>: S (single), M (married)</li>
-<li><strong>RACE</strong>:  asian, other, white, black, native, hawaiinan</li>
-<li><strong>ETHNICITY</strong>: hispanic, nonhispanic</li>
-<li><strong>GENDER</strong>: F, M</li>
-<li><strong>BIRTHPLACE</strong>: various geographic locations (297 in total)</li>
-<li><strong>CITY</strong>: various cities (29 in total)</li>
-<li><strong>COUNTY</strong>: various counties (5 in total)</li>
-</ul>
-<p>Things that stood out when looking at this data were namely the <em>ETHNICITY</em> column&rsquo;s hispanic/nonhispanic binary - which I&rsquo;ll keep in-mind for the remainder of the exploration - as well as some of the patients from other countries.<br>
-The solution for addressing repeated/same names (attaching a random 3-digit number) is worth noting for future projects.</p>
-<h4 id="32-profiling-the-payers-table">3.2 Profiling the payers table</h4>
-<h5 id="321-composition">3.2.1 Composition</h5>
-<p>The <em>payers</em> table is comprised of 7 columns/variables. One (1) variable, <em>ZIP</em> is the only <strong>INTERGER</strong>. The remaining 6 variables (<em>Id</em>, <em>NAME</em>, <em>ADDRESS</em>*, <em>CITY</em>, <em>STATE_HEADQUARTERED</em>, and <em>PHONE</em>) are <strong>STRING</strong>.</p>
-<h5 id="322-categories-within-the-string-data">3.2.2 Categories within the STRING data</h5>
-<ul>
-<li><strong>ZIP</strong>:  6002, 46204, 40018, 6156, 55436, 60007, 21244</li>
-<li><strong>NAME</strong>: Cigna Health, NO_INSURANCE, Humana, Aetna, Blue Cross Blue Shield, Dual Eligible, Medicaid,
-Medicare, UnitedHealthcare, Anthem</li>
-<li><strong>CITY</strong>: Louisville, Indianapolis, null, Chicago, Minnetonka, Bloomfield, Hartford, Baltimore</li>
-<li><strong>STATE_HEADQUARTERED</strong>:  MN, null, KY, CT, MD, IL, IN</li>
-</ul>
-<p>Something that stood out which I might explore further are any possible relationships around patients/procedures with <strong>Dual Eligible</strong> as their insurer.</p>
-<h4 id="33-profiling-the-encounters-table">3.3 Profiling the encounters table</h4>
-<h5 id="331-composition">3.3.1 Composition</h5>
-<p>The <em>encounters</em> table is comprised of 14 columns/variables. One (1) variable, <em>REASONCODE</em> is the only <strong>BIGINT</strong>. Three (3) variables (<em>BASE_ENCOUNTER_COST</em>, <em>TOTAL_CLAIM_COST</em>, and <em>PAYER_COVERAGE</em>) are <em>DOUBLE PRECISION</em>. There is another single variable (<strong>CODE</strong>) that is an <strong>INTERGER</strong>, and two (2) variables (<em>START</em> and <em>STOP</em>) that are <strong>TIMESTAMP</strong>. The remaining seven (7) variables (<em>Id</em>, <em>PATIENT</em>, <em>ORGANIZATION</em>, <em>PAYER</em>, <em>ENCOUNTERCLASS</em>, <em>DESCRIPTION</em>, and <em>REASONDESCRIPTION</em>) are all <strong>STRING</strong>.</p>
-<h5 id="332-categories-within-the-string-data">3.3.2 Categories within the STRING data</h5>
-<ul>
-<li><strong>ENCOUNTERCLASS</strong>: wellness, outpatient, emergency, inpatient. urgentcare, ambulatory</li>
-<li><strong>CODE</strong>:   Forty-five (45) numerical strings that are between 7 and 9 digits in length</li>
-<li><strong>DESCRIPTION</strong>:    Fifty-three (53) descriptions for the types of encounters. Examples include &ldquo;<em>Postnatal visit</em>&rdquo; and &ldquo;<em>Cardiac Arrest</em>&rdquo;</li>
-<li><strong>REASONCODE</strong>: Seventy-four (74) numerical strings of varying length (drastic in some cases)</li>
-<li><strong>REASONDESCRIPTION</strong>: Full-text description, corresponding with <em>REASONCODE</em></li>
-</ul>
-<p>Some of the descriptions are vague, like &ldquo;<em>Encounter for problem</em>&rdquo;, and rely on the <em>REASONDESCRIPTION</em> to give more clarity. The distribution of the types of procedures will be explored later on to see what MGH&rsquo;s &ldquo;popular&rdquo; procedures are.</p>
-<h4 id="34-profiling-the-procedures-table">3.4 Profiling the procedures table</h4>
-<h5 id="341-composition">3.4.1 Composition</h5>
-<p>The <em>encounters</em> table is comprised of 9 columns/variables. The first twp (2) variables (<em>START</em> and <em>STOP</em>) are <strong>TIMESTAMP</strong>. Two (2) variables (<em>CODE</em> and <em>REASONCODE</em>) are <strong>BIGINT</strong>. <em>BASE_COST</em> is the only <strong>INTERGER</strong>, and the remaining four (4) variables (<em>PATIENT</em>, <em>ENCOUNTER</em>, <em>DESCRIPTION</em>, and <em>REASONDESCRIPTION</em>) are all <strong>STRING</strong>.</p>
-<h5 id="342-categories-within-the-string-data">3.4.2 Categories within the STRING data</h5>
-<ul>
-<li><strong>CODE</strong>: 157 numerical string data in ranging digit length that represent procedures</li>
-<li><strong>DESCRIPTION</strong>:  163 text string data describing the procedures performed</li>
-<li><strong>REASONCODE</strong>: Forty-seven (47) numerical strings of various length</li>
-<li><strong>REASONDESCRIPTION</strong>:  Forty-seven (47) text string data describing the reasons for the prerformed procedures</li>
-</ul>
-<p>The thing that stood out for me here was the inclusion of a <em>null</em> value in the <strong>REASONDESCRIPTION</strong> column I&rsquo;ll look further into to see if the cause can be identified, and whether anything could be done to address it.</p>
-<p>_</p>
-<h2 id="4--answering-the-questions">4.  Answering the Questions</h2>
-<h4 id="41-how-many-patients-have-been-admitted-or-readmitted-over-time">4.1 How many patients have been admitted or readmitted over time?</h4>
-<h5 id="411-how-many-patients-have-been-admitted">4.1.1 How many patients have been admitted?</h5>
-<p>There were <strong>1880</strong> patients admitted. To answer this I needed to first look at an understand what constituted being admitted to the hospital - rather than a visit. some online queries revealed that you could be admitted for as little a time as two (2) hours, and some procedures, regardless of how long, could be done without needing to be admitted.</p>
-<p>For this reason, I chose to only look for patients that had the variations of the word &ldquo;admitted/admission&rdquo; used in the <em>DESCRIPTION</em> column in the <em>encounters</em> table, or those that had an <em>ENCOUNTER_CLASS</em> of &ldquo;<em>inpatient</em>&rdquo; as these two conditions either explicitly state there is admission or admission is the condition for the class designation.</p>
-<p><img src="/img/portfolio/W14/w14007.png" alt=""></p>
-<h5 id="412-how-many-patients-have-been-readmitted">4.1.2 How many patients have been readmitted?</h5>
-<p>There are <strong>247</strong> patients that have been readmitted. To answer this question took the query from <strong>4.1.1</strong> and applied an additional conditioned that filtered for <em>COUNT()</em> of the <em>patient</em> column with a value greater than one (1). To account for the initial admission I included a <em>&quot;- 1&quot;</em> to the <em>COUNT()</em> for admissions - so that it&rsquo;s <strong>only</strong> counting readmissions.</p>
-<p><img src="/img/portfolio/W14/w14008.png" alt=""></p>
-<p><img src="/img/portfolio/W14/w14009.png" alt=""></p>
-<h4 id="42-how-long-are-patients-staying-in-the-hospital-on-average">4.2 How long are patients staying in the hospital, on average?</h4>
-<p>Patients are staying <strong>22hrs 52min</strong> on average.</p>
-<p><img src="/img/portfolio/W14/w14010.png" alt=""></p>
-<h4 id="43-how-much-is-the-average-cost-per-visit">4.3 How much is the average cost per visit?</h4>
-<p>The average cost of a visit was <strong>$116.18</strong> (base), and <strong>$3 639.68</strong> (with a claim). The <em>encounters</em> table was used to answer this question where I looked at both the <strong>base</strong> cost as well as the <strong>total claim cost</strong> as the question was a little open-ended in that regard.</p>
-<p><img src="/img/portfolio/W14/w14011.png" alt=""></p>
-<h4 id="44-how-many-procedures-are-covered-by-insurance">4.4 How many procedures are covered by insurance?</h4>
-<p>Of the <strong>47 701</strong> recorded procedures from <em>2011-01-02</em> to <em>2022-01-29</em>, <strong>8228</strong> (<strong>17.24%</strong>) procedures were covered by insurance.</p>
-<h5 id="441--querying-the-number-of-procedures-covered-by-insurance">4.4.1  Querying the number of procedures covered by insurance</h5>
-<p><img src="/img/portfolio/W14/w14012.png" alt=""></p>
-<h5 id="442-percentage-of-the-total-procedures-performed-that-were-insured">4.4.2 Percentage of the total procedures performed that were insured</h5>
-<p><img src="/img/portfolio/W14/w14013.png" alt=""></p>
-<h5 id="443-15-minute-childbirths">4.4.3 15-minute childbirths?</h5>
-<p>While looking through the <strong>procedures</strong> table I noticed that, particularly among childbirths, there were patients that had multiple 15 minute childbirths and they were happening at seemingly scheduled time slots (like 15:00 or 14:45). A Chat-GPT inquiry revealed that there were a number of possible reasons for this, the most like being <a href="https://www.k2view.com/what-is-data-anonymization/#:~:text=Data%20anonymization%20is%20the%20process%20of%20obscuring%20or%20removing%20personally,people%20associated%20with%20that%20data.">Data Anonymization or Privacy Measures</a>. Learning this made me realise that any deep look into the pregnancy and childbirth data would be skewed by this.</p>
-<p>I looked at the other procedure descriptions and found that the same measures weren&rsquo;t being used. Curious which kinds of procedures the hospital felt needed that level of protection. Of the 163 different types of procedures MGH performs, <strong>93</strong> seem to have varying degrees of anonymization applied.</p>
-<p><img src="/img/portfolio/W14/w14014.png" alt=""></p>
-<p>After reading many of the descriptions in the results, it makes sense why anonymization was used. The new curiosity was that there were subsets which I could possibly explain as the hospital perhaps having a coding system that classes the procedure by the time length within that category.</p>
-<p><img src="/img/portfolio/W14/w14015.png" alt=""></p>
-<p>_</p>
-<h2 id="5-final-thoughts">5. Final Thoughts</h2>
-<p>This has been a great exercise in getting a lot of practice with <strong>CTE</strong>. Some queries more than three (3) CTEs with <em>JOIN</em>s included. I also had previously never encountered cases where I had a <em>FROM</em> statement that referenced two tables, so I&rsquo;m looking forward to getting more practice there.<br>
-It was also interesting working with hospital data, getting to learn about people&rsquo;s live throught their relationships with the hospital. Some of their patients have been through so much..</p>
+         <p>I took part in this year&rsquo;s Maven Hospital Challenge. I used Databrick&rsquo;s Community Edition. The exploration was mostly SQL-based. I opted for Databricks over Big Query for the ability to upload large files.</p>
+<p>Although I completed the exploration in time I chose to opt out of submitting because I didn&rsquo;t have a dashboard solution at the time that I was happy with. I&rsquo;m currently learning Shiny. It suits my set-up and I have a lot of the infrastructure already that makes it easy to work offline when I need to.</p>
+<p>Below is my final notebook for the challenge. There are sections included that were not part of the tasks outlined in the challenge, but they were helpful for me in getting the most out of the exercise.<br>
+ </p>
+<iframe id="databricks-notebook" src="/notebooks/N14/n14.html" width="100%" height="600px" style="border:none;"></iframe>
+<p><button onclick="toggleFullScreen()">View Fullscreen</button></p>
+<script>
+function toggleFullScreen() {
+    var iframe = document.getElementById("databricks-notebook");
+    if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+    } else if (iframe.mozRequestFullScreen) { // Firefox
+        iframe.mozRequestFullScreen();
+    } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
+        iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) { // IE/Edge
+        iframe.msRequestFullscreen();
+    }
+}
+</script>
+<p> </p>
+<iframe id="databricks-dashboard" src="/notebooks/N14/n14_1.html" width="100%" height="600px" style="border:none;"></iframe>
+<p><button onclick="toggleFullScreen()">View Fullscreen</button></p>
+<script>
+function toggleFullScreen() {
+    var iframe = document.getElementById("databricks-dashboard");
+    if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+    } else if (iframe.mozRequestFullScreen) { // Firefox
+        iframe.mozRequestFullScreen();
+    } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
+        iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) { // IE/Edge
+        iframe.msRequestFullscreen();
+    }
+}
+</script>
+<p> </p>
+<p>Community Edition doesn&rsquo;t have as may options as the full suite, but it had enough to visualise off the notebook.</p>
 
          <div id="disqus_thread"></div>
 <script>

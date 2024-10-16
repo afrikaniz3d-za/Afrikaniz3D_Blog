@@ -1,0 +1,56 @@
+---
+title: Out of Time
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2024-09-24'
+slug: out-of-time
+categories:
+  - blog
+  - update
+tags:
+  - b3d
+draft: no
+image: 'img/post/P11/p11000.webp'
+showonlyimage: yes
+---
+![][1]  
+&nbsp;
+  
+A while ago I learned about something called the "[**Zeigarnik Effect**](https://learningloop.io/plays/psychology/zeigarnik-effect#:~:text=The%20Zeigarnik%20Effect%20is%20a,dissonance%2C%20which%20improves%20recall%20ability.)", named after it's creator Bluma Zeigarnik. I discovered it in the form of one of those inspirational-style posters while scrolling on Pinterest, and it came at a time where I was dealing some kind(s) of *stuckness* because of how much I resonated with the idea. I'd found a word to relate to the feeling. I like to think about it as a kind of blockage comprised of everything set in motion, or tripping over boxes I've placed "I'll deal with it later" invisibility cloaks to visually "declutter" a space. Out of sight, out of mind - but they're still in the way.  
+
+Had a wild week that started *Sunday 8 September* when I finally completed the turnaround render to add to the timelapse for the [**Robotic Arm**](https://www.artstation.com/artwork/3EqyeJ) project. Put it off for some time. I was really happy with the design and the improved quality overall. Impatience, though, let me to push my machine harder than it deserved and I ended up nearly bricking the motherboard of my 8 year-old machine. Having decided I was getting everything for [**HMP03**](https://blendermarket.com/products/hexes-mini-pack-03?search_id=32766867) that week, I ignored the signs that my machine was not going to be able to render out that nearly 7-hour timelapse, regardless of the settings.  
+
+Sunday night, I set up one final attempt to see how far it would go before crashing. Sleeping through the roaring CPU fan was a small price to pay, I thought. What I woke up to the next day was the start of a unpleasant detour. The nature of the issue made it difficult for me to resolve without having to format and re-install.  
+  
+Midweek, wanting to get back on track, I decided to reset. That took it's own time and I wanted to make sure I soaked enough of it in and also use the opportunity to clean up and simplify things where I could. Applied this to many other areas too. The past few weeks had made it clear what I needed and worked with the most, so I could make sure I was only setting up for that.    
+  
+Thursday, I've set back up again and so damn relieved that I decided to start the weekend early while also reflecting on how things got to where they were. It's also funny how one of my last thoughts on Sunday night was to cancel that render and start a second round of editing on the timelapse to get it into a more manageable range for my machine, but noooooo.. "Just let it run and we will see tomorrow," I thought.  
+
+I thought.  
+  
+I did edits and there were improvements. It did set me back, preventing me from putting that energy into a new project instead, but something I resolved to do better in lately is listening the gut instinct and not rush for time - especially when it's either something I know would be better or something I hadn't done at a particular level before. Rushing for time betrays both those things, and it sucks looking back seeing so easily what could have been done to really make it the project I originally had in-mind.  
+I feel like I've talked about this before, but it's clearly something I need to constantly work through till it sticks - and I'm not resisting it anymore because I've seen the results.  
+  
+The machine I'm using is old, approaching a decade, and one of the things that comes with that is having components fail. I went from 12 gigs to 8. This impacted performance and there were things that I wrote off - even streaming had recently taken a hit. One really cool thing that came from the recent reset was learning what a [**swap file**](https://www.quora.com/What-is-a-swap-file-on-Linux-Mint#:~:text=Swap%20space%20in%20Linux%20is,a%20replacement%20for%20more%20RAM.) is. I explained my performance issues to Chat GPT and one of it's suggestions to improve performance was increasing the size of my system's swap file - something I'd never heard of before. I checked what it was set to and realised why my machine was running the way it used to (even with only 8 gigs of RAM). I created a bigger one and everything is running sooo much better now. Glad I can take new cards off the wishlist.
+  
+Reworking the timelapse is something I'm really glad I did. Realised today that I was kinda doing it already with those WIP vertical shorts I posted to social media, and I think it's the first step toward finding different/better format too. It will feel really good to properly close the loop on these projects and start a new batch.  
+&nbsp;
+
+<iframe width="850" height="478" src="https://www.youtube.com/embed/1P9U_kpIqak?si=As7GveA9x5hUhzzZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+&nbsp;
+
+![][2]  
+&nbsp;
+
+Started working on a new [**FOTJ**](https://www.youtube.com/playlist?list=PLryiPmQj99uAzws5dLiyAOk3oMtAU70BK) chapter and I tried working with multiple variations at the start. I'll add more as I'm working on a new demo project.  
+  
+Here's one of the pieces I'm currently working on. The base geometry was taken from the [**M4**](https://afrikaniz3d.netlify.app/portfolio/retopologizing-m4/) retopology project. There are a few sections that I felt would make interesting starting points, and I decided to explore more than one this time.  
+
+&nbsp;
+![][3]  
+&nbsp;    
+It's not finished yet, so I'll probably ave it ready for the next post when I've hopefully also finished the other two pieces and the video. This particular model will be available for free off my [**Patreon**](https://www.patreon.com/afrikaniz3d/) or [**Gumroad**](https://www.afrikaniz3dza.gumroad.com/).
+
+[1]: /img/post/P11/p11001.jpg
+[2]: /img/post/P11/p11002.jpg
+[3]: /img/post/P11/p11003.webp

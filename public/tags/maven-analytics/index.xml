@@ -6,14 +6,21 @@
     <description>Recent content in Maven Analytics on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/tags/maven-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Healthier Candy Choices for the Maven Halloween Challenge</title>
+      <link>http://localhost:4321/portfolio/maven-halloween-challenge/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/maven-halloween-challenge/</guid>
+      <description>&lt;p&gt; &#xA;&lt;img src=&#34;http://localhost:4321/img/portfolio/W11/w11001.webp&#34; alt=&#34;&#34;&gt;&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;p&gt;I already had an angle for where I wanted to take this project prior to looking at the data. The goal was to prioritize choosing the the healthier options coupled with them being the most popular according to respondent feedback - really simple, to the point where there were times I felt I was doing a disservice to the project and the data. I always find something an any EDA I do that has little to do with the outlined question but is still significant in some way. In this particular project I found that there were a number of name/ownership changes and some treats were even discontinued. This was possible because a lot of the work for this project happened outside the table due to the need for additional information.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Maven Hospital Challenge</title>
       <link>http://localhost:4321/portfolio/maven-hospital-challenge/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/portfolio/maven-hospital-challenge/</guid>
-      <description>&lt;h2 id=&#34;1-maven-hospital-challenge-introduction&#34;&gt;1. Maven Hospital Challenge Introduction&lt;/h2&gt;&#xA;&lt;h4 id=&#34;11-challenge-objective&#34;&gt;1.1 Challenge Objective&lt;/h4&gt;&#xA;&lt;p&gt;For the &lt;a href=&#34;https://mavenanalytics.io/challenges/maven-hospital-challenge/facee4d2-8369-4c87-a55e-e6c7ed2a42d8?utm_source=linkedin&amp;amp;utm_campaign=mavenhospitalchallenge_li_maven&#34;&gt;Maven Hospital Challenge&lt;/a&gt;, you’ll play the role of an Analytics Consultant for &lt;strong&gt;Massachusetts General Hospital (MGH)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You’ve been asked to &lt;strong&gt;build a high-level KPI&lt;/strong&gt; report for the executive team, based on a subset of patient records. The purpose of the report is to &lt;strong&gt;give stakeholders visibility into the hospital’s recent performance&lt;/strong&gt;, and answer the following questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How many patients have been admitted or readmitted over time?&lt;/li&gt;&#xA;&lt;li&gt;How long are patients staying in the hospital, on average?&lt;/li&gt;&#xA;&lt;li&gt;How much is the average cost per visit?&lt;/li&gt;&#xA;&lt;li&gt;How many procedures are covered by insurance?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The dashboard should scale to accommodate new data over time, but the CEO has asked you to summarize any insights you can derive from the sample provided.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I took part in this year&amp;rsquo;s Maven Hospital Challenge. I used Databrick&amp;rsquo;s Community Edition. The exploration was mostly SQL-based. I opted for Databricks over Big Query for the ability to upload large files.&lt;/p&gt;&#xA;&lt;p&gt;Although I completed the exploration in time I chose to opt out of submitting because I didn&amp;rsquo;t have a dashboard solution at the time that I was happy with. I&amp;rsquo;m currently learning Shiny. It suits my set-up and I have a lot of the infrastructure already that makes it easy to work offline when I need to.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

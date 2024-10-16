@@ -6,12 +6,75 @@
     <description>Recent content in Tags on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chocolate</title>
+      <link>http://localhost:4321/tags/chocolate/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/chocolate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:4321/tags/data-analysis/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databricks</title>
+      <link>http://localhost:4321/tags/databricks/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/databricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Desktop Research</title>
+      <link>http://localhost:4321/tags/desktop-research/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/desktop-research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Healthy</title>
+      <link>http://localhost:4321/tags/healthy/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/healthy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Analytics</title>
+      <link>http://localhost:4321/tags/maven-analytics/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Challenge</title>
+      <link>http://localhost:4321/tags/maven-challenge/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nutrition</title>
+      <link>http://localhost:4321/tags/nutrition/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/nutrition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:4321/tags/sql/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>B3d</title>
       <link>http://localhost:4321/tags/b3d/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/b3d/</guid>
       <description></description>
     </item>
@@ -107,13 +170,6 @@
       <description></description>
     </item>
     <item>
-      <title>Data Analysis</title>
-      <link>http://localhost:4321/tags/data-analysis/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data Exploration</title>
       <link>http://localhost:4321/tags/data-exploration/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
@@ -125,13 +181,6 @@
       <link>http://localhost:4321/tags/data-science/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Databricks</title>
-      <link>http://localhost:4321/tags/databricks/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/databricks/</guid>
       <description></description>
     </item>
     <item>
@@ -177,17 +226,10 @@
       <description></description>
     </item>
     <item>
-      <title>Maven Analytics</title>
-      <link>http://localhost:4321/tags/maven-analytics/</link>
+      <title>Maven Hospital Challenge</title>
+      <link>http://localhost:4321/tags/maven-hospital-challenge/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maven Challenge</title>
-      <link>http://localhost:4321/tags/maven-challenge/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-challenge/</guid>
+      <guid>http://localhost:4321/tags/maven-hospital-challenge/</guid>
       <description></description>
     </item>
     <item>
@@ -219,13 +261,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sql</title>
-      <link>http://localhost:4321/tags/sql/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/sql/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Uc Davis</title>
       <link>http://localhost:4321/tags/uc-davis/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
@@ -237,13 +272,6 @@
       <link>http://localhost:4321/tags/blender/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/blender/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chocolate</title>
-      <link>http://localhost:4321/tags/chocolate/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/chocolate/</guid>
       <description></description>
     </item>
     <item>

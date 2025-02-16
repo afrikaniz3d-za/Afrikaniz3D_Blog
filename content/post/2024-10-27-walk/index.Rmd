@@ -1,7 +1,7 @@
 ---
 title: Walk
 author: Ntobeko Sosibo [ Afrikaniz3D ]
-draft: yes
+draft: no
 date: '2025-02-16'
 slug: tides
 categories:

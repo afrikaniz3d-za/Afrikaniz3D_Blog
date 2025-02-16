@@ -1,0 +1,46 @@
+---
+title: Walk
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+draft: yes
+date: '2025-02-16'
+slug: tides
+categories:
+  - blog
+  - update
+tags:
+  - blog
+image: 'img/post/P12/p12000.webp'
+showonlyimage: yes
+---
+![][1]  
+&nbsp;
+  
+Started writing this post at the end of October, last year, with the intent to do little entries leading up to the year's close. Reading through it all, I can tell I was tired - in all the ways. The main takeaway from those five entries is that all of the projets disussed are **still** ongoing (and had been for a while), but the process was feeding and bleeding into each one in a *batchy* kind of way.  
+  
+It's already February..  
+  
+I followed-through with bringing data work/projects into my routine and found a few interesting things. The first is that it uses a different part of my brain where the stamina is low, where time also just flies. I remember a week where I set aside an hour or two that turned into the **whole** day (and some of the night). It's gotten easier since then, and looking forward to finishing the dashboard.  
+  
+I was able to buy a new keyboard and mouse set from Cash Crusader last week. After nearly a year of using a tablet and a keyboard 20% of the important keys unusable, and now using these, it's been wild thinking back to how much harder it was to do little things. Considering this an early birthday gift I'll cherish for a while.  
+
+
+![][2]  
+  
+My work on building up the [**FOTJ**](https://www.patreon.com/collection/221660) as been going well. It's been a great avenue to staying consistent and I've found a nice balance/system where I can incorporate it into other projects to break-up the silos it sometimes feels I'm working in.  
+&nbsp;
+
+<iframe width="850" height="478" src="https://www.youtube.com/embed/D9zjjQEq0Cs?si=EKPbiw0ejNMlMLkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+&nbsp;
+
+![][3]  
+&nbsp;   
+[**Here**](https://www.patreon.com/posts/freebies-from-03-119646527)  are some models I made freebies randomly-seleted from a recent batch.   
+ 
+&nbsp;  
+
+I have about 15-20 more models to make before calling this phase done. After that, the streams come back for the design projects.  
+
+[1]: /img/post/P12/p12001.jpg
+[2]: /img/post/P12/p12002.jpg
+[3]: /img/post/P12/p12003.webp

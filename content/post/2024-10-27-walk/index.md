@@ -21,7 +21,7 @@ It's already February..
   
 I followed-through with bringing data work/projects into my routine and found a few interesting things. The first is that it uses a different part of my brain where the stamina is low, where time also just flies. I remember a week where I set aside an hour or two that turned into the **whole** day (and some of the night). It's gotten easier since then, and looking forward to finishing the dashboard.  
   
-I was able to buy a new keyboard and mouse set from Cash Crusader last week. After nearly a year of using a tablet and a keyboard 20% of the important keys unusable, and now using these, it's been wild thinking back to how much harder it was to do little things. Considering this an early birthday gift I'll cherish for a while.  
+I was able to buy a new keyboard and mouse set from Cash Crusaders last week. After nearly a year of using a tablet and a keyboard with 20% of the important keys unusable, and now using these, it's been wild thinking back to how much harder it was to do little things. Considering this an early birthday gift I'll cherish for a while.  
 
 
 ![][2]  
@@ -38,7 +38,6 @@ My work on building up the [**FOTJ**](https://www.patreon.com/collection/221660)
 [**Here**](https://www.patreon.com/posts/freebies-from-03-119646527)  are some models I made freebies randomly-seleted from a recent batch.   
  
 &nbsp;  
-
 I have about 15-20 more models to make before calling this phase done. After that, the streams come back for the design projects.  
 
 [1]: /img/post/P12/p12001.jpg

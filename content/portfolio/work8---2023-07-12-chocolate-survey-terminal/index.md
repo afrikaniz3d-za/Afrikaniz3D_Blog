@@ -20,7 +20,7 @@ tags:
   - survey
   - eda
 draft: false
-image: 'img/portfolio/W8/w8000.webp'
+image: 'img/portfolio/W8/w8000.gif'
 showonlyimage: yes
 ---
 
@@ -539,15 +539,15 @@ Because I worked in chunks via [daily livestreams](https://youtube.com/playlist?
 Thanks for visiting the blog, and I hope you found something useful or mildly entertaining.
   
   
-[1]: /img/portfolio/W8/w8001.webp
-[2]: /img/portfolio/W8/w8002.webp
-[3]: /img/portfolio/W8/w8003.webp
-[4]: /img/portfolio/W8/w8004.webp
-[5]: /img/portfolio/W8/w8005.webp
-[6]: /img/portfolio/W8/w8006.webp
-[7]: /img/portfolio/W8/w8007.webp
-[8]: /img/portfolio/W8/w8008.webp
-[9]: /img/portfolio/W8/w8009.webp
-[10]: /img/portfolio/W8/w8010.webp
-[11]: /img/portfolio/W8/w8011.webp
-[12]: /img/portfolio/W8/w8012.webp
+[1]: /img/portfolio/W8/w8001.jpg
+[2]: /img/portfolio/W8/w8002.jpg
+[3]: /img/portfolio/W8/w8003.jpg
+[4]: /img/portfolio/W8/w8004.jpg
+[5]: /img/portfolio/W8/w8005.jpg
+[6]: /img/portfolio/W8/w8006.jpg
+[7]: /img/portfolio/W8/w8007.gif
+[8]: /img/portfolio/W8/w8008.jpg
+[9]: /img/portfolio/W8/w8009.jpg
+[10]: /img/portfolio/W8/w8010.jpg
+[11]: /img/portfolio/W8/w8011.gif
+[12]: /img/portfolio/W8/w8012.gif

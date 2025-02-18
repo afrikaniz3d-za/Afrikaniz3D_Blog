@@ -19,7 +19,7 @@ tags:
   - 
   
 draft: no
-image: 'img/portfolio/W11/w11000.webp'
+image: 'img/portfolio/W11/w11000.jpg'
 showonlyimage: yes
 ---
 &nbsp;
@@ -57,4 +57,4 @@ I definitely could have taken this project much further along the path I chose. 
 
 A big lesson I took away from this project as the need to remember not every challenge needs the most complicated/impressive strategy or solution. AI or algorithms, linear regressions and the such. Sometimes it's a simple yes or no and expanding a little on that. I had questions I managed to answer and that's enough.
 
-[1]: /img/portfolio/W11/w11001.webp
+[1]: /img/portfolio/W11/w11001.jpg

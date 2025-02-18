@@ -20,7 +20,7 @@ tags:
   - python
   
 draft: no
-image: 'img/portfolio/W12/w12000.webp'
+image: 'img/portfolio/W12/w12000.jpg'
 showonlyimage: yes
 ---
 

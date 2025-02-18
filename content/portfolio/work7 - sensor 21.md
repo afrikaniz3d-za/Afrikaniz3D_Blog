@@ -1,5 +1,5 @@
 +++
-image = "img/portfolio/W7/w7000.webp"
+image = "img/portfolio/W7/w7000.gif"
 draft = false
 showonlyimage = true
 date = "2023-07-01T19:30:00+02:00"

@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "img/portfolio/W10/w10000.webp"
+image = "img/portfolio/W10/w10000.jpg"
 showonlyimage = true
 date = "2021-12-21 T17:38:08+02:00"
 title = "Power BI Dashboards"
@@ -33,6 +33,6 @@ End of exercise.
 [1]: /img/portfolio/W10/w10001.jpg
 [3]: /img/portfolio/W10/w10003.jpg
 [4]: /img/portfolio/W10/w10004.jpg
-[5]: /img/portfolio/W10/w10005.webp
-[6]: /img/portfolio/W10/w10006.webp
-[7]: /img/portfolio/W10/w10007.webp
+[5]: /img/portfolio/W10/w10005.gif
+[6]: /img/portfolio/W10/w10006.gif
+[7]: /img/portfolio/W10/w10007.gif

@@ -155,8 +155,8 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>Chocolate Survey Terminal</h1>
-         <p><img src="/img/portfolio/W8/w8001.webp" alt=""><br>
-<img src="/img/portfolio/W8/w8009.webp" alt=""></p>
+         <p><img src="/img/portfolio/W8/w8001.jpg" alt=""><br>
+<img src="/img/portfolio/W8/w8009.jpg" alt=""></p>
 <p>This EDA was inspired by a <em><strong>Tidy Tuesday</strong></em> dataset that looked at the ratings of different cacao been suppliers in different countries. Rather than following the original data challenge, I decided to instead focus on the elements that dealt with South Africa (SA) because my first real look at the data showed that SA had received the lowest ratings.</p>
 <p>The hypothetical challenge I set for myself was to use the data to identify what led to the poor ratings as well as what changes would need to be made to improve future results.</p>
 <p>The project is divided into two parts:</p>
@@ -172,7 +172,7 @@
 </ul>
 <p>The answers from the questions above will help make an informed recommendation for some changes that a potential client might be looking to make to improve the performance of their chocolate product.</p>
 <p>I also didn&rsquo;t rule out new questions being introduced where they could make certain points clearer.</p>
-<p><img src="/img/portfolio/W8/w8002.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8002.jpg" alt=""></p>
 <p>The methodology used is outlined in <a href="https://youtube.com/@RProgramming101/">R Programming 101&rsquo;s</a> series of tutorials. There were a number of other creators such as <a href="https://youtube.com/@StatisticsGlobe">Statistics Globe</a> and <a href="https://youtube.com/@dataslice">Data Slice</a> that I refer back to often when working on EDA&rsquo;s.</p>
 <p>The first step is loading all the packages to be used:</p>
 <pre tabindex="0"><code class="language-[r]" data-lang="[r]">library(tidyverse)
@@ -196,7 +196,7 @@ $ cocoa_percent                    &lt;chr&gt; &#34;76%&#34;, &#34;76%&#34;, &#3
 $ ingredients                      &lt;chr&gt; &#34;3- B,S,C&#34;, &#34;3- B,S,C&#34;, &#34;3- B,S,C&#34;, &#34;3- B,S,C&#34;, &#34;3- B,S,C&#34;, &#34;3…
 $ most_memorable_characteristics   &lt;chr&gt; &#34;rich cocoa, fatty, bready&#34;, &#34;cocoa, vegetal, savory&#34;, &#34;cocoa,…
 $ rating                           &lt;dbl&gt; 3.25, 3.50, 3.75, 3.00, 3.00, 3.25, 3.50, 3.50, 3.75, 2.75, 2.…  
-</code></pre><p><img src="/img/portfolio/W8/w8003.webp" alt=""></p>
+</code></pre><p><img src="/img/portfolio/W8/w8003.jpg" alt=""></p>
 <p>The next step was checking for duplicates or misspellings. I did this by using the <em><strong>unique()</strong></em> function in each column/variable.</p>
 <pre tabindex="0"><code class="language-[r]" data-lang="[r]">&gt; unique(chocolate$ref)
   [1] 2454 2458 2542 2546  797 1011 1015 1019 1315 1319 1676 1680 1704 1876 2206 2648 1462 1470 2462 2470  705 2438 2442  370
@@ -521,8 +521,8 @@ $ rating                           &lt;dbl&gt; 3.25, 3.50, 3.75, 3.00, 3.00, 3.2
 &gt; 
 </code></pre><p>I took a look through the list, looking for cases where there were differences in spelling. I found that although this wasn&rsquo;t the case there were many instances where there were a handful of companies/manufacturers that operated under different names. I also had to check to see if there wasn&rsquo;t any further overlap using a third, or fourth name (there were).</p>
 <p>I did this part of the exercise manually on sheets of paper - I understand that there are functions to perform this, but it would have made this portion of the report (showing each step) so much longer. Here are snaps of the sheets I checked against:</p>
-<p><img src="/img/portfolio/W8/w8004.webp" alt=""></p>
-<p><img src="/img/portfolio/W8/w8005.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8004.jpg" alt=""></p>
+<p><img src="/img/portfolio/W8/w8005.jpg" alt=""></p>
 <p>Before transforming the data I first wanted to see what the Top 10 ranking was as-is. This was done by creating a new data frame that was ordered (descending) by the rating value using the chunk below:</p>
 <pre tabindex="0"><code class="language-[r]" data-lang="[r]">chocolate_ranked &lt;- chocolate[order(chocolate$rating, decreasing = TRUE),]
 </code></pre><p>To make it a &ldquo;Top 10&rdquo; data frame I use the line below:</p>
@@ -554,7 +554,7 @@ $ rating                           &lt;dbl&gt; 3.25, 3.50, 3.75, 3.00, 3.00, 3.2
 </code></pre><p>During a short break I realised that finding the &ldquo;Top&rdquo; 10 results is not as simple a task when you consider that the surveys are not of the same control group. The results specific to South Africa were also not helpful due to low volume (only four entries). My suggestion is then to look past establishing what the &ldquo;African Chocolate Palette&rdquo; is and focus on securing an African supplier of cacao instead. The argument can be this can be used to strengthen ties with a fellow African Union (AU) member.</p>
 <p>Now that I know what qualities are highly favoured in the overall Top 10 of the ratings, I can can compare this against the AU countries and choose five (5) choices that can be approached.</p>
 <p>Will the top African characteristics also be listed in the &ldquo;sweet&rdquo; and &ldquo;fruity&rdquo; region?</p>
-<p><img src="/img/portfolio/W8/w8006.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8006.jpg" alt=""></p>
 <p>I used the chunk below to extract results where the beans were grown in Africa (or AU states), ranking them according to their survey rating:</p>
 <pre tabindex="0"><code class="language-[r]" data-lang="[r]">chocolate_africa_ranked &lt;- chocolate_africa[order(chocolate_africa$rating, decreasing = TRUE),]
 </code></pre><pre tabindex="0"><code class="language-[r]" data-lang="[r]">&gt; head(chocolate_africa_ranked, 10)
@@ -582,11 +582,11 @@ $ rating                           &lt;dbl&gt; 3.25, 3.50, 3.75, 3.00, 3.00, 3.2
 223 5- B,S,C,V,L      tangy, floral, spicy, cocoa      4  
 </code></pre><p>What I found is that <em><strong>Madagascar</strong></em> featured heavily throughout, especially in the top positions. The memorable characteristics are relatively similar to the French results.</p>
 <p>Madagascar also has the added benefit of being a close neighbour of Mzansi. Keeping it local to Madagascar with regards to the company to contact, the best (and only) option is <a href="https://beyondgood.com/"><em><strong>Beyond Good</strong></em></a> - formerly Madecasse(Cinagra).</p>
-<p><img src="/img/portfolio/W8/w8007.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8007.gif" alt=""></p>
 <p>This concludes the data exploration.</p>
-<p><img src="/img/portfolio/W8/w8008.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8008.jpg" alt=""></p>
 <p>The 3D segment of this looks at creating a survey terminal. The idea is that these would be placed at popular chain stores and they would issue small samples for visitors to taste and comment on.</p>
-<p><img src="/img/portfolio/W8/w8010.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8010.jpg" alt=""></p>
 <p>Some design considerations I&rsquo;ve come up with are:</p>
 <ul>
 <li>no buttons or touch screen - to minimise the need for cleaning</li>
@@ -594,11 +594,11 @@ $ rating                           &lt;dbl&gt; 3.25, 3.50, 3.75, 3.00, 3.00, 3.2
 <li>video and audio recording for detailed comment/feedback</li>
 </ul>
 <p>Something about working from a refsheet that I&rsquo;m learning to enjoy more is that so many designs can come from the same set of images. This is what I realised toward the end of this project, and I see some elements I would do differently that I could only see having experienced the whole process - refinement after the finish.</p>
-<p><img src="/img/portfolio/W8/w8011.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8011.gif" alt=""></p>
 <p>Rather than working from sketches I followed an explore-and-discover methodology, using the basic requirements to stay on track - a screen with a sensor, a container for the chocolate samples, and a conveyor belt mechanism to deliver the sample.</p>
 <p>There many, many instances where the question would be, &ldquo;what if I do this, or this?&rdquo;, and the decision would be what visually enjoyed the most.</p>
 <p>Because I worked in chunks via <a href="https://youtube.com/playlist?list=PLryiPmQj99uCwOxIK9wWCmDnqU1qVR-iL">daily livestreams</a> on my <a href="https://www.youtube.com/channel/UC8SVBGhWZFlNtYJTAm_AdcA">YouTube channel</a> there were spaces in-between for what I had done on one day to continue being worked sub-consciously, so there would be times I would jump in and worked &ldquo;knowing&rdquo; more than improvising. I work with this process more often. It has its downsides - like being slower, and resulting in disjointed elements - but I think it&rsquo;s something I could benefit from in the long-run based on the little finds during different projects.</p>
-<p><img src="/img/portfolio/W8/w8012.webp" alt=""></p>
+<p><img src="/img/portfolio/W8/w8012.gif" alt=""></p>
 <p>Overall I&rsquo;m happy with the final result - it&rsquo;s an improvement on (from?) the <a href="https://afrikaniz3d.netlify.app/portfolio/work7-daq_2018/">first project</a> of this type in the portfolio.</p>
 <p>The next EDA will intentionally be smaller and I&rsquo;m looking to weight it 70/30 (data exploration-analysis/3D modeled product) and aim for a two week turnaround time. I know I can a lot when the time component is open-ended, but I&rsquo;d like to get more efficient with the whole process so I can work into <a href="https://blendermarket.com/products/hexes-mini-pack-04"><em><strong>HMP04</strong></em></a> additions.</p>
 <p>Thanks for visiting the blog, and I hope you found something useful or mildly entertaining.</p>

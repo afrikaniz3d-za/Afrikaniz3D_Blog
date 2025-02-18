@@ -24,7 +24,7 @@ tags:
   - healthcare analytics
   - healthcare
 draft: no
-image: 'img/portfolio/W14/w14000.webp'
+image: 'img/portfolio/W14/w14000.jpg'
 showonlyimage: yes
 ---
   

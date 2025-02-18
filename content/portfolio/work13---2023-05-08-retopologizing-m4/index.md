@@ -12,7 +12,7 @@ tags:
   - client
   - topology
   - retopology
-image: 'img/portfolio/W13/w13000.webp'
+image: 'img/portfolio/W13/w13000.gif'
 showonlyimage: yes
 ---
 This was a client project I got some time back. The relationship with the client was a strange once, and it wouldn't make sense to comment further as I think the whole experience itself was something else. I was no angel myself, but what I took away from it was a lot more than a new monitor.
@@ -54,9 +54,9 @@ This project took over a year - Something I don't think is acceptable in terms o
   
 Again, many metaphors and lessons inter-weaved throughout, and I thank the client for the project because this was also how I was able to get a monitor I desperately need to work properly again.  
 
-[1]: /img/portfolio/W13/w13001.webp
-[2]: /img/portfolio/W13/w13002.webp
-[3]: /img/portfolio/W13/w13003.webp
-[4]: /img/portfolio/W13/w13004.webp
-[5]: /img/portfolio/W13/w13005.webp
-[6]: /img/portfolio/W13/w13010.webp
+[1]: /img/portfolio/W13/w13001.jpg
+[2]: /img/portfolio/W13/w13002.jpg
+[3]: /img/portfolio/W13/w13003.jpg
+[4]: /img/portfolio/W13/w13004.jpg
+[5]: /img/portfolio/W13/w13005.jpg
+[6]: /img/portfolio/W13/w13010.gif

@@ -17,7 +17,7 @@ tags:
   - green energy
   - renewable energy
 draft: no
-image: 'img/portfolio/W5/w5000.webp'
+image: 'img/portfolio/W5/w5000.jpg'
 showonlyimage: yes
 ---
 

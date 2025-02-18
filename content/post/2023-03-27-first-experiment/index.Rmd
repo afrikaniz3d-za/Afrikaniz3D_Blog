@@ -3,7 +3,7 @@ title: "Been Busy"
 author: "Ntobeko Sosibo [ Afrikaniz3D ]"
 date: "2023-07-01"
 draft: false
-image: img/post/P9/p9000.webp
+image: img/post/P9/p9000.gif
 showonlyimage: true
 slug: "been-busy"
 categories:

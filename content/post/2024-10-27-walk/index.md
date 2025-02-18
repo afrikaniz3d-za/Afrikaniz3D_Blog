@@ -3,13 +3,13 @@ title: Walk
 author: Ntobeko Sosibo [ Afrikaniz3D ]
 draft: no
 date: '2025-02-16'
-slug: tides
+slug: walk
 categories:
   - blog
   - update
 tags:
   - blog
-image: 'img/post/P12/p12000.webp'
+image: 'img/post/P12/p12000.gif'
 showonlyimage: yes
 ---
 ![][1]  
@@ -42,4 +42,4 @@ I have about 15-20 more models to make before calling this phase done. After tha
 
 [1]: /img/post/P12/p12001.jpg
 [2]: /img/post/P12/p12002.jpg
-[3]: /img/post/P12/p12003.webp
+[3]: /img/post/P12/p12003.jpg

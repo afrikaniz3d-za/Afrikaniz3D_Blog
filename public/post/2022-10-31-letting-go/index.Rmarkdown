@@ -1,7 +1,7 @@
 ---
 title: Letting Go?
 author: Ntobeko Sosibo [Afrikaniz3D]
-image: "img/post/P4/p4000.webp"
+image: "img/post/P4/p4000.gif"
 showonlyimage: true
 date: '2022-10-31'
 slug: [letting-go]

@@ -9,7 +9,7 @@ categories:
 tags:
   - b3d
 draft: no
-image: 'img/post/P11/p11000.webp'
+image: 'img/post/P11/p11000.gif'
 showonlyimage: yes
 ---
 ![][1]  
@@ -53,4 +53,4 @@ It's not finished yet, so I'll probably ave it ready for the next post when I've
 
 [1]: /img/post/P11/p11001.jpg
 [2]: /img/post/P11/p11002.jpg
-[3]: /img/post/P11/p11003.webp
+[3]: /img/post/P11/p11003.jpg

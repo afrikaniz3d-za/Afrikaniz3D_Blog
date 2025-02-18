@@ -4,7 +4,7 @@ author: Ntobeko Sosibo
 date: '2024-08-18'
 draft: false
 slug: [figuring-it-out-again]
-image: img/post/P10/p10000.webp
+image: img/post/P10/p10000.gif
 showonlyimage: true
 categories:
   - blog
@@ -31,8 +31,8 @@ The most annoying part about this all is that I started quietly (even to my waki
 
 Nothing on this from yet. I've been working on updating my existing asset packs currently on sale on Blender Market, Art Station and Gumroad. A new avenue I've been working on is my \$1 [Patreon](https://www.patreon.com/afrikaniz3d) where I'm hosting a lot of the models currently available for free on my [Gumroad](https://afrikaniz3dza.gumroad.com). The added benefit with the Patreon is that this is where I'll be sharing future [MDP](https://www.youtube.com/playlist?list=PLryiPmQj99uABWE4-p4GGluo2kxhR5KWT) project models as well as all the models made in the [FOTJ](https://www.youtube.com/playlist?list=PLryiPmQj99uAzws5dLiyAOk3oMtAU70BK) series.
 
-![](/img/post/P10/p10003.webp)
+![](/img/post/P10/p10003.gif)
 
 I'm still planning to make and release free models to get eyes on my channels, just need to do more market research and find the best method to avoid overextending past what's already going on.
 
-![](/img/post/P10/p10004.webp)
+![](/img/post/P10/p10004.gif)

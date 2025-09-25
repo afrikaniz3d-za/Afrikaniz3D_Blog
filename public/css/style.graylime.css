@@ -1594,7 +1594,7 @@ body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.55;
-  color: #000000;
+  color: #999999;
   background-color: #1b1c1a;
 }
 a {
@@ -1603,7 +1603,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #163d2a;
+  color: #cadc3a;
   text-decoration: underline;
 }
 a:focus {
@@ -1685,8 +1685,8 @@ hr {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #20573c;
-  border-color: #1b4832;
+  background-color: #cadc3a;
+  border-color: #cadc3a;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -1827,8 +1827,7 @@ label {
 .form-control:focus {
   border-color: #cadc3a;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(43, 117, 81, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(43, 117, 81, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(79, 86, 22, 0.6)  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(79, 86, 22, 0.6);
 }
 .form-group {
   margin-bottom: 20px;
@@ -1959,7 +1958,7 @@ h6,
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #555555;
+  color: #999999;
 }
 h1,
 .h1 {
@@ -2023,14 +2022,14 @@ p {
   color: #cadc3a;
 }
 a.text-primary:hover {
-  color: #1d5037;
+  color: #cadc3a;
 }
 .bg-primary {
   color: #1b1c1a;
   background-color: #cadc3a;
 }
 a.bg-primary:hover {
-  background-color: #1d5037;
+  background-color: #cadc3a;
 }
 abbr[title],
 abbr[data-original-title] {

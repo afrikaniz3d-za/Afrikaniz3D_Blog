@@ -11,47 +11,117 @@
     <loc>http://localhost:4321/portfolio/hexes-mini-pack-series/</loc>
     <lastmod>2022-07-16T13:51:22+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/portfolio/work10---power-bi-dashboards/</loc>
+  </url><url>
     <loc>http://localhost:4321/portfolio/drone-cinematography/</loc>
     <lastmod>2022-06-04T12:57:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/portfolio/work10---power-bi-dashboards/</loc>
   </url><url>
     <loc>http://localhost:4321/portfolio/brauberry-brand-mash-up-project/</loc>
     <lastmod>2022-07-17T20:44:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/portfolio/work9---sql-data-exploration/</loc>
-  </url><url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/analytics/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/blog/</loc>
-    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/blog/</loc>
-    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/</loc>
-    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/dashboard/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/dataanalysis/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/databricks/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/fotj/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/hmp04/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mavencommuterchallenge/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mta/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/</loc>
-    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/r/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/rstudio/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/shiny/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/post/2025-02-21-split-push/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/sql/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/</loc>
-    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/update/</loc>
-    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/appsilon/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/calendr/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-analysis/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-manipulation/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-visualization/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-wrangling/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/eda/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-commuter-challenge/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/mta-shiny-dashboard/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/project/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/b3d/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/fotj/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/walk/</loc>
     <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/chocolate/</loc>
-    <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-analysis/</loc>
-    <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/databricks/</loc>
     <lastmod>2024-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/desktop-research/</loc>
@@ -75,18 +145,6 @@
     <loc>http://localhost:4321/tags/nutrition/</loc>
     <lastmod>2024-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/portfolio/</loc>
-    <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/project/</loc>
-    <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/sql/</loc>
-    <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/b3d/</loc>
-    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/post/out-of-time/</loc>
     <lastmod>2024-09-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -97,9 +155,6 @@
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/2024-08-12-been-busy/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/fotj/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/gumroad/</loc>
@@ -115,9 +170,6 @@
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/a/b-testing/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/analytics/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/big-query/</loc>
@@ -136,9 +188,6 @@
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/dataset/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/eda/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/etl/</loc>
@@ -232,9 +281,6 @@
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/hexes/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/hmp04/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/printables/</loc>
@@ -382,9 +428,6 @@
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/post/2022-07-17-new-site-loading/</loc>
-    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/rstudio/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/web-development/</loc>

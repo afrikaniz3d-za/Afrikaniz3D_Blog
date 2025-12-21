@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "img/portfolio/W1/w1001.jpg"
+image = "img/portfolio/W1/w1001.png"
 date = "2022-07-16T13:51:22+02:00"
 title = "HEXES Mini Pack Series"
 slug = "hexes-mini-pack-series"
@@ -146,22 +146,22 @@ The obvious answer is start work on Mini Pack 04, taking all I've learned and wo
 I also intend to introduce new elements past decals and mesh inserts, so more time is needed to get an even better handle on the tools and techniques. Pack should be released before the year's out.
 
 
-[1]: /img/portfolio/W1/w1002.jpg
-[2]: /img/portfolio/W1/w1003.jpg
-[3]: /img/portfolio/W1/w1004.jpg
+[1]: /img/portfolio/W1/w1002.png
+[2]: /img/portfolio/W1/w1003.png
+[3]: /img/portfolio/W1/w1004.png
 [4]: /img/portfolio/W1/w1005.png
-[5]: /img/portfolio/W1/w1006.jpg
+[5]: /img/portfolio/W1/w1006.png
 [6]: /img/portfolio/W1/w1007.png
-[7]: /img/portfolio/W1/w1008.jpg
-[8]: /img/portfolio/W1/w1009.jpg
-[9]: /img/portfolio/W1/w1010.jpg
-[10]: /img/portfolio/W1/w1011.jpg
-[11]: /img/portfolio/W1/w1012.jpg
-[12]: /img/portfolio/W1/w1013.jpg
-[13]: /img/portfolio/W1/w1014.jpg
-[14]: /img/portfolio/W1/w1015.jpg
-[15]: /img/portfolio/W1/w1016.jpg
-[16]: /img/portfolio/W1/w1017.jpg
-[17]: /img/portfolio/W1/w1018.jpg
-[18]: /img/portfolio/W1/w1019.jpg
+[7]: /img/portfolio/W1/w1008.png
+[8]: /img/portfolio/W1/w1009.png
+[9]: /img/portfolio/W1/w1010.png
+[10]: /img/portfolio/W1/w1011.png
+[11]: /img/portfolio/W1/w1012.png
+[12]: /img/portfolio/W1/w1013.png
+[13]: /img/portfolio/W1/w1014.png
+[14]: /img/portfolio/W1/w1015.png
+[15]: /img/portfolio/W1/w1016.png
+[16]: /img/portfolio/W1/w1017.png
+[17]: /img/portfolio/W1/w1018.png
+[18]: /img/portfolio/W1/w1019.png
 [19]: /img/portfolio/W1/w1020.png

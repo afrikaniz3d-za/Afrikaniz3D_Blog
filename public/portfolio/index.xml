@@ -6,7 +6,7 @@
     <description>Recent content in Portfolios on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sensor 21</title>
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>Power BI Dashboards</title>
-      <link>http://localhost:4321/portfolio/work10---power-bi-dashboards/</link>
+      <link>http://localhost:4321/portfolio/work10-eskom-power-bi-dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/portfolio/work10---power-bi-dashboards/</guid>
+      <guid>http://localhost:4321/portfolio/work10-eskom-power-bi-dashboard/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/portfolio/W10/w10001.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This entry is related to South African energy exploration that on RStudio that you can look at &lt;a href=&#34;https://afrikaniz3d.netlify.app/portfolio/data-explorations-using-r-studio/&#34;&gt;here&lt;/a&gt;. My intentions for this segment of the exploration is to take the same data and generate some dashboards that you would find for up-to-date looks on some statistics - snapshots.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/portfolio/W10/w10003.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The dataset I wanted to look at was the one containing the hourly measurements of the different sources of renewable energy from ESKOM (&amp;ldquo;zaregenlong&amp;rdquo;) that was generated and exported from RStudio.&lt;/p&gt;</description>
     </item>
     <item>
@@ -51,9 +51,16 @@
       <description>&lt;p&gt;The Brand Mash-Up series was one of the first bigger projects on my YouTube channel that I started as a means of both expanding on what I had been doing as well as learning new tools such as Blender. The idea for &lt;strong&gt;BRAUBERRY&lt;/strong&gt; was a response to the need for being careful when handling intellectual properties I didn&amp;rsquo;t own in the case they might endanger my YouTube channel. It was also a fun opportunity to see what could come about from merging two seemingly non-related brands.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>X-Men Mutant Moneyball [Tidy Tuesday]</title>
+      <link>http://localhost:4321/portfolio/tt-xmen-mutant-moneyball/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/tt-xmen-mutant-moneyball/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/portfolio/W16/w16001.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;table style=&#34;width:100%; border-collapse: collapse;&#34;&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Analysing comic book sales data to inform a moneyball draft for a team of mutants from the X-Men property&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;TOOLS&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;MySQL, RStudio, Quarto, JavaScript, HTML, CSS&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;PROJECT_TYPE&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Data cleaning, Data manipulation, Data analysis, Data visualization, Trend Analysis, Quarto Report Writing&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;LINKS&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;&#xA;      &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-19&#34;&gt;Tidy Tuesday 2024-12&lt;/a&gt;, &#xA;      &lt;a href=&#34;https://github.com/afrikaniz3d-za/Tidy-Tuesday-Participation/tree/main/tt_2024_12&#34;&gt;Github Repo&lt;/a&gt;&#xA;    &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
       <title>MTA Post-Covid Recovery Dashboard</title>
       <link>http://localhost:4321/portfolio/mta-shiny-dashboard/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/portfolio/mta-shiny-dashboard/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/portfolio/W9/w9001.jpg&#34; alt=&#34;&#34;&gt;&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;table style=&#34;width:100%; border-collapse: collapse;&#34;&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Investigating an MTA ridership dataset to gain insight on the post-covid recovery trends of its various modes of public travel&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;TOOLS&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Databricks SQL, RStudio, Shiny, Blender 3D&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;PROJECT_TYPE&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Data cleaning, Data manipulation, Data analysis, Data visualization, Trend Analysis, Shiny dashboard development&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;LINKS&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;&#xA;      &lt;a href=&#34;https://mavenanalytics.io/challenges/maven-commuter-challenge/2300490c-532e-4f34-87a3-a47c83351164&#34;&gt;Maven Commuter Challenge&lt;/a&gt;, &#xA;      &lt;a href=&#34;https://uxyxtu-afrikaniz3d.shinyapps.io/mta_dashboard/&#34;&gt;Dashboard&lt;/a&gt;,&#xA;      &lt;a href=&#34;https://github.com/afrikaniz3d-za/Maven-Challenges/tree/main/Commuter-Challenge/&#34;&gt;Github Repo&lt;/a&gt;&#xA;    &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
     </item>

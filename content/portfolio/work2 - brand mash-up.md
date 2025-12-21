@@ -3,7 +3,7 @@ date = "2022-07-17T20:44:01+02:00"
 title = "BRAUBERRY [Brand Mash-Up Project]"
 slug = "brauberry-brand-mash-up-project"
 draft = false
-image = "img/portfolio/W2/w2000.jpg"
+image = "img/portfolio/W2/w2000.png"
 showonlyimage = true
 weight = 5
 +++
@@ -61,5 +61,5 @@ Overall I managed to achieve more than I expected during this project and, to th
 [5]:/img/portfolio/W2/w2005.png
 [6]:/img/portfolio/W2/w2006.png
 [7]:/img/portfolio/W2/w2007.gif
-[8]:/img/portfolio/W2/w2008.jpg
+[8]:/img/portfolio/W2/w2008.png
 [9]:/img/portfolio/W2/w2009.gif

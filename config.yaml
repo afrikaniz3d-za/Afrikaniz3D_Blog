@@ -5,7 +5,7 @@ languageCode: en-us
 disqusShortname: 'afrikaniz3d'
 googleAnalytics: 'G-068HZ9Y7CD'
 params:
-  copyright: '&copy; 2024 Afrikaniz3D / Ntobeko Sosibo'
+  copyright: '&copy; 2025 Afrikaniz3D / Ntobeko Sosibo'
   description: Combination of a blog and portfolio I use to try host as much of my works in one place.
   email: afrikaniz3d@gmail.com
   navlinks:
@@ -31,16 +31,17 @@ params:
   sidebarAbout:
     - Data Analyst with expertise in data analytics, visualization, and project management. Proficient in Big Query SQL, RStudio, and Databricks. I am also a CG hobbyist working mostly with Blender3D.
     - From and currently based in South Africa.
-    - "#b3d #blender #3dmodeling #3dart #hardsurface #hexesminipack #dataanalytics #datascience #r #powerbi #databricks #python #sql #youtubeseo"
+    - "#b3d #blender #3dmodeling #3dart #hardsurface #hexesminipack #dataanalytics #datascience #r #powerbi #databricks #python #sql #youtubeseo #javascript #html #css #echarts #echarts4r"
   social:
     email: afrikaniz3d@gmail.com
     facebook: https://www.facebook.com/Afrikaniz3D-103985428323283
     github: https://github.com/afrikaniz3d-za
-    instagram: https://www.instagram.com/afrikaniz3d/
+    instagram: https://www.instagram.com/afrikaniz3d
     linkedin: https://www.linkedin.com/in/ntobeko-s-040309203
     twitter: https://twitter.com/afrikaniz3d
+    bluesky: https://bsky.app/profile/afrikaniz3d.bsky.social
     whatsapp: https://wa.me/message/USN7BDK3XJC4K1
-    youtube: https://youtube.com/c/AFRIKANIZ3D/
+    youtube: https://youtube.com/c/AFRIKANIZ3D
   style: graylime
 
 markup:

@@ -14,6 +14,11 @@
     <i class="fa fa-twitter"></i>
   </a>
   {{end}}
+  {{ with .Site.Params.social.bluesky }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external bluesky" title="Bluesky" rel="me">
+    <i class="fa fa-bluesky"></i>
+  </a>
+  {{end}}
   {{ with .Site.Params.social.instagram }}
   <a href="{{ . }}" title="" class="external instagram" title="Instagram" rel="me">
     <i class="fa fa-instagram"></i>

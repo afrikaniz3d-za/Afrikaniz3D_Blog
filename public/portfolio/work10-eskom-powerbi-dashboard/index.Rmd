@@ -1,0 +1,183 @@
+---
+title: X-Men Mutant Moneyball [Tidy Tuesday]
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2025-12-20'
+slug: tt-xmen-mutant-moneyball
+categories:
+  - project
+tags:
+  - tidy tuesday
+  - quarto
+  - project report
+  - portfolio project
+  - mysql
+  - dataviz
+  - data visualization
+  - data exploration
+  - data analysis
+  - rstudio
+  - javascript
+  - html
+  - css
+  - machine learning
+  - sparklyr
+  - spearman correlation
+draft: yes
+image: 'img/portfolio/W16/w16000.png'
+showonlyimage: yes
+---
+![][1]  
+&nbsp;  
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>DESCRIPTION</strong></td>
+    <td style="vertical-align: top; color: inherit;">Analysing comic book sales data to inform a moneyball draft for a team of mutants from the X-Men property</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>TOOLS</strong></td>
+    <td style="vertical-align: top; color: inherit;">MySQL, RStudio, Quarto, JavaScript, HTML, CSS</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>PROJECT_TYPE</strong></td>
+    <td style="vertical-align: top; color: inherit;">Data cleaning, Data manipulation, Data analysis, Data visualization, Trend Analysis, Quarto Report Writing</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>LINKS</strong></td>
+    <td style="vertical-align: top; color: inherit;">
+      <a href="https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-19">Tidy Tuesday 2024-12</a>, 
+      <a href="https://github.com/afrikaniz3d-za/Tidy-Tuesday-Participation/tree/main/tt_2024_12">Github Repo</a>
+    </td>
+  </tr>
+</table>
+
+&nbsp;  
+
+&nbsp;   
+
+![The Goal][2]  
+
+xx  
+
+&nbsp;  
+
+#### 1.1 Understanding what a Moneyball is  
+
+Prior to this project I had no concept of what a moneyball was, guessing that it may be related somehow to a type of lottery or gameshow. Looking into this first would help provide some guardrails for navigating the data.    
+
+My  
+
+&nbsp;  
+
+#### 1.2 Create a mutant selection aid  
+
+Because situations where moneyballs are normally performed involve...
+This isn't a simple task when you're looking at a table with big numbers, so transforming that into a visual form that reduces the mental calculations using four input devices will make the exploration easier and more engaging.  
+
+&nbsp;  
+
+&nbsp;   
+
+![The Process][3]  
+
+After importing the dataset into **MySQL**, I performed transform the data into a form that was easier to read and connect with as someone that was familiar with the franchise. 
+
+#### 2.1 Data transformation in MySQL  
+
+xx
+
+&nbsp;  
+
+#### 2.2 Making the data easier to read  
+
+This included introducing each mutants "identity" name in a new column to accompany the. I think this makes the data a little more accessible to people with a passing familiarity  
+
+&nbsp;  
+
+#### 2.3 Importing cleaned data into RStudio for visualization  
+
+With the table cleaned, visualisation is the next step. Recently I've been making Quarto-friendly [templates](https://github.com/afrikaniz3d-za/Quarto-Ready-ECharts4R-Templates) for ECharts4R and posting one weekly as a way of sharing what I learn, and a form of accountability. A benefit of this (and the timing) is that I had a radar chart template ready to be adapted
+
+&nbsp;  
+
+&nbsp;  
+
+![Insights][4]  
+
+xx  
+
+#### 3.x The 70s were the height of popularity  
+
+![][]
+
+The highest concentration of revenue is in this decade, and it also marks the beginning of a decline for most mutants.  
+
+&nbsp;  
+
+#### 3.x The [ Total Value x PPI ] Inversion  
+
+Something the visualisation does a nice job of pointing out is that a mutant having a relatively high **total_value** can have a lower **ppi** (price per issue) by comparison to another mutant, and vice versa.  
+
+![][]  
+
+This information can be useful in a multi-round situation where you're either selecting for a **total_value** that's not-so-high across the four outlets, but the **ppi** sits well above average - making it a good pick in **ppi** face-offs.  
+
+&nbsp;  
+
+#### 3.x The extent of the Inversion  
+
+I was interested in seeing how prevalent this relationship is. One way to explore this was using the tool itself to read the graphs, jotting down the results, but I wanted to see if I could do this by plotting a graph to see if there really was a **correlation** between the two metrics.  
+
+Stated more concisely, I was asking,  
+> "In a given decade and given outlet: If mutant A has a **higher total_value** than mutant B, is mutant A **more likely** to have a **lower price-per-issue** than mutant B?"  
+
+To answer that question, the task was divided into two  parts:  
+
+- Establishing whether the relationship really existed  
+- Calculating the pairwise inversion rate  
+
+&nbsp;  
+
+##### 3.x.x Computing Spearman correlations with Sparklyr    
+
+
+
+##### 3.x.x Creating the plot  
+
+![single line chart showing inversion percentage over the decades][]  
+
+Overall, the inversion exists ~20–30% of the time when looking at a single line chart, so I looked at segmenting it by outlet to see if my observation may have been more specific to any in particular.  
+
+![segmented line chart showing inversion percentages across the four outlets over the decades][]  
+
+The inversion between total_value dominance and per-issue pricing is *not uniform* across outlets. It is **most persistent** in **Wizard**, weakens over time in Ebay, and remains relatively stable elsewhere — indicating outlet-specific pricing mechanics rather than a universal market inefficiency.
+
+&nbsp;  
+
+&nbsp;  
+
+![Recommendations][5]  
+
+Rather than looking at the **Mutant Stats Viewer** as a tool for making picks for a moneyball, I think it should rather be seen as a means for questioning potential "match-ups" chosen mutants may be involved in to see how they might fair under different conditions.  
+
+The more you tinker with it the higher the likelihood you may discover more patterns as I have with the common inverse relationship between the total revenue versus price-per-issue for each mutant across decades.
+
+&nbsp;  
+
+&nbsp;   
+
+![Reflections on the project][6]  
+
+My approach going into this project was to look at this as an opportunity to see how far I could push my visualizations. There was a plan to make custom icons hat would appear when the corresponding mutant was selected, giving it a video game character selector look, but I had greatly underestimated the mechanics needed to..
+
+
+[1]: /img/portfolio/W16/w16001.png
+[2]: /img/portfolio/W16/w16002.png
+[3]: /img/portfolio/W16/w16003.png
+[4]: /img/portfolio/W16/w16004.png
+[5]: /img/portfolio/W16/w16005.png
+[6]: /img/portfolio/W16/w16006.png
+[7]: /img/portfolio/W16/w16007.png
+[8]: /img/portfolio/W16/w16008.png
+[9]: /img/portfolio/W16/w16009.png
+[10]: /img/portfolio/W16/w160010.png

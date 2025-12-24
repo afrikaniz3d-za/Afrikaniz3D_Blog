@@ -15,7 +15,7 @@ showonlyimage: yes
 ![][1]  
 &nbsp;
   
-Started writing this post at the end of October, last year, with the intent to do little entries leading up to the year's close. Reading through it all, I can tell I was tired - in all the ways. The main takeaway from those five entries is that all of the projets disussed are **still** ongoing (and had been for a while), but the process was feeding and bleeding into each one in a *batchy* kind of way.  
+Started writing this post at the end of October, last year, with the intent to do little entries leading up to the year's close. Reading through it all, I can tell I was tired - in all the ways. The main takeaway from those five entries is that all of the projects discussed are **still** ongoing (and had been for a while), but the process was feeding and bleeding into each one in a *batchy* kind of way.  
   
 It's already February..  
   

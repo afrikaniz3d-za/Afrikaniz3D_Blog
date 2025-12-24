@@ -60,7 +60,7 @@
     
       <p class="sidebar-p">From and currently based in South Africa.</p>
     
-      <p class="sidebar-p">#b3d #blender #3dmodeling #3dart #hardsurface #hexesminipack #dataanalytics #datascience #r #powerbi #databricks #python #sql #youtubeseo</p>
+      <p class="sidebar-p">#b3d #blender #3dmodeling #3dart #hardsurface #hexesminipack #dataanalytics #datascience #r #powerbi #databricks #python #sql #youtubeseo #javascript #html #css #echarts #echarts4r</p>
     
     <ul class="sidebar-menu">
       
@@ -96,7 +96,12 @@
   </a>
   
   
-  <a href="https://www.instagram.com/afrikaniz3d/" title="" class="external instagram" title="Instagram" rel="me">
+  <a href="https://bsky.app/profile/afrikaniz3d.bsky.social" data-animate-hover="pulse" class="external bluesky" title="Bluesky" rel="me">
+    <i class="fa fa-bluesky"></i>
+  </a>
+  
+  
+  <a href="https://www.instagram.com/afrikaniz3d" title="" class="external instagram" title="Instagram" rel="me">
     <i class="fa fa-instagram"></i>
   </a>
   
@@ -118,7 +123,7 @@
   
   
   
-  <a href="https://youtube.com/c/AFRIKANIZ3D/" data-animate-hover="pulse" class="external" title="YouTube" rel="me">
+  <a href="https://youtube.com/c/AFRIKANIZ3D" data-animate-hover="pulse" class="external" title="YouTube" rel="me">
     <i class="fa fa-youtube"></i>
   </a>
   
@@ -133,7 +138,7 @@
     <div class="copyright">
       <p class="credit">
         
-          &copy; 2024 Afrikaniz3D / Ntobeko Sosibo |
+          &copy; 2025 Afrikaniz3D / Ntobeko Sosibo |
         
         Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
 
@@ -155,7 +160,7 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>Renewable Energy in South Africa</h1>
-         <p><img src="/img/portfolio/W5/w5001.jpg" alt=""></p>
+         <p><img src="/img/portfolio/W5/w5001.png" alt=""></p>
 <p>The purpose of this data exploration is to apply and the practice the skills gained from the <a href="https://coursera.org/share/aa0f6fb43f29c40fc9c8ad775e33f73c">Google Data Analytics Professional Certification</a>. The data being explored relates to South African energy, primarily electricity. This exercise will be replicated on other tools later on such as Power BI and SQL.</p>
 <p>The datasets are mostly in .csv format and were collected from the following sources:<br>
 <a href="https://https://www.eskom.co.za/dataportal/renewables-performance/">Eskom</a><br>
@@ -164,7 +169,7 @@
 <a href="https://rise.esmap.org">Regulatory Indicator for Sustainable Energy (RISE)</a><br>
 <a href="https://energy.gov.za">South African Government</a></p>
 <p>If the reader has any suggestions for better ways to perform the tasks or more interesting ways of presenting the findings please contact me via any of the channels found on this site&rsquo;s <a href="https://afrikaniz3d.netlify.app/contact/">Get in touch</a> page or leave a comment in the Disqus section below if it&rsquo;s available. For now I&rsquo;m using some tutorials I find on YouTube.</p>
-<p><img src="/img/portfolio/W5/w5002.jpg" alt=""></p>
+<p><img src="/img/portfolio/W5/w5002.png" alt=""></p>
 <p><em><strong>[2022-09-21]</strong></em></p>
 <p>Following <a href="https://youtu.be/An1bUIg-nVM">this</a> tutorial by <a href="https://www.youtube.com/c/BusinessScience">Business Science</a> was the first thing after setting up the new project. Ran into some issues, outlined below, that come with not having done any explorations since certification. I&rsquo;m recording all my steps - errors and all, even typos - as a way for me to also look back on this later on when I&rsquo;m more familiar or need to be reminded that it wasn&rsquo;t easy at the start..</p>
 <pre tabindex="0"><code class="language-[r]" data-lang="[r]">&gt; library(tidyverse)
@@ -247,14 +252,14 @@ all_datasets/rise-2016-database-for-download.xlsx
 all_datasets/South Africa_energy_data.csv
 </code></pre><p>In the chunk above I also included the steps in-between where I was making mistakes.</p>
 <p>Packages are loaded and the datasets are now reading.It&rsquo;s a lot of data to comb through. At this point my only plan is to peak into each one and see what info and variables are used to see what path they contribute the most to for visualizations.</p>
-<p><img src="/img/portfolio/W5/w5003.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5003.png" alt=""></p>
 <p>What I first thought was a strange coincidence - all the datasets having the same number columns and rows - soon shows that there has been an error somewhere..Will pick this back up tomorrow during a longer session.</p>
 <p><strong>[2022-09-22]</strong></p>
 <p>Better luck today. There was mistake in the step following the bringing in of the datasets. The tutorial shows two techniques for achieving the same result, but the second one (purrr map) had the benefit of being shorter - easier to remember - plus it then shows a preview of each dataset with some extra info.</p>
-<p><img src="/img/portfolio/W5/w5004.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5004.png" alt=""></p>
 <p>The chunk in question being:</p>
 <pre tabindex="0"><code>file_paths %&gt;% map(function (path) {read_csv(path)})
-</code></pre><p><img src="/img/portfolio/W5/w5005.jpg" alt=""></p>
+</code></pre><p><img src="/img/portfolio/W5/w5005.png" alt=""></p>
 <p>A quick look at the first ten (10) lines of the datasets showed that some of them were too large and general, or discuss energies that aren&rsquo;t present in South Africa. Going through each of the 41 datasets in their entirety, I filter them to select the ones that could best answer tell some kind of story about energy in South Africa</p>
 <p><em><strong>[2022-09-27]</strong></em></p>
 <p><em><strong>(1) Africa_energy_data.csv</strong></em>
@@ -270,20 +275,20 @@ Finally, the <strong>&ldquo;Metadata Indicator&rdquo;</strong> datasets are most
 <p>The next four (4) datasets were sourced from <a href="https://https://www.eskom.co.za/dataportal/renewables-performance/">Eskom</a>. The state entity has been going through it for ages now and, as this is not my wheelhouse, I&rsquo;m choosing to look at the lesser-explored/discussed parts. The same points come up in the media over and over again, but I&rsquo;m more interested in seeing their figures dealing with renewable energy. Future explorations may go further in depth.</p>
 <p><em><strong>(36) RE_Annual_Energy_Contribution</strong></em></p>
 <p>Viewing the first of the four sets presented a small issue - missing units of measurement.</p>
-<p><img src="/img/portfolio/W5/w5006.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5006.png" alt=""></p>
 <p>Not wanting to assume, I went back to the <a href="https://www.eskom.co.za/dataportal/renewables-performance/renewable-statistics/">Eskom Data Portal</a> and found that Mega  Watts (MW) was the unit used.</p>
-<p><img src="/img/portfolio/W5/w5007.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5007.png" alt=""></p>
 <p>This dataset shows that Eskom currently deals with three (3) sources of renewable energy - <strong>Concentrated Solar Power</strong> (<em><strong>CSP</strong></em>), <strong>Photovoltaics</strong> <em>(<strong>PV</strong></em>), and <strong>Wind</strong> (<em><strong><del>blows</del></strong></em>). Hydroelectric isn&rsquo;t classified under this banner. The image above covers what is publicly available (2021-2023) and I have sent a request for any older datasets if they exist. This will have an impact on the overall study because some of the other datasets go all the way back to 1900, and renewable energy isn&rsquo;t new to South Africa. It will still be useful to this exploration for the purposes of using real data.</p>
 <p><em><strong>(37) RE_Current_Installed_Capacity</strong></em></p>
-<p><img src="/img/portfolio/W5/w5008.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5008.png" alt=""></p>
 <p>Another dataset that needed the aid of the online dashboard. I understand they were set up for that particular purpose. It would be helpful if an additional metadata dataset was introduced - similar to how the World Bank deliver information. This way more clarification/context can be provided. Adding units will also remove speculation f or those not in the field.</p>
 <p><em><strong>(38) RE_Maximum_Contribution</strong></em></p>
-<p><img src="/img/portfolio/W5/w5009.JPG" alt=""></p>
-<p><img src="/img/portfolio/W5/w5010.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5009.png" alt=""></p>
+<p><img src="/img/portfolio/W5/w5010.png" alt=""></p>
 <p>A similar story to the other two (2) sets. Overall it is showing that these sets will show a snapshot of where South Africa is today with regards to renewable energy. This may change if the request for more data proves successful.</p>
 <p><em><strong>(39) RE_Maximum_Peak_Difference</strong></em></p>
-<p><img src="/img/portfolio/W5/w5011.JPG" alt=""></p>
-<p><img src="/img/portfolio/W5/w5012.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5011.png" alt=""></p>
+<p><img src="/img/portfolio/W5/w5012.png" alt=""></p>
 <p>Same as above.</p>
 <p>The time frame for the Eskom datasets (2021-2023) is very narrow, but it does give useful measurements that can be used in conjunction with datasets from other sources.</p>
 <p><em><strong>(40) rise-2016-database-for-download.xlsx</strong></em></p>
@@ -446,9 +451,9 @@ Finally, the <strong>&ldquo;Metadata Indicator&rdquo;</strong> datasets are most
 <p><em><strong>[2022-10-11]</strong></em></p>
 <p>Eskom came through (2022-10-05) and emailed a file that dates back to 2018 - a little more to work with.<br>
 Before examining the dataset, I cleared all the existing object in the workspace in order to re-import them along with the new .csv file bring the total batch from 41 files to 42. I also renamed the file to &ldquo;ZESK2592.csv&rdquo; (from &ldquo;ESK2592.csv&rdquo;) so that it should occupy the final spot on the list - and not offset the work done previously (above).</p>
-<p><img src="/img/portfolio/W5/w5013.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5013.png" alt=""></p>
 <p><em><strong>(42) ZESK2592.csv</strong></em></p>
-<p><img src="/img/portfolio/W5/w5014.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5014.png" alt=""></p>
 <p>The metadata of this dataset described a large number for the rows. A view of it showed that the reason was due to hourly readings for each type of energy recorded. This presents a great opportunity to explore the individual performances of each type of energy and make comparisons relative to their unique conditions.</p>
 <p>As it stands the current plan moving forward, using the information covered above, is:</p>
 <ol>
@@ -465,10 +470,10 @@ Before examining the dataset, I cleared all the existing object in the workspace
 <p>Visualizing the findings using different methods within RStudio I&rsquo;ve been wanting to try out</p>
 </li>
 </ol>
-<p><img src="/img/portfolio/W5/w5015.jpg" alt=""></p>
+<p><img src="/img/portfolio/W5/w5015.png" alt=""></p>
 <p><em><strong>[2022-10-21]</strong></em></p>
 <p>During the filtering step I thought there would be some datasets I could exclude from the exploration, but all of them contribute a useful bit of information. In this step I will simplify the workflow by renaming the datasets to titles that make it easier to identify the contents/purpose for the dataset in this exercise.</p>
-<p><img src="/img/portfolio/W5/w5016.JPG" alt=""></p>
+<p><img src="/img/portfolio/W5/w5016.png" alt=""></p>
 <p>The naming convention is &ldquo;name/acronym of source&rdquo;_&ldquo;subject&rdquo;</p>
 <p>Acronyms used:</p>
 <pre><code>wb = World Bank
@@ -522,7 +527,7 @@ eskom_re_hourly
 </code></pre>
 <p>Wasn&rsquo;t sure this could be automated, the the first round when importing the datasets, but after some manual back and forth the datasets are now renamed and ready to visualize and compare alongside some other information. I also excluded the meta datasets from the source naming convention to make it easier to remember that are not the primary dataset.</p>
 <p>The next set of tasks look at visualizing and comparing what&rsquo;s been recorded and seeing how we fare (according to what&rsquo;s been shown).</p>
-<p><img src="/img/portfolio/W5/w5017.jpg" alt=""></p>
+<p><img src="/img/portfolio/W5/w5017.png" alt=""></p>
 <p><em><strong>[2022-12-16]</strong></em></p>
 <p>I chose to first go with generating some charts from the chosen dataset <em><strong>wb_south_africa</strong></em>. Below are the lines used followed by the result.</p>
 <pre tabindex="0"><code class="language-[r]" data-lang="[r]">CoalGraph = wb_south_africa
@@ -601,7 +606,7 @@ tibble(salong)
 10  1974 Hydro  1.13 
 # … with 161 more rows
 # ℹ Use `print(n = ...)` to see more rows
-</code></pre><p><img src="/img/portfolio/W5/w5022.jpg" alt=""></p>
+</code></pre><p><img src="/img/portfolio/W5/w5022.png" alt=""></p>
 <p>The graph makes the differences and similarities a lot clearer than the individual graphs. I was was tempted to make an animated one along a timeline, but I think what is shown in this one
 enough to build a good narrative around, namely how much more has to be done to diversify South Africa&rsquo;s energy generation and output along a renewables route.</p>
 <pre tabindex="0"><code class="language-[r]" data-lang="[r]">salong %&gt;%

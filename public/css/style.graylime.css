@@ -1897,7 +1897,7 @@ label {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   color: #cadc3a;
-  background-color: #6fca9e;
+  background-color: #ffffff;
   border-color: #dddddd;
 }
 .pagination > .active > a,

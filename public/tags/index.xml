@@ -58,6 +58,13 @@
       <description></description>
     </item>
     <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:4321/tags/machine-learning/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Mysql</title>
       <link>http://localhost:4321/tags/mysql/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
@@ -90,6 +97,20 @@
       <link>http://localhost:4321/tags/rstudio/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/rstudio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sparklyr</title>
+      <link>http://localhost:4321/tags/sparklyr/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sparklyr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spearman Correlation</title>
+      <link>http://localhost:4321/tags/spearman-correlation/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/spearman-correlation/</guid>
       <description></description>
     </item>
     <item>
@@ -793,10 +814,52 @@
       <description></description>
     </item>
     <item>
+      <title>3d</title>
+      <link>http://localhost:4321/tags/3d/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3d Modeling</title>
+      <link>http://localhost:4321/tags/3d-modeling/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/3d-modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blender3d</title>
+      <link>http://localhost:4321/tags/blender3d/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/blender3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Braun</title>
+      <link>http://localhost:4321/tags/braun/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/braun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Burberry</title>
+      <link>http://localhost:4321/tags/burberry/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/burberry/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cradletograver</title>
       <link>http://localhost:4321/tags/cradletograver/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/cradletograver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://localhost:4321/tags/design/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/design/</guid>
       <description></description>
     </item>
     <item>
@@ -814,6 +877,27 @@
       <description></description>
     </item>
     <item>
+      <title>Product Design</title>
+      <link>http://localhost:4321/tags/product-design/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/product-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product Visuaalization</title>
+      <link>http://localhost:4321/tags/product-visuaalization/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/product-visuaalization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sketching</title>
+      <link>http://localhost:4321/tags/sketching/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sketching/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Web Development</title>
       <link>http://localhost:4321/tags/web-development/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
@@ -828,10 +912,66 @@
       <description></description>
     </item>
     <item>
+      <title>Hardsurface Modeling</title>
+      <link>http://localhost:4321/tags/hardsurface-modeling/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/hardsurface-modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hexes Mini Pack</title>
+      <link>http://localhost:4321/tags/hexes-mini-pack/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/hexes-mini-pack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sci-Fi</title>
+      <link>http://localhost:4321/tags/sci-fi/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sci-fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scifi</title>
+      <link>http://localhost:4321/tags/scifi/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/scifi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dji</title>
+      <link>http://localhost:4321/tags/dji/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/dji/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drone</title>
+      <link>http://localhost:4321/tags/drone/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/drone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drone Cinematography</title>
+      <link>http://localhost:4321/tags/drone-cinematography/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/drone-cinematography/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Green Energy</title>
       <link>http://localhost:4321/tags/green-energy/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/green-energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mavic Mini</title>
+      <link>http://localhost:4321/tags/mavic-mini/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/mavic-mini/</guid>
       <description></description>
     </item>
     <item>
@@ -846,6 +986,48 @@
       <link>http://localhost:4321/tags/sustainable-energy/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/sustainable-energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:4321/tags/architecture/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Earth House</title>
+      <link>http://localhost:4321/tags/earth-house/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/earth-house/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green Architecture</title>
+      <link>http://localhost:4321/tags/green-architecture/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/green-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sketch</title>
+      <link>http://localhost:4321/tags/sketch/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sketch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Bi</title>
+      <link>http://localhost:4321/tags/power-bi/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/power-bi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powerbi</title>
+      <link>http://localhost:4321/tags/powerbi/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/powerbi/</guid>
       <description></description>
     </item>
   </channel>

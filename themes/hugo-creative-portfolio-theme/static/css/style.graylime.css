@@ -604,6 +604,7 @@ p.social a {
              &.facebook {background-color: #cadc3a; border-color: #cadc3a;}
              &.gplus {background-color: #cadc3a; border-color: #cadc3a;}
              &.twitter {background-color: #cadc3a; border-color: #cadc3a;}
+             &.bsky {background-color: #cadc3a; border-color: #cadc3a;}
              &.instagram {background-color: #cadc3a8; border-color: #ccadc3a;}
              &.email {background-color: #cadc3a; border-color: #cadc3a;}
              &.link {background-color: #cadc3a; border-color: #cadc3a;}
@@ -629,6 +630,10 @@ p.social.social--outline a.gplus {
   border-color: #cadc3a;
 }
 p.social.social--outline a.twitter {
+  color: #cadc3a;
+  border-color: #cadc3a;
+}
+p.social.social--outline a.bsky {
   color: #cadc3a;
   border-color: #cadc3a;
 }
@@ -716,7 +721,7 @@ ABOUT
 }
 .progress-bar-skill1 {
   background-color: #d1d1d1;
-  background-color: #4abc85;
+  background-color: #cadc3a;
 }
 .progress-striped .progress-bar-skill1 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -728,7 +733,7 @@ ABOUT
 }
 .progress-bar-skill2 {
   background-color: #c8c7c7;
-  background-color: #40ad78;
+  background-color: #cadc3a;
 }
 .progress-striped .progress-bar-skill2 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -740,7 +745,7 @@ ABOUT
 }
 .progress-bar-skill3 {
   background-color: #bdbdbd;
-  background-color: #399a6b;
+  background-color: #cadc3a;
 }
 .progress-striped .progress-bar-skill3 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -752,7 +757,7 @@ ABOUT
 }
 .progress-bar-skill4 {
   background-color: #b3b2b2;
-  background-color: #32885e;
+  background-color: #cadc3a;
 }
 .progress-striped .progress-bar-skill4 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -1897,7 +1902,7 @@ label {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   color: #cadc3a;
-  background-color: #ffffff;
+  background-color: #ffffff`;
   border-color: #dddddd;
 }
 .pagination > .active > a,

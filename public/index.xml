@@ -16,13 +16,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/portfolio/W7/w7001.jpg&#34; alt=&#34;3200x500 Gif banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This was a quick study using a dataset of an air quality survey in Dawncliffe, Durban. It was conducted in 2018. The final product was an hypothetical electronic sensor device that could have been used in capturing/generating the data used in the exercise.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtube.com/c/&#34;&gt;&lt;em&gt;&lt;strong&gt;R Programming 101&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&amp;rsquo;s framework for exploratory data analysis covered in their series of videos was used to methodically interrogate the data .&lt;/p&gt;&#xA;&lt;p&gt;The EDA started by downloading and bringing the dataset in to the project with the name &amp;ldquo;daq2018&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>HEXES Mini Pack Series</title>
-      <link>http://localhost:4321/portfolio/hexes-mini-pack-series/</link>
-      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/portfolio/hexes-mini-pack-series/</guid>
-      <description>&lt;p&gt;Forming a clear picture of the path to take towards a goal, something I am relearning, is affected by a variety of things, chief of which being that I find it difficult to push through a contrived/inauthentic path. Testing authenticity, I&amp;rsquo;m sure, has universally championed rubrics I&amp;rsquo;ll undoubtedly discover ahead now that the idea has been “committed to the bits.” How this ties to this project are the motivations that punctuated its creation. Rather than explaining things that can be gathered from careful observation, I&amp;rsquo;ve instead chosen to discuss the bits unrecorded, the unseen.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>3D Printing</title>
       <link>http://localhost:4321/portfolio/work6-3d-printing/3d-printing/</link>
       <pubDate>Fri, 04 Nov 2022 10:43:17 +0200</pubDate>
@@ -189,6 +182,13 @@
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/post/2022-07-17-new-site-loading/</guid>
       <description>&lt;h4 id=&#34;getting-the-ball-rolling&#34;&gt;Getting the Ball Rolling&lt;/h4&gt;&#xA;&lt;p&gt;One of the things I got out of completing the Data Analytics certification was being introduced to R and RStudio. I&amp;rsquo;ve since learned how to build a site using RStudio. This is the result so far and I&amp;rsquo;m currently filling it out daily till I get it to a level of completeness that covers what I can display.&lt;/p&gt;&#xA;&lt;h4 id=&#34;the-learning-process&#34;&gt;The Learning Process&lt;/h4&gt;&#xA;&lt;p&gt;Early on I was fortunate enough to find &lt;a href=&#34;https://www.youtube.com/channel/UCA-hX4v0FEIKOzY8yikt8ow&#34;&gt;CradleToGraveR&amp;rsquo;s&lt;/a&gt; channel on YouTube where he does an amazing job at walking you through the steps and also showing you other routes in case you run into some trouble - which I did on many occasions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HEXES Mini Pack Series</title>
+      <link>http://localhost:4321/portfolio/hexes-mini-pack-series/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/hexes-mini-pack-series/</guid>
+      <description>&lt;p&gt;Forming a clear picture of the path to take towards a goal, something I am relearning, is affected by a variety of things, chief of which being that I find it difficult to push through a contrived/inauthentic path. Testing authenticity, I&amp;rsquo;m sure, has universally championed rubrics I&amp;rsquo;ll undoubtedly discover ahead now that the idea has been “committed to the bits.” How this ties to this project are the motivations that punctuated its creation. Rather than explaining things that can be gathered from careful observation, I&amp;rsquo;ve instead chosen to discuss the bits unrecorded, the unseen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Renewable Energy in South Africa</title>

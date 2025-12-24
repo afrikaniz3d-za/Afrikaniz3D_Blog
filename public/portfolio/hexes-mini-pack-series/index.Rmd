@@ -5,6 +5,7 @@ date: '2022-07-16'
 slug: hexes-mini-pack-series
 categories:
   - project
+weight: 1
 tags:
   - 3d
   - 3d modeling

@@ -1,0 +1,370 @@
+---
+title: X-Men Mutant Moneyball [Tidy Tuesday]
+tagline: "Sub-headline text"
+author: Ntobeko Sosibo [ Afrikaniz3D ]
+date: '2025-12-24'
+slug: tt-xmen-mutant-moneyball
+categories:
+  - project
+tags:
+  - tidy tuesday
+  - quarto
+  - project report
+  - portfolio project
+  - mysql
+  - cte
+  - dataviz
+  - data visualization
+  - data exploration
+  - data analysis
+  - rstudio
+  - javascript
+  - html
+  - css
+  - machine learning
+  - sparklyr
+  - spearman correlation
+draft: yes
+image: 'img/portfolio/W16/w16000.png'
+showonlyimage: yes
+---
+![][9]  
+&nbsp;  
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>DESCRIPTION</strong></td>
+    <td style="vertical-align: top; color: inherit;">Analysing comic book sales data to inform a moneyball draft for a team of mutants from the X-Men property</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>TOOLS</strong></td>
+    <td style="vertical-align: top; color: inherit;">MySQL, RStudio, Quarto, JavaScript, HTML, CSS</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>PROJECT_TYPE</strong></td>
+    <td style="vertical-align: top; color: inherit;">Data cleaning, Data manipulation, Data analysis, Data visualization, Trend Analysis, Quarto Report Writing</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>LINKS</strong></td>
+    <td style="vertical-align: top; color: inherit;">
+      <a href="https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-19">Tidy Tuesday 2024-12</a>, 
+      <a href="https://github.com/afrikaniz3d-za/Tidy-Tuesday-Participation/tree/main/tt_2024_12">Github Repo</a>
+    </td>
+  </tr>
+</table>
+
+
+  
+&nbsp;  
+
+![The Goal][2]  
+
+xx  
+
+&nbsp;  
+
+#### 1.x Understanding what a Moneyball is  
+
+Prior to this project I had no concept of what a moneyball was, guessing that it may be related somehow to a type of lottery or gameshow. Looking into this first would help provide some guardrails for navigating the data.    
+
+A moneyball described as "*the use of metrics to identify 'undervalued players' and sign them to what ideally will become 'below market value' contracts; it began as an effort by small-market teams to compete with the much greater resources of big-market ones*.” -- [Wikipedia](https://en.wikipedia.org/wiki/Sabermetrics#:~:text=The%20term%20moneyball%20refers%20to,resources%20of%20big%2Dmarket%20ones).   
+
+Applying this to the X-men property could look like fantasy pairings where you have to choose--- 
+  
+&nbsp;  
+
+#### 1.x Creating a mutant selection aid  
+
+After looking at the raw data, I chose to focus on basing my use of the metrics only on revenue and secondarily on the value of a single issue as a unit price for each mutant. Rather than coming up with definitive picks, my focus is to **present the tabular data in a way that makes it easier to visually compare potential match-ups by looking at mutants' performances in the different outlets**.
+
+&nbsp;  
+
+&nbsp;   
+
+![The Process][3]  
+
+After importing the dataset into **MySQL**, I performed transform the data into a form that was easier to read and connect with as someone that was familiar with the franchise. 
+
+- cleaning  
+- transformation  
+- validation  
+- ease of use  
+
+&nbsp;  
+
+#### 2.1 Exploring the data in MySQL  
+
+- 
+
+##### 2.1.1 Cleaning and validation  
+
+- inconsistent data types  
+
+```[sql]
+  DESCRIBE
+        attribution_studies;
+```  
+
+A look at the structure of the table revealed that data types were applied inconsistently,  
+
+```[html]
++------------------------+--------------+  
+| FIELD	                 | TYPE         |  
++------------------------+--------------+  
+| TotalIssues*           | INT          |  
++------------------------+--------------+  
+| TotalValue*	         | INT / TEXT   |  
++------------------------+--------------+  
+| Appearance_Percent*	 | TEXT         |  
++------------------------+--------------+  
+| PPI*	                 | TEXT         |  
++------------------------+--------------+  
+
+* either some columns are TEXT and others INTEGERS, or A TEXT because of '$' or '%' symbols.  
+
+```  
+
+&nbsp;  
+
+##### 2.1.2 Cents, or non-cents?  
+
+Probably the most confusing part, at first. Luckily, the presence of the <code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px;">TotalValue_heritage</code> and <code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px;">TotalValue_ebay</code> columns allowed for checking that indeed revealed that some columns were whole dollar values, and others included cents.  
+
+After verifying which was which, I dropped those totals columns for the remainder of the exploration.  
+
+##### 2.1.1 Cleaning and validation  
+
+##### 2.1.1 Cleaning and validation  
+
+&nbsp;  
+
+##### 2.1.1 Cleaning and validation  
+
+```[sql]
+DROP TABLE IF EXISTS named;
+CREATE TABLE named (
+    `Member` VARCHAR(50),
+    full_name VARCHAR(50),
+    alias_name VARCHAR(50)
+);
+
+INSERT INTO named VALUES
+    ('warrenWorthington', "Warren Worthington", 'Angel'),
+    ('hankMcCoy', "Hank McCoy", 'Beast'),
+    ('scottSummers', "Scott Summers", 'Cyclops'),
+    ('bobbyDrake', "Bobby Drake", 'Iceman'),
+    ('jeanGrey', "Jean Grey", 'Phoenix'),
+    ('alexSummers', "Alex Summers", 'Havok'),
+    ('lornaDane', "Lorna Dane", 'Polaris'),
+    ('ororoMunroe', "Ororo Munroe", 'Storm'),
+    ('kurtWagner', "Kurt Wagner", 'Nightcrawler'),
+    ('loganHowlett', "Logan Howlett", 'Wolverine'),
+    ('peterRasputin', "Peter Rasputin", 'Colossus'),
+    ('seanCassidy', "Sean Cassidy", 'Banshee'),
+    ('shiroYoshida', "Shiro Yoshida", 'Sunfire'),
+    ('johnProudstar', "John Proudstar", 'Thunderbird'),
+    ('kittyPryde', "Kitty Pryde", 'Shadowcat'),
+    ('annaMarieLeBeau', "Anna-Marie LeBeau", 'Rogue'),
+    ('rachelSummers', "Rachel Summers", 'Askani'),
+    ('ericMagnus', "Eric Magnus", 'Magneto'),
+    ('alisonBlaire', "Alison Blaire", 'Dazzler'),
+    ('longshot', "Arthur Centino", 'Longshot'),
+    ('jonathanSilvercloud', "Jonathan Silvercloud", 'Forge'),
+    ('remyLeBeau', "Remy LeBeau", 'Gambit'),
+    ('jubilationLee', "Jubilation Lee", 'Jubilee'),
+    ('lucasBishop', "Lucas Bishop", 'Bishop'),
+    ('betsyBraddock', "Betsy Braddock", 'Psylocke'),
+    ('charlesXavier', "Charles Xavier", 'Professor-X'); 
+
+WITH cleaned AS (
+SELECT
+    full_name,
+  alias_name,
+  TotalIssues AS total_issues,
+    TotalIssues60s AS total_issues_60s,
+    TotalIssues70s AS total_issues_70s,
+    TotalIssues80s AS total_issues_80s,
+    TotalIssues90s AS total_issues_90s,
+  ROUND(CAST(REPLACE(60s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 60s_appearance_perc,
+  ROUND(CAST(REPLACE(70s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 70s_appearance_perc,
+  ROUND(CAST(REPLACE(80s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 80s_appearance_perc,
+  ROUND(CAST(REPLACE(90s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 90s_appearance_perc,
+    
+  ROUND(CAST(TotalValue_heritage AS DECIMAL (10,2)), 2) AS total_value_heritage,
+  ROUND(CAST(TotalValue60s_heritage AS DECIMAL (10,2)), 2) AS total_value60s_heritage,
+  ROUND(CAST(TotalValue70s_heritage AS DECIMAL (10,2)), 2) AS total_value70s_heritage,
+  ROUND(CAST(TotalValue80s_heritage AS DECIMAL (10,2)), 2) AS total_value80s_heritage,
+  ROUND(CAST(TotalValue90s_heritage AS DECIMAL (10,2)), 2) AS total_value90s_heritage,
+  ROUND(CAST(REPLACE(REPLACE(PPI60s_heritage, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi60s_heritage,
+  ROUND(CAST(REPLACE(REPLACE(PPI70s_heritage, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi70s_heritage,
+  ROUND(CAST(REPLACE(REPLACE(PPI80s_heritage, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi80s_heritage,
+  ROUND(CAST(REPLACE(PPI90s_heritage, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_heritage,
+    
+  ROUND(CAST(TotalValue_ebay AS DECIMAL (10,2)), 2) AS total_value_ebay,
+  ROUND(CAST(TotalValue60s_ebay AS DECIMAL (10,2)), 2) AS total_value60s_ebay,
+  ROUND(CAST(TotalValue70s_ebay AS DECIMAL (10,2)), 2) AS total_value70s_ebay,
+  ROUND(CAST(TotalValue80s_ebay AS DECIMAL (10,2)), 2) AS total_value80s_ebay,
+  ROUND(CAST(TotalValue90s_ebay AS DECIMAL (10,2)), 2) AS total_value90s_ebay,
+  ROUND(CAST(REPLACE(REPLACE(PPI60s_ebay, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi60s_ebay,
+  ROUND(CAST(REPLACE(PPI70s_ebay, '$', '') AS DECIMAL (10,2)), 2) AS ppi70s_ebay,
+  ROUND(CAST(REPLACE(PPI80s_ebay, '$', '') AS DECIMAL (10,2)), 2) AS ppi80s_ebay,
+  ROUND(CAST(REPLACE(PPI90s_ebay, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_ebay,
+    
+  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
+  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
+  ROUND(CAST(REPLACE(TotalValue80s_wiz, '$', '') AS DECIMAL (10,2)), 2) +
+  ROUND(CAST(REPLACE(TotalValue90s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS total_value_wizard,
+  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value60s_wizard,
+  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value70s_wizard,
+  ROUND(CAST(REPLACE(TotalValue80s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS total_value80s_wizard,
+  ROUND(CAST(REPLACE(TotalValue90s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS total_value90s_wizard,
+  ROUND(CAST(REPLACE(PPI60s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi60s_wizard,
+  ROUND(CAST(REPLACE(PPI70s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi70s_wizard,
+  ROUND(CAST(REPLACE(PPI80s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi80s_wizard,
+  ROUND(CAST(REPLACE(PPI90s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_wizard,
+    
+  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
+  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
+  ROUND(CAST(REPLACE(REPLACE(TotalValue80s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
+  ROUND(CAST(REPLACE(TotalValue90s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS total_value_ostreet,
+  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value60s_ostreet,
+  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value70s_ostreet,
+  ROUND(CAST(REPLACE(REPLACE(TotalValue80s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value80s_ostreet,
+  ROUND(CAST(REPLACE(TotalValue90s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS total_value90s_ostreet,
+     ROUND(CAST(REPLACE(REPLACE(PPI60s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi60s_ostreet,
+  ROUND(CAST(REPLACE(PPI70s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS ppi70s_ostreet,
+  ROUND(CAST(REPLACE(PPI80s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS ppi80s_ostreet,
+  ROUND(CAST(REPLACE(PPI90s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_ostreet
+FROM
+    mutant_moneyball
+LEFT JOIN
+    named
+ON
+    mutant_moneyball.`Member` = named.`Member`)
+
+SELECT
+    *
+FROM
+    cleaned; 
+```  
+
+xx  
+
+&nbsp;  
+
+#### 2.x Making the data easier to read  
+
+This included introducing each mutants "identity" name in a new column to accompany the. I think this makes the data a little more accessible to people with a passing familiarity  
+
+&nbsp;  
+
+#### 2.x Importing cleaned data into RStudio for visualization  
+
+With the table cleaned, visualisation is the next step. Recently I've been making Quarto-friendly [templates](https://github.com/afrikaniz3d-za/Quarto-Ready-ECharts4R-Templates) for ECharts4R and posting one weekly as a way of sharing what I learn, and a form of accountability. A benefit of this (and the timing) is that I had a radar chart template ready to be adapted
+
+&nbsp;  
+
+&nbsp;  
+
+![Insights][4]  
+
+xx  
+
+#### 3.x The 70s were the height of popularity  
+
+![][]
+
+The highest concentration of revenue is in this decade, and it also marks the beginning of a decline for most mutants.  
+
+&nbsp;  
+
+#### 3.x The [ Total Value x PPI ] Inversion  
+
+Something the visualisation does a nice job of pointing out is that a mutant having a relatively high **total_value** can have a lower **ppi** (price per issue) by comparison to another mutant, and vice versa.  
+
+![][]  
+
+This information can be useful in a multi-round situation where you're either selecting for a **total_value** that's not-so-high across the four outlets, but the **ppi** sits well above average - making it a good pick in **ppi** face-offs.  
+
+&nbsp;  
+
+#### 3.x The extent of the Inversion  
+
+I was interested in seeing how prevalent this relationship is. One way to explore this was using the tool itself to read the graphs, jotting down the results, but I wanted to see if I could do this by plotting a graph to see if there really was a **correlation** between the two metrics.  
+
+Stated more concisely, I was asking,  
+
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px;">"In a given decade and given outlet: If 'mutant' A has a **higher total_value** than 'mutant B', is 'mutant A' **more likely** to have a **lower price-per-issue** than 'mutant B'?"</code>
+
+To answer that question, the task was divided into two  parts:  
+
+- Establishing whether the relationship really existed  
+- Calculating the pairwise inversion rate  
+
+&nbsp;  
+
+##### 3.x.x Computing Spearman correlations with Sparklyr    
+
+
+
+##### 3.x.x Creating the plot  
+
+
+![single line chart showing inversion percentage over the decades][8]  
+
+Overall, the inversion exists ~20–30% of the time when looking at a single line chart, so I looked at segmenting it by outlet to see if my observation may have been more specific to any in particular.  
+
+![segmented line chart showing inversion percentages across the four outlets over the decades][7]  
+
+The inversion between total_value dominance and per-issue pricing is *not uniform* across outlets. It is **most persistent** in **Wizard**, weakens over time in Ebay, and remains relatively stable elsewhere — indicating outlet-specific pricing mechanics rather than a universal market inefficiency.
+
+&nbsp;  
+
+&nbsp;  
+
+![Recommendations][5]  
+
+Rather than looking at the **Mutant Stats Viewer** as a tool for making picks for a moneyball, I think it should rather be seen as a means for questioning potential "match-ups" chosen mutants may be involved in to see how they might fair under different conditions.  
+
+The more you tinker with it the higher the likelihood you may discover more patterns as I have with the common inverse relationship between the total revenue versus price-per-issue for each mutant across decades.
+
+&nbsp;  
+
+&nbsp;   
+
+![Reflections on the project][6]  
+
+My approach going into this project was to look at this as an opportunity to see how far I could push my visualizations. There was a plan to make custom icons hat would appear when the corresponding mutant was selected, giving it a video game character selector look, but I had greatly underestimated the mechanics needed to.. 
+
+
+&nbsp;  
+
+**Tags** 
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">tidy_tuesday</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">quarto</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">project_report</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">portfolio_project</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">mysql</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">cte</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">dataviz</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">data_visualization</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">data_exploration</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">data_analysis</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">rstudio</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">javascript</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">html</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">css</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">machine_learning</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">sparklyr</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">spearman_correlation</code>
+
+[1]: /img/portfolio/W16/w16001.jpg
+[2]: /img/portfolio/W16/w16002.png
+[3]: /img/portfolio/W16/w16003.png
+[4]: /img/portfolio/W16/w16004.png
+[5]: /img/portfolio/W16/w16005.png
+[6]: /img/portfolio/W16/w16006.png
+[7]: /img/portfolio/W16/w16007.gif
+[8]: /img/portfolio/W16/w16008.png
+[9]: /img/portfolio/W16/w16009.png
+[10]: /img/portfolio/W16/w160010.png

@@ -107,7 +107,7 @@ section.background-secondary {
 .text-gray-lighter {
   color: #cadc3a;
 }
-@media (max-width: 991px) {
+@media (max-width: 1600px) {
   .text-center-mobile {
     text-align: center !important;
   }
@@ -405,7 +405,7 @@ SIDEBAR + RIGHT COLUMN
   padding-right: 20px;
   padding-bottom: 20px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 991px) {
   .content-column-content {
     padding-left: 40px;
     padding-right: 40px;
@@ -495,7 +495,7 @@ OFF-CANVAS SIDEBAR BEHAVIOUR
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 25%;
     /* 6 columns */
   }
 }

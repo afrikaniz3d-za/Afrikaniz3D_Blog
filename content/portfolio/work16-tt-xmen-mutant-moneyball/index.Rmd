@@ -612,15 +612,13 @@ htmlwidgets::onRender(
 )
 ```
 
-On one hand it solves the issue of the largest indicator implying its scale on the other three, but now ratio has been thrown of because of that very independence.  
-
-Below is  
-
-![][20]  
+On one hand it solves the issue of the largest indicator implying its scale on the other three, but now ratio has been thrown off because of that very independence.  
 
 &nbsp;  
 
-The graph makes it look like Heritage and Wizard are similar in size, but the reality is that Heritage is nearly **11 times the size** of Wizard.  
+![][20]  
+
+The graph above makes it look like Heritage and Wizard are similar in size, but the reality is that Heritage is nearly **11 times the size** of Wizard.  
 
 This became is tougher issue to grapple with as I was introducing the second mutant selector, and it's **this** transition where a problem necessitated a shift where I fell back on some of the behaviours of the chart and prioritised a more local/specific comparison rather than graphic accuracy.  
 

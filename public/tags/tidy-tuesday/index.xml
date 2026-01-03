@@ -6,12 +6,12 @@
     <description>Recent content in Tidy Tuesday on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/tags/tidy-tuesday/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>X-Men Mutant Moneyball</title>
       <link>http://localhost:4321/portfolio/xmen-mutant-moneyball/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/portfolio/xmen-mutant-moneyball/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/portfolio/W16/w16009.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;table style=&#34;width:100%; border-collapse: collapse;&#34;&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt; &lt;span style=&#34;color:#cadc3a;&#34;&gt;DESCRIPTION&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Analysing comic book sales data to inform a moneyball draft for a team of mutants from the X-Men property&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;TOOLS&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;MySQL, RStudio, Quarto, JavaScript, HTML, CSS&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;PROJECT_TYPE&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Data cleaning, Data manipulation, Data analysis, Data visualization, Trend Analysis, Machine Learning, Quarto Report Writing&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;LINKS&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;&#xA;      &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-19&#34;&gt;Tidy Tuesday 2024-12&lt;/a&gt;, &#xA;      &lt;a href=&#34;https://github.com/afrikaniz3d-za/Tidy-Tuesday-Participation/tree/main/tt_2024_12&#34;&gt;Github Repo&lt;/a&gt;&#xA;    &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
     </item>

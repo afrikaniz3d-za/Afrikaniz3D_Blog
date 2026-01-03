@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subd on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/subd/</link>
+    <description>Recent content in Subd on Afrikaniz3D Blogfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/subd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FOTJ [Found on the Job]</title>
+      <link>http://localhost:4321/portfolio/fotj/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/fotj/</guid>
+      <description>&lt;p&gt;This project came about during session working on the &lt;a href=&#34;https://afrikaniz3d.netlify.app/portfolio/retopologizing-m4/&#34;&gt;&lt;strong&gt;M4&lt;/strong&gt;&lt;/a&gt; retopo commission. There were many instances where I&amp;rsquo;d be zoomed-in working on a particular section for some time that started looking like the beginnings of other objects - like hallways, or a funky mechanical part.&lt;/p&gt;&#xA;&lt;p&gt;I sat on the idea for a while till I could find the &amp;ldquo;&lt;em&gt;right&lt;/em&gt;&amp;rdquo; polygons to build from..&#xA; &lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;  &lt;iframe&#xA;    src=&#34;https://www.youtube.com/embed/jm6hVHmL-LQ?si=5OLZmfnFrsRBnvQ0&#34;&#xA;    title=&#34;YouTube video player&#34;&#xA;    style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;&#xA;    frameborder=&#34;0&#34;&#xA;    allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34;&#xA;    referrerpolicy=&#34;strict-origin-when-cross-origin&#34;&#xA;    allowfullscreen&gt;&#xA;  &lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

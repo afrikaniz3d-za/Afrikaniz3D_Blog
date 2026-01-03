@@ -12,76 +12,145 @@
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/b3d/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/blender/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/blender-3d/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/css/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/design/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/cte/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/fotj/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/data-analysis/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/portfolio/fotj/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/data-exploration/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/found-on-the-job/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/data-visualization/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/dataviz/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/html/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/javascript/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/machine-learning/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/mysql/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/portfolio-project/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/generative-design/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/portfolio/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/project/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/project-report/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/subd/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/quarto/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/rstudio/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/sparklyr/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/spearman-correlation/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/tags/subdivision-design/</loc>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/tidy-tuesday/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/portfolio/xmen-mutant-moneyball/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/analytics/</loc>
-    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/big-query/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/cte/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-analysis/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-exploration/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-science/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/dataset/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/eda/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/healthcare/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/healthcare-analytics/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/massachusetts-general-hospital/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-analytics/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-challenge/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-hospital-challenge/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/maven-hospital-challenge/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mgh/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mysql/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/sql/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/css/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-visualization/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/dataviz/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/html/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/javascript/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/machine-learning/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/portfolio-project/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/project-report/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/quarto/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/rstudio/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/sparklyr/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/spearman-correlation/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/tidy-tuesday/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/xmen-mutant-moneyball/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/appsilon/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
@@ -101,9 +170,6 @@
     <loc>http://localhost:4321/tags/databricks/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/eda/</loc>
-    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/tags/maven-commuter-challenge/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -119,9 +185,6 @@
     <loc>http://localhost:4321/tags/shiny/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/sql/</loc>
-    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/tags/blog/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -129,9 +192,6 @@
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/dataanalysis/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/fotj/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/hmp04/</loc>
@@ -149,12 +209,6 @@
     <loc>http://localhost:4321/categories/update/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/b3d/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/portfolio/fotj/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/post/walk/</loc>
     <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -171,12 +225,6 @@
     <lastmod>2024-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/inkscape/</loc>
-    <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/maven-analytics/</loc>
-    <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/maven-challenge/</loc>
     <lastmod>2024-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/nutrition/</loc>
@@ -209,40 +257,13 @@
     <loc>http://localhost:4321/tags/a/b-testing/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/big-query/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/tags/coursera/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-science/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/dataset/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/etl/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/healthcare/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/healthcare-analytics/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/portfolio/lobbyists-4-america/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/massachusetts-general-hospital/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/maven-hospital-challenge/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/portfolio/maven-hospital-challenge/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/mgh/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/mode-analytics/</loc>
@@ -256,9 +277,6 @@
   </url><url>
     <loc>http://localhost:4321/tags/uc-davis/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/blender/</loc>
-    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/portfolio/chocolate-survey-terminal/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
@@ -462,9 +480,6 @@
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/cradletograver/</loc>
-    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/design/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/google/</loc>

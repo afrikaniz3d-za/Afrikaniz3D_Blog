@@ -6,132 +6,279 @@
     <description>Recent content in Tags on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Css</title>
-      <link>http://localhost:4321/tags/css/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/css/</guid>
+      <title>B3d</title>
+      <link>http://localhost:4321/tags/b3d/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/b3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blender</title>
+      <link>http://localhost:4321/tags/blender/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/blender/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blender 3d</title>
+      <link>http://localhost:4321/tags/blender-3d/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/blender-3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://localhost:4321/tags/design/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fotj</title>
+      <link>http://localhost:4321/tags/fotj/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/fotj/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Found on the Job</title>
+      <link>http://localhost:4321/tags/found-on-the-job/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/found-on-the-job/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generative Design</title>
+      <link>http://localhost:4321/tags/generative-design/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/generative-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subd</title>
+      <link>http://localhost:4321/tags/subd/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/subd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subdivision Design</title>
+      <link>http://localhost:4321/tags/subdivision-design/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/subdivision-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analytics</title>
+      <link>http://localhost:4321/tags/analytics/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big Query</title>
+      <link>http://localhost:4321/tags/big-query/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/big-query/</guid>
       <description></description>
     </item>
     <item>
       <title>Cte</title>
       <link>http://localhost:4321/tags/cte/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/cte/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Analysis</title>
       <link>http://localhost:4321/tags/data-analysis/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/data-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Exploration</title>
       <link>http://localhost:4321/tags/data-exploration/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/data-exploration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:4321/tags/data-science/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dataset</title>
+      <link>http://localhost:4321/tags/dataset/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/dataset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eda</title>
+      <link>http://localhost:4321/tags/eda/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Healthcare</title>
+      <link>http://localhost:4321/tags/healthcare/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Healthcare Analytics</title>
+      <link>http://localhost:4321/tags/healthcare-analytics/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/healthcare-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Massachusetts General Hospital</title>
+      <link>http://localhost:4321/tags/massachusetts-general-hospital/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/massachusetts-general-hospital/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Analytics</title>
+      <link>http://localhost:4321/tags/maven-analytics/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Challenge</title>
+      <link>http://localhost:4321/tags/maven-challenge/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Hospital Challenge</title>
+      <link>http://localhost:4321/tags/maven-hospital-challenge/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-hospital-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mgh</title>
+      <link>http://localhost:4321/tags/mgh/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/mgh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:4321/tags/mysql/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:4321/tags/sql/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>http://localhost:4321/tags/css/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Visualization</title>
       <link>http://localhost:4321/tags/data-visualization/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/data-visualization/</guid>
       <description></description>
     </item>
     <item>
       <title>Dataviz</title>
       <link>http://localhost:4321/tags/dataviz/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/dataviz/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
       <link>http://localhost:4321/tags/html/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
       <link>http://localhost:4321/tags/javascript/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
       <link>http://localhost:4321/tags/machine-learning/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mysql</title>
-      <link>http://localhost:4321/tags/mysql/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/mysql/</guid>
       <description></description>
     </item>
     <item>
       <title>Portfolio Project</title>
       <link>http://localhost:4321/tags/portfolio-project/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/portfolio-project/</guid>
       <description></description>
     </item>
     <item>
       <title>Project Report</title>
       <link>http://localhost:4321/tags/project-report/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/project-report/</guid>
       <description></description>
     </item>
     <item>
       <title>Quarto</title>
       <link>http://localhost:4321/tags/quarto/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/quarto/</guid>
       <description></description>
     </item>
     <item>
       <title>Rstudio</title>
       <link>http://localhost:4321/tags/rstudio/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/rstudio/</guid>
       <description></description>
     </item>
     <item>
       <title>Sparklyr</title>
       <link>http://localhost:4321/tags/sparklyr/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/sparklyr/</guid>
       <description></description>
     </item>
     <item>
       <title>Spearman Correlation</title>
       <link>http://localhost:4321/tags/spearman-correlation/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/spearman-correlation/</guid>
       <description></description>
     </item>
     <item>
       <title>Tidy Tuesday</title>
       <link>http://localhost:4321/tags/tidy-tuesday/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/tidy-tuesday/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Analytics</title>
-      <link>http://localhost:4321/tags/analytics/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/analytics/</guid>
       <description></description>
     </item>
     <item>
@@ -177,13 +324,6 @@
       <description></description>
     </item>
     <item>
-      <title>Eda</title>
-      <link>http://localhost:4321/tags/eda/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/eda/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Maven Commuter Challenge</title>
       <link>http://localhost:4321/tags/maven-commuter-challenge/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
@@ -212,13 +352,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sql</title>
-      <link>http://localhost:4321/tags/sql/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/sql/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Blog</title>
       <link>http://localhost:4321/tags/blog/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
@@ -233,13 +366,6 @@
       <description></description>
     </item>
     <item>
-      <title>Fotj</title>
-      <link>http://localhost:4321/tags/fotj/</link>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/fotj/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hmp04</title>
       <link>http://localhost:4321/tags/hmp04/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
@@ -251,13 +377,6 @@
       <link>http://localhost:4321/tags/mavencommuterchallenge/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/mavencommuterchallenge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>B3d</title>
-      <link>http://localhost:4321/tags/b3d/</link>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/b3d/</guid>
       <description></description>
     </item>
     <item>
@@ -286,20 +405,6 @@
       <link>http://localhost:4321/tags/inkscape/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/inkscape/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maven Analytics</title>
-      <link>http://localhost:4321/tags/maven-analytics/</link>
-      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maven Challenge</title>
-      <link>http://localhost:4321/tags/maven-challenge/</link>
-      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-challenge/</guid>
       <description></description>
     </item>
     <item>
@@ -359,13 +464,6 @@
       <description></description>
     </item>
     <item>
-      <title>Big Query</title>
-      <link>http://localhost:4321/tags/big-query/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/big-query/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Coursera</title>
       <link>http://localhost:4321/tags/coursera/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
@@ -373,59 +471,10 @@
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
-      <link>http://localhost:4321/tags/data-science/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataset</title>
-      <link>http://localhost:4321/tags/dataset/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/dataset/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Etl</title>
       <link>http://localhost:4321/tags/etl/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/etl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Healthcare</title>
-      <link>http://localhost:4321/tags/healthcare/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/healthcare/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Healthcare Analytics</title>
-      <link>http://localhost:4321/tags/healthcare-analytics/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/healthcare-analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Massachusetts General Hospital</title>
-      <link>http://localhost:4321/tags/massachusetts-general-hospital/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/massachusetts-general-hospital/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maven Hospital Challenge</title>
-      <link>http://localhost:4321/tags/maven-hospital-challenge/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-hospital-challenge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mgh</title>
-      <link>http://localhost:4321/tags/mgh/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/mgh/</guid>
       <description></description>
     </item>
     <item>
@@ -454,13 +503,6 @@
       <link>http://localhost:4321/tags/uc-davis/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/uc-davis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blender</title>
-      <link>http://localhost:4321/tags/blender/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/blender/</guid>
       <description></description>
     </item>
     <item>
@@ -853,13 +895,6 @@
       <link>http://localhost:4321/tags/cradletograver/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/cradletograver/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Design</title>
-      <link>http://localhost:4321/tags/design/</link>
-      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/design/</guid>
       <description></description>
     </item>
     <item>

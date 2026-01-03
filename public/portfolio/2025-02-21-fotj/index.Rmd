@@ -1,0 +1,13 @@
+---
+title: FOTJ [Found on the Job]
+author: Ntobeko Sosibo [Afrikaniz3D]
+date: '2025-02-21'
+slug: fotj
+categories:
+  - project
+tags:
+  - b3d
+draft: yes
+image: ''
+showonlyimage: no
+---

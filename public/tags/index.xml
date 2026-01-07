@@ -6,8 +6,127 @@
     <description>Recent content in Tags on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytics</title>
+      <link>http://localhost:4321/tags/analytics/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big Query</title>
+      <link>http://localhost:4321/tags/big-query/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/big-query/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cte</title>
+      <link>http://localhost:4321/tags/cte/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/cte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:4321/tags/data-analysis/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Exploration</title>
+      <link>http://localhost:4321/tags/data-exploration/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-exploration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:4321/tags/data-science/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dataset</title>
+      <link>http://localhost:4321/tags/dataset/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/dataset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eda</title>
+      <link>http://localhost:4321/tags/eda/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Healthcare</title>
+      <link>http://localhost:4321/tags/healthcare/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Healthcare Analytics</title>
+      <link>http://localhost:4321/tags/healthcare-analytics/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/healthcare-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Massachusetts General Hospital</title>
+      <link>http://localhost:4321/tags/massachusetts-general-hospital/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/massachusetts-general-hospital/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Analytics</title>
+      <link>http://localhost:4321/tags/maven-analytics/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Challenge</title>
+      <link>http://localhost:4321/tags/maven-challenge/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven Hospital Challenge</title>
+      <link>http://localhost:4321/tags/maven-hospital-challenge/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/maven-hospital-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mgh</title>
+      <link>http://localhost:4321/tags/mgh/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/mgh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:4321/tags/mysql/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:4321/tags/sql/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>B3d</title>
       <link>http://localhost:4321/tags/b3d/</link>
@@ -69,125 +188,6 @@
       <link>http://localhost:4321/tags/subdivision-design/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/subdivision-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Analytics</title>
-      <link>http://localhost:4321/tags/analytics/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Big Query</title>
-      <link>http://localhost:4321/tags/big-query/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/big-query/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cte</title>
-      <link>http://localhost:4321/tags/cte/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/cte/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Analysis</title>
-      <link>http://localhost:4321/tags/data-analysis/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Exploration</title>
-      <link>http://localhost:4321/tags/data-exploration/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-exploration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>http://localhost:4321/tags/data-science/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataset</title>
-      <link>http://localhost:4321/tags/dataset/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/dataset/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eda</title>
-      <link>http://localhost:4321/tags/eda/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/eda/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Healthcare</title>
-      <link>http://localhost:4321/tags/healthcare/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/healthcare/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Healthcare Analytics</title>
-      <link>http://localhost:4321/tags/healthcare-analytics/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/healthcare-analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Massachusetts General Hospital</title>
-      <link>http://localhost:4321/tags/massachusetts-general-hospital/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/massachusetts-general-hospital/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maven Analytics</title>
-      <link>http://localhost:4321/tags/maven-analytics/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maven Challenge</title>
-      <link>http://localhost:4321/tags/maven-challenge/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-challenge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maven Hospital Challenge</title>
-      <link>http://localhost:4321/tags/maven-hospital-challenge/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/maven-hospital-challenge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mgh</title>
-      <link>http://localhost:4321/tags/mgh/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/mgh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mysql</title>
-      <link>http://localhost:4321/tags/mysql/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/mysql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sql</title>
-      <link>http://localhost:4321/tags/sql/</link>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/sql/</guid>
       <description></description>
     </item>
     <item>

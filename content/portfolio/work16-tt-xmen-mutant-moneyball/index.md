@@ -102,24 +102,9 @@ Something I noticed while inspecting the columns is that some value columns were
         attribution_studies;
 ```  
 
-  
+![][21]  
 
-```[html]
-+------------------------+--------------+  
-| FIELD	                 | TYPE         |  
-+------------------------+--------------+  
-| TotalIssues*           | INT          |  
-+------------------------+--------------+  
-| TotalValue*	         | INT / TEXT   |  
-+------------------------+--------------+  
-| Appearance_Percent*	 | TEXT         |  
-+------------------------+--------------+  
-| PPI*	                 | TEXT         |  
-+------------------------+--------------+  
-
-* either some columns are TEXT and others INTEGERS, or A TEXT because of '$' or '%' symbols.  
-
-```  
+(* either some columns are TEXT and others INTEGERS, or A TEXT because of '$' or '%' symbols)  
 
 &nbsp;  
 
@@ -139,52 +124,12 @@ Probably the most confusing part, at first. Luckily, the presence of the <code s
 
 &nbsp;  
 
-```[sql]
-WITH with_check AS (
-    SELECT
-        `Member` AS `member`,
-        TotalIssues AS total_issues,
-        TotalIssues60s AS total_issues_60s,
-        TotalIssues70s AS total_issues_70s,
-        TotalIssues80s AS total_issues_80s,
-        TotalIssues90s AS total_issues_90s,
-        totalIssueCheck AS total_issues_check,
-        TotalValue_heritage AS total_value_heritage,
-        TotalValue60s_heritage AS total_value60s_heritage,
-        TotalValue70s_heritage AS total_value70s_heritage,
-        TotalValue80s_heritage AS total_value80s_heritage,
-        TotalValue70s_heritage AS total_value90s_heritage,
-        TotalValue60s_heritage + TotalValue70s_heritage + TotalValue80s_heritage + TotalValue90s_heritage AS total_value_heritage_check,
-        TotalValue_ebay AS total_value_ebay,
-        TotalValue60s_ebay AS total_value60s_ebay,
-        TotalValue70s_ebay AS total_value70s_ebay,
-        TotalValue80s_ebay AS total_value80s_ebay,
-        TotalValue70s_ebay AS total_value90s_ebay,
-        TotalValue60s_ebay + TotalValue70s_ebay + TotalValue80s_ebay + TotalValue90s_ebay AS total_value_ebay_check
-    FROM
-        mutant_moneyball
-    )
-
-SELECT
-    `member`
-FROM
-    with_check
-WHERE
-    total_issues_check <> total_issues OR
-    total_value_heritage_check <> total_value_heritage OR
-    total_value_ebay_check <> total_value_ebay;
-```  
+![][22]   
 
 &nbsp;  
 
 Result set:  
-```[html]
-+----------------+  
-| member	 |   
-+----------------+  
-| NULL           |  
-+----------------+  
-```    
+![][23]  
 
 &nbsp;  
 
@@ -198,42 +143,7 @@ I also wanted to make it a more fun/engaging exploration for myself (at first), 
 
 Realising that I can't be the only *casual* that might be interested in exploring the data that would benefit from the inclusion of more familiar identifiers, I collected mutant names and inserted them into the table:   
 
-```[sql]
-DROP TABLE IF EXISTS named;
-CREATE TABLE named (
-    `Member` VARCHAR(50),
-    full_name VARCHAR(50),
-    alias_name VARCHAR(50)
-);
-
-INSERT INTO named VALUES
-    ('warrenWorthington', "Warren Worthington", 'Angel'),
-    ('hankMcCoy', "Hank McCoy", 'Beast'),
-    ('scottSummers', "Scott Summers", 'Cyclops'),
-    ('bobbyDrake', "Bobby Drake", 'Iceman'),
-    ('jeanGrey', "Jean Grey", 'Phoenix'),
-    ('alexSummers', "Alex Summers", 'Havok'),
-    ('lornaDane', "Lorna Dane", 'Polaris'),
-    ('ororoMunroe', "Ororo Munroe", 'Storm'),
-    ('kurtWagner', "Kurt Wagner", 'Nightcrawler'),
-    ('loganHowlett', "Logan Howlett", 'Wolverine'),
-    ('peterRasputin', "Peter Rasputin", 'Colossus'),
-    ('seanCassidy', "Sean Cassidy", 'Banshee'),
-    ('shiroYoshida', "Shiro Yoshida", 'Sunfire'),
-    ('johnProudstar', "John Proudstar", 'Thunderbird'),
-    ('kittyPryde', "Kitty Pryde", 'Shadowcat'),
-    ('annaMarieLeBeau', "Anna-Marie LeBeau", 'Rogue'),
-    ('rachelSummers', "Rachel Summers", 'Askani'),
-    ('ericMagnus', "Eric Magnus", 'Magneto'),
-    ('alisonBlaire', "Alison Blaire", 'Dazzler'),
-    ('longshot', "Arthur Centino", 'Longshot'),
-    ('jonathanSilvercloud', "Jonathan Silvercloud", 'Forge'),
-    ('remyLeBeau', "Remy LeBeau", 'Gambit'),
-    ('jubilationLee', "Jubilation Lee", 'Jubilee'),
-    ('lucasBishop', "Lucas Bishop", 'Bishop'),
-    ('betsyBraddock', "Betsy Braddock", 'Psylocke'),
-    ('charlesXavier', "Charles Xavier", 'Professor-X'); 
-```  
+![][24]  
 
 &nbsp;  
 
@@ -249,78 +159,7 @@ This is the query I wrote to generate a table that:
 
 &nbsp;  
 
-```[sql]
-WITH cleaned AS (
-SELECT
-    full_name,
-  alias_name,
-  TotalIssues AS total_issues,
-    TotalIssues60s AS total_issues_60s,
-    TotalIssues70s AS total_issues_70s,
-    TotalIssues80s AS total_issues_80s,
-    TotalIssues90s AS total_issues_90s,
-  ROUND(CAST(REPLACE(60s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 60s_appearance_perc,
-  ROUND(CAST(REPLACE(70s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 70s_appearance_perc,
-  ROUND(CAST(REPLACE(80s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 80s_appearance_perc,
-  ROUND(CAST(REPLACE(90s_Appearance_Percent, '%', '') AS DECIMAL (10,2)), 2) AS 90s_appearance_perc,
-    
-  ROUND(CAST(TotalValue_heritage AS DECIMAL (10,2)), 2) AS total_value_heritage,
-  ROUND(CAST(TotalValue60s_heritage AS DECIMAL (10,2)), 2) AS total_value60s_heritage,
-  ROUND(CAST(TotalValue70s_heritage AS DECIMAL (10,2)), 2) AS total_value70s_heritage,
-  ROUND(CAST(TotalValue80s_heritage AS DECIMAL (10,2)), 2) AS total_value80s_heritage,
-  ROUND(CAST(TotalValue90s_heritage AS DECIMAL (10,2)), 2) AS total_value90s_heritage,
-  ROUND(CAST(REPLACE(REPLACE(PPI60s_heritage, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi60s_heritage,
-  ROUND(CAST(REPLACE(REPLACE(PPI70s_heritage, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi70s_heritage,
-  ROUND(CAST(REPLACE(REPLACE(PPI80s_heritage, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi80s_heritage,
-  ROUND(CAST(REPLACE(PPI90s_heritage, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_heritage,
-    
-  ROUND(CAST(TotalValue_ebay AS DECIMAL (10,2)), 2) AS total_value_ebay,
-  ROUND(CAST(TotalValue60s_ebay AS DECIMAL (10,2)), 2) AS total_value60s_ebay,
-  ROUND(CAST(TotalValue70s_ebay AS DECIMAL (10,2)), 2) AS total_value70s_ebay,
-  ROUND(CAST(TotalValue80s_ebay AS DECIMAL (10,2)), 2) AS total_value80s_ebay,
-  ROUND(CAST(TotalValue90s_ebay AS DECIMAL (10,2)), 2) AS total_value90s_ebay,
-  ROUND(CAST(REPLACE(REPLACE(PPI60s_ebay, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi60s_ebay,
-  ROUND(CAST(REPLACE(PPI70s_ebay, '$', '') AS DECIMAL (10,2)), 2) AS ppi70s_ebay,
-  ROUND(CAST(REPLACE(PPI80s_ebay, '$', '') AS DECIMAL (10,2)), 2) AS ppi80s_ebay,
-  ROUND(CAST(REPLACE(PPI90s_ebay, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_ebay,
-    
-  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
-  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
-  ROUND(CAST(REPLACE(TotalValue80s_wiz, '$', '') AS DECIMAL (10,2)), 2) +
-  ROUND(CAST(REPLACE(TotalValue90s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS total_value_wizard,
-  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value60s_wizard,
-  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_wiz, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value70s_wizard,
-  ROUND(CAST(REPLACE(TotalValue80s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS total_value80s_wizard,
-  ROUND(CAST(REPLACE(TotalValue90s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS total_value90s_wizard,
-  ROUND(CAST(REPLACE(PPI60s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi60s_wizard,
-  ROUND(CAST(REPLACE(PPI70s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi70s_wizard,
-  ROUND(CAST(REPLACE(PPI80s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi80s_wizard,
-  ROUND(CAST(REPLACE(PPI90s_wiz, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_wizard,
-    
-  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
-  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
-  ROUND(CAST(REPLACE(REPLACE(TotalValue80s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) +
-  ROUND(CAST(REPLACE(TotalValue90s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS total_value_ostreet,
-  ROUND(CAST(REPLACE(REPLACE(TotalValue60s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value60s_ostreet,
-  ROUND(CAST(REPLACE(REPLACE(TotalValue70s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value70s_ostreet,
-  ROUND(CAST(REPLACE(REPLACE(TotalValue80s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS total_value80s_ostreet,
-  ROUND(CAST(REPLACE(TotalValue90s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS total_value90s_ostreet,
-     ROUND(CAST(REPLACE(REPLACE(PPI60s_oStreet, '$', ''), ',', '') AS DECIMAL (10,2)), 2) AS ppi60s_ostreet,
-  ROUND(CAST(REPLACE(PPI70s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS ppi70s_ostreet,
-  ROUND(CAST(REPLACE(PPI80s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS ppi80s_ostreet,
-  ROUND(CAST(REPLACE(PPI90s_oStreet, '$', '') AS DECIMAL (10,2)), 2) AS ppi90s_ostreet
-FROM
-    mutant_moneyball
-LEFT JOIN
-    named
-ON
-    mutant_moneyball.`Member` = named.`Member`)
-
-SELECT
-    *
-FROM
-    cleaned;
-```  
+![][25]  
 
 &nbsp; 
 
@@ -410,60 +249,7 @@ Preparing the data to visualise the extent of this phenomenon first required tak
 
 Below is the chunk that demonstrates this and also generates the table used to plot the line chart depicting the extent of the inversion:  
 
-```[r]
-# pivoting wider inside spark for convenience to get the metrics in their own columns
-mutant_metrics_tbl <- moneyball_spark |>
-  filter(metric %in% c("total_value", "ppi")) |>
-  group_by(year, source, mutant, metric) |>
-  summarise(
-    value = sum(
-      value, 
-      na.rm = TRUE),
-    .groups = "drop"
-    ) |>
-  pivot_wider(
-    names_from = metric,
-    values_from = value
-    )
-# check to ensure the spark table is ready
-#mutant_metrics_tbl |> sdf_schema()
-
-
-# creating the pairwise mutant comparisons (mutant A / mutant B pairs)
-mutant_pairs <- mutant_metrics_tbl |>
-  # renaming for clarity
-  rename_with(~paste0(., "_A"), c("mutant", "total_value", "ppi")) |>
-  inner_join(
-    mutant_metrics_tbl |>
-      rename_with(~paste0(., "_B"), c("mutant", "total_value", "ppi")),
-    by = c("year", "source")
-    ) |>
-  # keeping only different pairs so you don't have mutants matching up against themselves
-  filter(mutant_A != mutant_B) |>
-  
-  # there are cases where mutants either don't exist before a certain decade, or stop existing after another
-  # these rows need to be filtered out, so that we're comparing only mutants that "exist"
-  # doing this takes the resulting dataframe from 10400 rows to 5192
-  filter(total_value_A > 0 & total_value_B > 0) |>
-  
-  # computing the inversion logic
-  mutate(
-    total_value_higher = total_value_A > total_value_B,
-    ppi_lower = ppi_A < ppi_B
-    )
-# checking the table so far and exporting dataframe into global enviro (must post and run full chunk in console)
-mutant_pairs_df <- mutant_pairs |> collect()
-
-# summarising the inversion pattern
-inversion_summary <- mutant_pairs_df |>
-  group_by(year) |>
-  summarise(
-    total_pairs = n(),
-    inversion_count = sum(total_value_higher & ppi_lower),
-    inversion_pct = round((inversion_count / total_pairs * 100), 0)
-    ) |>
-  arrange(year)
-```  
+![][28]   
 
 &nbsp;  
 
@@ -525,20 +311,7 @@ As you move from mapping a single mutant to an additional one for comparison, th
 Angel being the first mutant on the list was helpful in many ways because it immediately highlighted a visualization issue related to values and how they're scaled on a radar chart. 
 
 
-```[r]
-+----------------------------------------+----------------------------------------+
-| ANGEL (WARREN WORTHINGTON)             | HAVOK (ALEX SUMMERS)                   |
-+-------------------+--------------------+-------------------+--------------------+
-| TV Heritage 60s   | $ 929 056.00       | TV Heritage 60s   | $ 34 519.00        |
-+-------------------+--------------------+-------------------+--------------------+
-| TV eBay 60s       | $ 23 335.00        | TV eBay 60s       | $ 745.00           |
-+-------------------+--------------------+-------------------+--------------------+
-| TV Wizard 60s     | $ 7 913.00         | TV Wizard 60s     | $ 342.00           |
-+-------------------+--------------------+-------------------+--------------------+
-| TV oStreet        | $ 68 160.00        | TV oStreet        | $ 1 850.00         |
-+-------------------+--------------------+-------------------+--------------------+
-
-```
+![][26]  
 
 &nbsp;
 
@@ -554,63 +327,7 @@ You can see how much that Heritage value throws the whole chart out of whack. Th
 
 Addressing the scaling issue started with a manual approach where I calculated the max values for each outlet over each decade and assigning that value to the appropriate indicators.  
 
-```[javascript]
-htmlwidgets::onRender(
-  htmlwidgets::JS(
-    paste0(
-"function(el,x){",
-"  var chart = echarts.getInstanceByDom(el);",
-"  var fullData = JSON.parse('", xmoneyball2_longs_json, "');",
-"  function updateChart(){",
-"    var year   = document.getElementById('yearSelect').value;",
-"    var metric = document.getElementById('metricSelect').value;",
-"    var mutant = document.getElementById('mutantSelect').value;",
-"    console.log('UPDATE ->', year, metric, mutant);",
-
-"    var dat = fullData[year].filter(d => d.metric === metric && d.mutant === mutant);",
-"    console.log('filtered dat length:', dat.length);",
-"    console.log('sample dat:', dat.slice(0,5));",
-
-"    var sourceMaxValue = {",
-"      '60s': { Heritage: 950000.00, Ebay: 25000.00, Wizard: 8000.00, Ostreet: 70000.00 },",
-"      '70s': { Heritage: 200000.00, Ebay: 5500.00, Wizard: 2000.00, Ostreet: 12000.00 },",
-"      '80s': { Heritage: 55000.00, Ebay: 2000.00, Wizard: 950.00, Ostreet: 2500.00 },",
-"      '90s': { Heritage: 2500.00, Ebay: 350.00, Wizard: 200.00, Ostreet: 300.00 }",
-"    };",
-"    var sourceMaxPPI = {",
-"      '60s': { Heritage: 50000.00, Ebay: 1500.00, Wizard: 350.00, Ostreet: 4000.00 },",
-"      '70s': { Heritage: 50000.00, Ebay: 800.00, Wizard: 150.00, Ostreet: 1000.00 },",
-"      '80s': { Heritage: 1500.00, Ebay: 50.00, Wizard: 20.00, Ostreet: 100.00 },",
-"      '90s': { Heritage: 500.00, Ebay: 50.00, Wizard: 15.00, Ostreet: 40.00 }",
-"    };",
-
-"    var maxsBlock = (metric === 'total_value') ? sourceMaxValue : sourceMaxPPI;",
-"    if(!maxsBlock || !maxsBlock[year]){ console.warn('NO maxs for', metric, year); }",
-"    var maxs = (maxsBlock && maxsBlock[year]) ? maxsBlock[year] : {};",
-"    console.log('using maxs:', maxs);",
-
-"    var indicators = dat.map(d => ({",
-"      name: d.source,",
-"      max: (maxs[d.source] !== undefined) ? maxs[d.source] : Math.max(...dat.map(dd => Number(dd.value))) * 1.1",
-"    }));",
-"    console.log('indicators:', indicators);",
-
-"    var values = dat.map(d => Number(d.value));",
-"    console.log('values:', values);",
-
-"    chart.setOption({ radar:[{indicator: indicators}], series:[{type:'radar', name:mutant, data:[{value:values}]}] });",
-
-"    }",
-
-"  try{ updateChart(); }catch(e){ console.error('updateChart error', e); }",
-"  document.getElementById('yearSelect').addEventListener('change', updateChart);",
-"  document.getElementById('metricSelect').addEventListener('change', updateChart);",
-"  document.getElementById('mutantSelect').addEventListener('change', updateChart);",
-"}"
-    )
-  )
-)
-```
+![][29]  
 
 On one hand it solves the issue of the largest indicator implying its scale on the other three, but now ratio has been thrown off because of that very independence.  
 
@@ -630,155 +347,12 @@ Interactive viz libraries such as ECharts have this behaviours where toggling a 
 
 Here's the updated **onRender**() chunk after introducing the second mutant:  
 
-```[r]
-  htmlwidgets::onRender(
-  htmlwidgets::JS(
-    paste0(
-"function(el,x){",
-"  var chart = echarts.getInstanceByDom(el);",
-"  var fullData = JSON.parse(`", xmoneyball2_longs_json, "`);",
-"  var sourceOrder = ['Heritage', 'Ebay', 'Wizard', 'Ostreet'];",
-
-
-"  function updateChart(){",
-"    var year    = document.getElementById('yearSelect').value;",
-"    var metric  = document.getElementById('metricSelect').value;",
-"    var mutant1 = document.getElementById('mutantSelect1').value;",
-"    var mutant2 = document.getElementById('mutantSelect2').value;",
-"  var seriesColors = {",
-"    [mutant1]: '#a3c08b',",
-"    [mutant2]: '#2e3426'",
-"  };",
-
-"    var dat1 = fullData[year].filter(d => d.metric === metric && d.mutant === mutant1);",
-"    var dat2 = fullData[year].filter(d => d.metric === metric && d.mutant === mutant2);",
-
-"    if (!dat1.length || !dat2.length) return;",
-
-"    var indicators = sourceOrder.map(src => ({ name: src, max: Math.max(",
-"      ...dat1.filter(d => d.source === src).map(d => Number(d.value)),",
-"      ...dat2.filter(d => d.source === src).map(d => Number(d.value))",
-"    ) * 1.1 }));",
-
-"    var values1 = sourceOrder.map(src => {",
-"      var r = dat1.find(d => d.source === src);",
-"      return r ? Number(r.value) : 0;",
-"    });",
-
-"    var values2 = sourceOrder.map(src => {",
-"      var r = dat2.find(d => d.source === src);",
-"      return r ? Number(r.value) : 0;",
-"    });",
-
-
-
-"    chart.setOption({",
-
-"    legend: {",
-"      show: true,",
-"      left: 'center',",
-"      textStyle: { color:'#f8f4e7', fontSize:18 },",
-"      data: [",
-"        {",
-"          name: mutant1,",
-"          itemStyle: { color: '#a3c08b' }",
-"        },",
-"        {",
-"          name: mutant2,",
-"          itemStyle: { color: '#2e3426' }",
-"        }",
-"      ]",
-"    },",
-
-
-"      radar: [{ indicator: indicators }],",
-
-"      tooltip: {",
-"        show: true,",
-"        trigger: 'item',",
-"        backgroundColor: 'rgba(255,255,255,0.8)',",
-"        borderRadius: 6,",
-"        padding: [14,16],",
-"      formatter: function(params){",
-"        var p = params;",
-"        var color = seriesColors[p.seriesName] || '#000';",
-
-
-"        var html =",
-"          '<div>' +",
-"            '<div style=\"font-family:system-ui;font-size:22px;font-weight:bold;margin-bottom:10px;color:#333;\">' +",
-"              'Outlet Metrics' +", # tooltip title
-"            '</div>' +",
-
-"          '<div>' +",  
-"            '<div style=\"font-size:18px;font-weight:bold;margin-bottom:14px;\">' +",
-"              '<span style=\"display:inline-block;width:11px;height:11px;' +",
-"              'background:' + color + ';margin-right:8px;\"></span>' +",
-"              p.seriesName +", # chosen mutant name
-"            '</div>';",
-
-"        html +=",
-"          '<div style=\"' +",
-"            'display:grid;' +",
-"            'grid-template-columns:max-content min-content 1fr;' +",
-"            'column-gap:6px;' +",
-"            'margin-left:18px;' +",
-"            'margin-top:18px;' +",
-"            'font-size:18px;' +",
-"          '\">';",
-  
-"         p.value.forEach(function(v,i){",
-"           html +=",
-"             '<div style=\"text-align:right;margin-bottom:8px;color:#666;\">' + sourceOrder[i] + '</div>' +",
-"             '<div style=\"opacity:0.6;\">:</div>' +",
-"             '<div><b>' + '$ ' + v.toLocaleString() + '</b></div>';",
-"         });",
-
-"        html += '</div>';",
-"        html += '</div>';",
-"        return html;",
-"      }",
-"     },",
-
-"      series: [",
-"        {",
-"          type: 'radar',",
-"          name: mutant1,",
-"          data: [{ value: values1 }],",
-"          lineStyle: { color:'#a3c08b' },",
-"          areaStyle: { color:'#a3c08b', opacity:0.3 },",
-"          emphasis: { areaStyle:{ opacity:0.6 }, lineStyle:{ width:3 } }",
-"        },",
-"        {",
-"          type: 'radar',",
-"          name: mutant2,",
-"          data: [{ value: values2 }],",
-"          lineStyle: { color:'#2e3426' },",
-"          areaStyle: { color:'#2e3426', opacity:0.3 },",
-"          emphasis: { areaStyle:{ opacity:0.6 }, lineStyle:{ width:3 } }",
-"        }",
-"      ]",
-"    });",
-"  }",
-
-"  updateChart();",
-"  ['yearSelect','metricSelect','mutantSelect1','mutantSelect2'].forEach(id =>",
-"    document.getElementById(id).addEventListener('change', updateChart)",
-"  );",
-"}"
-    )
-  )
-)
-```  
+![][30]   
 
 You'll notice the lines referring to the indicators only introduce a buffer distance --  
 
-```[r]
-"    var indicators = sourceOrder.map(src => ({ name: src, max: Math.max(",
-"      ...dat1.filter(d => d.source === src).map(d => Number(d.value)),",
-"      ...dat2.filter(d => d.source === src).map(d => Number(d.value))",
-"    ) * 1.1 }));",
-```  
+![][31]  
+
 -- so that the points don't touch the edges. The charts follow default behaviour and adjust depending on the changing mutants, with the mutant with the highest values per indicator setting the benchmark for the maximum value of that indicator.  
 
 &nbsp;  
@@ -840,3 +414,14 @@ The little discoveries I made towards the end of this project reignited an excit
 [18]: /img/portfolio/W16/w16021.png
 [19]: /img/portfolio/W16/w16022.gif
 [20]: /img/portfolio/W16/w16023.png
+[21]: /img/portfolio/W16/w16024.png
+[22]: /img/portfolio/W16/w16025.png
+[23]: /img/portfolio/W16/w16026.png
+[24]: /img/portfolio/W16/w16027.png
+[25]: /img/portfolio/W16/w16028.png
+[26]: /img/portfolio/W16/w16029.png
+[27]: /img/portfolio/W16/w16030.png
+[28]: /img/portfolio/W16/w16030.png
+[29]: /img/portfolio/W16/w16031.png
+[30]: /img/portfolio/W16/w16032.png
+[31]: /img/portfolio/W16/w16033.png

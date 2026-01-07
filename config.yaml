@@ -14,6 +14,8 @@ params:
     - name: Portfolio
       url: portfolio/
       home: yes
+    - name: Github
+      url: https://github.com/afrikaniz3d-za/
     - name: Archive
       url: archive/
     - name: Blender Market

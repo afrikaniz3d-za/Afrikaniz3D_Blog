@@ -12,7 +12,73 @@
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/analytics/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/big-query/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/cte/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-analysis/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-exploration/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-science/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/dataset/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/eda/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/healthcare/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/healthcare-analytics/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/massachusetts-general-hospital/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-analytics/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-challenge/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/maven-hospital-challenge/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/maven-hospital-challenge/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mgh/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/mysql/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/project/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/sql/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/b3d/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
@@ -21,9 +87,6 @@
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/blender-3d/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/design/</loc>
@@ -41,74 +104,11 @@
     <loc>http://localhost:4321/tags/generative-design/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/portfolio/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/project/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/tags/subd/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/subdivision-design/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/analytics/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/big-query/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/cte/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-analysis/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-exploration/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-science/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/dataset/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/eda/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/healthcare/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/healthcare-analytics/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/massachusetts-general-hospital/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/maven-analytics/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/maven-challenge/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/maven-hospital-challenge/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/portfolio/maven-hospital-challenge/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/mgh/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/mysql/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/sql/</loc>
-    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/css/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>

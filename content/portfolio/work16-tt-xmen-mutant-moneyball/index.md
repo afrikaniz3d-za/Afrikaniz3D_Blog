@@ -376,23 +376,25 @@ The little discoveries I made towards the end of this project reignited an excit
 &nbsp;  
 
 **Tags** 
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">tidy_tuesday</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">quarto</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">project_report</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">portfolio_project</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">mysql</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">cte</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">dataviz</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">data_visualization</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">data_exploration</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">data_analysis</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">rstudio</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">javascript</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">html</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">css</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">machine_learning</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">sparklyr</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;">spearman_correlation</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">tidy tuesday</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">quarto</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">project report</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">portfolio project</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">mysql</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">cte</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">dataviz</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">data visualization</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">data exploration</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">data analysis</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">rstudio</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">javascript</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">html</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">css</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">machine learning</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">sparklyr</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">spearman correlation</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">echarts</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">echarts4r</code>
 
 [1]: /img/portfolio/W16/w16001.jpg
 [2]: /img/portfolio/W16/w16002.png

@@ -30,7 +30,7 @@ tags:
 - rstats
 - rlang
 - echarts4r
-draft: true
+draft: false
 image: img/portfolio/W14/w14000.png
 showonlyimage: true
 ---

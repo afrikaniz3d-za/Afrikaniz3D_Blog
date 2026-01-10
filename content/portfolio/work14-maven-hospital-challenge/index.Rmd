@@ -193,7 +193,7 @@ The thing that stood out for me here was the inclusion of a null value in the *R
 
 ### Answering the questions, then exploring the data further  
 
-The first time I worked through this project, I just focused on tables and queries that directly answered the questions. This time round I'll do the same, but the follow that up by expandin the exploration to the other tables to see what more can me learned.  
+The first time I worked through this project, I just focused on tables and queries that directly answered the questions. This time round I'll do the same, but the follow that up by expandin the exploration to the other tables to see what more can be learned.  
 
 &nbsp;  
 

@@ -6,8 +6,15 @@
     <description>Recent content in Dataviz on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/tags/dataviz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven Hospital Challenge</title>
+      <link>http://localhost:4321/portfolio/maven-hospital-challenge/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/portfolio/maven-hospital-challenge/</guid>
+      <description>&lt;p&gt; &lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:4321/img/portfolio/W14/w14001.png&#34; alt=&#34;project banner&#34;&gt;&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;table style=&#34;width:100%; border-collapse: collapse;&#34;&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt; &lt;span style=&#34;color:#cadc3a;&#34;&gt;DESCRIPTION&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Investigating Massachussetts General Hospital (MGH) patient/visitor data, and generate a reporting tool based on insights from the data&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;TOOLS&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;MySQL, RStudio, Shiny, Quarto, JavaScript, HTML, CSS, Blender 3D&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;PROJECT_TYPE&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Data cleaning, Data analysis, Data visualization, Shiny app development, &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;LINKS&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;&#xA;      &lt;a href=&#34;https://mavenanalytics.io/challenges/maven-hospital-challenge&#34;&gt;Maven Hospital Challenge&lt;/a&gt; ,  &#xA;      &lt;a href=&#34;https://uxyxtu-afrikaniz3d.shinyapps.io/&#34;&gt;Dashboard&lt;/a&gt; , &#xA;      &lt;a href=&#34;https://github.com/afrikaniz3d-za/Maven-Challenges/tree/main/Hospital-Challenge&#34;&gt;Github Repo&lt;/a&gt;&#xA;    &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
     <item>
       <title>X-Men Mutant Moneyball</title>
       <link>http://localhost:4321/portfolio/xmen-mutant-moneyball/</link>

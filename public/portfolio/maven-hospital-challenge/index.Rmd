@@ -1,107 +1,500 @@
 ---
-title: Maven Hospital Challenge
-author: Ntobeko Sosibo [ Afrikaniz3D ]
-date: '2024-08-04'
-slug: maven-hospital-challenge
-categories:
-  - project
+title: "Maven Hospital Challenge"
+author: "Ntobeko Sosibo [ Afrikaniz3D ]"
+date: "2026-01-10"
+slug: "maven-hospital-challenge"
+categories: project
 tags:
-  - analytics
-  - cte
-  - databricks
-  - dataset
-  - data science
-  - data analysis
-  - data exploration
-  - eda
-  - big query
-  - sql
-  - maven analytics
-  - maven hospital challenge
-  - maven challenge
-  - mgh 
-  - massachusetts general hospital
-  - healthcare analytics
-  - healthcare
-draft: yes
-image: 'img/portfolio/W14/w14000.jpg'
-showonlyimage: yes
+- analytics
+- cte
+- mysql
+- dataset
+- data science
+- data analysis
+- data exploration
+- eda
+- sql
+- maven analytics
+- maven hospital challenge
+- maven challenge
+- mgh
+- massachusetts general hospital
+- healthcare analytics
+- healthcare
+- data visualisation
+- dataviz
+- line chart
+- bart chart
+- pie chart
+- rstudio
+- rstats
+- rlang
+- echarts4r
+draft: true
+image: img/portfolio/W14/w14000.png
+showonlyimage: true
 ---
-![][1]  
+&nbsp;  
+![project banner][1]  
 &nbsp;  
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>DESCRIPTION</strong></td>
-    <td style="vertical-align: top; color: inherit;">Investigating an Massachussetts General Hospital (MGH)</td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong> <span style="color:#cadc3a;">DESCRIPTION</span></strong></td>
+    <td style="vertical-align: top; color: inherit;">Investigating Massachussetts General Hospital (MGH) patient/visitor data, and generate a reporting tool based on insights from the data</td>
   </tr>
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>TOOLS</strong></td>
-    <td style="vertical-align: top; color: inherit;">Databricks SQL</td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong><span style="color:#cadc3a;">TOOLS</span></strong></td>
+    <td style="vertical-align: top; color: inherit;">MySQL, RStudio, Shiny, Quarto, JavaScript, HTML, CSS, Blender 3D</td>
   </tr>
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>PROJECT_TYPE</strong></td>
-    <td style="vertical-align: top; color: inherit;">Data cleaning, Data analysis, Data visualization</td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong><span style="color:#cadc3a;">PROJECT_TYPE</span></strong></td>
+    <td style="vertical-align: top; color: inherit;">Data cleaning, Data analysis, Data visualization, Shiny app development, </td>
   </tr>
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>LINKS</strong></td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong><span style="color:#cadc3a;">LINKS</span></strong></td>
     <td style="vertical-align: top; color: inherit;">
-      <a href="https://mavenanalytics.io/challenges/maven-commuter-challenge/2300490c-532e-4f34-87a3-a47c83351164">Maven Commuter Challenge</a>, 
-      <a href="https://uxyxtu-afrikaniz3d.shinyapps.io/mta_dashboard/">Dashboard</a>
+      <a href="https://mavenanalytics.io/challenges/maven-hospital-challenge">Maven Hospital Challenge</a> ,  
+      <a href="https://uxyxtu-afrikaniz3d.shinyapps.io/">Dashboard</a> , 
+      <a href="https://github.com/afrikaniz3d-za/Maven-Challenges/tree/main/Hospital-Challenge">Github Repo</a>
     </td>
   </tr>
 </table>
 
 &nbsp;  
 
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.55em; border-radius:0px;">Quick note:  
+The portfolio entry was initially published on August 04, 2024. The entry you're reading now is a revisit where I'm using different tools and applying some news skills I've acquired since then. I'm still in the process of building visualizations, but decided to make it visible now so that the link in my resume doesn't lead to a 404. Thank you for understanding. </code>  
 
-I took part in this year's Maven Hospital Challenge. I used Databrick's Community Edition. The exploration was mostly SQL-based. I opted for Databricks over Big Query for the ability to upload large files.  
-  
-Although I completed the exploration in time I chose to opt out of submitting because I didn't have a dashboard solution at the time that I was happy with. I'm currently learning Shiny. It suits my set-up and I have a lot of the infrastructure already that makes it easy to work offline when I need to.  
-  
-Below is my final notebook for the challenge. There are sections included that were not part of the tasks outlined in the challenge, but they were helpful for me in getting the most out of the exercise.  
-&nbsp;  
-
-<iframe id="databricks-notebook" src="/notebooks/N14/n14.html" width="100%" height="600px" style="border:none;"></iframe>
-
-<button onclick="toggleFullScreen()">View Fullscreen</button>
-
-<script>
-function toggleFullScreen() {
-    var iframe = document.getElementById("databricks-notebook");
-    if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-    } else if (iframe.mozRequestFullScreen) { // Firefox
-        iframe.mozRequestFullScreen();
-    } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
-        iframe.webkitRequestFullscreen();
-    } else if (iframe.msRequestFullscreen) { // IE/Edge
-        iframe.msRequestFullscreen();
-    }
-}
-</script>
 
 &nbsp;  
+
+![the goal][2]
+
+Playing the role of an **Analytics Consultant** for the Massachusetts General Hospital (MGH), I was tasked with building a **high-level KPI report for the executive team**. The report needed to answer the following questions:  
+
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">1. How many patients have been admitted or readmitted over time?</code>   
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">2. How long are patients staying in the hospital, on average?</code>    
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">3. How much is the average cost per visit?</code>    
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">4. How many procedures are covered by insurance?</code>     
+    
   
-<iframe id="databricks-dashboard" src="/notebooks/N14/n14_1.html" width="100%" height="600px" style="border:none;"></iframe>
-
-<button onclick="toggleFullScreen()">View Fullscreen</button>
-
-<script>
-function toggleFullScreen() {
-    var iframe = document.getElementById("databricks-dashboard");
-    if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-    } else if (iframe.mozRequestFullScreen) { // Firefox
-        iframe.mozRequestFullScreen();
-    } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
-        iframe.webkitRequestFullscreen();
-    } else if (iframe.msRequestFullscreen) { // IE/Edge
-        iframe.msRequestFullscreen();
-    }
-}
-</script>
 
 &nbsp;  
+
+
+
+&nbsp;  
+
+&nbsp;  
+
+![the process][3]
+
+### The data source
+
+The challenge uses synthetic patient data generated by [Synthea](https://synthea.mitre.org/downloads). It holds the data of approximately 1000 patients of MGH from 2011-2022, including information on their demographics, insurance coverage, and medical encounters and procedures.  
+
+![data source][7]  
+
+The dataset is comprised of 6 tables:  
+
+  1. data dictionary  
+  2. encounters
+  3. organizations
+  4. patients
+  5. payers
+  6. procedures  
   
-Community Edition doesn't have as may options as the full suite, but it had enough to visualise off the notebook.
+These tables came in the for oof CSV files that were imported into MySQL for the initial EDA.  
+
+&nbsp;  
+
+### Profiling the data  
+
+#### The patients table  
+
+##### Composition  
+
+The patients table is comprised of 20 columns/variables. One (1) variable, ZIP is an **INTERGER**. Two (2) variables (*LAT* and *LON*) are **DOUBLE PRECISION** for location data. Another two (2), *BIRTHDATE* and *DEATHDATE*, are **DATETIME**, and the remaining fifteen (15) (*Id, PREFIX, FIRST, LAST, SUFFIX, MAIDEN, MARITAL, RACE, ETHNICITY, GENDER, BIRTHPLACE, ADDRESS, CITY, STATE,* and *COUNTY*) are **STRING**.  
+
+##### Categories within the STRING data  
+
++ **PREFIX**: Mr., Ms., Mrs
++ **FIRST**: various first names with an additional random three (3) numbers attached to accommodate instances of people having the same first name (Example: Timothy786)
++ **LAST**: various last names with an additional random three (3) numbers attached to accommodate instances of people having the same last name (Example: Jones034)
++ **SUFFIX**: JD, PhD, MD
++ **MAIDEN**: Only used ub cases where the female patient is married ('Mrs.')
++ **MARITAL**: S (single), M (married)
++ **RACE**: asian, other, white, black, native, hawaiinan
++ **ETHNICITY**: hispanic, nonhispanic
++ **GENDER**: F, M
++ **BIRTHPLACE**: various geographic locations (297 in total)
++ **CITY**: various cities (29 in total)
++ **COUNTY**: various counties (5 in total)  
+
+Things that stood out when looking at this data were namely the *ETHNICITY* column's hispanic/nonhispanic binary - which I'll keep in-mind for the remainder of the exploration - as well as some of the patients from other countries.  
+
+The solution for addressing repeated/same names (attaching a random 3-digit number) is worth noting for future projects.
+
+&nbsp;  
+
+#### The payers table  
+
+##### Composition  
+
+The payers table is comprised of 7 columns/variables. One (1) variable, ZIP is the only **INTERGER**. The remaining 6 variables (*Id, NAME, ADDRESS, CITY, STATE_HEADQUARTERED,* and *PHONE*) are **STRING**.  
+##### Categories within the STRING data  
+
++ **ZIP**: 6002, 46204, 40018, 6156, 55436, 60007, 21244
++ **NAME**: Cigna Health, NO_INSURANCE, Humana, Aetna, Blue Cross Blue Shield, Dual Eligible, Medicaid, Medicare, UnitedHealthcare, Anthem
++ **CITY**: Louisville, Indianapolis, null, Chicago, Minnetonka, Bloomfield, Hartford, Baltimore
++ **STATE_HEADQUARTERED**: MN, null, KY, CT, MD, IL, IN  
+
+Something that stood out which I might explore further are any possible relationships around patients/procedures with Dual Eligible as their insurer.  
+
+&nbsp;  
+
+#### The encounters table  
+
+##### Composition  
+
+The encounters table is comprised of 14 columns/variables. One (1) variable, *REASONCODE* is the only **BIGINT**. Three (3) variables (*BASE_ENCOUNTER_COST, TOTAL_CLAIM_COST,* and *PAYER_COVERAGE*) are **DOUBLE PRECISION**. There is another single variable (*CODE*) that is an **INTERGER**, and two (2) variables (*START* and *STOP*) that are **TIMESTAMP**. The remaining seven (7) variables (*Id, PATIENT, ORGANIZATION, PAYER, ENCOUNTERCLASS, DESCRIPTION,* and *REASONDESCRIPTION*) are all **STRING**.
+
+##### 3.3.2 Categories within the STRING data  
+
++ **ENCOUNTERCLASS**: wellness, outpatient, emergency, inpatient. urgentcare, ambulatory
+CODE: Forty-five (45) numerical strings that are between 7 and 9 digits in length
++ **DESCRIPTION**: Fifty-three (53) descriptions for the types of encounters. Examples include "Postnatal visit" and "Cardiac Arrest"
++ **REASONCODE**: Seventy-four (74) numerical strings of varying length (drastic in some cases)
++ **REASONDESCRIPTION**: Full-text description, corresponding with REASONCODE  
+
+Some of the descriptions are vague, like "Encounter for problem", and rely on the *REASONDESCRIPTION* to give more clarity. I think looking into this more will be helpful in suggesting any adjustments to get more use out of the columns in these situations.  
+
+&nbsp;
+
+#### The procedures table  
+
+##### Composition  
+
+The procedures table is comprised of 9 columns/variables. The first twp (2) variables (*START* and *STOP*) are **TIMESTAMP**. Two (2) variables (*CODE* and *REASONCODE*) are **BIGINT**. *BASE_COST* is the only **INTERGER**, and the remaining four (4) variables (*PATIENT, ENCOUNTER, DESCRIPTION,* and *REASONDESCRIPTION*) are all **STRING**.
+
+##### Categories within the STRING data  
+
++ **CODE**: 157 numerical string data in ranging digit length that represent procedures
++ **DESCRIPTION**: 163 text string data describing the procedures performed
++ **REASONCODE**: Forty-seven (47) numerical strings of various length
++ **REASONDESCRIPTION**: Forty-seven (47) text string data describing the reasons for the performed procedures  
+
+The thing that stood out for me here was the inclusion of a null value in the *REASONDESCRIPTION* column I'll look further into to see if the cause can be identified, and whether anything could be done to address it.  
+
+&nbsp;  
+
+&nbsp;  
+
+### Answering the questions, then exploring the data further  
+
+The first time I worked through this project, I just focused on tables and queries that directly answered the questions. This time round I'll do the same, but the follow that up by expandin the exploration to the other tables to see what more can me learned.  
+
+&nbsp;  
+
+#### 1a.  How many patients have been admitted?  
+
+There were **1 880** patients admitted. To answer this I needed to first look at an understand what constituted being "admitted" to the hospital - rather than a visit. some online queries revealed that you could be admitted for as little a time as two (2) hours, and some procedures, regardless of how long, could be done without needing to be admitted.  
+
+For this reason, I chose to only look for patients that had the variations of the word "admitted/admission" used in the *DESCRIPTION* column in the encounters table, or those that had an *ENCOUNTER_CLASS* of "inpatient" as these two conditions either explicitly state there is admission or admission is the condition for the class designation.  
+
+![][8]  
+
+![][9]  
+
+&nbsp;  
+
+#### 1b.  How many patients have been readmitted?  
+
+There are **247** patients that have been readmitted. To answer this question took the query from 1a. and applied an additional condition that filtered for **COUNT**() of the patient column with a value greater than one (1). To account for the initial admission I included a "- 1" to the COUNT() for admissions - so it only now shows patients that have been readmitted.  
+
+![][10]  
+
+![][12]  
+
+![][11]  
+
+&nbsp;  
+
+#### 2. How long are patients staying in hospital, on average?  
+
+![][13]  
+
+![][14]  
+
+&nbsp;  
+
+#### 3. How much is the average cost per visit?  
+
+The average cost of a visit was **$116.18** (base), and **$3 639.68** (with a claim). The encounters table was used to answer this question where I looked at both the base cost as well as the total claim cost to add some context related to insurance.    
+  
+![][15]  
+
+![][16]  
+
+&nbsp;  
+
+#### 4. How many procedures are covered by insurance?  
+
+Of the **47 701** recorded procedures from 2011-01-02 to 2022-01-29, **8 228** (**17.24**%) procedures were covered by insurance.  
+
+![][17]  
+
+![][18]  
+
+&nbsp;  
+
+##### 4.1 What percentage of procedures performed were insured?  
+
+![][21]  
+
+![][22]  
+
+&nbsp;  
+
+##### 4.2 What are the 10 most-covered (countwise) procedures?  
+
+![][19]  
+
+![][20]  
+
+(What does this table look like when ranking by total coverage amount?)  
+
+&nbsp;  
+
+### Procedure length and anonymisation  
+
+Something I noticed while looking through result sets was that some procedures had the **same duration**, no matter the day or patient. This was most evident with childbirths - they were exactly 15 minutes long. Here's a snippet:  
+
+![][26]
+
+&nbsp;  
+
+I looked into this more and learned that this is a common method anonymisation to protect patients in sensitive situations.  
+
+Wondering if there were more instances of this, I queries the lengths of all procedures to see if a similar pattern materialised.  
+
+&nbsp;
+
+#### What are the common procedure lengths?  
+
+I created a series of CTEs that isolated the columns of interest, used them to create a new column, <code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">total_minutes</code>, and using that to then look at the range of times for each procedure.  
+
+Looked at the quickest to the longest, often finding additional cases where procedures of the same time had the same duration - much like the childbirths.  
+
+![][23]  
+
+![][24]  
+
+&nbsp;  
+
+I also noticed, particularly with **depression**-related procedures that there was a binning of duration. My theory with that is it might be a way to *class* the type of procedure without being specific about the type of case. So, a shorter duration might not have been as serious a case as one that had a longer duration.  
+
+Can't say for sure, but I thought it was worth mentioning as an interesting method of coding within anonymisation.  
+
+&nbsp;  
+
+#### Anonymised procedures  
+
+I was curious about which procedures were possibly --  
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:0px;">I have to say "possibly", given that this is synthetic data and the similarity in time lengths is just a result of limited parameters</code>  
+-- anonymised, so I adapted the previous query to look them up:  
+
+![][25]  
+
+&nbsp;  
+
+Here's a text cloud of the procedures I think* are anonymised. I removed the "(procedure)" suffix to keep it tidy.  
+
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Diagnostic fiberoptic bronchoscopy</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Electrical cardioversion</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Screening for chromosomal aneuploidy in prenatal amniotic fluid</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Evaluation of uterine fundal height</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Auscultation of the fetal heart</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Depression screening</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Physical examination</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Hearing examination</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">High resolution computed tomography of chest without contrast</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Hospice care (regime/therapy)</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Alpha-fetoprotein test</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Fetal anatomy study</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Spirometry</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Pulmonary rehabilitation (regime/therapy)</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Placing subject in prone position</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Oxygen administration by mask</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Biopsy of prostate</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Patient discharge</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Upper arm X-ray</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Ankle X-ray</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Catheter ablation of tissue of heart</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Vaccination for diphtheria  pertussis  and tetanus</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Urine screening for glucose</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Hemoglobin / Hematocrit / Platelet count</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Rectal polypectomy</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Peripheral blood smear interpretation</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Streptococcus pneumoniae group B antigen test</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Partial resection of colon</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Screening for occult blood in feces</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Episiotomy</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Childbirth</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Chest X-ray</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Physical examination following birth</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Throat culture</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Clavicle X-ray</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Urine screening test for diabetes</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Chlamydia antigen test</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Syphilis infection test</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Standard pregnancy test</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Rubella screening</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Ultrasound scan for fetal viability</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Urine protein test</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Gonorrhea infection test</code>
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Urine culture</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Hepatitis C antibody test</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Measurement of Varicella-zoster virus antibody</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Cytopathology procedure  preparation of smear  genital source</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Hepatitis B Surface Antigen Measurement</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Blood typing  RH typing</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Human immunodeficiency virus antigen test</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Skin test for tuberculosis</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Physical examination of mother</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Epidural anesthesia</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Cesarean section</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Knee X-ray</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Percutaneous mechanical thrombectomy of portal vein using fluoroscopic guidance</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Induced termination of pregnancy</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Counseling for termination of pregnancy</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Pregnancy termination care</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Physical exam following abortion</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Monitoring of patient (regime/therapy)</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Augmentation of labor</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Information gathering</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Medical induction of labor</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">RhD passive immunization</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Spontaneous breech delivery</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Referral to home health care service</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">X-ray or wrist</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Pelvis X-ray</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Instrumental delivery</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Insertion of biventricular implantable cardioverter defibrillator</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Sputum microscopy</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Resuscitation using intravenous fluid</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Transfer to stepdown unit</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Premature birth of newborn</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Fine needle aspiration biopsy of lung</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Biopsy of colon</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Extraction of wisdom tooth</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Ultrasonography of abdomen  right upper quadrant and epigastrium</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Thoracentesis</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Percutaneous coronary intervention</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Coronary artery bypass grafting</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Antenatal RhD antibody screening</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Allergy screening test</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Nasal sinus endoscopy</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Admission to burn unit</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Admission to long stay hospital</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Mental health screening</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Suicide risk assessment</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Admit to ICU</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Controlled ventilation procedure and therapy  initiation and management</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Methotrexate injection into tubal pregnancy</code> 
+<code style="color:#1b1c1a; background:#cadc3a; padding:0.15em 0.35em; border-radius:4px; white-space:nowrap;">Microbial culture</code> 
+
+&nbsp;  
+
+&nbsp;  
+
+### Visualising the data  
+
+While answering the earlier questions, a few things stood out to me in the results
+
+![insights][4]
+
+&nbsp;  
+
+&nbsp;  
+
+![proposed tool][5]
+
+&nbsp;  
+
+&nbsp;  
+
+![reflections on the project][6]
+
+This has been a great exercise in getting a lot of practice with CTE. Some queries more than three (3) CTEs with JOINs included. I also had previously never encountered cases where I had a FROM statement that referenced two tables, so I'm looking forward to getting more practice there.  
+
+It was also interesting working with hospital data, getting to learn about people's lives through their relationships with the hospital. Some of their patients have been through so much..
+&nbsp;  
+
+&nbsp;  
+
+**Tags** 
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">quarto</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">project report</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">portfolio project</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">mysql</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">cte</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">dataviz</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">data visualization</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">line chart</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">bar chart</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">pie chart</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">data exploration</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">data analysis</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">data science</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">dataset</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">eda</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">rstudio</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">rstats</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">rlang</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">javascript</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">html</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">css</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">machine learning</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">sparklyr</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">maven analytics</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">maven challenge</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">maven hospital challenge</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">massachusetts general hospital</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">healthcare</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">healthcare analytics</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">mgh</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">sql</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">cte</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">shiny</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; border-radius:4px;white-space:nowrap;">shiny app</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">echarts</code>
+<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">echarts4r</code>
+
+[1]: /img/portfolio/W14/w14001.png
+[2]: /img/portfolio/W14/w14002.png
+[3]: /img/portfolio/W14/w14003.png
+[4]: /img/portfolio/W14/w14004.png
+[5]: /img/portfolio/W14/w14005.png
+[6]: /img/portfolio/W14/w14006.png
+[7]: /img/portfolio/W14/w14007.png
+[8]: /img/portfolio/W14/w14008.png
+[9]: /img/portfolio/W14/w14009.png
+[10]: /img/portfolio/W14/w14010.png
+[11]: /img/portfolio/W14/w14011.png
+[12]: /img/portfolio/W14/w14012.png
+[13]: /img/portfolio/W14/w14013.png
+[14]: /img/portfolio/W14/w14014.png
+[15]: /img/portfolio/W14/w14015.png
+[16]: /img/portfolio/W14/w14016.png
+[17]: /img/portfolio/W14/w14017.png
+[18]: /img/portfolio/W14/w14018.png
+[19]: /img/portfolio/W14/w14019.png
+[20]: /img/portfolio/W14/w14020.png
+[21]: /img/portfolio/W14/w14021.png
+[22]: /img/portfolio/W14/w14022.png
+[23]: /img/portfolio/W14/w14023.png
+[24]: /img/portfolio/W14/w14024.png
+[25]: /img/portfolio/W14/w14025.png
+[26]: /img/portfolio/W14/w14026.png

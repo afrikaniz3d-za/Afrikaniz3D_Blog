@@ -24,7 +24,7 @@ tags:
 - data visualisation
 - dataviz
 - line chart
-- bart chart
+- bar chart
 - pie chart
 - rstudio
 - rstats

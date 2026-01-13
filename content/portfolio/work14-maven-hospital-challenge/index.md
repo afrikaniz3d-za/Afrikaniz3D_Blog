@@ -457,7 +457,6 @@ It was also interesting working with hospital data, getting to learn about peopl
 <code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">html</code>
 <code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">css</code>
 <code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">machine learning</code>
-<code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">sparklyr</code>
 <code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">maven analytics</code>
 <code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">maven challenge</code>
 <code style="color:#1b1c1a; background:#6b6e57; padding:0.15em 0.35em; white-space:nowrap;border-radius:4px;">maven hospital challenge</code>

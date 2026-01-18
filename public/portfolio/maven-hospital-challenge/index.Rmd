@@ -69,6 +69,8 @@ The portfolio entry was initially published on August 04, 2024. The entry you're
 
 &nbsp;  
 
+##  
+
 ![the goal][2]
 
 Playing the role of an **Analytics Consultant** for the Massachusetts General Hospital (MGH), I was tasked with building a **high-level KPI report for the executive team**. The report needed to answer the following questions:  
@@ -88,6 +90,8 @@ Playing the role of an **Analytics Consultant** for the Massachusetts General Ho
 
 &nbsp;  
 
+##  
+
 ![the process][3]
 
 ### The data source
@@ -105,7 +109,7 @@ The dataset is comprised of 6 tables:
   5. payers
   6. procedures  
   
-These tables came in the for oof CSV files that were imported into MySQL for the initial EDA.  
+These tables came in the form of CSV files that were imported into MySQL for the initial EDA.  
 
 &nbsp;  
 
@@ -409,21 +413,44 @@ Here's a text cloud of the procedures I think* are anonymised. I removed the "(p
 
 &nbsp;  
 
-### Visualising the data  
 
-While answering the earlier questions, a few things stood out to me in the results
+&nbsp;  
+
+&nbsp;  
+
+##  
 
 ![insights][4]
 
+While answering the earlier questions and starting the visualisation process, a few things stood out that I decided to look more closely into.  
+
+### High admissions in 2014 & 2020  
+
+I was already expecting for 2019/20 to have higher than "normal" admissions due to the coronavirus pandemic, but the chart below shows that 2014 also had a relatively high volume.  
+
+![][27]  
+
+Getting this clarity involved having to segment the result set of the overall admissions into three separate tables that made it easier to get an idea for the cause for admission. This also a good opportunity to highlight that I took a **heuristic approach** to defining what constituted being admitted. 
+
+#### Defining admission  
+
+The *encounters* table currently has what can be considered 4 'tiers' for describing a patient's cause for visiting the hospital. It starts with **ENCOUNTERCLASS** column, where I was able to get explicit confirmation that a patient was admitted by using the **LIKE**() operator in the query.  
+
+  
+
 &nbsp;  
 
 &nbsp;  
+
+##  
 
 ![proposed tool][5]
 
 &nbsp;  
 
 &nbsp;  
+
+##  
 
 ![reflections on the project][6]
 
@@ -497,3 +524,4 @@ It was also interesting working with hospital data, getting to learn about peopl
 [24]: /img/portfolio/W14/w14024.png
 [25]: /img/portfolio/W14/w14025.png
 [26]: /img/portfolio/W14/w14026.png
+[27]: /img/portfolio/W14/w14027.png

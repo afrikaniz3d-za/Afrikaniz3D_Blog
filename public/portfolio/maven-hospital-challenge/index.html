@@ -220,7 +220,7 @@ The portfolio entry was initially published on August 04, 2024. The entry you&rs
 <h3 id="profiling-the-data">Profiling the data</h3>
 <h4 id="the-patients-table">The patients table</h4>
 <h5 id="composition">Composition</h5>
-<p>The patients table is comprised of 20 columns/variables. One (1) variable, ZIP is an <strong>INTERGER</strong>. Two (2) variables (<em>LAT</em> and <em>LON</em>) are <strong>DOUBLE PRECISION</strong> for location data. Another two (2), <em>BIRTHDATE</em> and <em>DEATHDATE</em>, are <strong>DATETIME</strong>, and the remaining fifteen (15) (<em>Id, PREFIX, FIRST, LAST, SUFFIX, MAIDEN, MARITAL, RACE, ETHNICITY, GENDER, BIRTHPLACE, ADDRESS, CITY, STATE,</em> and <em>COUNTY</em>) are <strong>STRING</strong>.</p>
+<p>The patients table is comprised of 20 columns/variables. One (1) variable, ZIP is an <strong>INTEGER</strong>. Two (2) variables (<em>LAT</em> and <em>LON</em>) are <strong>DOUBLE PRECISION</strong> for location data. Another two (2), <em>BIRTHDATE</em> and <em>DEATHDATE</em>, are <strong>DATETIME</strong>, and the remaining fifteen (15) (<em>Id, PREFIX, FIRST, LAST, SUFFIX, MAIDEN, MARITAL, RACE, ETHNICITY, GENDER, BIRTHPLACE, ADDRESS, CITY, STATE,</em> and <em>COUNTY</em>) are <strong>STRING</strong>.</p>
 <h5 id="categories-within-the-string-data">Categories within the STRING data</h5>
 <ul>
 <li><strong>PREFIX</strong>: Mr., Ms., Mrs</li>
@@ -241,7 +241,7 @@ The portfolio entry was initially published on August 04, 2024. The entry you&rs
 <p> </p>
 <h4 id="the-payers-table">The payers table</h4>
 <h5 id="composition-1">Composition</h5>
-<p>The payers table is comprised of 7 columns/variables. One (1) variable, ZIP is the only <strong>INTERGER</strong>. The remaining 6 variables (<em>Id, NAME, ADDRESS, CITY, STATE_HEADQUARTERED,</em> and <em>PHONE</em>) are <strong>STRING</strong>.</p>
+<p>The payers table is comprised of 7 columns/variables. One (1) variable, ZIP is the only <strong>INTEGER</strong>. The remaining 6 variables (<em>Id, NAME, ADDRESS, CITY, STATE_HEADQUARTERED,</em> and <em>PHONE</em>) are <strong>STRING</strong>.</p>
 <h5 id="categories-within-the-string-data-1">Categories within the STRING data</h5>
 <ul>
 <li><strong>ZIP</strong>: 6002, 46204, 40018, 6156, 55436, 60007, 21244</li>
@@ -253,7 +253,7 @@ The portfolio entry was initially published on August 04, 2024. The entry you&rs
 <p> </p>
 <h4 id="the-encounters-table">The encounters table</h4>
 <h5 id="composition-2">Composition</h5>
-<p>The encounters table is comprised of 14 columns/variables. One (1) variable, <em>REASONCODE</em> is the only <strong>BIGINT</strong>. Three (3) variables (<em>BASE_ENCOUNTER_COST, TOTAL_CLAIM_COST,</em> and <em>PAYER_COVERAGE</em>) are <strong>DOUBLE PRECISION</strong>. There is another single variable (<em>CODE</em>) that is an <strong>INTERGER</strong>, and two (2) variables (<em>START</em> and <em>STOP</em>) that are <strong>TIMESTAMP</strong>. The remaining seven (7) variables (<em>Id, PATIENT, ORGANIZATION, PAYER, ENCOUNTERCLASS, DESCRIPTION,</em> and <em>REASONDESCRIPTION</em>) are all <strong>STRING</strong>.</p>
+<p>The encounters table is comprised of 14 columns/variables. One (1) variable, <em>REASONCODE</em> is the only <strong>BIGINT</strong>. Three (3) variables (<em>BASE_ENCOUNTER_COST, TOTAL_CLAIM_COST,</em> and <em>PAYER_COVERAGE</em>) are <strong>DOUBLE PRECISION</strong>. There is another single variable (<em>CODE</em>) that is an <strong>INTEGER</strong>, and two (2) variables (<em>START</em> and <em>STOP</em>) that are <strong>TIMESTAMP</strong>. The remaining seven (7) variables (<em>Id, PATIENT, ORGANIZATION, PAYER, ENCOUNTERCLASS, DESCRIPTION,</em> and <em>REASONDESCRIPTION</em>) are all <strong>STRING</strong>.</p>
 <h5 id="332-categories-within-the-string-data">3.3.2 Categories within the STRING data</h5>
 <ul>
 <li><strong>ENCOUNTERCLASS</strong>: wellness, outpatient, emergency, inpatient. urgentcare, ambulatory
@@ -266,7 +266,7 @@ CODE: Forty-five (45) numerical strings that are between 7 and 9 digits in lengt
 <p> </p>
 <h4 id="the-procedures-table">The procedures table</h4>
 <h5 id="composition-3">Composition</h5>
-<p>The procedures table is comprised of 9 columns/variables. The first twp (2) variables (<em>START</em> and <em>STOP</em>) are <strong>TIMESTAMP</strong>. Two (2) variables (<em>CODE</em> and <em>REASONCODE</em>) are <strong>BIGINT</strong>. <em>BASE_COST</em> is the only <strong>INTERGER</strong>, and the remaining four (4) variables (<em>PATIENT, ENCOUNTER, DESCRIPTION,</em> and <em>REASONDESCRIPTION</em>) are all <strong>STRING</strong>.</p>
+<p>The procedures table is comprised of 9 columns/variables. The first twp (2) variables (<em>START</em> and <em>STOP</em>) are <strong>TIMESTAMP</strong>. Two (2) variables (<em>CODE</em> and <em>REASONCODE</em>) are <strong>BIGINT</strong>. <em>BASE_COST</em> is the only <strong>INTEGER</strong>, and the remaining four (4) variables (<em>PATIENT, ENCOUNTER, DESCRIPTION,</em> and <em>REASONDESCRIPTION</em>) are all <strong>STRING</strong>.</p>
 <h5 id="categories-within-the-string-data-2">Categories within the STRING data</h5>
 <ul>
 <li><strong>CODE</strong>: 157 numerical string data in ranging digit length that represent procedures</li>
@@ -278,10 +278,10 @@ CODE: Forty-five (45) numerical strings that are between 7 and 9 digits in lengt
 <p> </p>
 <p> </p>
 <h3 id="answering-the-questions-then-exploring-the-data-further">Answering the questions, then exploring the data further</h3>
-<p>The first time I worked through this project, I just focused on tables and queries that directly answered the questions. This time round I&rsquo;ll do the same, but the follow that up by expandin the exploration to the other tables to see what more can be learned.</p>
+<p>The first time I worked through this project, I just focused on tables and queries that directly answered the questions. This time round I&rsquo;ll do the same, but then follow that up by expanding the exploration to the other tables to see what more can be learned.</p>
 <p> </p>
 <h4 id="1a--how-many-patients-have-been-admitted">1a.  How many patients have been admitted?</h4>
-<p>There were <strong>1 880</strong> patients admitted. To answer this I needed to first look at an understand what constituted being &ldquo;admitted&rdquo; to the hospital - rather than a visit. some online queries revealed that you could be admitted for as little a time as two (2) hours, and some procedures, regardless of how long, could be done without needing to be admitted.</p>
+<p>There were <strong>1 880</strong> patients admitted. To answer this I needed to first look at and understand what constituted being &ldquo;admitted&rdquo; to the hospital - rather than a visit. some online queries revealed that you could be admitted for as little a time as two (2) hours, and some procedures, regardless of how long, could be done without needing to be admitted.</p>
 <p>For this reason, I chose to only look for patients that had the variations of the word &ldquo;admitted/admission&rdquo; used in the <em>DESCRIPTION</em> column in the encounters table, or those that had an <em>ENCOUNTER_CLASS</em> of &ldquo;inpatient&rdquo; as these two conditions either explicitly state there is admission or admission is the condition for the class designation.</p>
 <p><img src="/img/portfolio/W14/w14008.png" alt=""></p>
 <p><img src="/img/portfolio/W14/w14009.png" alt=""></p>
@@ -438,12 +438,12 @@ CODE: Forty-five (45) numerical strings that are between 7 and 9 digits in lengt
 <h2 id="heading-2"></h2>
 <p><img src="/img/portfolio/W14/w14004.png" alt="insights"></p>
 <p>While answering the earlier questions and starting the visualisation process, a few things stood out that I decided to look more closely into.</p>
-<h3 id="high-admissions-in-2014--2020">High admissions in 2014 &amp; 2020</h3>
+<h3 id="insight-01-high-admissions-in-2014--2020">Insight 01: High admissions in 2014 &amp; 2020</h3>
 <p>I was already expecting for 2019/20 to have higher than &ldquo;normal&rdquo; admissions due to the coronavirus pandemic, but the chart below shows that 2014 also had a relatively high volume.</p>
 <p><img src="/img/portfolio/W14/w14027.png" alt=""></p>
-<p>Getting this clarity involved having to segment the result set of the overall admissions into three separate tables that made it easier to get an idea for the cause for admission. This also a good opportunity to highlight that I took a <strong>heuristic approach</strong> to defining what constituted being admitted.</p>
-<h4 id="defining-admission">Defining admission</h4>
-<p>The <em>encounters</em> table currently has what can be considered 4 &rsquo;tiers&rsquo; for describing a patient&rsquo;s cause for visiting the hospital. It starts with <strong>ENCOUNTERCLASS</strong> column, where I was able to get explicit confirmation that a patient was admitted by using the <strong>LIKE</strong>() operator in the query.</p>
+<p>Getting this clarity involved having to segment the result set of the overall admissions into three separate tables that made it easier to get an idea for the cause for admission. This also a good opportunity to re-highlight that I took a <strong>heuristic approach</strong> to defining what constituted being admitted.</p>
+<h4 id="insight-02">Insight 02:</h4>
+<p>xx</p>
 <p> </p>
 <p> </p>
 <h2 id="heading-3"></h2>

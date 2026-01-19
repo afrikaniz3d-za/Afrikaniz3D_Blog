@@ -119,7 +119,7 @@ These tables came in the form of CSV files that were imported into MySQL for the
 
 ##### Composition  
 
-The patients table is comprised of 20 columns/variables. One (1) variable, ZIP is an **INTERGER**. Two (2) variables (*LAT* and *LON*) are **DOUBLE PRECISION** for location data. Another two (2), *BIRTHDATE* and *DEATHDATE*, are **DATETIME**, and the remaining fifteen (15) (*Id, PREFIX, FIRST, LAST, SUFFIX, MAIDEN, MARITAL, RACE, ETHNICITY, GENDER, BIRTHPLACE, ADDRESS, CITY, STATE,* and *COUNTY*) are **STRING**.  
+The patients table is comprised of 20 columns/variables. One (1) variable, ZIP is an **INTEGER**. Two (2) variables (*LAT* and *LON*) are **DOUBLE PRECISION** for location data. Another two (2), *BIRTHDATE* and *DEATHDATE*, are **DATETIME**, and the remaining fifteen (15) (*Id, PREFIX, FIRST, LAST, SUFFIX, MAIDEN, MARITAL, RACE, ETHNICITY, GENDER, BIRTHPLACE, ADDRESS, CITY, STATE,* and *COUNTY*) are **STRING**.  
 
 ##### Categories within the STRING data  
 
@@ -146,7 +146,7 @@ The solution for addressing repeated/same names (attaching a random 3-digit numb
 
 ##### Composition  
 
-The payers table is comprised of 7 columns/variables. One (1) variable, ZIP is the only **INTERGER**. The remaining 6 variables (*Id, NAME, ADDRESS, CITY, STATE_HEADQUARTERED,* and *PHONE*) are **STRING**.  
+The payers table is comprised of 7 columns/variables. One (1) variable, ZIP is the only **INTEGER**. The remaining 6 variables (*Id, NAME, ADDRESS, CITY, STATE_HEADQUARTERED,* and *PHONE*) are **STRING**.  
 ##### Categories within the STRING data  
 
 + **ZIP**: 6002, 46204, 40018, 6156, 55436, 60007, 21244
@@ -162,7 +162,7 @@ Something that stood out which I might explore further are any possible relation
 
 ##### Composition  
 
-The encounters table is comprised of 14 columns/variables. One (1) variable, *REASONCODE* is the only **BIGINT**. Three (3) variables (*BASE_ENCOUNTER_COST, TOTAL_CLAIM_COST,* and *PAYER_COVERAGE*) are **DOUBLE PRECISION**. There is another single variable (*CODE*) that is an **INTERGER**, and two (2) variables (*START* and *STOP*) that are **TIMESTAMP**. The remaining seven (7) variables (*Id, PATIENT, ORGANIZATION, PAYER, ENCOUNTERCLASS, DESCRIPTION,* and *REASONDESCRIPTION*) are all **STRING**.
+The encounters table is comprised of 14 columns/variables. One (1) variable, *REASONCODE* is the only **BIGINT**. Three (3) variables (*BASE_ENCOUNTER_COST, TOTAL_CLAIM_COST,* and *PAYER_COVERAGE*) are **DOUBLE PRECISION**. There is another single variable (*CODE*) that is an **INTEGER**, and two (2) variables (*START* and *STOP*) that are **TIMESTAMP**. The remaining seven (7) variables (*Id, PATIENT, ORGANIZATION, PAYER, ENCOUNTERCLASS, DESCRIPTION,* and *REASONDESCRIPTION*) are all **STRING**.
 
 ##### 3.3.2 Categories within the STRING data  
 
@@ -180,7 +180,7 @@ Some of the descriptions are vague, like "Encounter for problem", and rely on th
 
 ##### Composition  
 
-The procedures table is comprised of 9 columns/variables. The first twp (2) variables (*START* and *STOP*) are **TIMESTAMP**. Two (2) variables (*CODE* and *REASONCODE*) are **BIGINT**. *BASE_COST* is the only **INTERGER**, and the remaining four (4) variables (*PATIENT, ENCOUNTER, DESCRIPTION,* and *REASONDESCRIPTION*) are all **STRING**.
+The procedures table is comprised of 9 columns/variables. The first twp (2) variables (*START* and *STOP*) are **TIMESTAMP**. Two (2) variables (*CODE* and *REASONCODE*) are **BIGINT**. *BASE_COST* is the only **INTEGER**, and the remaining four (4) variables (*PATIENT, ENCOUNTER, DESCRIPTION,* and *REASONDESCRIPTION*) are all **STRING**.
 
 ##### Categories within the STRING data  
 
@@ -197,13 +197,13 @@ The thing that stood out for me here was the inclusion of a null value in the *R
 
 ### Answering the questions, then exploring the data further  
 
-The first time I worked through this project, I just focused on tables and queries that directly answered the questions. This time round I'll do the same, but the follow that up by expandin the exploration to the other tables to see what more can be learned.  
+The first time I worked through this project, I just focused on tables and queries that directly answered the questions. This time round I'll do the same, but then follow that up by expanding the exploration to the other tables to see what more can be learned.  
 
 &nbsp;  
 
 #### 1a.  How many patients have been admitted?  
 
-There were **1 880** patients admitted. To answer this I needed to first look at an understand what constituted being "admitted" to the hospital - rather than a visit. some online queries revealed that you could be admitted for as little a time as two (2) hours, and some procedures, regardless of how long, could be done without needing to be admitted.  
+There were **1 880** patients admitted. To answer this I needed to first look at and understand what constituted being "admitted" to the hospital - rather than a visit. some online queries revealed that you could be admitted for as little a time as two (2) hours, and some procedures, regardless of how long, could be done without needing to be admitted.  
 
 For this reason, I chose to only look for patients that had the variations of the word "admitted/admission" used in the *DESCRIPTION* column in the encounters table, or those that had an *ENCOUNTER_CLASS* of "inpatient" as these two conditions either explicitly state there is admission or admission is the condition for the class designation.  
 
@@ -424,17 +424,17 @@ Here's a text cloud of the procedures I think* are anonymised. I removed the "(p
 
 While answering the earlier questions and starting the visualisation process, a few things stood out that I decided to look more closely into.  
 
-### High admissions in 2014 & 2020  
+### Insight 01: High admissions in 2014 & 2020  
 
 I was already expecting for 2019/20 to have higher than "normal" admissions due to the coronavirus pandemic, but the chart below shows that 2014 also had a relatively high volume.  
 
 ![][27]  
 
-Getting this clarity involved having to segment the result set of the overall admissions into three separate tables that made it easier to get an idea for the cause for admission. This also a good opportunity to highlight that I took a **heuristic approach** to defining what constituted being admitted. 
+Getting this clarity involved having to segment the result set of the overall admissions into three separate tables that made it easier to get an idea for the cause for admission. This also a good opportunity to re-highlight that I took a **heuristic approach** to defining what constituted being admitted. 
 
-#### Defining admission  
+#### Insight 02:    
 
-The *encounters* table currently has what can be considered 4 'tiers' for describing a patient's cause for visiting the hospital. It starts with **ENCOUNTERCLASS** column, where I was able to get explicit confirmation that a patient was admitted by using the **LIKE**() operator in the query.  
+xx
 
   
 

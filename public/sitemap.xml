@@ -12,7 +12,40 @@
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/bgg-mtg-sentiment/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-analysis/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/data-visualisation/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/dataanalysis/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/machine-learning/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/nlp/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/project/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/sentiment-analysis/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/tags/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/analytics/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
@@ -20,22 +53,13 @@
     <loc>http://localhost:4321/tags/bar-chart/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/tags/cte/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-analysis/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/data-exploration/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/data-science/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/data-visualisation/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/dataset/</loc>
@@ -83,12 +107,6 @@
     <loc>http://localhost:4321/tags/pie-chart/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/portfolio/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/project/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/tags/rlang/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -99,9 +117,6 @@
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/sql/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/b3d/</loc>
@@ -144,9 +159,6 @@
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/javascript/</loc>
-    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/machine-learning/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/portfolio-project/</loc>
@@ -207,9 +219,6 @@
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/categories/blog/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/dataanalysis/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/hmp04/</loc>
@@ -288,9 +297,6 @@
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/python/</loc>
-    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/sentiment-analysis/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/tags/uc-davis/</loc>

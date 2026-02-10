@@ -24,27 +24,30 @@ tags:
   - eda
   - data visualization
 draft: no
-image: 'img/portfolio/W9/w9000.jpg'
+image: 'img/portfolio/W9/w9000.png'
 showonlyimage: yes
 ---
-![][1]  
+&nbsp;  
+
+![project banner][1]  
+
 &nbsp;  
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>DESCRIPTION</strong></td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong> <span style="color:#cadc3a;">DESCRIPTION</span></strong></td>
     <td style="vertical-align: top; color: inherit;">Investigating an MTA ridership dataset to gain insight on the post-covid recovery trends of its various modes of public travel</td>
   </tr>
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>TOOLS</strong></td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong><span style="color:#cadc3a;">TOOLS</span></strong></td>
     <td style="vertical-align: top; color: inherit;">Databricks SQL, RStudio, Shiny, Blender 3D</td>
   </tr>
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>PROJECT_TYPE</strong></td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong><span style="color:#cadc3a;">PROJECT_TYPE</span></strong></td>
     <td style="vertical-align: top; color: inherit;">Data cleaning, Data manipulation, Data analysis, Data visualization, Trend Analysis, Shiny dashboard development</td>
   </tr>
   <tr>
-    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong>LINKS</strong></td>
+    <td style="vertical-align: top; color: inherit; padding-right: 30px;"><strong><span style="color:#cadc3a;">LINKS</span></strong></td>
     <td style="vertical-align: top; color: inherit;">
       <a href="https://mavenanalytics.io/challenges/maven-commuter-challenge/2300490c-532e-4f34-87a3-a47c83351164">Maven Commuter Challenge</a>, 
       <a href="https://uxyxtu-afrikaniz3d.shinyapps.io/mta_dashboard/">Dashboard</a>,
@@ -55,18 +58,20 @@ showonlyimage: yes
 
 &nbsp;  
 
-![][2]  
+![the goal][2]  
 
-![][3]  
+&nbsp;  
+
 Many lives and industries were disrupted by the COVID-19 pandemic. The [**Metropolitan Transport Authority**](https://www.mta.info/) (MTA) was not spared, so the goal of this project was to play the role of a **Data Visualization Specialist** for the **Analytics Team** and investigate how the MTA's various transport modes were affected as well as how they have been recovering in comparison to their pre-pandemic ridership/use.  
 
 I also saw this as an opportunity to dip my toes into Shiny and dashboard development, so I searched for a template I could work with that was at a level I was aiming to rise to through diving straight into working with it and figuring things out as I go. [**Appsilon**](https://www.appsilon.com) does an amazing job of developing apps with Shiny that don't look like they were made with it, and they're [**Enterprise**](https://www.appsilon.com/resources/shiny-templates) dashboard had great bones  
 
 &nbsp;  
 
+![process][3] 
+
 &nbsp;  
 
-![][4] 
 The dataset was explored using **Databricks SQL** where I first visualised each mode individually to see how it performed, and then mapped them all onto the same **line chart** to see how they compared. I wrote a short paragraph for each mode summarising  
 
 
@@ -93,14 +98,23 @@ Admittedly, this could have been improved by adding a visual component like a si
 
 &nbsp;  
 
+![insights][4]  
+
 &nbsp;  
 
 
-![][5]  
+![proposed dashboard][5]  
+
+&nbsp;  
+
+![][7]  
+
+&nbsp;  
+
 **Staten Island Railway** (SIR) was the most affected, being the one mode that had not recovered back to pre-COVID ridership levels. This is was a result of a number of things:  
 
 &nbsp;  
-![][7]  
+  
 
 2020 ridership saw a **43% sharp decline** at the onset of the pandemic, with a low and slow recovery for the remainder of the year, only regaining **19%** of pre-pandemic ridership.
 
@@ -109,11 +123,11 @@ More of the same was observed in 2021, overall recovery for the year growing 11%
 Average recovery halves in 2023, and only goes up by 1% in 2024, signaling a halt that suggests a **long-term shift in the public's use of this mode of transport**.
   
 &nbsp;  
+
+![reflections on the project][6]
   
 &nbsp;  
 
-
-![][6] 
 Part of the reason why I chose an already-assembled dashboard to work with for this project had to do with simulating entering a work environment that had its own way doing things. It would be up to me to get my bearings and complete the task at-hand.  
 
 A lot of the insights for this project were actually found on the website rather than in the data itself. I was able to identify when disruptions occurred and the rate of ridership recovery, but knowing that this was also attributed to maintenance and infrastructure updates would have been helpful if it was made available in the dashboard itself via something like a tooltip when hovering over a day on the heatmap calender - and then having that link to the full report elsewhere.  
@@ -126,10 +140,10 @@ Overall, I'm proud of what I accomplished with this project. It got really hairy
 
 
 
-[1]: /img/portfolio/W9/w9001.jpg
-[2]: /img/portfolio/W9/w9002.gif
+[1]: /img/portfolio/W9/w9001.png
+[2]: /img/portfolio/W9/w9002.png
 [3]: /img/portfolio/W9/w9003.png
 [4]: /img/portfolio/W9/w9004.png
 [5]: /img/portfolio/W9/w9005.png
 [6]: /img/portfolio/W9/w9006.png
-[7]: /img/portfolio/W9/w9007.png
+[7]: /img/portfolio/W9/w9007.gif

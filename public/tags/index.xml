@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:4321/tags/data-analysis/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Visualisation</title>
+      <link>http://localhost:4321/tags/data-visualisation/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/data-visualisation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dataanalysis</title>
+      <link>http://localhost:4321/tags/dataanalysis/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/dataanalysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:4321/tags/machine-learning/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nlp</title>
+      <link>http://localhost:4321/tags/nlp/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>http://localhost:4321/tags/sentiment-analysis/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Analytics</title>
       <link>http://localhost:4321/tags/analytics/</link>
@@ -30,13 +72,6 @@
       <description></description>
     </item>
     <item>
-      <title>Data Analysis</title>
-      <link>http://localhost:4321/tags/data-analysis/</link>
-      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data Exploration</title>
       <link>http://localhost:4321/tags/data-exploration/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
@@ -48,13 +83,6 @@
       <link>http://localhost:4321/tags/data-science/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Visualisation</title>
-      <link>http://localhost:4321/tags/data-visualisation/</link>
-      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/data-visualisation/</guid>
       <description></description>
     </item>
     <item>
@@ -275,13 +303,6 @@
       <description></description>
     </item>
     <item>
-      <title>Machine Learning</title>
-      <link>http://localhost:4321/tags/machine-learning/</link>
-      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Portfolio Project</title>
       <link>http://localhost:4321/tags/portfolio-project/</link>
       <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
@@ -398,13 +419,6 @@
       <link>http://localhost:4321/tags/blog/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataanalysis</title>
-      <link>http://localhost:4321/tags/dataanalysis/</link>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/dataanalysis/</guid>
       <description></description>
     </item>
     <item>
@@ -531,13 +545,6 @@
       <link>http://localhost:4321/tags/python/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sentiment Analysis</title>
-      <link>http://localhost:4321/tags/sentiment-analysis/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/sentiment-analysis/</guid>
       <description></description>
     </item>
     <item>

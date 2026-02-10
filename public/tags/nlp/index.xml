@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dataanalysis on Afrikaniz3D Blogfolio</title>
-    <link>http://localhost:4321/tags/dataanalysis/</link>
-    <description>Recent content in Dataanalysis on Afrikaniz3D Blogfolio</description>
+    <title>Nlp on Afrikaniz3D Blogfolio</title>
+    <link>http://localhost:4321/tags/nlp/</link>
+    <description>Recent content in Nlp on Afrikaniz3D Blogfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/dataanalysis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BoardGameGeek&#39;s Member Sentiments on Magic: The Gathering</title>
       <link>http://localhost:4321/portfolio/bgg-mtg-sentiment/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/portfolio/bgg-mtg-sentiment/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/portfolio/W17/w17001.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;table style=&#34;width:100%; border-collapse: collapse;&#34;&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt; &lt;span style=&#34;color:#cadc3a;&#34;&gt;DESCRIPTION&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Collecting data using Board Game Geek&#39;s API  to analyse their user base&#39;s sentiments on Magic: The Gathering over the years&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;TOOLS&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;RStudio&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;PROJECT_TYPE&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;Data collection, Data cleaning, Data manipulation, Data analysis, Data visualization, Trend analysis, Textual analysis, Sentiment analysis&lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit; padding-right: 30px;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;color:#cadc3a;&#34;&gt;LINKS&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;    &lt;td style=&#34;vertical-align: top; color: inherit;&#34;&gt;&#xA;      &lt;a href=&#34;https://boardgamegeek.com/boardgame/463/magic-the-gathering/ratings&#34;&gt;BGG Ratings&lt;/a&gt;, &#xA;      &lt;a href=&#34;https://boardgamegeek.com/boardgame/463/magic-the-gathering/forums/0&#34;&gt;BGG Forums&lt;/a&gt;,&#xA;      &lt;a href=&#34;https://github.com/afrikaniz3d-za?tab=repositories&#34;&gt;Github Repo&lt;/a&gt;&#xA;    &lt;/td&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Split-Push</title>
-      <link>http://localhost:4321/post/2025-02-21-split-push/</link>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/post/2025-02-21-split-push/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:4321/img/post/P13/p13001.jpg&#34; alt=&#34;&#34;&gt;&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;p&gt;I slowed down on the job searching last year after 100s of applications and seeing posts from creators like &lt;a href=&#34;https://www.instagram.com/jim.chuong/?hl=en&#34;&gt;&lt;strong&gt;Jim Chuong&lt;/strong&gt;&lt;/a&gt;. When you also have to deal with things like &lt;a href=&#34;https://www.theguardian.com/money/2024/oct/30/ghost-jobs-why-do-40-of-companies-advertise-positions-that-dont-exist&#34;&gt;&lt;strong&gt;ghost job&lt;/strong&gt;&lt;/a&gt; postings, and some instances of postings being for something else altogether, You really do need a different strategy when networking isn&amp;rsquo;t as easy and it&amp;rsquo;s an industry you&amp;rsquo;re fairly new in.&lt;/p&gt;&#xA;&lt;p&gt;This is now the sixth year I&amp;rsquo;ve been a creator posting to social media. Although the bulk of that has been as a 3D designer, I&amp;rsquo;m slowly finding gaps for me to marry the two so that the codeswitch doesn&amp;rsquo;t feel as jarring. I alluded to this in the &lt;a href=&#34;https://afrikaniz3d.netlify.app/post/walk/&#34;&gt;&lt;strong&gt;last blog&lt;/strong&gt;&lt;/a&gt; and it turns out it&amp;rsquo;s related to &lt;a href=&#34;https://www.sciencedirect.com/topics/psychology/cognitive-load-theory&#34;&gt;&lt;strong&gt;Cognitive Load Theory&lt;/strong&gt;&lt;/a&gt; with some &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/books/NBK557811/#:~:text=Neuroplasticity%2C%20also%20known%20as%20neural,functional%20changes%20to%20the%20brain&#34;&gt;&lt;strong&gt;Neuroplasticity&lt;/strong&gt;&lt;/a&gt;. It really explains why I got so little else done on the days I set aside to work on data projects - the brain was tapped-out. A lot of it, I think, was also related to me still trying to wrap my head around the new problems coupled with starting with templates that were too complicated for someone unfamiliar.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

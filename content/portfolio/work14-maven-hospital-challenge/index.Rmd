@@ -424,7 +424,7 @@ Here's a text cloud of the procedures I think* are anonymised. I removed the "(p
 
 While answering the earlier questions and starting the visualisation process, a few things stood out that I decided to look more closely into.  
 
-### Insight 01: High admissions in 2014 & 2020  
+#### Insight 01: High admissions in 2014 & 2020  
 
 I was already expecting for 2019/20 to have higher than "normal" admissions due to the coronavirus pandemic, but the chart below shows that 2014 also had a relatively high volume.  
 
@@ -432,11 +432,15 @@ I was already expecting for 2019/20 to have higher than "normal" admissions due 
 
 Getting this clarity involved having to segment the result set of the overall admissions into three separate tables that made it easier to get an idea for the cause for admission. This also a good opportunity to re-highlight that I took a **heuristic approach** to defining what constituted being admitted. 
 
-#### Insight 02:    
+&nbsp;  
 
-xx
+#### Insight 02: Regulatory corrections and COVID-19 greatly impacted costs and claims  
 
-  
+visualising the question about the average base cost alongside the average cost of a claim revealed an interesting **inversion pattern**.  
+
+![][28]  
+
+A closer look at the encounters table revealed that these periods had high columns of check-up, normal pregnancies for the 2014 peak, and an expected presence od COVID-related encounters in 2021.  
 
 &nbsp;  
 
@@ -525,3 +529,4 @@ It was also interesting working with hospital data, getting to learn about peopl
 [25]: /img/portfolio/W14/w14025.png
 [26]: /img/portfolio/W14/w14026.png
 [27]: /img/portfolio/W14/w14027.png
+[28]: /img/portfolio/W14/w14028.png

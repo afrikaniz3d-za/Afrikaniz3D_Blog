@@ -446,7 +446,8 @@ A closer look at the encounters table revealed that these periods had high colum
 
 #### Insight 03: People without insurance maintained a significant presence  
 
-Looking at the share of coverage provided by each insurer overall and then over the years consistently shows two distinct groups having the highest volumes - the uninsured, and Medicaid/Medicare/Dual Eligible .  
+Looking at the share of coverage provided by each insurer overall and then over the years consistently shows two distinct groups having the highest volumes - the uninsured, and Medicaid/Medicare/Dual Eligible.  
+
 ![][29]  
 
 The findings above echo the findings from **Insight 02**, highlighting the impact of industry corrections and the COVID-19 pandemic.  

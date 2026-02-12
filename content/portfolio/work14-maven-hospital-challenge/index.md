@@ -436,11 +436,20 @@ Getting this clarity involved having to segment the result set of the overall ad
 
 #### Insight 02: Regulatory corrections and COVID-19 greatly impacted costs and claims  
 
-visualising the question about the average base cost alongside the average cost of a claim revealed an interesting **inversion pattern**.  
+Visualising the question about the average base cost alongside the average cost of a claim revealed an interesting **inversion pattern**.  
 
 ![][28]  
 
 A closer look at the encounters table revealed that these periods had high columns of check-up, normal pregnancies for the 2014 peak, and an expected presence od COVID-related encounters in 2021.  
+
+&nbsp; 
+
+#### Insight 03: People without insurance maintained a significant presence  
+
+Looking at the share of coverage provided by each insurer overall and then over the years consistently shows two distinct groups having the highest volumes - the uninsured, and Medicaid/Medicare/Dual Eligible .  
+![][29]  
+
+The findings above echo the findings from **Insight 02**, highlighting the impact of industry corrections and the COVID-19 pandemic.  
 
 &nbsp;  
 
@@ -530,3 +539,4 @@ It was also interesting working with hospital data, getting to learn about peopl
 [26]: /img/portfolio/W14/w14026.png
 [27]: /img/portfolio/W14/w14027.png
 [28]: /img/portfolio/W14/w14028.png
+[29]: /img/portfolio/W14/w14029.png

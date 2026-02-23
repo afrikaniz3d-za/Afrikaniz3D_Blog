@@ -40,6 +40,10 @@ Worked in the built environment for a number of years after receiving a degree i
 * [**Interactive Maps with leaflet in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/479a631ac4c14fcd16e2cf3fea20b3caf9afdd67) &ensp; &ensp; DataCamp | 2025  
 * [**Developing R Packages**](https://www.datacamp.com/completed/statement-of-accomplishment/course/c7754da391df200e4af9ad42d351b9cf67372ff2) &ensp; &ensp; DataCamp | 2025  
 * [**Analyzing Social Media Data in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/592cca50cfb09c5bfd5f9007d9dba83c8967b289) &ensp; &ensp; DataCamp | 2025  
+* [**Analyzing Survey Data in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/204cd0f6aacec847b905864eee30b9465c88dfc0) &ensp; &ensp; DataCamp | 2026  
+* [**Sentiment Analysis in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/46e513a36b31b39c011187ff6af21e3547306a9e) &ensp; &ensp; DataCamp | 2026  
+* [**A/B Testing in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/674edd397e0d4f77f0095a4de48e0e68e92f81cc) &ensp; &ensp; DataCamp | 2026  
+* [**String Manipulation with stringr in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/78b28e1d3a588e3e95c9c2d0ad496b56e91396ba) &ensp; &ensp; DataCamp | 2026  
 
 &nbsp;  
 

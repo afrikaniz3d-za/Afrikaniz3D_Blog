@@ -44,6 +44,7 @@ Worked in the built environment for a number of years after receiving a degree i
 * [**Sentiment Analysis in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/46e513a36b31b39c011187ff6af21e3547306a9e) &ensp; &ensp; DataCamp | 2026  
 * [**A/B Testing in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/674edd397e0d4f77f0095a4de48e0e68e92f81cc) &ensp; &ensp; DataCamp | 2026  
 * [**String Manipulation with stringr in R**](https://www.datacamp.com/completed/statement-of-accomplishment/course/78b28e1d3a588e3e95c9c2d0ad496b56e91396ba) &ensp; &ensp; DataCamp | 2026  
+* [**Accessibility in Data Visualization**](https://www.linkedin.com/in/ntobeko-sosibo/overlay/Certifications/435600472/treasury/?profileId=ACoAADPWUPABJCcPdDqKwfrEPomXqINzGgvfm2c) &ensp; &ensp; Open Visualization Academy | 2026  
 
 &nbsp;  
 
